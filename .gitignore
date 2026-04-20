@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Data files — keep gitkeep markers but not actual data
+data/raw_pdfs/**/*.pdf
+data/parsed_pdfs/**/*.pdf
+data/extracted/*
+data/logs/*
+data/*.db
+data/unparsed_pdfs.md
+!data/raw_pdfs/.gitkeep
+!data/parsed_pdfs/.gitkeep
+!data/extracted/.gitkeep
+!data/logs/.gitkeep
+
+# Notebooks output
+notebooks/.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/

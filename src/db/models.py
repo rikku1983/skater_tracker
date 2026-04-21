@@ -30,6 +30,7 @@ class Event(Base):
     event_group = Column(String(100), nullable=True, index=True)  # canonical recurring event name
     event_year = Column(Integer, nullable=True, index=True)       # calendar year the event took place
     pdf_format = Column(String(30), nullable=True)                # parser used: "all_races", "tempus", etc.
+    series = Column(String(50), nullable=True, index=True)        # regional series: "Heartland", "NEST", "National", etc.
 
     # Fields to be filled in after parsing
     venue = Column(String(255), nullable=True)

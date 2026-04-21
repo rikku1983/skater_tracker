@@ -25,11 +25,12 @@ logger = logging.getLogger(__name__)
 
 
 class PdfFormat(str, Enum):
-    ALL_RACES = "all_races"         # Tempus "All Races RESULTS" per-heat pages (2023+)
-    TEMPUS = "tempus"               # Tempus "DISTANCE CLASSIFICATION" pages
+    ALL_RACES = "all_races"                 # Tempus "All Races RESULTS" per-heat pages (2023+)
+    TEMPUS = "tempus"                       # Tempus "DISTANCE CLASSIFICATION" pages
     TEMPUS_RESULTS = "tempus_results"       # Tempus Protocol with "Results" per-heat pages
-    SPEEDSKATING_PRO = "speedskating_pro"  # Speedskating Pro web-export, one heat per page
+    SPEEDSKATING_PRO = "speedskating_pro"   # Speedskating Pro web-export, one heat per page
     TEMPUS_RACES = "tempus_races"           # Tempus per-heat export: "Event #N" + "# Name Affiliation" header
+    CLASSIC_RESULTS = "classic_results"     # Pre-Tempus: "Place No. Name Assn. Time" + "Event N Division Distance Meters Round"
     LEGACY = "legacy"
     IMAGE = "image"
     UNKNOWN = "unknown"
@@ -135,6 +136,11 @@ def detect_format(pdf_path: str | Path) -> PdfFormat:
                     return PdfFormat.TEMPUS
                 if "Competition results" in text or "Overall results" in text:
                     return PdfFormat.LEGACY
+
+            # CLASSIC_RESULTS: "Place No. Name Assn. Time" header + "Event N ... Meters" events
+            for text in all_text_pages:
+                if "Place No. Name Assn. Time" in text and re.search(r'Event\s+\d+\s+\S+.*\d{3,4}\s+Meters', text):
+                    return PdfFormat.CLASSIC_RESULTS
 
             return PdfFormat.UNKNOWN
 

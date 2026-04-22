@@ -24,6 +24,22 @@ from .models import Event, Race, Skater, Result
 logger = logging.getLogger(__name__)
 
 
+# ── Gender helpers ───────────────────────────────────────────────────────────
+
+_F_DIV = re.compile(r'\b(women|woman|ladies|lady|female|girls|girl)\b', re.I)
+_M_DIV = re.compile(r'\b(men|man|male|boys|boy)\b', re.I)
+
+
+def _division_gender(division: Optional[str]) -> Optional[str]:
+    if not division:
+        return None
+    if _F_DIV.search(division):
+        return 'F'
+    if _M_DIV.search(division):
+        return 'M'
+    return None
+
+
 # ── Name normalization ────────────────────────────────────────────────────────
 
 def _normalize_name(name: str) -> str:
@@ -35,7 +51,13 @@ def _normalize_name(name: str) -> str:
 
 def _split_name(full_name: str) -> tuple[Optional[str], Optional[str]]:
     """Best-effort split into (first, last). Returns (None, None) on failure."""
-    parts = full_name.strip().split()
+    name = full_name.strip().lstrip("*").strip()
+    if ',' in name:  # "LastName, FirstName" guard — reverse it
+        last, _, first = name.partition(',')
+        first, last = first.strip(), last.strip()
+        if first:
+            return first, last
+    parts = name.split()
     if len(parts) >= 2:
         return parts[0], " ".join(parts[1:])
     if len(parts) == 1:
@@ -81,32 +103,46 @@ def _find_or_create_race(
             distance_m=distance_m,
             page_number=page_number,
             round=round,
+            gender=_division_gender(division),
         )
         db.add(race)
         db.flush()
     return race
 
 
-def _find_or_create_skater(db: Session, full_name: str, affiliation: str) -> Skater:
-    normalized = _normalize_name(full_name)
+def _find_or_create_skater(
+    db: Session, full_name: str, affiliation: str, gender: Optional[str] = None
+) -> Skater:
+    # Detect * female marker (prefix or suffix) before stripping
+    raw = full_name.strip()
+    if raw.startswith('*') or raw.endswith('*'):
+        if gender is None:
+            gender = 'F'
+        raw = raw.strip('*').strip()
+
+    normalized = _normalize_name(raw)
     skater = (
         db.query(Skater)
         .filter(Skater.normalized_name == normalized)
         .first()
     )
     if skater is None:
-        first, last = _split_name(full_name.strip().lstrip("*").strip())
+        first, last = _split_name(raw)
         skater = Skater(
-            full_name=full_name.strip().lstrip("*").strip(),
+            full_name=raw,
             first_name=first,
             last_name=last,
             normalized_name=normalized,
             club_name=affiliation or None,
+            gender=gender,
         )
         db.add(skater)
         db.flush()
-    elif affiliation and not skater.club_name:
-        skater.club_name = affiliation
+    else:
+        if affiliation and not skater.club_name:
+            skater.club_name = affiliation
+        if gender and not skater.gender:
+            skater.gender = gender
     return skater
 
 
@@ -188,7 +224,9 @@ def load_parsed_event(
         existing_skaters = db.query(Skater).filter(
             Skater.normalized_name == _normalize_name(pr.name)
         ).count()
-        skater = _find_or_create_skater(db, pr.name, pr.affiliation)
+        # Use explicit per-row gender code, falling back to division-name inference
+        skater_gender = pr.gender or _division_gender(pr.division)
+        skater = _find_or_create_skater(db, pr.name, pr.affiliation, skater_gender)
         if existing_skaters == 0:
             skaters_created += 1
 

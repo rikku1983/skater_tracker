@@ -61,6 +61,9 @@ class ParsedResult:
     # Round/heat (for ALL_RACES format)
     round: Optional[str] = None   # e.g. "A Final", "Heat 1 of 3", "B Final"
 
+    # Gender (from per-row code or * marker; None if unknown)
+    gender: Optional[str] = None  # 'M' / 'F'
+
     # Metadata
     page_number: int = 0
 

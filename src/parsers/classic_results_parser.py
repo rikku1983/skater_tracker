@@ -47,6 +47,12 @@ _STATUS_PREFIX_RE = re.compile(r'^([A-Z]{2,4})\+?\s+', re.IGNORECASE)
 _SKIP_MARKERS = ("Class Standings", "Time Classification", "DISTANCE CLASSIFICATION")
 _PAGE_MARKER = "Place No. Name Assn. Time"
 
+# Standalone gender markers and Masters category codes to strip from name tokens.
+# Single-char gender codes: "M" or "F" appearing as an isolated token.
+# Masters codes: MM1, FM1, FM2, FM3, SL, SCH (may be followed by a letter token like "C")
+_GENDER_CODES = frozenset({"M", "F"})
+_MASTERS_CODE_RE = re.compile(r'^[MF]{1,2}\d+$|^SL$|^SCH$', re.IGNORECASE)
+
 
 def _is_results_page(text: str) -> bool:
     if any(m in text for m in _SKIP_MARKERS):
@@ -135,13 +141,63 @@ def _parse_result_row(line: str) -> Optional[dict]:
     # Find the first token that ends with ','
     comma_idx = next((i for i, t in enumerate(middle) if t.endswith(',')), None)
 
+    row_gender: Optional[str] = None
+
     if comma_idx is not None and comma_idx + 1 < len(middle):
-        # Name = tokens[0 : comma_idx+2]  (last_part + comma_token + first_name)
-        name = ' '.join(middle[:comma_idx + 2])
-        affiliation = ' '.join(middle[comma_idx + 2:])
+        last_name_tokens = middle[:comma_idx + 1]   # includes the comma-bearing token
+        first_name = middle[comma_idx + 1]
+        affiliation_tokens = middle[comma_idx + 2:]
+
+        # Strip standalone gender codes and Masters category codes from last-name tokens.
+        # "SCH C" is two tokens — strip both when "SCH" appears.
+        cleaned = []
+        skip_next = False
+        for tok in last_name_tokens:
+            if skip_next:
+                skip_next = False
+                continue
+            bare = tok.rstrip(',')
+            if bare.upper() in _GENDER_CODES or _MASTERS_CODE_RE.match(bare):
+                if bare.upper() in _GENDER_CODES and row_gender is None:
+                    row_gender = bare.upper()
+                if bare.upper() == 'SCH':
+                    skip_next = True   # also drop the following "C" token
+                continue
+            cleaned.append(tok)
+
+        last_name = cleaned[-1].rstrip(',') if cleaned else ''
+        name = f'{first_name} {last_name}'.strip()
+
+        # Also strip a leading gender/category code from affiliation (e.g. "F Saratoga" → "Saratoga")
+        while affiliation_tokens:
+            bare = affiliation_tokens[0].rstrip(',')
+            if bare.upper() in _GENDER_CODES or _MASTERS_CODE_RE.match(bare):
+                if bare.upper() in _GENDER_CODES and row_gender is None:
+                    row_gender = bare.upper()
+                affiliation_tokens = affiliation_tokens[1:]
+                if bare.upper() == 'SCH' and affiliation_tokens:
+                    affiliation_tokens = affiliation_tokens[1:]   # drop "C" after "SCH"
+            else:
+                break
+        affiliation = ' '.join(affiliation_tokens)
     else:
-        # Fallback: treat everything as name, empty affiliation
-        name = ' '.join(middle)
+        # Fallback: treat everything as name, empty affiliation.
+        # Still strip leading gender/category codes.
+        cleaned = []
+        skip_next = False
+        for tok in middle:
+            if skip_next:
+                skip_next = False
+                continue
+            bare = tok.rstrip(',')
+            if bare.upper() in _GENDER_CODES or _MASTERS_CODE_RE.match(bare):
+                if bare.upper() in _GENDER_CODES and row_gender is None:
+                    row_gender = bare.upper()
+                if bare.upper() == 'SCH':
+                    skip_next = True
+                continue
+            cleaned.append(tok)
+        name = ' '.join(cleaned)
         affiliation = ''
 
     if not name:
@@ -155,6 +211,7 @@ def _parse_result_row(line: str) -> Optional[dict]:
         'time_text': time_text,
         'time_seconds': time_seconds,
         'status': status,
+        'gender': row_gender,
     }
 
 
@@ -222,6 +279,7 @@ def parse_classic_results_pdf(pdf_path: str | Path) -> ParsedEvent:
                         time_seconds=row['time_seconds'],
                         points=None,
                         status=row['status'],
+                        gender=row.get('gender'),
                         page_number=page_num,
                     ))
 

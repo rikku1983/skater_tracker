@@ -64,6 +64,20 @@ class Race(Base):
         return f"<Race {self.distance_m}m {self.division}>"
 
 
+class Club(Base):
+    """Canonical club record, derived from clubs_with_normalized_names_and_abbrevs.csv."""
+    __tablename__ = "clubs"
+
+    id = Column(Integer, primary_key=True)
+    name = Column(String(255), nullable=False, unique=True)       # normalized canonical name
+    abbreviation = Column(String(50), nullable=False)              # e.g. "NBSSC", "GMS/GWSS"
+
+    skaters = relationship("Skater", back_populates="club")
+
+    def __repr__(self):
+        return f"<Club {self.abbreviation} | {self.name}>"
+
+
 class Skater(Base):
     """One row per unique skater (deduplicated across events)."""
     __tablename__ = "skaters"
@@ -74,8 +88,11 @@ class Skater(Base):
     last_name = Column(String(100), nullable=True)
     normalized_name = Column(String(255), nullable=False, index=True)  # lowercase, no punctuation
     club_name = Column(String(255), nullable=True)
+    club_id = Column(Integer, ForeignKey("clubs.id"), nullable=True, index=True)
+    gender = Column(String(1), nullable=True)                          # 'M' / 'F' / None
     state = Column(String(50), nullable=True)
 
+    club = relationship("Club", back_populates="skaters")
     results = relationship("Result", back_populates="skater")
 
     def __repr__(self):

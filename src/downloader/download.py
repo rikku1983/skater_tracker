@@ -14,6 +14,8 @@ import requests
 from sqlalchemy.orm import Session
 
 from .discover import DiscoveredEvent
+from .normalize import normalize_event
+from .pdf_date_scan import scan_pdf_for_date
 from ..db.models import Event
 
 logger = logging.getLogger(__name__)
@@ -106,15 +108,38 @@ def upsert_event_record(
             event_date=event.event_date,
             source_url=event.source_url,
             pdf_url=event.pdf_url,
+            link_text=event.link_text or None,
         )
         db.add(record)
     else:
         record = existing
+        # Update link_text if we now have it and didn't before
+        if event.link_text and not record.link_text:
+            record.link_text = event.link_text
 
     if downloaded and local_path.exists():
         record.local_path = str(local_path)
         record.downloaded_at = datetime.now(timezone.utc)
         record.checksum = _sha256(local_path)
+
+        # Fill date from PDF scan if link text had none
+        if record.event_date is None:
+            scanned = scan_pdf_for_date(local_path)
+            if scanned:
+                logger.info("  → date from PDF scan: %s", scanned)
+                record.event_date = scanned
+
+    # Auto-assign event_group + series if not already set
+    if record.event_group is None:
+        group, series, confidence = normalize_event(record.event_name)
+        if group:
+            logger.info(
+                "  → auto event_group: %r (series=%r, conf=%.2f)",
+                group, series, confidence,
+            )
+            record.event_group = group
+            if series and record.series is None:
+                record.series = series
 
     db.commit()
     db.refresh(record)

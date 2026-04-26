@@ -33,6 +33,15 @@ POINTS_RE = re.compile(r'^(\d+|#{3,}|\d+E[+\-]\d+)$')
 
 ROUND_KEYWORDS = ('HEATS', 'SEMI-FINAL', 'FINAL', 'SUPER FINAL')
 
+_STD_DISTS = [55, 100, 111, 200, 222, 333, 444, 500, 555, 666, 777, 888, 1000, 1111, 1500]
+
+
+def _laps_to_meters(laps: float) -> Optional[int]:
+    """Convert lap count to nearest standard short-track distance (111.12m/lap)."""
+    approx = laps * 111.12
+    nearest = min(_STD_DISTS, key=lambda d: abs(d - approx))
+    return nearest if abs(nearest - approx) <= 15 else None
+
 
 def _is_results_page(page) -> bool:
     text = page.extract_text() or ""
@@ -61,9 +70,32 @@ def _parse_section_header(tokens: list[str]) -> Optional[tuple[str, str, Optiona
     Try to parse a section header line into (division, round, distance_m).
     e.g. ['DIVISION', '1', 'Heartland', 'W', 'A', 'HEATS', '500', 'm']
       -> ('DIVISION 1 Heartland W A', 'HEATS', 500)
+    Also handles "500 m 4.5 lap" variants by stripping the trailing lap info.
     """
-    text = " ".join(tokens)
-    # Must end with '<dist> m' or '<dist>. Laps'
+    tokens = list(tokens)
+
+    # Strip trailing "<number> lap[s]" appended after "m": "500 m 4.5 lap" → "500 m"
+    if (len(tokens) >= 4
+            and tokens[-1].lower().startswith('lap')
+            and re.match(r'^\d+(\.\d+)?$', tokens[-2])
+            and tokens[-3].lower() == 'm'):
+        tokens = tokens[:-2]  # strip "<n> lap[s]"
+
+    # Pure-laps format: "... ROUND N[.] Laps" with no preceding meter value
+    # e.g. "DIVISION 8 Saddle SUPER FINAL 7. Laps" → dist=777m
+    elif (len(tokens) >= 2
+          and tokens[-1].lower() == 'laps'
+          and re.match(r'^\d+(\.\d+)?\.?$', tokens[-2])):
+        lap_str = tokens[-2].rstrip('.')
+        try:
+            dist_from_laps = _laps_to_meters(float(lap_str))
+        except ValueError:
+            dist_from_laps = None
+        tokens = tokens[:-2]  # strip "N. Laps"
+        if dist_from_laps is not None:
+            tokens = tokens + [str(dist_from_laps), 'm']  # inject computed distance
+
+    # Must end with '<dist> m' or '<dist> laps'
     if not (len(tokens) >= 3 and tokens[-1].lower() in ('m', 'laps')):
         return None
     dist_token = tokens[-2]
@@ -82,6 +114,11 @@ def _parse_section_header(tokens: list[str]) -> Optional[tuple[str, str, Optiona
     elif remaining[-1] in ("HEATS", "SEMI-FINAL", "FINAL"):
         round_str = remaining[-1]
         division = " ".join(remaining[:-1])
+    # 'FINAL A/B/C' — lettered sub-final (e.g. "FINAL A 777 m 7 lap")
+    elif (len(remaining) >= 2 and remaining[-2] in ("FINAL", "SEMI-FINAL", "HEATS")
+          and len(remaining[-1]) == 1 and remaining[-1].isupper()):
+        round_str = f"{remaining[-2]} {remaining[-1]}"
+        division = " ".join(remaining[:-2])
     else:
         return None
 

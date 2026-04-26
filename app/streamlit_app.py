@@ -303,7 +303,8 @@ def load_skater_season_bests(skater_id: int) -> pd.DataFrame:
 def load_skater_attrs(skater_id: int) -> dict:
     session = db()
     row = (
-        session.query(Skater.id, Skater.full_name, Skater.gender, Club.abbreviation)
+        session.query(Skater.id, Skater.full_name, Skater.gender,
+                      Club.abbreviation, Skater.birth_year)
         .outerjoin(Club, Skater.club_id == Club.id)
         .filter(Skater.id == skater_id)
         .first()
@@ -314,7 +315,39 @@ def load_skater_attrs(skater_id: int) -> dict:
         "name": row.full_name,
         "gender": row.gender or "?",
         "club": row.abbreviation or "?",
+        "birth_year": row.birth_year,
     }
+
+
+@st.cache_data(ttl=300)
+def load_skater_event_bests(skater_id: int) -> pd.DataFrame:
+    """Best time per event per distance, x-axis is event date."""
+    hist = load_skater_results(skater_id)
+    df = (
+        hist[hist["distance_m"].isin(TRAJ_DISTANCES)]
+        .dropna(subset=["time_s", "date"])
+        .groupby(["date", "event", "distance_m"])
+        .agg(best_s=("time_s", "min"))
+        .reset_index()
+    )
+    df["best_time"] = df["best_s"].apply(_fmt_time)
+    df["date"] = pd.to_datetime(df["date"])
+    return df
+
+
+def compute_skater_age_bests(hist: pd.DataFrame, birth_year: int) -> pd.DataFrame:
+    """Best time per age-year per distance, given raw results and birth_year."""
+    df = hist[hist["distance_m"].isin(TRAJ_DISTANCES)].dropna(subset=["time_s", "date"]).copy()
+    df["date"] = pd.to_datetime(df["date"])
+    df["age"] = df["date"].dt.year - birth_year
+    df = df[df["age"] >= 5]  # filter obvious noise
+    df = (
+        df.groupby(["age", "distance_m"])
+        .agg(best_s=("time_s", "min"))
+        .reset_index()
+    )
+    df["best_time"] = df["best_s"].apply(_fmt_time)
+    return df
 
 
 # ── Sidebar navigation ────────────────────────────────────────────────────────
@@ -724,6 +757,7 @@ elif page == "Compare":
                 for label in selected_labels:
                     sid = label_to_id[label]
                     st.session_state.compare_skaters[sid] = label_to_name[label]
+                st.session_state.traj_chart_mode = "Season Best"
                 st.rerun()
 
     # ── Selected skater chips ──
@@ -737,25 +771,27 @@ elif page == "Compare":
                     to_remove = sid
         if to_remove is not None:
             del st.session_state.compare_skaters[to_remove]
+            st.session_state.traj_chart_mode = "Season Best"
             st.rerun()
 
     # ── Output ──
     if st.session_state.compare_skaters:
-        all_traj = []
-        for sid in st.session_state.compare_skaters:
+        all_attrs = {sid: load_skater_attrs(sid) for sid in st.session_state.compare_skaters}
+
+        # ── Season best times table (always shown) ──
+        all_season = []
+        for sid, attrs in all_attrs.items():
             df = load_skater_season_bests(sid).copy()
-            attrs = load_skater_attrs(sid)
             df["skater"] = attrs["name"]
             df["gender"] = attrs["gender"]
             df["club"]   = attrs["club"]
-            all_traj.append(df)
-        combined_df = pd.concat(all_traj, ignore_index=True)
-        seasons_order = sorted(combined_df["season"].unique())
+            all_season.append(df)
+        season_df = pd.concat(all_season, ignore_index=True)
+        seasons_order = sorted(season_df["season"].unique())
 
-        # ── Season best times tables ──
         st.subheader("Season Best Times")
         for dist in TRAJ_DISTANCES:
-            sub = combined_df[combined_df["distance_m"] == dist]
+            sub = season_df[season_df["distance_m"] == dist]
             if sub.empty:
                 continue
             pivot = (
@@ -769,36 +805,153 @@ elif page == "Compare":
 
         # ── Trajectory charts ──
         st.subheader("Trajectory")
-        color_by = st.selectbox("Color by", ["Skater", "Gender", "Club"])
+
+        ctrl1, ctrl2 = st.columns([3, 1])
+        with ctrl1:
+            chart_mode = st.radio(
+                "Chart type",
+                ["Season Best", "Event Best", "Age Best"],
+                horizontal=True,
+                label_visibility="collapsed",
+                key="traj_chart_mode",
+            )
+        with ctrl2:
+            color_by = st.selectbox("Color by", ["Skater", "Gender", "Club"],
+                                    label_visibility="collapsed")
         color_col = {"Skater": "skater", "Gender": "gender", "Club": "club"}[color_by]
 
-        panel_w = max(200, min(420, 760 // max(len(seasons_order), 2)))
-        panel_charts = []
-        for dist in TRAJ_DISTANCES:
-            sub = combined_df[combined_df["distance_m"] == dist]
-            if sub.empty:
-                continue
-            c = (
-                alt.Chart(sub)
-                .mark_line(point=True)
-                .encode(
-                    x=alt.X("season:O", title="Season", sort=seasons_order,
-                             axis=alt.Axis(labelAngle=-30)),
-                    y=alt.Y("best_s:Q", title="Best Time",
-                             scale=alt.Scale(zero=False),
-                             axis=alt.Axis(labelExpr=_TIME_EXPR)),
-                    color=alt.Color(f"{color_col}:N", title=color_by),
-                    detail=alt.Detail("skater:N"),
-                    tooltip=[
-                        alt.Tooltip("season:O", title="Season"),
-                        alt.Tooltip("skater:N", title="Skater"),
-                        alt.Tooltip(f"{color_col}:N", title=color_by),
-                        alt.Tooltip("best_time:N", title="Best Time"),
-                    ],
+        # ── Build chart data for selected mode ──
+        if chart_mode == "Season Best":
+            plot_df = season_df
+            x_enc = alt.X("season:O", title="Season", sort=seasons_order,
+                           axis=alt.Axis(labelAngle=-30))
+            x_tip = alt.Tooltip("season:O", title="Season")
+
+        elif chart_mode == "Event Best":
+            all_event = []
+            for sid, attrs in all_attrs.items():
+                df = load_skater_event_bests(sid).copy()
+                df["skater"] = attrs["name"]
+                df["gender"] = attrs["gender"]
+                df["club"]   = attrs["club"]
+                all_event.append(df)
+            plot_df = pd.concat(all_event, ignore_index=True)
+            x_enc = alt.X("date:T", title="Event Date",
+                           axis=alt.Axis(labelAngle=-30, format="%Y-%m"))
+            x_tip = alt.Tooltip("date:T", title="Date", format="%Y-%m-%d")
+
+        else:  # Age Best
+            all_age = []
+            skaters_no_birth = []
+            for sid, attrs in all_attrs.items():
+                by = attrs["birth_year"]
+                if by is None:
+                    skaters_no_birth.append(attrs["name"])
+                    continue
+                hist = load_skater_results(sid)
+                df = compute_skater_age_bests(hist, by)
+                df["skater"] = attrs["name"]
+                df["gender"] = attrs["gender"]
+                df["club"]   = attrs["club"]
+                all_age.append(df)
+            if skaters_no_birth:
+                st.info(f"No birth year on file for: {', '.join(skaters_no_birth)} — excluded from Age Best chart.")
+            if not all_age:
+                st.warning("No skaters with birth year available for Age Best chart.")
+                plot_df = pd.DataFrame()
+            else:
+                plot_df = pd.concat(all_age, ignore_index=True)
+            x_enc = alt.X("age:Q", title="Age (approx.)",
+                           axis=alt.Axis(tickMinStep=1))
+            x_tip = alt.Tooltip("age:Q", title="Age")
+
+        # ── Filter controls + apply ──
+        sel_dists: list = TRAJ_DISTANCES
+        if not plot_df.empty:
+            filt1, filt2 = st.columns(2)
+
+            with filt1:
+                avail_dists = sorted(
+                    d for d in TRAJ_DISTANCES if d in plot_df["distance_m"].values
                 )
-                .properties(width=panel_w, height=200, title=f"{dist}m")
-            )
-            panel_charts.append(c)
+                sel_dists = st.multiselect(
+                    "Distances",
+                    options=avail_dists,
+                    default=avail_dists,
+                    format_func=lambda d: f"{d}m",
+                )
+
+            with filt2:
+                if chart_mode == "Season Best":
+                    seasons_all = sorted(plot_df["season"].unique())
+                    if len(seasons_all) > 1:
+                        s_lo, s_hi = st.select_slider(
+                            "Season range",
+                            options=seasons_all,
+                            value=(seasons_all[0], seasons_all[-1]),
+                        )
+                        plot_df = plot_df[
+                            (plot_df["season"] >= s_lo) & (plot_df["season"] <= s_hi)
+                        ]
+
+                elif chart_mode == "Event Best":
+                    years = sorted(plot_df["date"].dt.year.unique())
+                    if len(years) > 1:
+                        y_lo, y_hi = st.slider(
+                            "Year range",
+                            min_value=int(years[0]), max_value=int(years[-1]),
+                            value=(int(years[0]), int(years[-1])),
+                        )
+                        plot_df = plot_df[plot_df["date"].dt.year.between(y_lo, y_hi)]
+
+                else:  # Age Best
+                    ages = sorted(plot_df["age"].unique())
+                    if len(ages) > 1:
+                        a_lo, a_hi = st.slider(
+                            "Age range",
+                            min_value=int(ages[0]), max_value=int(ages[-1]),
+                            value=(int(ages[0]), int(ages[-1])),
+                        )
+                        plot_df = plot_df[plot_df["age"].between(a_lo, a_hi)]
+
+            # Distance filter applied after both controls are rendered
+            if sel_dists:
+                plot_df = plot_df[plot_df["distance_m"].isin(sel_dists)]
+
+            # Recompute seasons_order after filtering (used in Season Best x_enc)
+            if chart_mode == "Season Best":
+                seasons_order = sorted(plot_df["season"].unique())
+                x_enc = alt.X("season:O", title="Season", sort=seasons_order,
+                               axis=alt.Axis(labelAngle=-30))
+
+        # ── Render panels ──
+        panel_charts = []
+        if not plot_df.empty:
+            dists_to_plot = sel_dists if sel_dists else TRAJ_DISTANCES
+            for dist in dists_to_plot:
+                sub = plot_df[plot_df["distance_m"] == dist]
+                if sub.empty:
+                    continue
+                c = (
+                    alt.Chart(sub)
+                    .mark_line(point=True)
+                    .encode(
+                        x=x_enc,
+                        y=alt.Y("best_s:Q", title="Best Time",
+                                 scale=alt.Scale(zero=False),
+                                 axis=alt.Axis(labelExpr=_TIME_EXPR)),
+                        color=alt.Color(f"{color_col}:N", title=color_by),
+                        detail=alt.Detail("skater:N"),
+                        tooltip=[
+                            x_tip,
+                            alt.Tooltip("skater:N", title="Skater"),
+                            alt.Tooltip(f"{color_col}:N", title=color_by),
+                            alt.Tooltip("best_time:N", title="Best Time"),
+                        ],
+                    )
+                    .properties(width=360, height=220, title=f"{dist}m")
+                )
+                panel_charts.append(c)
 
         if panel_charts:
             rows_of_charts = [

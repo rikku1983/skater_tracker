@@ -16,10 +16,25 @@ import re
 from pathlib import Path
 from typing import Optional
 
+from dateutil import parser as dateutil_parser
 from sqlalchemy.orm import Session
 
 from ..parsers.base import ParsedEvent, ParsedResult
 from .models import Event, Race, Skater, Result
+
+# World-record impossibility floors (seconds). Anything faster is a bad parse.
+_WR_FLOORS: dict[int, float] = {500: 36.0, 777: 58.0, 1000: 78.0, 1500: 120.0}
+
+
+def _compute_data_flags(time_seconds: float | None, distance_m: int | None) -> str | None:
+    if time_seconds is None or time_seconds <= 0 or distance_m is None:
+        return None
+    floor = _WR_FLOORS.get(distance_m)
+    if not floor or time_seconds >= floor:
+        return None
+    if distance_m == 1500:
+        return "TIME_LIKELY_MISLABELED_DIST"
+    return "TIME_IMPOSSIBLE"
 
 logger = logging.getLogger(__name__)
 
@@ -193,11 +208,14 @@ def load_parsed_event(
         return 0, 0, 0
 
     # Update event metadata from parsed PDF
-    if parsed.event_name and not event.venue:
-        # Only store venue/date-extra if not already set
-        pass
     if parsed.venue:
         event.venue = parsed.venue
+    if event.event_date is None and parsed.event_date_raw:
+        try:
+            event.event_date = dateutil_parser.parse(parsed.event_date_raw, fuzzy=True).date()
+            logger.info("  → date from PDF content: %s", event.event_date)
+        except Exception:
+            pass
     event.is_parseable = len(parsed.results) > 0 or not parsed.parse_errors
 
     races_created = 0
@@ -231,7 +249,11 @@ def load_parsed_event(
             skaters_created += 1
 
         # Result
-        _upsert_result(db, race.id, skater.id, pr)
+        result = _upsert_result(db, race.id, skater.id, pr)
+        flag = _compute_data_flags(pr.time_seconds, pr.distance_m)
+        if flag:
+            logger.warning("Quality flag %s: %s %sm %s", flag, pr.name, pr.distance_m, pr.time_text)
+        result.data_flags = flag
         results_upserted += 1
 
     db.commit()

@@ -7,7 +7,7 @@ id,season,event_name,event_group,event_date,series
 176,2018-2019,2019 MASA ST Championships & NEST #6,MASA Championships,,NEST
 177,2018-2019,2019 Land of Lincoln & Heartland #6,Land of Lincoln,,Heartland
 178,2018-2019,2019 Ohio State Championships,Ohio State Meet,,Heartland
-179,2018-2019,2019 St. Louis Silver Skates,St. Louis Silver Skates,,Midwest
+179,2018-2019,2019 St. Louis Silver Skates,Chicago Silver Skates,10/27/2018,Midwest
 180,2018-2019,2019 California State Championships,California Championships,,West Coast
 181,2018-2019,2019 Presidential Cup & NEXT #5,Presidential Cup,,NEST
 182,2018-2019,2019 NorthBurke ST Open,Northbrook Open,,Midwest
@@ -97,7 +97,7 @@ id,season,event_name,event_group,event_date,series
 103,2022-2023,2023 Empire State Games Short Track,Empire State Games,,Heartland
 104,2022-2023,2023 Michigan State Meet,Michigan State Meet,,Midwest
 105,2022-2023,2023 Gateway Short Track Championships,Gateway Championships,,Midwest
-106,2022-2023,2023 American Dream Short Track Championships & NEST #3,MASA Championships,,NEST
+106,2022-2023,2023 American Dream Short Track Championships & NEST #3,January Thaw,1/14/2023,NEST
 107,2022-2023,2023 Pacific NW Short Track Open,Pacific NW Open,,Northwest
 108,2022-2023,UOO Winter Challenge,Utah Olympic Oval Challenge,,West Coast
 109,2022-2023,2023 US Championships & Junior Championships Short Track,US Junior Championships,,National
@@ -107,7 +107,7 @@ id,season,event_name,event_group,event_date,series
 113,2022-2023,2023 Park Ridge Open,Park Ridge Open,,Midwest
 114,2022-2023,2023 Saratoga Cup & NEST #1,Saratoga Cup,,NEST
 115,2022-2023,2023 Great Lakes Short Track & Brat Fry & Heartland #2,Great Lakes,,Heartland
-116,2022-2023,104th Silver Skates Meet,St. Louis Silver Skates,,Midwest
+116,2022-2023,104th Silver Skates Meet,Chicago Silver Skates,10/23/2022,Midwest
 117,2022-2023,2023 Buffalo ST Championships & Heartland #1,Buffalo Championships,,Heartland
 118,2022-2023,2023 USS Fall World Cup Qualifier Short Track,AmCup / World Cup,,National
 119,2022-2023,2023 Desert Classic Short Track,Desert Classic,,West Coast

@@ -32,6 +32,8 @@ class Event(Base):
     pdf_format = Column(String(30), nullable=True)                # parser used: "all_races", "tempus", etc.
     series = Column(String(50), nullable=True, index=True)        # regional series: "Heartland", "NEST", "National", etc.
 
+    link_text = Column(String(512), nullable=True)           # raw anchor text from USS results page
+
     # Fields to be filled in after parsing
     venue = Column(String(255), nullable=True)
     city = Column(String(100), nullable=True)
@@ -91,6 +93,8 @@ class Skater(Base):
     club_id = Column(Integer, ForeignKey("clubs.id"), nullable=True, index=True)
     gender = Column(String(1), nullable=True)                          # 'M' / 'F' / None
     state = Column(String(50), nullable=True)
+    age_at_2026 = Column(Integer, nullable=True)
+    birth_year = Column(Integer, nullable=True)
 
     club = relationship("Club", back_populates="skaters")
     results = relationship("Result", back_populates="skater")
@@ -115,6 +119,7 @@ class Result(Base):
     points = Column(Float, nullable=True)
     status = Column(String(20), nullable=True)               # "DNS", "DNF", "DQ", "PEN", "ADV", etc.
     note = Column(Text, nullable=True)
+    data_flags = Column(String(255), nullable=True)          # pipe-separated quality flags, e.g. "TIME_IMPOSSIBLE"
 
     race = relationship("Race", back_populates="results")
     skater = relationship("Skater", back_populates="results")

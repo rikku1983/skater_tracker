@@ -1,5 +1,5 @@
 from pathlib import Path
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.orm import sessionmaker, Session
 from .models import Base
 
@@ -11,9 +11,33 @@ def get_engine(db_path: Path = DB_PATH):
     return create_engine(f"sqlite:///{db_path}", echo=False)
 
 
+def _apply_migrations(engine) -> None:
+    """Add columns that were introduced after the initial schema creation."""
+    with engine.connect() as conn:
+        rows = conn.execute(text("PRAGMA table_info(events)")).fetchall()
+        existing = {r[1] for r in rows}
+        if "link_text" not in existing:
+            conn.execute(text("ALTER TABLE events ADD COLUMN link_text VARCHAR(512)"))
+            conn.commit()
+        rows = conn.execute(text("PRAGMA table_info(skaters)")).fetchall()
+        existing = {r[1] for r in rows}
+        if "age_at_2026" not in existing:
+            conn.execute(text("ALTER TABLE skaters ADD COLUMN age_at_2026 INTEGER"))
+            conn.commit()
+        if "birth_year" not in existing:
+            conn.execute(text("ALTER TABLE skaters ADD COLUMN birth_year INTEGER"))
+            conn.commit()
+        rows = conn.execute(text("PRAGMA table_info(results)")).fetchall()
+        existing = {r[1] for r in rows}
+        if "data_flags" not in existing:
+            conn.execute(text("ALTER TABLE results ADD COLUMN data_flags VARCHAR(255)"))
+            conn.commit()
+
+
 def init_db(db_path: Path = DB_PATH):
     engine = get_engine(db_path)
     Base.metadata.create_all(engine)
+    _apply_migrations(engine)
     return engine
 
 

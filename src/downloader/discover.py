@@ -47,6 +47,7 @@ class DiscoveredEvent:
     event_name: str
     event_date: Optional[date]
     pdf_url: str
+    link_text: str = ""  # raw anchor text from USS results page
     source_url: str = USS_RESULTS_URL
 
 
@@ -194,6 +195,7 @@ def discover_events(
                 event_name=event_name,
                 event_date=event_date,
                 pdf_url=href,
+                link_text=raw_text,
                 source_url=url,
             ))
             season_events += 1

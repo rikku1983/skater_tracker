@@ -63,7 +63,10 @@ def _fmt_time(s: float | None) -> str:
 @st.cache_data(ttl=300)
 def load_overview_stats():
     session = db()
-    events = session.query(func.count(Event.id)).filter(Event.is_parseable == True).scalar()
+    events = session.query(func.count(Event.id)).filter(
+        Event.is_parseable == True,
+        Event.track_type == "short",
+    ).scalar()
     skaters = session.query(func.count(Skater.id)).scalar()
     results = session.query(func.count(Result.id)).scalar()
     races = session.query(func.count(Race.id)).scalar()
@@ -84,7 +87,7 @@ def load_events_df():
             func.count(Race.id).label("races"),
         )
         .outerjoin(Race, Race.event_id == Event.id)
-        .filter(Event.is_parseable == True)
+        .filter(Event.is_parseable == True, Event.track_type == "short")
         .group_by(Event.id)
         .order_by(Event.season, Event.event_date)
         .all()
@@ -260,7 +263,7 @@ def load_skater_results(skater_id: int):
         )
         .join(Race, Result.race_id == Race.id)
         .join(Event, Race.event_id == Event.id)
-        .filter(Result.skater_id == skater_id)
+        .filter(Result.skater_id == skater_id, Event.track_type == "short")
         .order_by(Event.event_date, Race.distance_m)
         .all()
     )
@@ -276,7 +279,7 @@ def load_seasons():
     session = db()
     seasons = (
         session.query(Event.season)
-        .filter(Event.is_parseable == True)
+        .filter(Event.is_parseable == True, Event.track_type == "short")
         .distinct()
         .order_by(Event.season.desc())
         .all()
@@ -662,7 +665,8 @@ elif page == "Leaderboard":
             rows = (
                 session.query(Race.division)
                 .join(Event, Race.event_id == Event.id)
-                .filter(Event.season == season, Race.distance_m == distance_m)
+                .filter(Event.season == season, Race.distance_m == distance_m,
+                        Event.track_type == "short")
                 .distinct()
                 .order_by(Race.division)
                 .all()
@@ -692,6 +696,7 @@ elif page == "Leaderboard":
             .filter(
                 Event.season == season,
                 Race.distance_m == distance_m,
+                Event.track_type == "short",
                 Result.time_seconds.isnot(None),
             )
         )

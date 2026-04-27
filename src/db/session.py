@@ -32,6 +32,11 @@ def _apply_migrations(engine) -> None:
         if "data_flags" not in existing:
             conn.execute(text("ALTER TABLE results ADD COLUMN data_flags VARCHAR(255)"))
             conn.commit()
+        rows = conn.execute(text("PRAGMA table_info(events)")).fetchall()
+        existing = {r[1] for r in rows}
+        if "track_type" not in existing:
+            conn.execute(text("ALTER TABLE events ADD COLUMN track_type VARCHAR(20)"))
+            conn.commit()
 
 
 def init_db(db_path: Path = DB_PATH):

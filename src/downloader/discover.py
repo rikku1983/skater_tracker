@@ -101,6 +101,15 @@ def _is_long_track(event_name: str, pdf_url: str) -> bool:
     name = event_name.lower()
     filename = pdf_url.split("/")[-1].lower()
 
+    # Specific non-short-track events confirmed by manual review
+    non_st_names = [
+        'heiden challenge',          # long track event
+        'colombian championships',   # inline/long track, not USS short track
+    ]
+    for n in non_st_names:
+        if n in name:
+            return True
+
     # Clear LT keywords in event name
     lt_name_patterns = [
         r'\blong\s+track\b',

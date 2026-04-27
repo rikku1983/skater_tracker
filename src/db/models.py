@@ -10,11 +10,7 @@ class Base(DeclarativeBase):
 
 
 class Event(Base):
-    """
-    One row per downloaded ST PDF. Serves as the download manifest
-    and will also become the primary event record once parsing is done.
-    All events are short track.
-    """
+    """One row per downloaded PDF from the USS results page."""
     __tablename__ = "events"
 
     id = Column(Integer, primary_key=True)
@@ -31,6 +27,7 @@ class Event(Base):
     event_year = Column(Integer, nullable=True, index=True)       # calendar year the event took place
     pdf_format = Column(String(30), nullable=True)                # parser used: "all_races", "tempus", etc.
     series = Column(String(50), nullable=True, index=True)        # regional series: "Heartland", "NEST", "National", etc.
+    track_type = Column(String(20), nullable=True, index=True)    # "short", "long", "mixed", "inline", "unknown"
 
     link_text = Column(String(512), nullable=True)           # raw anchor text from USS results page
 

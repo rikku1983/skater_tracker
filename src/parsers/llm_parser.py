@@ -41,17 +41,17 @@ These are pages from a US short track speed skating results PDF.
 Extract all race results you find.
 
 Return a JSON object with this exact structure:
-{
+{{
   "event_name": "string or null",
   "event_date": "YYYY-MM-DD or null",
   "venue": "string or null",
   "sections": [
-    {
+    {{
       "division": "string (e.g. 'Heartland Men', 'NEST Ladies', 'Junior B')",
       "distance_m": integer (meters; if only laps given, multiply by 111 — e.g. 7 laps = 777m),
       "round": "string (e.g. 'Final A', 'Heats', 'Distance Classification') or null",
       "results": [
-        {
+        {{
           "rank": integer or null,
           "bib": "string or null",
           "name": "First Last (human name only, no club or numbers)",
@@ -59,22 +59,25 @@ Return a JSON object with this exact structure:
           "time": "M:SS.mmm or SS.mmm or null",
           "status": "DNS/DNF/DQ/PEN or null",
           "points": number or null
-        }
+        }}
       ]
-    }
+    }}
   ]
-}
+}}
 
 Rules:
 - distance_m must be an integer (500, 777, 1000, 1500, 333, 222, 111, etc.)
-- If a page is a cover, schedule, skater registration list, or contains no race results, return {"sections": []}
+- If a page is a cover, schedule, skater registration list, or contains no race results, return {{"sections": []}}
 - Do NOT invent data. If something is unclear, omit it (use null)
 - Names: "First Last" format. Strip asterisks, gender codes, category codes
 - One section per unique (division + distance + round) combination
 - If multiple distances appear for the same division, create separate sections
 - Skip relay total times; only include individual skater rows
+- IMPORTANT: Results at the TOP of a page often belong to the race section that
+  started on the PREVIOUS page. Use the "Previous page context" below to
+  determine the correct division and distance for those results.
 
-Page content:
+{context_block}Page content:
 {text}
 """
 
@@ -83,17 +86,17 @@ This is a page from a US short track speed skating results PDF (scanned image).
 Extract all race results visible on this page.
 
 Return a JSON object with this exact structure:
-{
+{{
   "event_name": "string or null",
   "event_date": "YYYY-MM-DD or null",
   "venue": "string or null",
   "sections": [
-    {
+    {{
       "division": "string",
       "distance_m": integer,
       "round": "string or null",
       "results": [
-        {
+        {{
           "rank": integer or null,
           "bib": "string or null",
           "name": "First Last",
@@ -101,17 +104,19 @@ Return a JSON object with this exact structure:
           "time": "M:SS.mmm or SS.mmm or null",
           "status": "DNS/DNF/DQ/PEN or null",
           "points": number or null
-        }
+        }}
       ]
-    }
+    }}
   ]
-}
+}}
 
 Rules:
 - distance_m must be an integer (convert laps: 7 laps × 111m = 777m)
 - Names are human names only — no club codes, no numbers
-- If this is a skater registration/entry list (no times shown), a schedule, or a cover page, return {"sections": []}
+- If this is a skater registration/entry list (no times shown), a schedule, or a cover page, return {{"sections": []}}
 - Only extract rows that have actual race times or status codes (DNS/DNF/DQ)
+- IMPORTANT: Results at the top of this page may belong to a race section that
+  started on the previous page. {context_note}
 """
 
 
@@ -213,9 +218,23 @@ def _extract_json(raw: str) -> dict:
     return out
 
 
-def _call_claude_text(client: anthropic.Anthropic, pages_text: list[str]) -> dict:
+def _call_claude_text(client: anthropic.Anthropic, pages_text: list[str],
+                      prev_page_text: str = "") -> dict:
     combined = "\n\n--- PAGE BREAK ---\n\n".join(pages_text)
-    prompt = _PROMPT_TEXT.replace("{text}", combined[:8000])
+    if prev_page_text:
+        # Include last ~60 lines of previous page so the LLM can see the active
+        # section header even when it started on the prior page.
+        tail = "\n".join(prev_page_text.splitlines()[-60:])
+        context_block = (
+            "Previous page context (use to identify the active race section "
+            "at the top of the current page):\n"
+            "--- PREVIOUS PAGE (tail) ---\n"
+            f"{tail}\n"
+            "--- END PREVIOUS PAGE ---\n\n"
+        )
+    else:
+        context_block = ""
+    prompt = _PROMPT_TEXT.format(context_block=context_block, text=combined[:8000])
     msg = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
@@ -225,7 +244,18 @@ def _call_claude_text(client: anthropic.Anthropic, pages_text: list[str]) -> dic
     return _extract_json(msg.content[0].text)
 
 
-def _call_claude_vision(client: anthropic.Anthropic, page_b64: str, page_num: int) -> dict:
+def _call_claude_vision(client: anthropic.Anthropic, page_b64: str, page_num: int,
+                        prev_page_text: str = "") -> dict:
+    if prev_page_text:
+        tail = "\n".join(prev_page_text.splitlines()[-40:])
+        context_note = (
+            f"The previous page ended with:\n"
+            f"--- PREVIOUS PAGE (tail) ---\n{tail}\n--- END ---\n"
+            "Use it to assign the correct division/distance to results at the top of this image."
+        )
+    else:
+        context_note = "No previous page context available."
+    prompt = _PROMPT_IMAGE.format(context_note=context_note)
     msg = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
@@ -241,7 +271,7 @@ def _call_claude_vision(client: anthropic.Anthropic, page_b64: str, page_num: in
                         "data": page_b64,
                     },
                 },
-                {"type": "text", "text": _PROMPT_IMAGE},
+                {"type": "text", "text": prompt},
             ],
         }],
     )
@@ -330,13 +360,15 @@ def parse_pdf_with_llm(
                         parsed.event_name = first_line
                     break
 
-            # Process in batches
+            # Process in batches, carrying the previous page as context so the
+            # LLM can resolve section headers that started on the prior page.
             batch_texts: list[str] = []
             batch_start_page = 1
+            prev_page_text: str = ""   # tail of last successfully processed page
 
             call_count = 0
 
-            def flush_text_batch(texts: list[str], start: int):
+            def flush_text_batch(texts: list[str], start: int, prev: str):
                 nonlocal call_count
                 if not texts:
                     return
@@ -344,7 +376,7 @@ def parse_pdf_with_llm(
                     time.sleep(API_CALL_DELAY)
                 call_count += 1
                 try:
-                    data = _call_claude_text(client, texts)
+                    data = _call_claude_text(client, texts, prev_page_text=prev)
                     if not parsed.event_name and data.get("event_name"):
                         parsed.event_name = data["event_name"]
                     if not parsed.event_date_raw and data.get("event_date"):
@@ -361,7 +393,9 @@ def parse_pdf_with_llm(
 
             for page_num, text, is_image in page_texts:
                 if is_image:
-                    flush_text_batch(batch_texts, batch_start_page)
+                    flush_text_batch(batch_texts, batch_start_page, prev_page_text)
+                    if batch_texts:
+                        prev_page_text = batch_texts[-1]
                     batch_texts = []
                     batch_start_page = page_num + 1
 
@@ -371,7 +405,8 @@ def parse_pdf_with_llm(
                     try:
                         page = pdf.pages[page_num - 1]
                         b64 = _page_to_base64(page)
-                        data = _call_claude_vision(client, b64, page_num)
+                        data = _call_claude_vision(client, b64, page_num,
+                                                   prev_page_text=prev_page_text)
                         if not parsed.event_name and data.get("event_name"):
                             parsed.event_name = data["event_name"]
                         results = _sections_to_results(data.get("sections", []), page_num)
@@ -381,14 +416,16 @@ def parse_pdf_with_llm(
                         err = f"LLM vision failed (page {page_num}): {e}"
                         parsed.parse_errors.append(err)
                         logger.warning(err)
+                    prev_page_text = text  # image page text may be empty but update anyway
                 else:
                     if len(batch_texts) >= MAX_PAGES_PER_CALL:
-                        flush_text_batch(batch_texts, batch_start_page)
+                        flush_text_batch(batch_texts, batch_start_page, prev_page_text)
+                        prev_page_text = batch_texts[-1]
                         batch_texts = []
                         batch_start_page = page_num
                     batch_texts.append(text)
 
-            flush_text_batch(batch_texts, batch_start_page)
+            flush_text_batch(batch_texts, batch_start_page, prev_page_text)
 
     except Exception as e:
         parsed.parse_errors.append(f"PDF error: {e}")

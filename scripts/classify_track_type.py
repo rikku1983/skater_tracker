@@ -55,6 +55,7 @@ MANUAL_OVERRIDES: dict[int, str] = {
     197: "inline",# I-94 Sprints — 100/200/300/400m distances
     174: "long",  # 2019 US Marathon & World Open Marathon
     187: "short", # 2019 International Children's Winter Games — ICWG uses short track
+    193: "long",  # 2019 US Junior Championships Short Track — times below ST WRs; PDF contains long track AmCup 3 results
     210: "mixed", # 2026 US AmCup Final & US Open Masters & Colombian Championships
 }
 

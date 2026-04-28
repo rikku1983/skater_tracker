@@ -1,0 +1,641 @@
+event_id,season,pdf_format,pdf_filename,division,distance_m,round,skater_name,time_text,time_seconds,flag
+116,2022-2023,llm,104th_Silver_Skate_Results.pdf,SweeTango's,1000,Distance Classification,O. Guo,02:01.320,58.21,TIME_IMPOSSIBLE
+116,2022-2023,llm,104th_Silver_Skate_Results.pdf,SweeTango's,1000,Distance Classification,A. Endo,02:03.550,58.77,TIME_IMPOSSIBLE
+116,2022-2023,llm,104th_Silver_Skate_Results.pdf,SweeTango's,1000,Distance Classification,I. Martinez-Mohabir,02:00.890,58.8,TIME_IMPOSSIBLE
+116,2022-2023,llm,104th_Silver_Skate_Results.pdf,SweeTango's,1000,Distance Classification,E. Mech,02:04.170,59.11,TIME_IMPOSSIBLE
+116,2022-2023,llm,104th_Silver_Skate_Results.pdf,SweeTango's,1000,Distance Classification,S. Tian,02:17.360,59.41,TIME_IMPOSSIBLE
+116,2022-2023,llm,104th_Silver_Skate_Results.pdf,SweeTango's,1000,Distance Classification,H. Lin,02:17.630,59.82,TIME_IMPOSSIBLE
+62,2024-2025,llm,2024_Chicago_Silver_Skates_Results.pdf,Skittles' 111,111,Distance Classification,Emeric Iberle,00:20.7,20.67,TIME_IMPOSSIBLE
+62,2024-2025,llm,2024_Chicago_Silver_Skates_Results.pdf,Skittles' 111,111,Distance Classification,Evan Xu,00:20.9,20.92,TIME_IMPOSSIBLE
+62,2024-2025,llm,2024_Chicago_Silver_Skates_Results.pdf,Skittles' 111,111,Distance Classification,Jaydon Dong,00:21.7,21.7,TIME_IMPOSSIBLE
+62,2024-2025,llm,2024_Chicago_Silver_Skates_Results.pdf,Skittles' 111,111,Distance Classification,Iliana Elagina,00:23.6,23.58,TIME_IMPOSSIBLE
+62,2024-2025,llm,2024_Chicago_Silver_Skates_Results.pdf,Skittles' 111,111,Distance Classification,Ellen Chen,00:23.6,23.61,TIME_IMPOSSIBLE
+62,2024-2025,llm,2024_Chicago_Silver_Skates_Results.pdf,Skittles' 111,111,Distance Classification,Claire Chen,00:23.8,23.76,TIME_IMPOSSIBLE
+62,2024-2025,llm,2024_Chicago_Silver_Skates_Results.pdf,Skittles' 111,111,Distance Classification,Liora Foster,00:24.2,24.18,TIME_IMPOSSIBLE
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Event #3,500,,Owen Rodgers,31.14,31.14,TIME_IMPOSSIBLE
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Event #3,500,,Aiden Bregitzer,32.13,32.13,TIME_IMPOSSIBLE
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Event #3,500,,Shane Miller,32.51,32.51,TIME_IMPOSSIBLE
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Event #3,500,,Ian Fischer,33.2,33.2,TIME_IMPOSSIBLE
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1000,Final B,Isabella Chen,01:08.9,68.91,TIME_IMPOSSIBLE
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1000,Final B,Frank Stump,01:16.1,76.14,TIME_IMPOSSIBLE
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST,500,Heats,Lucas Li,21.86,21.86,TIME_IMPOSSIBLE
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST,500,Heats,Milo Ventura,22.86,22.86,TIME_IMPOSSIBLE
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST,500,Heats,Serena Ventura,23.85,23.85,TIME_IMPOSSIBLE
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST,500,Heats,Crystal Wu,25.14,25.14,TIME_IMPOSSIBLE
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST,500,Heats,Flicka Chen,25.95,25.95,TIME_IMPOSSIBLE
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST,500,Heats,Fiona Chen,26.6,26.6,TIME_IMPOSSIBLE
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST,500,Heats,Siru Huang,26.82,26.82,TIME_IMPOSSIBLE
+160,2019-2020,llm,2019_Ohio_Invitational_complete.pdf,Heartland Men,1000,Final C,Ethan Lam,33.45,33.45,TIME_IMPOSSIBLE
+160,2019-2020,llm,2019_Ohio_Invitational_complete.pdf,Heartland Men,1000,Final B,David Chun,37.24,37.24,TIME_IMPOSSIBLE
+160,2019-2020,llm,2019_Ohio_Invitational_complete.pdf,Heartland Men,1000,Final C,Zayda Greczkowski,40.54,40.54,TIME_IMPOSSIBLE
+160,2019-2020,llm,2019_Ohio_Invitational_complete.pdf,Heartland Men,1000,Final C,John Paul Manning,48.96,48.96,TIME_IMPOSSIBLE
+160,2019-2020,llm,2019_Ohio_Invitational_complete.pdf,Heartland Men,1000,Final B,Gabriel Shoykhet,01:01.1,61.13,TIME_IMPOSSIBLE
+160,2019-2020,llm,2019_Ohio_Invitational_complete.pdf,Heartland Men,1000,Final C,Kosuke Tomori-Carrier,01:08.4,68.39,TIME_IMPOSSIBLE
+160,2019-2020,llm,2019_Ohio_Invitational_complete.pdf,Heartland Men,1000,Final C,Kento Taniguchi,01:09.3,69.34,TIME_IMPOSSIBLE
+160,2019-2020,llm,2019_Ohio_Invitational_complete.pdf,Heartland Men,1000,Final C,Shane Miller,01:09.5,69.51,TIME_IMPOSSIBLE
+193,2018-2019,llm,2019_US_Jun_Championships_STAmCup_3_complete.pdf,A/B Men,1000,Point Totals,Austin Kleba,01:16.3,76.34,TIME_IMPOSSIBLE
+193,2018-2019,llm,2019_US_Jun_Championships_STAmCup_3_complete.pdf,Junior Men,1000,Time Classification,Austin Kleba,01:16.3,76.34,TIME_IMPOSSIBLE
+193,2018-2019,llm,2019_US_Jun_Championships_STAmCup_3_complete.pdf,A/B Men,1000,Point Totals,Ethan Cepuran,01:17.2,77.17,TIME_IMPOSSIBLE
+193,2018-2019,llm,2019_US_Jun_Championships_STAmCup_3_complete.pdf,Junior Men,1000,Time Classification,Ethan Cepuran,01:17.2,77.17,TIME_IMPOSSIBLE
+131,2021-2022,llm,Bay_State_Results_2021.pdf,Bay State Short Track,1000,,Joyce Tong,58.11,58.11,TIME_IMPOSSIBLE
+131,2021-2022,llm,Bay_State_Results_2021.pdf,Bay State Short Track,1000,,Therese Sowa,58.14,58.14,TIME_IMPOSSIBLE
+131,2021-2022,llm,Bay_State_Results_2021.pdf,Bay State Short Track,1000,,Robert Tolliver,01:01.2,61.23,TIME_IMPOSSIBLE
+131,2021-2022,llm,Bay_State_Results_2021.pdf,Bay State Short Track,1000,,Hayden Peck,01:01.3,61.32,TIME_IMPOSSIBLE
+131,2021-2022,llm,Bay_State_Results_2021.pdf,Bay State Short Track,1000,,Abner Machuca,01:09.4,69.41,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 140 FINAL A Heat 3 Group C,Sowa Therese,00:12.0,11.96,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,HEATS,Sowa Therese,00:12.1,12.1,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 139 FINAL Heat 2 Group B,Mendoza Jace,00:12.4,12.36,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,HEATS,WU Julia,00:12.5,12.51,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,Mendoza Jace,00:12.6,12.62,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 140 FINAL A Heat 3 Group C,WU Julia,00:12.7,12.65,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 118 HEATS Heat 1 Group A,LI Evan,00:13.0,12.98,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,HEATS,WU Crystal,00:13.1,13.05,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 140 FINAL A Heat 3 Group C,WU Crystal,00:13.1,13.11,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 143 FINAL A Heat 1 Group A,LI Evan,00:13.2,13.16,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,Zhang Evan,00:13.2,13.22,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 118 HEATS Heat 1 Group A,Hong Darian,00:13.4,13.39,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,HEATS,LI Lucas,00:13.4,13.45,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 119 HEATS Heat 2 Group A,Sheen Samuel,00:13.5,13.52,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 140 FINAL A Heat 3 Group C,LI Lucas,00:13.7,13.73,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 139 FINAL Heat 2 Group B,Bae Ilchan,00:13.7,13.73,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 119 HEATS Heat 2 Group A,Zhang Aiden 2014,00:13.8,13.84,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 143 FINAL A Heat 1 Group A,Sheen Samuel,00:13.9,13.86,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 115 HEATS Heat 3 Group A,Pettitt Phillip,00:13.9,13.88,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 144 FINAL A Heat 2 Group B,Lin Lindsay,00:14.0,14,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,Aitbayeva Saruar,00:14.0,14.03,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 143 FINAL A Heat 1 Group A,Aitbayeva Saruar,00:14.1,14.07,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 139 FINAL Heat 2 Group B,Pettitt Phillip,00:14.1,14.08,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 115 HEATS Heat 3 Group A,Bae Ilchan,00:14.2,14.16,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 115 HEATS Heat 3 Group A,Ranta Ollie,00:14.4,14.44,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 139 FINAL Heat 2 Group B,Zhang Evan,00:14.5,14.52,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 144 FINAL A Heat 2 Group B,YE. Aurora,00:14.6,14.55,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,YE. Aurora,00:14.6,14.61,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 143 FINAL A Heat 1 Group A,Hong Darian,00:14.6,14.62,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 139 FINAL Heat 2 Group B,Bishop Jacob,00:14.7,14.7,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 119 HEATS Heat 2 Group A,Lin Lindsay,00:14.7,14.75,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 144 FINAL A Heat 2 Group B,QU Yichen,00:14.8,14.83,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,Bishop Jacob,00:15.0,14.96,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 143 FINAL A Heat 1 Group A,Zhang Aiden 2014,00:15.0,15,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,QU Yichen,00:15.1,15.06,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 139 FINAL Heat 2 Group B,Lee Samuel,00:15.1,15.12,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 115 HEATS Heat 3 Group A,Lee Samuel,00:15.6,15.63,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 118 HEATS Heat 1 Group A,Smith Landon,00:15.6,15.64,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,Scott Peter,00:15.9,15.85,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 144 FINAL A Heat 2 Group B,Smith Landon,00:16.0,16.03,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,Sowa Peter,00:16.3,16.33,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 144 FINAL A Heat 2 Group B,Sowa Peter,00:16.3,16.34,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 145 FINAL A Heat 3 Group C,QU Harvey,00:16.7,16.68,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 120 HEATS Heat 3 Group A,Kim Sophie,00:16.7,16.72,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 119 HEATS Heat 2 Group A,QU Harvey,00:16.8,16.83,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 139 FINAL Heat 2 Group B,Scott Peter,00:16.9,16.85,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,500,Race 139 FINAL Heat 2 Group B,Kim Sophie,00:17.1,17.07,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,HEATS,Cheng Jed,00:21.6,21.58,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,Race 118 HEATS Heat 1 Group A,Ranta Tobi,00:21.9,21.85,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 140 FINAL A Heat 3 Group C,Cheng Jed,00:21.9,21.87,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 145 FINAL A Heat 3 Group C,Ranta Tobi,00:22.1,22.05,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 140 FINAL A Heat 3 Group C,Cho Elliana,00:22.3,22.3,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,HEATS,Cho Elliana,00:22.4,22.43,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 140 FINAL A Heat 3 Group C,Sautter Katherine,00:22.6,22.6,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,HEATS,Sullivan Veronica,00:22.7,22.73,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,500,Race 140 FINAL A Heat 3 Group C,Sullivan Veronica,00:22.9,22.92,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,500,HEATS,Sautter Katherine,00:23.2,23.19,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Mendoza Jace,00:22.5,22.52,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 37 FINAL Heat 2 Group B,Mendoza Jace,00:22.5,22.54,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,Sowa Therese,00:22.9,22.88,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,WU Julia,00:23.1,23.1,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,WU Julia,00:23.1,23.12,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Sowa Therese,00:23.5,23.45,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,WU Crystal,00:24.5,24.52,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,LI Lucas,00:24.6,24.56,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 41 FINAL A Heat 1 Group A,LI Evan,00:24.8,24.78,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,WU Crystal,00:24.8,24.82,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Bae Ilchan,00:24.9,24.86,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,LI Evan,00:24.9,24.92,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 37 FINAL Heat 2 Group B,Ranta Ollie,00:25.1,25.11,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Ranta Ollie,00:25.1,25.15,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 42 FINAL A Heat 2 Group B,Zhang Aiden 2014,00:25.4,25.41,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 37 FINAL Heat 2 Group B,Zhang Evan,00:25.4,25.41,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 43 FINAL A Heat 3 Group C,Hong Darian,00:26.0,25.98,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,QU Yichen,00:26.0,26.02,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 13 HEATS Heat 3 Group A,Zhang Evan,00:26.4,26.39,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 42 FINAL A Heat 2 Group B,Lin Lindsay,00:26.4,26.41,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 37 FINAL Heat 2 Group B,Pettitt Phillip,00:26.8,26.82,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Sheen Samuel,00:26.9,26.89,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 43 FINAL A Heat 3 Group C,Aitbayeva Saruar,00:26.9,26.95,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 37 FINAL Heat 2 Group B,Lee Samuel,00:27.2,27.21,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 13 HEATS Heat 3 Group A,Bishop Jacob,00:27.3,27.31,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Lin Lindsay,00:27.6,27.55,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,YE. Aurora,00:28.2,28.19,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 41 FINAL A Heat 1 Group A,YE. Aurora,00:28.2,28.23,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 37 FINAL Heat 2 Group B,Bishop Jacob,00:28.3,28.29,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 42 FINAL A Heat 2 Group B,Smith Landon,00:29.2,29.16,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 13 HEATS Heat 3 Group A,Scott Peter,00:29.3,29.34,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 37 FINAL Heat 2 Group B,Scott Peter,00:29.6,29.65,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Smith Landon,00:29.8,29.81,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 37 FINAL Heat 2 Group B,Kim Sophie,00:30.1,30.06,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Sowa Peter,00:30.6,30.65,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Pettitt Phillip,00:30.7,30.67,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,LI Lucas,00:30.7,30.75,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Kim Sophie,00:30.9,30.9,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,Cheng Jed,00:31.5,31.53,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 41 FINAL A Heat 1 Group A,QU Yichen,00:31.7,31.74,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,Sullivan Veronica,00:31.8,31.8,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Cheng Jed,00:31.8,31.82,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Sullivan Veronica,00:32.1,32.15,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,Cho Elliana,00:32.5,32.5,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 41 FINAL A Heat 1 Group A,Sheen Samuel,00:32.6,32.61,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Zhang Aiden 2014,00:33.1,33.06,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,Sautter Katherine,00:33.2,33.22,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Cho Elliana,00:33.3,33.35,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Aitbayeva Saruar,00:34.0,34.04,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 38 FINAL A Heat 3 Group A,Huang Hannah,00:34.1,34.08,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 43 FINAL A Heat 3 Group C,QU Harvey,00:34.1,34.1,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Sautter Katherine,00:34.3,34.33,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,777,Race 13 HEATS Heat 3 Group A,Lee Samuel,00:35.2,35.22,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 42 FINAL A Heat 2 Group B,Sowa Peter,00:36.8,36.78,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Hong Darian,00:38.5,38.45,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,QU Harvey,00:41.5,41.53,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 6 Heartland Men A,777,Race 43 FINAL A Heat 3 Group C,Ranta Tobi,00:45.0,45.04,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 2 Heartland Men B,777,HEATS,Ranta Tobi,00:46.0,46.05,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,Sowa Therese,00:31.5,31.5,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,WU Julia,00:33.0,33,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,HEATS,WU Julia,00:33.4,33.4,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Mendoza Jace,00:33.5,33.47,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Mendoza Jace,00:33.9,33.85,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,LI Lucas,00:35.3,35.29,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Bae Ilchan,00:35.5,35.52,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,WU Crystal,00:35.5,35.54,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 67 HEATS Heat 1 Group A,Clark Jadyn,00:35.7,35.73,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,HEATS,LI Lucas,00:35.8,35.77,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Bae Ilchan,00:35.9,35.85,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,HEATS,WU Crystal,00:36.1,36.08,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 67 HEATS Heat 1 Group A,LI Evan,00:36.6,36.55,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 67 HEATS Heat 1 Group A,Rillotta Gabriel,00:36.6,36.6,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 92 FINAL Heat 1 Group A,LI Evan,00:37.0,37.05,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Ranta Ollie,00:37.3,37.3,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 67 HEATS Heat 1 Group A,Zhang Aiden 2014,00:37.5,37.54,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 68 HEATS Heat 2 Group A,Hong Darian,00:37.8,37.81,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Zhang Evan,00:38.0,38.03,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Ranta Ollie,00:38.2,38.16,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 67 HEATS Heat 1 Group A,Meehan Marta,00:38.5,38.5,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 92 FINAL Heat 1 Group A,Sheen Samuel,00:38.6,38.62,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 93 FINAL Heat 2 Group B,Aitbayeva Saruar,00:38.7,38.74,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Sheen Samuel,00:38.8,38.83,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 92 FINAL Heat 1 Group A,Zhang Aiden 2014,00:38.8,38.84,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 93 FINAL Heat 2 Group B,Lin Lindsay,00:39.1,39.06,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 92 FINAL Heat 1 Group A,Hong Darian,00:39.1,39.09,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,QU Yichen,00:39.5,39.55,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 68 HEATS Heat 2 Group A,YE. Aurora,00:40.0,40.03,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Aitbayeva Saruar,00:40.1,40.07,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Pettitt Phillip,00:40.1,40.13,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 93 FINAL Heat 2 Group B,YE. Aurora,00:40.2,40.21,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Lee Samuel,00:40.5,40.54,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,HEATS,Cheng Jed,00:41.7,41.68,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Bishop Jacob,00:41.8,41.81,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,Cheng Jed,00:42.2,42.19,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,HEATS,Sullivan Veronica,00:42.5,42.53,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,Sullivan Veronica,00:42.6,42.62,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,HEATS,Cho Elliana,00:43.1,43.06,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,HEATS,Sautter Katherine,00:43.6,43.56,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 68 HEATS Heat 2 Group A,Lin Lindsay,00:43.6,43.58,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Kim Sophie,00:43.7,43.67,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Smith Landon,00:43.8,43.85,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,Cho Elliana,00:43.9,43.93,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Pettitt Phillip,00:44.1,44.13,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 93 FINAL Heat 2 Group B,Smith Landon,00:44.1,44.14,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,Huang Hannah,00:44.2,44.17,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,HEATS,Huang Hannah,00:44.3,44.34,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Kim Sophie,00:44.5,44.45,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 67 HEATS Heat 1 Group A,WU 6 9 11 Jonathan,00:46.1,46.1,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 92 FINAL Heat 1 Group A,QU Yichen,00:46.2,46.22,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 67 HEATS Heat 1 Group A,Sowa Peter,00:46.5,46.48,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Lee Samuel,00:46.5,46.54,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Bishop Jacob,00:46.6,46.64,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,QU Harvey,00:47.2,47.17,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 93 FINAL Heat 2 Group B,Sowa Peter,00:47.2,47.18,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 68 HEATS Heat 2 Group A,QU Harvey,00:49.2,49.19,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 69 HEATS Heat 3 Group A,Scott Peter,00:50.9,50.9,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 89 FINAL Heat 3 Group C,Sautter Katherine,00:56.9,56.88,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1000,Race 94 FINAL Heat 3 Group C,Ranta Tobi,01:01.7,61.65,TIME_IMPOSSIBLE
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1000,Race 67 HEATS Heat 1 Group A,Ranta Tobi,01:11.6,71.57,TIME_IMPOSSIBLE
+123,2021-2022,legacy,Michigan_State_Meet_combined.pdf,Junior B Women F,1000,,Allison Benstead,01:17.0,76.97,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,500,Race 66 FINAL Heat 2 Group A,Zhang Dylan,00:29.0,29.04,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,500,Race 67 FINAL Heat 3 Group A,Bae Ilchan,00:30.4,30.42,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,500,Race 67 FINAL Heat 3 Group A,LI Evan,00:30.5,30.52,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,500,Race 68 FINAL Heat 4 Group A,Ranta Ollie,00:31.2,31.16,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,500,Race 66 FINAL Heat 2 Group A,QU Yichen,00:33.7,33.7,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,500,Race 68 FINAL Heat 4 Group A,Hong Darian,00:34.4,34.44,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,1000,Race 87 FINAL Heat 4 Group A,Koo Lucas,00:44.8,44.84,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,1000,Race 87 FINAL Heat 4 Group A,Groseclose Peter,00:45.0,45.01,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,1000,Race 87 FINAL Heat 4 Group A,LI Jaylin,00:45.5,45.53,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,1000,Race 87 FINAL Heat 4 Group A,Sullivan Benjamin,00:45.7,45.69,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,1000,Race 86 FINAL Heat 3 Group B,Kitchel Liam,00:48.8,48.79,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,1000,Race 86 FINAL Heat 3 Group B,Kim Jin Sung,00:49.1,49.11,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 2 NEST Men,1000,Race 86 FINAL Heat 3 Group B,Sweeney Edwin,00:50.2,50.25,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 6 Blinkers,1000,Race 76 FINAL Heat 2 Group A,Greenwaldschaye Nathan,00:53.6,53.59,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 7 Derby,1000,Race 123 FINAL Heat 2 Group A,Quinn Anson,00:54.6,54.62,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 6 Blinkers,1000,Race 77 FINAL Heat 3 Group A,Mensah Sasha,00:55.7,55.65,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 6 Blinkers,1000,Race 76 FINAL Heat 2 Group A,WU 6 9 11 Jonathan,00:57.0,56.95,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 7 Derby,1000,Race 123 FINAL Heat 2 Group A,Abernathy Sadie,00:57.9,57.87,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 6 Blinkers,1000,Race 77 FINAL Heat 3 Group A,Sowa Ruth,00:58.3,58.35,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 6 Blinkers,1000,Race 77 FINAL Heat 3 Group A,Huang Ryan,00:58.4,58.42,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 6 Blinkers,1000,Race 77 FINAL Heat 3 Group A,Rillotta Gabriel,00:58.6,58.55,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 6 Blinkers,1000,Race 76 FINAL Heat 2 Group A,Cho Elliana,00:59.0,58.96,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 6 Blinkers,1000,Race 76 FINAL Heat 2 Group A,Sowa Therese,00:59.1,59.13,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 7 Derby,1000,Race 123 FINAL Heat 2 Group A,Judice Ellie,01:02.5,62.49,TIME_IMPOSSIBLE
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 7 Derby,1000,Race 123 FINAL Heat 2 Group A,Brown Alex,01:12.3,72.29,TIME_IMPOSSIBLE
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 1 Heartland Men A,500,Race 152 FINAL Heat 1 Group A,Lim Jei,00:14.8,14.752,TIME_IMPOSSIBLE
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 1 Heartland Men A,500,Race 152 FINAL Heat 1 Group A,Zhang Tiffany,00:15.0,14.991,TIME_IMPOSSIBLE
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 1 Heartland Men A,500,Race 152 FINAL Heat 1 Group A,Watts Jabari,00:15.4,15.439,TIME_IMPOSSIBLE
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 1 Heartland Men A,500,Race 152 FINAL Heat 1 Group A,Garnier Gabrielle,00:21.2,21.197,TIME_IMPOSSIBLE
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 1 Heartland Men A,500,Race 152 FINAL Heat 1 Group A,Delnore Sebastian,00:26.6,26.61,TIME_IMPOSSIBLE
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,500,,Nicholas Clark,00:30.0,30,TIME_IMPOSSIBLE
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,500,,Derick Chang,00:30.4,30.38,TIME_IMPOSSIBLE
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,500,,Joshua Wade,00:32.7,32.66,TIME_IMPOSSIBLE
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,500,,Sam Lister,00:34.6,34.55,TIME_IMPOSSIBLE
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,500,,Giacomo Barbone,00:35.6,35.57,TIME_IMPOSSIBLE
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1000,,Nicholas Clark,01:07.1,67.06,TIME_IMPOSSIBLE
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1000,,Derick Chang,01:07.7,67.71,TIME_IMPOSSIBLE
+114,2022-2023,tempus_results,2023_Saratoga_Cup_&_NEST.pdf,DIVISION 4 Arabian,1000,Race 72 SUPER FINAL Heat 2 Group A,Koons Madeline,01:00.7,60.75,TIME_IMPOSSIBLE
+114,2022-2023,tempus_results,2023_Saratoga_Cup_&_NEST.pdf,DIVISION 4 Arabian,1000,Race 72 SUPER FINAL Heat 2 Group A,Hao Richard,01:01.4,61.41,TIME_IMPOSSIBLE
+114,2022-2023,tempus_results,2023_Saratoga_Cup_&_NEST.pdf,DIVISION 4 Arabian,1000,Race 72 SUPER FINAL Heat 2 Group A,Wochtl Gabriel,01:01.7,61.69,TIME_IMPOSSIBLE
+114,2022-2023,tempus_results,2023_Saratoga_Cup_&_NEST.pdf,DIVISION 4 Arabian,1000,Race 72 SUPER FINAL Heat 2 Group A,Sheltonwhite Christian,01:05.3,65.28,TIME_IMPOSSIBLE
+114,2022-2023,tempus_results,2023_Saratoga_Cup_&_NEST.pdf,DIVISION 4 Arabian,1000,Race 72 SUPER FINAL Heat 2 Group A,Heck Charlie,01:09.7,69.65,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,A Final,Alan Han,00:16.5,16.51,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,A Final,Sam Firer,00:16.9,16.94,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,B Final,Charles Han,00:17.5,17.48,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,A Final,Ethan Lee,00:17.5,17.51,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,A Final,Zoey Hoffman,00:17.7,17.72,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,A Final,Luca Sakhnovskiy,00:18.7,18.72,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,B Final,Ada Cao,00:18.9,18.91,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,B Final,Penelope Cattell,00:19.1,19.12,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,B Final,Eason He,00:20.2,20.19,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,B Final,Chuyi Liao,00:22.6,22.62,TIME_IMPOSSIBLE
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,Novice B's 111,777,B Final,Rosaline Wang,00:23.4,23.44,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 8 Saddle,500,Race 83 SUPER FINAL Heat 2 Group A,LI Yinyi,00:33.8,33.84,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 8 Saddle,500,Race 83 SUPER FINAL Heat 2 Group A,Gowda Daiwik,00:35.7,35.69,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 5 Secretariat,777,Race 91 SUPER FINAL Heat 2 Group B,Hogan Emily,00:41.8,41.81,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 5 Secretariat,777,Race 91 SUPER FINAL Heat 2 Group B,Bushareb Amaliia,00:42.2,42.22,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 5 Secretariat,777,Race 91 SUPER FINAL Heat 2 Group B,Borbat Petra,00:42.9,42.89,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 6 Arabian,777,Race 52 SUPER FINAL Heat 2 Group A,Kim Jin Sung,00:51.7,51.72,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 6 Arabian,777,Race 52 SUPER FINAL Heat 2 Group A,Rosenfield Adam,00:53.0,53.04,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 6 Arabian,777,Race 52 SUPER FINAL Heat 2 Group A,Wobeser Keith,00:53.4,53.43,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 6 Arabian,777,Race 53 SUPER FINAL Heat 3 Group A,Hoffman Jesse,00:54.2,54.16,TIME_IMPOSSIBLE
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 6 Arabian,777,Race 53 SUPER FINAL Heat 3 Group A,Butler Daniel,00:55.1,55.13,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 11 Bulls,777,Race 188 FINAL Heat 2/2 Group A,Chen Claire,00:32.3,32.251,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 11 Bulls,777,Race 188 FINAL Heat 2/2 Group A,Chen Emma,00:34.7,34.717,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 11 Bulls,777,Race 188 FINAL Heat 2/2 Group A,Ascari Luca,00:35.0,34.985,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 8 Northtown,777,Race 106 SUPER FINAL Heat 3/3 Group A,Debicki Barosz,00:38.7,38.701,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 9 Southtown,777,Race 109 SUPER FINAL Heat 3/3 Group A,LI Brandon,00:40.8,40.751,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 9 Southtown,777,Race 109 SUPER FINAL Heat 3/3 Group A,Montes Frida,00:41.0,41,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 10 Purple Eagles,777,Race 148 SUPER FINAL Heat 2/2 Group A,HE Eason,00:42.3,42.267,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 10 Purple Eagles,777,Race 148 SUPER FINAL Heat 2/2 Group A,YE Arabella,00:42.8,42.791,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 9 Southtown,777,Race 109 SUPER FINAL Heat 3/3 Group A,Marimoto Taqueushi Joao Gabriel,00:43.1,43.133,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 10 Purple Eagles,777,Race 148 SUPER FINAL Heat 2/2 Group A,Ling Luke,00:43.1,43.139,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 9 Southtown,777,Race 109 SUPER FINAL Heat 3/3 Group A,Cerrone Magdalena,00:43.7,43.742,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 10 Purple Eagles,777,Race 148 SUPER FINAL Heat 2/2 Group A,Wang Aiden,00:44.5,44.465,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 8 Northtown,777,Race 106 SUPER FINAL Heat 3/3 Group A,Gaboriau Henri,00:45.7,45.737,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 8 Northtown,777,Race 106 SUPER FINAL Heat 3/3 Group A,Janiszewski Nicholas,00:49.5,49.528,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 11 Bulls,777,Race 188 FINAL Heat 2/2 Group A,Castaneda Ava,00:50.3,50.332,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 10 Purple Eagles,777,Race 148 SUPER FINAL Heat 2/2 Group A,Wilson Olivia,00:50.7,50.67,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 7 Sabres,1000,Race 103 SUPER FINAL Heat 3/3 Group A,Kim Madeline,00:39.8,39.817,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 7 Sabres,1000,Race 103 SUPER FINAL Heat 3/3 Group A,Bushareb Amaliia,00:40.1,40.146,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 7 Sabres,1000,Race 103 SUPER FINAL Heat 3/3 Group A,Brunisholz Justyn,00:40.4,40.396,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 7 Sabres,1000,Race 103 SUPER FINAL Heat 3/3 Group A,Borbat Petra,00:40.9,40.934,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 202 FINAL Heat 4/4 Group A,Sonn Andrew,00:47.8,47.83,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 201 FINAL Heat 3/4 Group B,Zheng Ryan,00:48.7,48.73,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 202 FINAL Heat 4/4 Group A,Lee Ayden,00:49.0,48.97,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 201 FINAL Heat 3/4 Group B,Andrews Raymond,00:49.1,49.119,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 201 FINAL Heat 3/4 Group B,Hartemink Clark,00:49.4,49.358,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 200 FINAL Heat 2/4 Group C,Yee Kobe,00:49.8,49.817,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 200 FINAL Heat 2/4 Group C,Einsla Russel,00:50.2,50.207,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 200 FINAL Heat 2/4 Group C,Chen William,00:50.5,50.496,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 202 FINAL Heat 4/4 Group A,Reinold Seth,00:50.5,50.53,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 201 FINAL Heat 3/4 Group B,Kiefer Wyatt,00:50.6,50.645,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 200 FINAL Heat 2/4 Group C,Lauhong Hansen,00:51.5,51.503,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 201 FINAL Heat 3/4 Group B,Marimoto Taqueushi Lus Fernandousaftsst,00:59.9,59.91,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 202 FINAL Heat 4/4 Group A,Wilkinson Luke,01:03.2,63.18,TIME_IMPOSSIBLE
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1000,Race 200 FINAL Heat 2/4 Group C,Double Zachary,01:09.2,69.207,TIME_IMPOSSIBLE
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 7 Preschol A,500,Race 106 SUPER FINAL Heat 2 Group A,Janiszewski Nicholas,00:24.8,24.77,TIME_IMPOSSIBLE
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 7 Preschol A,500,Race 106 SUPER FINAL Heat 2 Group A,Tucholski Theodore,00:26.3,26.289,TIME_IMPOSSIBLE
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 7 Preschol A,500,Race 106 SUPER FINAL Heat 2 Group A,Gaboriau Henri,00:27.6,27.572,TIME_IMPOSSIBLE
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 7 Preschol A,500,Race 106 SUPER FINAL Heat 2 Group A,Gavrilovskaya Dariana,00:30.6,30.553,TIME_IMPOSSIBLE
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1000,Race 110 HEATS Heat 4 Group A,Watts Jabari,00:52.7,52.718,TIME_IMPOSSIBLE
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1000,Race 110 HEATS Heat 4 Group A,Wang Elias,00:53.0,52.979,TIME_IMPOSSIBLE
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1000,Race 110 HEATS Heat 4 Group A,Tylwalk Adrian,00:54.1,54.126,TIME_IMPOSSIBLE
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1000,Race 110 HEATS Heat 4 Group A,Tobin Jack,00:57.2,57.161,TIME_IMPOSSIBLE
+19,2025-2026,tempus_results,2025_Saratoga_Cup_update.pdf,DIVISION 6 Arabian,777,Race 49 SUPER FINAL Heat 3/3 Group A,Smith Britton,00:51.4,51.355,TIME_IMPOSSIBLE
+19,2025-2026,tempus_results,2025_Saratoga_Cup_update.pdf,DIVISION 6 Arabian,777,Race 49 SUPER FINAL Heat 3/3 Group A,Wobeser Keith,00:53.3,53.264,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 8 Master B,1000,Race 68 SUPER FINAL Heat 3/3 Group A,Lifyrenko Serhiy,00:47.1,47.147,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 8 Master B,1000,Race 68 SUPER FINAL Heat 3/3 Group A,Kim Jin Sung,00:47.9,47.939,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 8 Master B,1000,Race 68 SUPER FINAL Heat 3/3 Group A,Kreinbring Devin,00:51.8,51.79,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 8 Master B,1000,Race 67 SUPER FINAL Heat 2/3 Group B,Thomas Matthew,00:52.1,52.138,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 4 Pre Scholastic A,1000,Race 72 SUPER FINAL Heat 3/3 Group A,Smith Andrew,00:53.3,53.265,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 4 Pre Scholastic A,1000,Race 72 SUPER FINAL Heat 3/3 Group A,Fuller Leilani,00:53.6,53.631,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 8 Master B,1000,Race 67 SUPER FINAL Heat 2/3 Group B,Wobeser Keith,00:54.3,54.286,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 4 Pre Scholastic A,1000,Race 72 SUPER FINAL Heat 3/3 Group A,Debicki Bartosz,00:54.5,54.541,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 8 Master B,1000,Race 67 SUPER FINAL Heat 2/3 Group B,Hoffman Jesse,00:54.5,54.543,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 4 Pre Scholastic A,1000,Race 72 SUPER FINAL Heat 3/3 Group A,Taub Theodore,00:54.9,54.947,TIME_IMPOSSIBLE
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 8 Master B,1000,Race 67 SUPER FINAL Heat 2/3 Group B,Butler Daniel,00:55.9,55.94,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 204 FINAL Heat 3 Group A,Chen Sheryl,00:11.8,11.84,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 204 FINAL Heat 3 Group A,BI William,00:13.0,13.01,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 168 HEATS Heat 3 Group A,Shi Nolan,00:13.1,13.088,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 204 FINAL Heat 3 Group A,Shi Nolan,00:13.7,13.739,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 204 FINAL Heat 3 Group A,Spencer Jaden,00:14.0,13.999,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 203 FINAL Heat 2 Group B,Hsueh Eleanor,00:14.1,14.088,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 203 FINAL Heat 2 Group B,Lee Kendra,00:14.2,14.156,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 168 HEATS Heat 3 Group A,Chen Alexander,00:14.2,14.177,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 204 FINAL Heat 3 Group A,Yin Ethan,00:14.4,14.388,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 203 FINAL Heat 2 Group B,Li Ethan,00:14.6,14.56,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 168 HEATS Heat 3 Group A,Lee Kendra,00:14.8,14.767,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 168 HEATS Heat 3 Group A,Wu Sheldon,00:15.1,15.134,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 203 FINAL Heat 2 Group B,Lee Ethan,00:15.4,15.425,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 168 HEATS Heat 3 Group A,Jiang Miles,00:15.7,15.691,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 7 Southtown,500,Race 203 FINAL Heat 2 Group B,Wu Sheldon,00:15.7,15.742,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,777,Race 48 FINAL Heat 3 Group A,Spencer Jaden,00:24.3,24.278,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,777,Race 15 HEATS Heat 2 Group A,Huang Cynthia,00:24.3,24.28,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,777,Race 48 FINAL Heat 3 Group A,Yin Ethan,00:24.7,24.723,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,777,Race 48 FINAL Heat 3 Group A,Chen Alexander,00:25.5,25.539,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,777,Race 15 HEATS Heat 2 Group A,Montes Frida,00:28.0,27.962,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,777,Race 15 HEATS Heat 2 Group A,Cerrone Magdalena,00:28.3,28.293,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,777,Race 48 FINAL Heat 3 Group A,Lee Kendra,00:28.9,28.907,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,777,Race 48 FINAL Heat 3 Group A,Chen Sheryl,00:29.7,29.702,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,777,Race 15 HEATS Heat 2 Group A,Wang Ethan,00:34.6,34.646,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,1000,Race 123 FINAL Heat 3 Group A,WU Justin,00:34.0,33.981,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,1000,Race 123 FINAL Heat 3 Group A,WU Jimmy,00:34.9,34.906,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,1000,Race 123 FINAL Heat 3 Group A,Sun Sean,00:37.4,37.408,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 83 HEATS Heat 3 Group A,Li Ethan,00:38.0,38.025,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 83 HEATS Heat 3 Group A,Chen Alexander,00:38.5,38.477,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 83 HEATS Heat 3 Group A,Wu Sheldon,00:42.3,42.29,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 83 HEATS Heat 3 Group A,Lee Kendra,00:42.9,42.855,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 83 HEATS Heat 3 Group A,Jiang Miles,00:43.8,43.784,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,1000,Race 123 FINAL Heat 3 Group A,Montes Jax,00:44.8,44.777,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 82 HEATS Heat 2 Group A,Chen Sheryl,00:44.9,44.888,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 3 Heartland Men B,1000,Race 123 FINAL Heat 3 Group A,Lin Jayden,00:46.8,46.761,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 143 FINAL Heat 2 Group A,Chen Isabella,00:48.5,48.473,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 144 FINAL Heat 3 Group A,Zhang Tiffany,00:49.7,49.662,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 144 FINAL Heat 3 Group A,Koons Sofia,00:50.1,50.134,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 143 FINAL Heat 2 Group A,Lei Cassie,00:50.8,50.821,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 82 HEATS Heat 2 Group A,Hsueh Eleanor,00:51.1,51.074,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 143 FINAL Heat 2 Group A,Liu Xin ye,00:51.1,51.149,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 143 FINAL Heat 2 Group A,Ashleymartin Sophia,00:51.5,51.474,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 144 FINAL Heat 3 Group A,Chen Winny,00:51.7,51.677,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 144 FINAL Heat 3 Group A,Cushman Sara,00:56.8,56.827,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 6 Northtown,1000,Race 143 FINAL Heat 2 Group A,Yarosh Addison,00:58.1,58.112,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 82 HEATS Heat 2 Group A,Yin Ethan,01:03.0,62.976,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 82 HEATS Heat 2 Group A,Liu Zipeng,01:05.5,65.519,TIME_IMPOSSIBLE
+91,2023-2024,tempus_results,2023_Buffalo_Championships.pdf,DIVISION 1 Heartland Men A,1000,Race 82 HEATS Heat 2 Group A,Lei Ellie,01:07.6,67.64,TIME_IMPOSSIBLE
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 5 Secretariat,500,Race 64 HEATS Heat 3 Group A,Milstein Zoly,00:13.6,13.63,TIME_IMPOSSIBLE
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 5 Secretariat,500,Race 64 HEATS Heat 3 Group A,Fuller Leilani,00:14.3,14.33,TIME_IMPOSSIBLE
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 5 Secretariat,500,Race 64 HEATS Heat 3 Group A,Brimhall Cali,00:16.2,16.24,TIME_IMPOSSIBLE
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 5 Secretariat,500,Race 64 HEATS Heat 3 Group A,Prieto Acevedo Danna Isabella,00:16.6,16.59,TIME_IMPOSSIBLE
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 5 Secretariat,500,Race 64 HEATS Heat 3 Group A,Gaboriau Henri,00:16.9,16.88,TIME_IMPOSSIBLE
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 5 Secretariat,500,Race 64 HEATS Heat 3 Group A,Carroll Caitlin,00:19.2,19.17,TIME_IMPOSSIBLE
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Mathieu Bernier,01:29.2,89.157,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Guodong Wang,01:29.2,89.222,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Shiyou Liu,01:29.7,89.669,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final H,Hao Sun,01:29.8,89.84,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Mitchell Schrum,01:29.9,89.87,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final H,Roger Fulton,01:30.1,90.081,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final G,Yuchen Zhong,01:30.4,90.392,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final G,Gunnar Olsen,01:30.8,90.807,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Gunnar Olsen,01:30.8,90.807,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Diego Amaya,01:31.1,91.126,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final G,Jori Kola,01:31.2,91.198,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Jori Kola,01:31.2,91.198,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Ryan Pivirotto,01:31.4,91.446,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Wesley Park,01:31.5,91.454,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Wesley Park,01:31.5,91.542,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Shuai Liu,01:31.6,91.589,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Shuai Liu,01:31.7,91.668,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Ethan Mckinleyyoung,01:31.7,91.675,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final G,Alex Pak,01:32.1,92.055,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Alex Pak,01:32.1,92.055,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final H,Qihan Sun,01:32.2,92.222,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Qihan Sun,01:32.2,92.222,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final H,Nathaniel Casson,01:32.2,92.248,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Nathaniel Casson,01:32.2,92.248,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final F,Ethan Mckinleyyoung,01:33.1,93.066,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final H,Christopher Langridge,01:34.1,94.145,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Christopher Langridge,01:34.1,94.145,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Leavi Mitchell,01:34.5,94.452,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,AmCup Men,1500,Time Classification,Qijun Wang,01:37.3,97.253,TIME_LIKELY_MISLABELED_DIST
+206,2018-2019,llm,2019_USS_ST_AmCup_1_complete.pdf,Men,1500,Final G,Leavi Mitchell,01:37.3,97.29,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Liam Kitchel,01:31.2,91.23,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Ivan Roldan-Levchenko,01:31.9,91.86,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Jack Benson,01:32.0,91.95,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Serena Sheen,01:32.5,92.48,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Ryan Li,01:37.2,97.17,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Ben Horn,01:37.2,97.2,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Joyce Tong,01:41.0,100.95,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Ruth Sowa,01:44.0,104.01,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Lily Davis,01:44.5,104.52,TIME_LIKELY_MISLABELED_DIST
+198,2018-2019,llm,2018_Bay_State_Championships.pdf,,1500,,Kate Huggins,01:52.5,112.51,TIME_LIKELY_MISLABELED_DIST
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1500,Heats,Necole Zayatz,01:37.2,97.2,TIME_LIKELY_MISLABELED_DIST
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1500,Heats,Christian Fischer,01:41.1,101.07,TIME_LIKELY_MISLABELED_DIST
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1500,Heats,Regina Hart,01:41.2,101.15,TIME_LIKELY_MISLABELED_DIST
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1500,Heats,Emma Clay,01:44.7,104.67,TIME_LIKELY_MISLABELED_DIST
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1500,Heats,Patrick Neorr,01:47.0,106.95,TIME_LIKELY_MISLABELED_DIST
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1500,Heats,Craig Pielechowski,01:50.1,110.14,TIME_LIKELY_MISLABELED_DIST
+195,2018-2019,llm,2019_Jeff_Golz_complete.pdf,Heartland Series Eve,1500,Heats,"Kevin Graf, Sr",01:59.9,119.89,TIME_LIKELY_MISLABELED_DIST
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST 3,1500,Heats,Pascual Morales,01:47.6,107.64,TIME_LIKELY_MISLABELED_DIST
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST 3,1500,Heats,Logan Wormell,01:48.4,108.38,TIME_LIKELY_MISLABELED_DIST
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST 3,1500,Heats,Sydney Wong,01:49.5,109.54,TIME_LIKELY_MISLABELED_DIST
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST 3,1500,Final B,Michelle Yi,01:56.4,116.38,TIME_LIKELY_MISLABELED_DIST
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST 3,1500,Final B,Kenneth Zhou,01:57.4,117.35,TIME_LIKELY_MISLABELED_DIST
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST 3,1500,Heats,Sammy Tsao,01:59.5,119.54,TIME_LIKELY_MISLABELED_DIST
+191,2018-2019,llm,2019_January_Thaw_and_NEST_3_complete.pdf,NEST 3,1500,Final B,Aidan Miller,01:59.5,119.54,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Benjamin Sullivan,01:27.3,87.26,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Frederick Sowa,01:28.5,88.48,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Ryan Li,01:28.7,88.67,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Jack Benson,01:28.9,88.86,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Edwin Sweeney,01:28.9,88.87,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Kenneth Zhou,01:29.6,89.56,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Benjamin Horn,01:31.6,91.62,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Anthony Chan,01:33.1,93.07,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Gabriel Zamani,01:36.6,96.57,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Jake Stevenson,01:41.0,101,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Giovanni Alavi,01:44.3,104.32,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,,1500,Time Classification,Noah Kim,01:45.1,105.08,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,Bantam Women,1500,Time Classification,Louisiana Stahl,01:54.5,114.48,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,Bantam Women,1500,Time Classification,Stephanie Velez,01:56.8,116.77,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,Bantam Women,1500,Time Classification,Maura Zimmer,01:56.9,116.91,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,Bantam Women,1500,Time Classification,Salome Lokesh,01:57.7,117.67,TIME_LIKELY_MISLABELED_DIST
+176,2018-2019,llm,2019_MASTC-TimeClassification.pdf,Bantam Women,1500,Time Classification,Veranika Hryn,01:59.8,119.76,TIME_LIKELY_MISLABELED_DIST
+193,2018-2019,llm,2019_US_Jun_Championships_STAmCup_3_complete.pdf,Junior Men,1500,,Ethan Cepuran,01:57.0,117.02,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 161 SUPER FINAL Heat 2 Group B,Sowa Therese,00:47.7,47.75,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 161 SUPER FINAL Heat 2 Group B,WU Julia,00:48.8,48.76,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 161 SUPER FINAL Heat 2 Group B,WU Crystal,00:49.7,49.74,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 161 SUPER FINAL Heat 2 Group B,LI Lucas,00:50.4,50.35,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Mendoza Jace,00:51.3,51.28,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Bae Ilchan,00:51.6,51.63,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Zhang Evan,00:53.0,52.99,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Lee Samuel,00:55.8,55.85,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 163 SUPER FINAL Heat 1 Group A,Aitbayeva Saruar,00:55.9,55.92,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 163 SUPER FINAL Heat 1 Group A,Sheen Samuel,00:58.3,58.35,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 163 SUPER FINAL Heat 1 Group A,Zhang Aiden 2014,00:58.8,58.76,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 163 SUPER FINAL Heat 1 Group A,QU Yichen,01:00.5,60.5,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 163 SUPER FINAL Heat 1 Group A,Hong Darian,01:01.8,61.76,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Pettitt Phillip,01:03.7,63.66,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Bishop Jacob,01:04.4,64.42,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 164 SUPER FINAL Heat 2 Group B,Smith Landon,01:05.1,65.07,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Ranta Ollie,01:09.2,69.22,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 164 SUPER FINAL Heat 2 Group B,QU Harvey,01:11.5,71.45,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 163 SUPER FINAL Heat 1 Group A,YE. Aurora,01:12.5,72.46,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 163 SUPER FINAL Heat 1 Group A,Lin Lindsay,01:13.7,73.72,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 164 SUPER FINAL Heat 2 Group B,Sowa Peter,01:15.4,75.38,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Scott Peter,01:20.4,80.45,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 8 Bills,1500,Race 164 SUPER FINAL Heat 2 Group B,Ranta Tobi,01:40.0,100.04,TIME_LIKELY_MISLABELED_DIST
+137,2021-2022,tempus_results,Buffalo_Championships_overall.pdf,DIVISION 14 Niagara,1500,Race 159 SUPER FINAL Heat 2 Group B,Kim Sophie,01:54.4,114.44,TIME_LIKELY_MISLABELED_DIST
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 1 NEST Ladies,1500,Race 34 FINAL Heat 4 Group A,Koo Lucas,01:45.8,105.83,TIME_LIKELY_MISLABELED_DIST
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 1 NEST Ladies,1500,Race 34 FINAL Heat 4 Group A,Groseclose Peter,01:46.6,106.64,TIME_LIKELY_MISLABELED_DIST
+135,2021-2022,tempus_results,Saratoga_Cup_complete.pdf,DIVISION 1 NEST Ladies,1500,Race 34 FINAL Heat 4 Group A,Sullivan Benjamin,01:46.7,106.72,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Ryan Pivirotto,01:24.4,84.402,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Brandon Kim,01:24.5,84.536,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Andrew Heo,01:24.7,84.716,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Clayton Declemente,01:25.6,85.641,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Wesley Park,01:26.5,86.457,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Alec Sklutovsky,01:26.6,86.64,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Adam Callister,01:27.2,87.19,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Seung-Min Kwon,01:27.3,87.295,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Joonhwa Hong,01:27.4,87.389,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Marcus Howard,01:27.4,87.426,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Daniel Yoon,01:27.8,87.768,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Caleb Park,01:28.2,88.181,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Jonathan So,01:28.4,88.406,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,S Marshall Shupe Ii,01:28.6,88.615,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Kristen Santos,01:28.8,88.809,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Maame Biney,01:29.0,88.996,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Corinne Stoddard,01:29.3,89.31,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Men,1500,Distance Classification,Jing-Kye Yen,01:29.9,89.881,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Julie Letai,01:30.0,89.975,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Eunice Lee,01:30.2,90.199,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Hailey Choi,01:30.2,90.229,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Jenell Berhorst,01:32.8,92.797,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Rebecca Simmons,01:33.2,93.229,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Kamryn Lute,01:33.4,93.386,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Isabella Main,01:33.8,93.75,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Grace Lee,01:35.2,95.196,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Caroline Anderson,01:35.2,95.204,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Katherine Liu,01:35.6,95.6,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Saryn Kwon,01:36.3,96.261,TIME_LIKELY_MISLABELED_DIST
+130,2021-2022,llm,2022OSTTT_Result_Protocol.pdf,Women,1500,Distance Classification,Louisiana Stahl,01:38.7,98.71,TIME_LIKELY_MISLABELED_DIST
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 14 Heartland Men B,1500,Race 66 SUPER FINAL Heat 2 Group A,Bae Ilchan,00:31.0,30.974,TIME_LIKELY_MISLABELED_DIST
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 14 Heartland Men B,1500,Race 66 SUPER FINAL Heat 2 Group A,YI Luke,00:31.3,31.298,TIME_LIKELY_MISLABELED_DIST
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 14 Heartland Men B,1500,Race 66 SUPER FINAL Heat 2 Group A,Huang Hannah,00:31.9,31.947,TIME_LIKELY_MISLABELED_DIST
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 14 Heartland Men B,1500,Race 66 SUPER FINAL Heat 2 Group A,Cho Elliana,00:32.1,32.137,TIME_LIKELY_MISLABELED_DIST
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 14 Heartland Men B,1500,Race 66 SUPER FINAL Heat 2 Group A,LI Evan,00:33.0,33.001,TIME_LIKELY_MISLABELED_DIST
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 14 Heartland Men B,1500,Race 66 SUPER FINAL Heat 2 Group A,Smith Landon,00:33.8,33.804,TIME_LIKELY_MISLABELED_DIST
+117,2022-2023,tempus_results,2023_Buffalo_CH_combined.pdf,DIVISION 1 Heartland Men A,1500,Race 165 SUPER FINAL Heat 1 Group A,Lippa Sean,01:39.8,99.796,TIME_LIKELY_MISLABELED_DIST
+115,2022-2023,llm,2023_Great_Lakes_ST_combined.pdf,Sturgeon's,1500,Distance Classification,Anthony Paladino,01:45.4,105.42,TIME_LIKELY_MISLABELED_DIST
+115,2022-2023,llm,2023_Great_Lakes_ST_combined.pdf,Sturgeon's,1500,Distance Classification,Kieran Collins,01:47.9,107.86,TIME_LIKELY_MISLABELED_DIST
+115,2022-2023,llm,2023_Great_Lakes_ST_combined.pdf,Sturgeon's,1500,Distance Classification,Andy Endo,01:50.0,110,TIME_LIKELY_MISLABELED_DIST
+115,2022-2023,llm,2023_Great_Lakes_ST_combined.pdf,Sturgeon's,1500,Distance Classification,Brady Broughton,01:54.6,114.58,TIME_LIKELY_MISLABELED_DIST
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1500,,Therese Sowa,01:56.1,116.14,TIME_LIKELY_MISLABELED_DIST
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1500,,Luke Yi,01:56.2,116.19,TIME_LIKELY_MISLABELED_DIST
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1500,,Lucas Li,01:56.7,116.75,TIME_LIKELY_MISLABELED_DIST
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1500,,Phoenix Abernathy,01:56.8,116.83,TIME_LIKELY_MISLABELED_DIST
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1500,,Ayden Lee,01:57.2,117.25,TIME_LIKELY_MISLABELED_DIST
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1500,,Henry Sowa,01:57.8,117.79,TIME_LIKELY_MISLABELED_DIST
+97,2022-2023,llm,2023_MASTC_Overall_Classification_and_Time_Classification.pdf,,1500,,Eli Louz,01:58.3,118.32,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Luka Sullivan,01:22.9,82.94,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Anson Quinn,01:25.0,84.96,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Andrew Love,01:27.2,87.15,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Mark Yanagihara,01:29.8,89.83,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Martin Haire,01:34.6,94.59,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Liam Myers,01:38.4,98.41,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Maxime Letourneau,01:40.3,100.3,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Marc Hinton,01:42.4,102.38,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Vince Morris,01:42.9,102.86,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Sidney Chu,01:43.6,103.64,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Julie Gehring,01:44.6,104.64,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Jonathan Furminger,01:46.6,106.64,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Renata Kenzie,01:50.1,110.06,TIME_LIKELY_MISLABELED_DIST
+83,2023-2024,llm,2023_Adirondack_Sprint_Championshp_Protocol_Book.pdf,Men,1500,,Nagi Aitbayeva,01:57.3,117.29,TIME_LIKELY_MISLABELED_DIST
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,NEST Ladies,1500,,Makayla Chou,01:45.7,105.73,TIME_LIKELY_MISLABELED_DIST
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,NEST Ladies,1500,,Kassandra Haeupl,01:48.2,108.16,TIME_LIKELY_MISLABELED_DIST
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,NEST Ladies,1500,,Tatyana Pometun,01:48.7,108.73,TIME_LIKELY_MISLABELED_DIST
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,NEST Ladies,1500,,Diana Bickmore,01:50.3,110.34,TIME_LIKELY_MISLABELED_DIST
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,NEST Ladies,1500,,Sasha Mensah,01:50.5,110.52,TIME_LIKELY_MISLABELED_DIST
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,NEST Ladies,1500,,Sarah Girach,01:53.4,113.38,TIME_LIKELY_MISLABELED_DIST
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,NEST Ladies,1500,,Nagi Aitbayeva,01:54.6,114.58,TIME_LIKELY_MISLABELED_DIST
+78,2023-2024,llm,2024_January_Thaw_Protocal_Report.pdf,NEST Ladies,1500,,Sara Cushman,01:55.6,115.64,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 7 Steed,1500,Race 62 SUPER FINAL Heat 2 Group A,Liu Ethan,00:31.9,31.87,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 7 Steed,1500,Race 62 SUPER FINAL Heat 2 Group A,Taub Theodore,00:32.6,32.65,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 7 Steed,1500,Race 62 SUPER FINAL Heat 2 Group A,Krishna Sage,00:33.3,33.28,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 7 Steed,1500,Race 62 SUPER FINAL Heat 2 Group A,Lee Ethan,00:34.6,34.65,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 7 Steed,1500,Race 62 SUPER FINAL Heat 2 Group A,Cerrone Magdalena,00:37.0,36.98,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 1 Nest Woman,1500,Race 78 SUPER FINAL Heat 2 Group A,Kelly Hugo Arthur,00:51.9,51.91,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 1 Nest Woman,1500,Race 78 SUPER FINAL Heat 2 Group A,Hao Richard,00:53.0,53,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 1 Nest Woman,1500,Race 78 SUPER FINAL Heat 2 Group A,Double Zachary,00:53.5,53.47,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 1 Nest Woman,1500,Race 78 SUPER FINAL Heat 2 Group A,Zheng Ryan,00:53.7,53.74,TIME_LIKELY_MISLABELED_DIST
+59,2024-2025,tempus_results,2024SaratogaCupProtocol.pdf,DIVISION 1 Nest Woman,1500,Race 78 SUPER FINAL Heat 2 Group A,Zheng Ethan,01:10.6,70.58,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 3 Heartland M A,1500,Race 52 SUPER FINAL Heat 4/4 Group A,Sonn Andrew,00:48.4,48.426,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 3 Heartland M A,1500,Race 52 SUPER FINAL Heat 4/4 Group A,Sulkoske Ian,00:49.1,49.072,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 3 Heartland M A,1500,Race 52 SUPER FINAL Heat 4/4 Group A,Wilkinson Luke,00:49.4,49.38,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 3 Heartland M A,1500,Race 52 SUPER FINAL Heat 4/4 Group A,Einsla Russel,00:49.7,49.688,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 3 Heartland M A,1500,Race 52 SUPER FINAL Heat 4/4 Group A,Reinold Seth,00:49.9,49.936,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1500,Race 129 SUPER FINAL Heat 2/2 Group A,Kim Charlotte,01:44.3,104.337,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1500,Race 129 SUPER FINAL Heat 2/2 Group A,Lin Lindsay,01:44.7,104.666,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1500,Race 129 SUPER FINAL Heat 2/2 Group A,WU Justin,01:45.1,105.084,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1500,Race 129 SUPER FINAL Heat 2/2 Group A,Montes Jax,01:45.4,105.423,TIME_LIKELY_MISLABELED_DIST
+22,2025-2026,tempus_results,2025_Buffalo_CH_Heartland_1.pdf,DIVISION 4 Heartland M B,1500,Race 129 SUPER FINAL Heat 2/2 Group A,Wong Jayden,01:48.5,108.502,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1500,Race 90 SUPER FINAL Heat 3 Group A,Andrews Ian,00:38.1,38.135,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1500,Race 90 SUPER FINAL Heat 3 Group A,Borbat Katerina,00:38.9,38.919,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1500,Race 89 SUPER FINAL Heat 2 Group B,Obrien Sophie,00:39.7,39.679,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1500,Race 90 SUPER FINAL Heat 3 Group A,Chen Sarah,00:40.0,39.979,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1500,Race 89 SUPER FINAL Heat 2 Group B,Abramovich James,00:40.0,40.021,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1500,Race 89 SUPER FINAL Heat 2 Group B,Bourquin Elizabeth,00:40.5,40.549,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 4 Scholastic A,1500,Race 89 SUPER FINAL Heat 2 Group B,Hoffman Maren,00:50.0,49.963,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 3 Master/Open,1500,Race 62 SUPER FINAL Heat 2 Group A,Sheltonwhite Christian,01:49.0,108.965,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 3 Master/Open,1500,Race 62 SUPER FINAL Heat 2 Group A,Zheng Ethan,01:49.2,109.213,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 3 Master/Open,1500,Race 63 SUPER FINAL Heat 3 Group A,Ramachandran Harshini,01:51.6,111.586,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 3 Master/Open,1500,Race 63 SUPER FINAL Heat 3 Group A,Tylwalk Adrian,01:54.9,114.862,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 3 Master/Open,1500,Race 64 SUPER FINAL Heat 4 Group A,Watts Jabari,01:56.0,115.966,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 3 Master/Open,1500,Race 64 SUPER FINAL Heat 4 Group A,Lucas Dylan,01:57.3,117.303,TIME_LIKELY_MISLABELED_DIST
+43,2024-2025,tempus_results,2025Empire_States_ST_Protocol.pdf,DIVISION 3 Master/Open,1500,Race 62 SUPER FINAL Heat 2 Group A,Bhatt Shaunak,01:58.1,118.103,TIME_LIKELY_MISLABELED_DIST
+19,2025-2026,tempus_results,2025_Saratoga_Cup_update.pdf,DIVISION 3 Colts,1500,Race 55 SUPER FINAL Heat 3/3 Group A,Cericola Gavin,00:56.5,56.55,TIME_LIKELY_MISLABELED_DIST
+19,2025-2026,tempus_results,2025_Saratoga_Cup_update.pdf,DIVISION 3 Colts,1500,Race 55 SUPER FINAL Heat 3/3 Group A,Debicki Barosz,00:57.1,57.081,TIME_LIKELY_MISLABELED_DIST
+19,2025-2026,tempus_results,2025_Saratoga_Cup_update.pdf,DIVISION 3 Colts,1500,Race 55 SUPER FINAL Heat 3/3 Group A,Brogan Jaxon,01:04.0,64.036,TIME_LIKELY_MISLABELED_DIST
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 1 Heartland W,1500,Race 85 SUPER FINAL Heat 2/2 Group A,Zheng Ryan,00:49.6,49.581,TIME_LIKELY_MISLABELED_DIST
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 1 Heartland W,1500,Race 85 SUPER FINAL Heat 2/2 Group A,Hao Richard,00:50.7,50.659,TIME_LIKELY_MISLABELED_DIST
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 1 Heartland W,1500,Race 85 SUPER FINAL Heat 2/2 Group A,Double Zachary,01:06.5,66.502,TIME_LIKELY_MISLABELED_DIST
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 2 Heartland M,1500,Race 114 SUPER FINAL Heat 2/2 Group A,HE Henry,01:11.8,71.78,TIME_LIKELY_MISLABELED_DIST
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 2 Heartland M,1500,Race 114 SUPER FINAL Heat 2/2 Group A,Marra Jaren,01:13.5,73.529,TIME_LIKELY_MISLABELED_DIST
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 2 Heartland M,1500,Race 114 SUPER FINAL Heat 2/2 Group A,Tucholski Theodore,01:16.8,76.777,TIME_LIKELY_MISLABELED_DIST
+5,2025-2026,tempus_results,2026_Empire_State_Short_Track_Heartland_Protocol.pdf,DIVISION 2 Heartland M,1500,Race 114 SUPER FINAL Heat 2/2 Group A,Tucholski Archibald,01:29.4,89.39,TIME_LIKELY_MISLABELED_DIST
+186,2018-2019,llm,2019_Gateway_Championships_complete.pdf,,1500,Best Time,Christopher Knickmeyer,01:28.4,88.44,TIME_LIKELY_MISLABELED_DIST
+186,2018-2019,llm,2019_Gateway_Championships_complete.pdf,,1500,Best Time,Joseph Britt,01:29.0,88.95,TIME_LIKELY_MISLABELED_DIST
+186,2018-2019,llm,2019_Gateway_Championships_complete.pdf,,1500,Best Time,Ryan Olijnyk,01:32.2,92.23,TIME_LIKELY_MISLABELED_DIST
+186,2018-2019,llm,2019_Gateway_Championships_complete.pdf,,1500,Best Time,Cooper Dunn,01:33.0,92.98,TIME_LIKELY_MISLABELED_DIST
+186,2018-2019,llm,2019_Gateway_Championships_complete.pdf,,1500,Best Time,Kaitlyn Thornton,01:39.2,99.15,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 1,Samir Ouchikh,01:40.5,100.48,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 1,Xavier Babkine-Osterrath,01:40.7,100.7,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 3,Sofya Koons,01:48.1,108.13,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 3,Diana Bickmore,01:48.6,108.64,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 1,Tiffany Zhang,01:51.0,111.01,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 1,Sasha Mensah,01:51.5,111.49,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 2,Therese Sowa,01:51.8,111.8,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 2,Keegan Levine,01:52.1,112.14,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 3,Tatyana Pometun,01:52.6,112.61,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2,1500,Heat 2,Daniel Butler,01:54.0,113.95,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2,1500,Heat 1,JinSung Kim,01:54.5,114.51,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2,1500,Heat 2,Jamie Jung,01:55.5,115.45,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2+(1),1500,Heat 1,Ilchan Bae,01:55.6,115.64,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2,1500,Heat 1,Jesse Hoffman,01:55.8,115.84,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2,1500,Heat 1,Adam Rosenfeld,01:56.2,116.17,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2,1500,Heat 2,Julien Chambert,01:56.3,116.32,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 1,Sarah Girach,01:56.7,116.67,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2+(1),1500,Heat 2,Zachary Double,01:57.0,116.95,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2+(1),1500,Heat 2,Ethan Zheng,01:57.3,117.28,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A,1500,Heat 1,Sara Cushman,01:57.8,117.83,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2+(1),1500,Heat 2,Elliana Cho,01:58.2,118.23,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2+(1),1500,Heat 1,Richard Hao,01:58.4,118.36,TIME_LIKELY_MISLABELED_DIST
+84,2023-2024,llm,2023_baystate-championships.pdf,Group A Picking 2+(1),1500,Heat 2,Heather Polsinelli,01:58.9,118.92,TIME_LIKELY_MISLABELED_DIST
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 2 NEST Women,1500,Race 98 SUPER FINAL Heat 2 Group A,LI Lucas,01:51.7,111.69,TIME_LIKELY_MISLABELED_DIST
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 2 NEST Women,1500,Race 98 SUPER FINAL Heat 2 Group A,Ranta Loki,01:52.9,112.87,TIME_LIKELY_MISLABELED_DIST
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 2 NEST Women,1500,Race 98 SUPER FINAL Heat 2 Group A,WU Julia,01:52.9,112.89,TIME_LIKELY_MISLABELED_DIST
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 2 NEST Women,1500,Race 98 SUPER FINAL Heat 2 Group A,Peck Hayden,01:56.4,116.36,TIME_LIKELY_MISLABELED_DIST
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 2 NEST Women,1500,Race 98 SUPER FINAL Heat 2 Group A,Zheng Ethan,01:57.1,117.11,TIME_LIKELY_MISLABELED_DIST
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 2 NEST Women,1500,Race 98 SUPER FINAL Heat 2 Group A,Myers Liam,01:57.7,117.65,TIME_LIKELY_MISLABELED_DIST
+88,2023-2024,tempus_results,2023_Saratoga_Cup_&_NEST_1.pdf,DIVISION 2 NEST Women,1500,Race 98 SUPER FINAL Heat 2 Group A,Hartshorn Jacoby,01:58.0,118.02,TIME_LIKELY_MISLABELED_DIST

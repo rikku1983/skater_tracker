@@ -59,11 +59,31 @@ def main() -> None:
     init_db()
     db = get_session()
 
-    # Load all results joined with race distance in one pass
+    # Clear stale flags from non-short-track events (long/mixed have valid "fast" times).
+    if not args.dry_run:
+        stale = (
+            db.query(Result)
+            .join(Race, Result.race_id == Race.id)
+            .join(Event, Race.event_id == Event.id)
+            .filter(
+                Result.data_flags.isnot(None),
+                Event.track_type.notin_(["short"]),
+                Event.track_type.isnot(None),
+            )
+            .all()
+        )
+        for r in stale:
+            r.data_flags = None
+        db.commit()
+        logger.info("Cleared stale flags from %d non-short-track results.", len(stale))
+
+    # Load all results joined with race distance in one pass.
+    # Only flag short-track events; long/mixed events have valid fast times.
     rows = (
         db.query(Result, Race.distance_m, Event.pdf_format, Event.event_name)
         .join(Race, Result.race_id == Race.id)
         .join(Event, Race.event_id == Event.id)
+        .filter(Event.track_type.in_(["short", None]))
         .all()
     )
 

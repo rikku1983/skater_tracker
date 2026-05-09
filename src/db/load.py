@@ -23,7 +23,7 @@ from ..parsers.base import ParsedEvent, ParsedResult
 from .models import Event, Race, Skater, Result
 
 # World-record impossibility floors (seconds). Anything faster is a bad parse.
-_WR_FLOORS: dict[int, float] = {500: 36.0, 777: 58.0, 1000: 78.0, 1500: 120.0}
+_WR_FLOORS: dict[int, float] = {500: 39.0, 777: 58.0, 1000: 80.0, 1500: 125.0}
 
 
 def _compute_data_flags(time_seconds: float | None, distance_m: int | None) -> str | None:
@@ -37,6 +37,48 @@ def _compute_data_flags(time_seconds: float | None, distance_m: int | None) -> s
     return "TIME_IMPOSSIBLE"
 
 logger = logging.getLogger(__name__)
+
+# ---------------------------------------------------------------------------
+# Affiliation normalisation (loaded lazily from data/club_affiliations.csv)
+# ---------------------------------------------------------------------------
+
+_AFFIL_MAP: dict[str, str] | None = None
+
+
+def _load_affil_map() -> dict[str, str]:
+    """Load raw→canonical mapping from data/club_affiliations.csv (lazy singleton)."""
+    global _AFFIL_MAP
+    if _AFFIL_MAP is not None:
+        return _AFFIL_MAP
+    csv_path = Path(__file__).parents[2] / "data" / "club_affiliations.csv"
+    if not csv_path.exists():
+        _AFFIL_MAP = {}
+        return _AFFIL_MAP
+    import csv
+    mapping: dict[str, str] = {}
+    with open(csv_path, newline="") as f:
+        for row in csv.DictReader(f):
+            raw = row.get("raw_value", "").strip()
+            canonical = row.get("canonical", "").strip()
+            typ = row.get("type", "").strip().lower()
+            if raw and typ == "junk":
+                mapping[raw] = ""          # junk → store as empty (becomes None)
+            elif raw and canonical:
+                mapping[raw] = canonical
+    _AFFIL_MAP = mapping
+    return _AFFIL_MAP
+
+
+def _normalise_affiliation(raw: str | None) -> str | None:
+    """Return the canonical affiliation for a raw club/country string."""
+    if not raw:
+        return None
+    stripped = raw.strip()
+    mapping = _load_affil_map()
+    if stripped in mapping:
+        result = mapping[stripped]
+        return result if result else None   # junk entries map to ""
+    return stripped or None
 
 
 # ── Gender helpers ───────────────────────────────────────────────────────────
@@ -126,7 +168,7 @@ def _find_or_create_race(
 
 
 def _find_or_create_skater(
-    db: Session, full_name: str, affiliation: str, gender: Optional[str] = None
+    db: Session, full_name: str, affiliation: str, gender: Optional[str] = None,
 ) -> Skater:
     # Detect * female marker (prefix or suffix) before stripping
     raw = full_name.strip()
@@ -134,6 +176,9 @@ def _find_or_create_skater(
         if gender is None:
             gender = 'F'
         raw = raw.strip('*').strip()
+
+    # Normalise affiliation using the club mapping (if available)
+    clean_affil = _normalise_affiliation(affiliation)
 
     normalized = _normalize_name(raw)
     skater = (
@@ -148,14 +193,14 @@ def _find_or_create_skater(
             first_name=first,
             last_name=last,
             normalized_name=normalized,
-            club_name=affiliation or None,
+            club_name=clean_affil,
             gender=gender,
         )
         db.add(skater)
         db.flush()
     else:
-        if affiliation and not skater.club_name:
-            skater.club_name = affiliation
+        if clean_affil and not skater.club_name:
+            skater.club_name = clean_affil
         if gender and not skater.gender:
             skater.gender = gender
     return skater

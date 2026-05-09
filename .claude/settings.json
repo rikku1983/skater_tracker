@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(python3 -m venv .venv)",
+      "Bash(.venv/bin/pip install -q requests beautifulsoup4 lxml sqlalchemy python-dateutil tqdm)",
+      "Bash(.venv/bin/python scripts/download_pdfs.py --dry-run)",
+      "Bash(.venv/bin/python3 -c \":*)",
+      "Bash(.venv/bin/python scripts/download_pdfs.py)",
+      "Bash(.venv/bin/pip install -q pdfplumber)",
+      "Bash(.venv/bin/python scripts/download_pdfs.py --no-skip)",
+      "Bash(python3:*)",
+      "Bash(/home/sunli/skater_tracker/.venv/bin/python3:*)"
+    ],
+    "additionalDirectories": [
+      "/tmp"
+    ]
+  }
+}

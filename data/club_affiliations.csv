@@ -1,0 +1,398 @@
+raw_value,count,type,canonical,country,notes
+OSSC,30,club,Oval Speed Skating Club,US,manual
+NCSA,20,club,Northern California Speed Skating Association,US,manual
+Northbrook SSC,13,club,Northbrook Speedskating Club,US,manual
+United Capital Blades Speedskating Club,12,club,United Capital Blades,US,manual
+CAN-MRSSC,12,club,CAN-MRSSC,CAN,manual
+OSS,12,club,Oval Speed Skating Club,US,manual
+United Capital Blades SPeedskating,11,club,United Capital Blades,US,manual
+USA-UCBSSC,11,club,United Capital Blades,US,manual
+ARIZONA,11,club,ARIZONA,US,manual
+SOCAL,10,club,Southern California Speed Skating Club,US,manual
+EVD SSC,10,club,EVD Speed Skating Club,CHN,manual
+Elmbrook School District Speedskating Club,8,club,Elmbrook Speedskating Club,US,manual
+SoCal,8,club,Southern California Speed Skating Club,US,manual
+Gateway SSC,7,club,Gateway Speedskating Club,US,manual
+Park Ridge SSC,7,club,Park Ridge Speedskating,US,manual
+Alkmaar/NED,7,club,Alkmaar,NED,manual
+Franklin Park SSC,6,club,Franklin Park Speedskating Club,US,manual
+CAN-NMSSC,6,club,CAN-NMSSC,CAN,manual
+Wisconsin SSC,5,club,Wisconsin Speed Skating Club,US,manual
+CAN-NSSC,5,club,CAN-NSSC,CAN,manual
+Innsbruck/AUT,5,club,Innsbruck,AUT,manual
+CHI,5,club,CHI,US,manual
+Glen Ellyn SSC,4,club,Glen Ellyn Speedskating,US,manual
+Speed Skating Club,4,junk,,,manual
+USA-ESDSSC,4,club,USA-ESDSSC,US,manual
+Changbaishan/CHN,4,club,Changbaishan,CHN,manual
+Madison SSC,3,club,Madison Speed Skating Club,US,manual
+DASH,3,club,DASH,US,manual
+Full Throttle SST,3,club,Full Throttle Speedskating,US,manual
+Roseville/USA,3,club,Roseville,US,manual
+Arizona,3,club,Arizona,US,manual
+United Capital Blades Speedskating,3,club,United Capital Blades,US,manual
+West Michigan SSC,2,club,West Michigan Speedskating Club,US,manual
+GS,2,junk,,,manual
+Evergrand,2,club,EVD Speed Skating Club,CHN,manual
+Glen Ellyn Speed Skating Club,2,club,Glen Ellyn Speedskating,US,manual
+SSC,2,junk,,,manual
+Pinnacle Speedskating Program,2,club,Pinnacle Speedskating,US,manual
+Meadows,2,club,Flushing Meadows Speedskating Club,US,manual
+EVDSS,2,club,EVD Speed Skating Club,CHN,manual
+HUN-FTC,2,club,HUN-FTC,HUN,manual
+CAN-LSSC,2,club,CAN-LSSC,CAN,manual
+CAN-YSSC,2,club,CAN-YSSC,CAN,manual
+Cambridge,2,club,Cambridge,GBR,manual
+London,2,club,London,GBR,manual
+N California,2,club,Northern California Speed Skating Association,US,manual
+VSSC,2,club,VSSC,US,manual
+Champaign Regional SSC,2,club,Champaign Regional Speedskating,US,manual
+FVD,2,club,EVD Speed Skating Club,CHN,manual
+Evergrande,1,club,EVD Speed Skating Club,CHN,manual
+PC Speedskating,1,club,PC Speedskating,US,manual
+(Mary Elizabeth) Cleveland Heights,1,club,Cleveland Heights Speedskating Club,US,rescued
+Fresh Medow,1,club,Flushing Meadows Speedskating Club,US,manual
+GASC,1,club,GASC,US,manual
+Full Trottle,1,club,Full Throttle Speedskating,US,manual
+Madison Sppedskating,1,club,Madison Speed Skating Club,US,manual
+Oval Speedskating,1,club,Oval Speed Skating Club,US,manual
+MSR,1,junk,,,manual
+Potomac Speedskating Club,1,club,Potomac Speedskating,US,manual
+Ellyn SSC,1,club,Glen Ellyn Speedskating,US,manual
+Throttle,1,club,Full Throttle Speedskating,US,manual
+Park Speed Skating Club,1,club,Park Ridge Speedskating,US,manual
+Ellyn Speed Skating Club,1,club,Glen Ellyn Speedskating,US,manual
+Regional Speedskating Club,1,club,Regional Speedskating Club,US,manual
+Oval,1,club,Oval Speed Skating Club,US,manual
+CAN-CPVMG,1,club,CAN-CPVMG,CAN,manual
+CAN-OSSC,1,club,CAN-OSSC,CAN,manual
+Oval Learn to Speed,1,club,Oval Speed Skating Club,US,manual
+Paul Cleveland Heights,1,club,Cleveland Heights Speedskating Club,US,rescued
+Oregon,1,club,Oregon,US,manual
+Lake Placid/USA,1,club,Lake Placid,US,manual
+FMS,1,junk,,,manual
+Elmbrook School District SSC,1,club,Elmbrook Speedskating Club,US,manual
+PNIC Short Track Junior Program,1,club,Pettit National Ice Center,US,manual
+WSCC,1,junk,,,manual
+PNIC ST,1,club,Pettit National Ice Center,US,manual
+Lakewood SSC,1,club,Lakewood Speedskating,US,manual
+Saratoga Skaters,1,club,Saratoga Winter Club,US,manual
+MTB,1,club,MTB,US,manual
+China,1,country,CHN,CHN,manual
+Timoanogos,1,club,Timpanogos Speed Skating,US,manual
+AZ/UT,1,club,AZ/UT,US,manual
+WI/UT,1,club,WI/UT,US,manual
+AZUT,1,club,AZUT,US,manual
+Rapid Sound,1,junk,,,manual
+EVD 55C,1,club,EVD Speed Skating Club,CHN,manual
+GSS,1,junk,,,manual
+USA-PTSC,59,club,Potomac Speedskating,US,USA-PTSC
+Gateway,56,club,Gateway Speedskating Club,US,prefix~'Gateway Speedskating Club'
+Bay State Speedskating,56,club,Bay State Speedskating,US,exact
+PGS,55,club,Pinnacle Speedskating,US,abbrev=PGS
+Northbrook,47,club,Northbrook Speedskating Club,US,prefix~'Northbrook Speedskating Club'
+USA-BSS,44,club,Bay State Speedskating,US,USA-BSS
+Potomac,43,club,Potomac Speedskating,US,prefix~'Potomac Speedskating'
+USA-GSSC,42,club,Garden State Speedskating,US,USA-GSSC
+Garden State Speedskating,40,club,Garden State Speedskating,US,exact
+USA-SWC,38,club,Saratoga Winter Club,US,USA-SWC
+Oval Speed,33,club,Oval Speed Skating Club,US,prefix~'Oval Speed Skating Club'
+USA-DSSC,33,club,Danbury Speedskating,US,USA-DSSC
+Glen Ellyn,32,club,Glen Ellyn Speedskating,US,prefix~'Glen Ellyn Speedskating'
+USA-PSSP,32,club,Puget Sound Speedskating,US,USA-PSSP
+USA-SYSC,31,club,Syracuse Speedskating,US,USA-SYSC
+USA-ASSC,31,club,USA-ASSC,US,exact
+Madison,29,club,Madison Speed Skating Club,US,prefix~'Madison Speed Skating Club'
+Danbury Speedskating,29,club,Danbury Speedskating,US,exact
+SCSSC,29,club,Southern California Speed Skating Club,US,abbrev=SCSSC
+Pinnacle,27,club,Pinnacle Speedskating,US,prefix~'Pinnacle Speedskating'
+Potomac SPeedskating,26,club,Potomac Speedskating,US,exact
+USA-FMSC,26,club,Flushing Meadows Speedskating Club,US,USA-FMSC
+USA-BSC,24,club,Buffalo Speedskating Club,US,USA-BSC
+USA-EPSSC,24,club,East Penn Speedskating,US,USA-EPSSC
+Champaign,23,club,Champaign Regional Speedskating,US,prefix~'Champaign Regional Speedskating'
+East Penn Speedskating,23,club,East Penn Speedskating,US,exact
+EVD,22,club,EVD Speed Skating Club,CHN,abbrev=EVD
+Lakewood,21,club,Lakewood Speedskating,US,prefix~'Lakewood Speedskating'
+Flushing Meadows Speedskating,21,club,Flushing Meadows Speedskating Club,US,prefix~'Flushing Meadows Speedskating Club'
+Wisconsin,21,club,Wisconsin Speed Skating Club,US,prefix~'Wisconsin Speed Skating Club'
+Wolverine,20,club,Wolverine Sports Club,US,prefix~'Wolverine Sports Club'
+Danbury,19,club,Danbury Speedskating,US,prefix~'Danbury Speedskating'
+Elmbrook,19,club,Elmbrook Speedskating Club,US,prefix~'Elmbrook Speedskating Club'
+Colorado Gold,19,club,Colorado Gold Speedskating,US,prefix~'Colorado Gold Speedskating'
+Buffalo,19,club,Buffalo Speedskating Club,US,prefix~'Buffalo Speedskating Club'
+Midway Speedskating,18,club,Midway Speedskating Club,US,prefix~'Midway Speedskating Club'
+USA-PSC,18,club,Potomac Speedskating,US,USA-PSC
+Cleveland Heights,17,club,Cleveland Heights Speedskating Club,US,prefix~'Cleveland Heights Speedskating Club'
+USA-CHS,17,club,Cleveland Heights Speedskating Club,US,USA-CHS
+USA-LWSSC,17,club,Lakewood Speedskating,US,USA-LWSSC
+Full Throttle,16,club,Full Throttle Speedskating,US,prefix~'Full Throttle Speedskating'
+Saratoga Winter Club,16,club,Saratoga Winter Club,US,exact
+Garden State,15,club,Garden State Speedskating,US,prefix~'Garden State Speedskating'
+LARSC,15,club,Los Angeles Regional Speedskating Club,US,abbrev=LARSC
+USA-ESSC,15,club,Elmbrook Speedskating Club,US,USA-ESSC
+Park Ridge,14,club,Park Ridge Speedskating,US,prefix~'Park Ridge Speedskating'
+East Penn SPeedskating,14,club,East Penn Speedskating,US,exact
+Gateway Speedskating Club,14,club,Gateway Speedskating Club,US,exact
+Bay State SPeedskating,13,club,Bay State Speedskating,US,exact
+PNIC,12,club,PNIC,US,exact
+East Penn,12,club,East Penn Speedskating,US,prefix~'East Penn Speedskating'
+United Capital Blades,12,club,United Capital Blades,US,exact
+Connecticut Speedskating,12,club,Connecticut Speedskating,US,exact
+Potomac Speedskating,12,club,Potomac Speedskating,US,exact
+Franklin Park,11,club,Franklin Park Speedskating Club,US,prefix~'Franklin Park Speedskating Club'
+Bay State,11,club,Bay State Speedskating,US,prefix~'Bay State Speedskating'
+Saratoga,11,club,Saratoga Winter Club,US,prefix~'Saratoga Winter Club'
+Syracuse,11,club,Syracuse Speedskating,US,prefix~'Syracuse Speedskating'
+Pittsburgh,11,club,Pittsburgh Speedskating Club,US,prefix~'Pittsburgh Speedskating Club'
+Champaign Regional,11,club,Champaign Regional Speedskating,US,prefix~'Champaign Regional Speedskating'
+Columbus,11,club,Columbus Speedskating Club,US,prefix~'Columbus Speedskating Club'
+USA-NBSSC,11,club,Northbrook Speedskating Club,US,USA-NBSSC
+Dominion,10,club,Dominion Speed Skating Club,US,prefix~'Dominion Speed Skating Club'
+Wisconsin Speed Skating Club,10,club,Wisconsin Speed Skating Club,US,exact
+West Michigan,9,club,West Michigan Speedskating Club,US,prefix~'West Michigan Speedskating Club'
+USA-CSSC,9,club,USA-CSSC,US,exact
+Northern California,7,club,Northern California Speed Skating Association,US,prefix~'Northern California Speed Skating Association'
+Glen Ellyn Speed Skating,7,club,Glen Ellyn Speedskating,US,fuzzy~'Glen Ellyn Speedskating'
+Pittsburgh SPeedskating,7,club,Pittsburgh Speedskating Club,US,prefix~'Pittsburgh Speedskating Club'
+USA-PNIC,7,club,Pettit National Ice Center,US,USA-PNIC
+CAN-MSSC,7,club,Madison Speed Skating Club,CAN,CAN-MSSC
+Puget Sound,6,club,Puget Sound Speedskating,US,prefix~'Puget Sound Speedskating'
+Flushing Meadows,6,club,Flushing Meadows Speedskating Club,US,prefix~'Flushing Meadows Speedskating Club'
+Rochester,6,club,Rochester Speed Skating Team,US,prefix~'Rochester Speed Skating Team'
+Flushing Meadows Speed Skating Club,6,club,Flushing Meadows Speedskating Club,US,fuzzy~'Flushing Meadows Speedskating Club'
+EVD Speed Skating Club,6,club,EVD Speed Skating Club,CHN,exact
+USA-GMS,6,club,Gateway Speedskating Club,US,USA-GMS
+Buffalo Speedskating,6,club,Buffalo Speedskating Club,US,prefix~'Buffalo Speedskating Club'
+Upper Valley Speed Skating,5,club,Upper Valley Speed Skating,US,exact
+Taconic Speedskating,5,club,Taconic Speedskating,US,exact
+Syracuse Speed Skating,5,club,Syracuse Speedskating,US,fuzzy~'Syracuse Speedskating'
+USA-FTSST,5,club,Full Throttle Speedskating,US,USA-FTSST
+St. Lawrence,5,club,St. Lawrence Speedskating,US,prefix~'St. Lawrence Speedskating'
+USA-OSC,5,club,USA-OSC,US,exact
+Saratoga Winter,4,club,Saratoga Winter Club,US,prefix~'Saratoga Winter Club'
+Jefferson City,4,club,Jefferson City Speed Skating,US,prefix~'Jefferson City Speed Skating'
+Santa Clarita,4,club,Santa Clarita Speed Skating,US,prefix~'Santa Clarita Speed Skating'
+Northbrook Speed Skating Club,4,club,Northbrook Speedskating Club,US,fuzzy~'Northbrook Speedskating Club'
+Timpanogos,4,club,Timpanogos Speed Skating,US,prefix~'Timpanogos Speed Skating'
+USA-GWSS,4,club,USA-GWSS,US,exact
+Milton,4,club,Milton Speedskating Club,CAN,prefix~'Milton Speedskating Club'
+Lakewood Speedskating,4,club,Lakewood Speedskating,US,exact
+Markham,3,club,Markham Speed Skating Club,CAN,prefix~'Markham Speed Skating Club'
+Phoenix,3,club,Phoenix Speed Skating,US,prefix~'Phoenix Speed Skating'
+Park City,3,club,Park City Speed Skating,US,prefix~'Park City Speed Skating'
+Milton Speed Skating Club,3,club,Milton Speedskating Club,CAN,fuzzy~'Milton Speedskating Club'
+Beijing Xingruibingxue Club,3,club,Beijing Xingruibingxue Club,CHN,exact
+Great Atlantic Speedskating,3,club,Great Atlantic Speedskating Club,US,prefix~'Great Atlantic Speedskating Club'
+USA-RSST,3,club,Rochester Speed Skating Team,US,USA-RSST
+USA-UCB,3,club,United Capital Blades,US,USA-UCB
+Wolverine Sports Club,2,club,Wolverine Sports Club,US,exact
+Meteor,2,club,Meteor Speed Skating Club,US,prefix~'Meteor Speed Skating Club'
+Cornerstone Speedskating Club,2,club,Cornerstone Speedskating Club,US,exact
+Madison Speed Skating Club,2,club,Madison Speed Skating Club,US,exact
+USA-GER,2,club,Germany,US,USA-GER
+USA-WSC,2,club,Wisconsin Speed Skating Club,US,USA-WSC
+USA-UVSC,2,club,USA-UVSC,US,exact
+USA-COLSC,2,club,Columbus Speedskating Club,US,USA-COLSC
+CAN-TSSC,2,club,USA-TSSC,CAN,CAN-TSSC
+GSSC,2,club,Garden State Speedskating,US,abbrev=GSSC
+Puget sound,2,club,Puget Sound Speedskating,US,prefix~'Puget Sound Speedskating'
+Richmond Rockets,1,club,Richmond Rockets Speed Skating,US,prefix~'Richmond Rockets Speed Skating'
+United Capital,1,club,United Capital Blades,US,prefix~'United Capital Blades'
+Connecticut,1,club,Connecticut Speedskating,US,prefix~'Connecticut Speedskating'
+Lakewood SPeedskating,1,club,Lakewood Speedskating,US,exact
+Flushing,1,club,Flushing Meadows Speedskating Club,US,prefix~'Flushing Meadows Speedskating Club'
+Gateway Speedskating,1,club,Gateway Speedskating Club,US,prefix~'Gateway Speedskating Club'
+UCB,1,club,United Capital Blades,US,abbrev=UCB
+Cleveland Heights SPeedskating,1,club,Cleveland Heights Speedskating Club,US,prefix~'Cleveland Heights Speedskating Club'
+Wolverine Sports,1,club,Wolverine Sports Club,US,prefix~'Wolverine Sports Club'
+Pittsburgh Speedskating,1,club,Pittsburgh Speedskating Club,US,prefix~'Pittsburgh Speedskating Club'
+SWITZERLAND,1,club,Switzerland,US,exact
+Midway,1,club,Midway Speedskating Club,US,prefix~'Midway Speedskating Club'
+Columbus Speedskating Club,1,club,Columbus Speedskating Club,US,exact
+Northbrook speedskating club,1,club,Northbrook Speedskating Club,US,exact
+West Michigan Speedskating,1,club,West Michigan Speedskating Club,US,prefix~'West Michigan Speedskating Club'
+MSSC,1,club,Madison Speed Skating Club,US,abbrev=MSSC
+Franklin Park Speed Skating Club,1,club,Franklin Park Speedskating Club,US,fuzzy~'Franklin Park Speedskating Club'
+Meteor Speed Skating Club,1,club,Meteor Speed Skating Club,US,exact
+Elmbrook Speed Skating Club,1,club,Elmbrook Speedskating Club,US,fuzzy~'Elmbrook Speedskating Club'
+FAST Program,1,club,FAST Program,US,exact
+Buffalo Speedskating Club,1,club,Buffalo Speedskating Club,US,exact
+Champaign Regional Speedskating,1,club,Champaign Regional Speedskating,US,exact
+Northbrook Speedskating Club,1,club,Northbrook Speedskating Club,US,exact
+Elmbrook Speedskating Club,1,club,Elmbrook Speedskating Club,US,exact
+Pittsburgh Speedskating Club,1,club,Pittsburgh Speedskating Club,US,exact
+Michigan,1,club,Michigan Speedskating,US,prefix~'Michigan Speedskating'
+Illini Speed,1,club,Illini Speed Skating,US,prefix~'Illini Speed Skating'
+USA-TSSC,1,club,USA-TSSC,US,exact
+Oakville,1,club,Oakville Speed Skating Club,CAN,prefix~'Oakville Speed Skating Club'
+USA-DIRECT,1,club,Direct (Unaffiliated),US,USA-DIRECT
+USA-CRS,1,club,Champaign Regional Speedskating,US,USA-CRS
+USA-NCSSA,1,club,Northern California Speed Skating Association,US,USA-NCSSA
+USA-WOSC,1,club,USA-OSC,US,fuzzy~'USA-OSC'
+USA-CGS,1,club,Colorado Gold Speedskating,US,USA-CGS
+USA-MSC,1,club,Midway Speedskating Club,US,USA-MSC
+USA-GASSC,1,club,Great Atlantic Speedskating Club,US,USA-GASSC
+Madison Speed Skating,1,club,Madison Speed Skating Club,US,prefix~'Madison Speed Skating Club'
+PTSC,1,club,Potomac Speedskating,US,abbrev=PTSC
+USA,499,country,USA,US,
+JPN,81,country,JPN,JPN,
+CAN,79,country,CAN,CAN,
+NOR,37,country,NOR,NOR,
+POL,34,country,POL,POL,
+ITA,33,country,ITA,ITA,
+COL,27,country,COL,COL,
+CHN,25,country,CHN,CHN,
+GER,25,country,GER,GER,
+KAZ,23,country,KAZ,KAZ,
+SUI,17,country,SUI,SUI,
+DEN,14,country,DEN,DEN,
+FIN,12,country,FIN,FIN,
+ESP,11,country,ESP,ESP,
+KOR,10,country,KOR,KOR,
+BRA,10,country,BRA,BRA,
+RRK,9,country,RRK,RRK,
+LTSS,9,country,LTSS,LTSS,
+AUT,9,country,AUT,AUT,
+IND,8,country,IND,IND,
+POC,8,country,POC,POC,
+CZE,8,country,CZE,CZE,
+PSSC,8,country,PSSC,PSSC,
+POCO,8,country,POCO,POCO,
+TPE,7,country,TPE,TPE,
+HUN,7,country,HUN,HUN,
+AUS,6,country,AUS,AUS,
+NCA,6,country,NCA,NCA,
+PCSSC,6,country,PCSSC,PCSSC,
+ROU,6,country,ROU,ROU,
+BEL,6,country,BEL,BEL,
+MTV,5,country,MTV,MTV,
+VNC,5,country,VNC,VNC,
+TCL,5,country,TCL,TCL,
+NZL,4,country,NZL,NZL,
+ARG,4,country,ARG,ARG,
+BUR,3,country,BUR,BUR,
+WTC,3,country,WTC,WTC,
+SRF,3,country,SRF,SRF,
+SWE,3,country,SWE,SWE,
+L2SS,3,country,L2SS,L2SS,
+EST,3,country,EST,EST,
+GBR,3,country,GBR,GBR,
+UZB,3,country,UZB,UZB,
+PNV,2,country,PNV,PNV,
+ECU,2,country,ECU,ECU,
+NED,2,country,NED,NED,
+HK,1,country,HK,HK,
+UK,1,country,UK,UK,
+PHI,1,country,PHI,PHI,
+HKG,1,country,HKG,HKG,
+ANG,1,country,ANG,ANG,
+PCSM,1,country,PCSM,PCSM,
+PCSK,1,country,PCSK,PCSK,
+SVK,1,country,SVK,SVK,
+GRE,1,country,GRE,GRE,
+Direct,69,direct,Direct,US,
+DIR,1,direct,Direct,US,
+Speedskating Club,9,junk,,,junk token
+State,2,junk,,,junk token
+WSSC 1:27.260,1,club,Wisconsin Speed Skating Club,US,rescued
+Lakewood 1:03.700,1,club,Lakewood Speedskating,US,rescued
+Lakewood 2:07.370,1,club,Lakewood Speedskating,US,rescued
+Lakewood 2:13.020,1,club,Lakewood Speedskating,US,rescued
+Lakewood 1:45.820,1,club,Lakewood Speedskating,US,rescued
+Alec,1,junk,,,junk token
+Garden State Speedskating 1:58.040,1,club,Garden State Speedskating,US,rescued
+Lakewood 1:05.010,1,club,Lakewood Speedskating,US,rescued
+Lakewood 1:59.080,1,club,Lakewood Speedskating,US,rescued
+Lakewood 0:54.520,1,club,Lakewood Speedskating,US,rescued
+Lakewood 1:13.260,1,club,Lakewood Speedskating,US,rescued
+Bay State Speedskating 3:29.480,1,club,Bay State Speedskating,US,rescued
+UV,1,junk,,,junk token
+512.00,1,junk,,,time leaked; prefix='512.00'
+Bay State Speedskating 2:18.770,1,club,Bay State Speedskating,US,rescued
+Bay State Speedskating 0:36.110,1,club,Bay State Speedskating,US,rescued
+Connecticut Speedskating 0:37.800,1,club,Connecticut Speedskating,US,rescued
+Cleveland Heights 1:57.260,1,club,Cleveland Heights Speedskating Club,US,rescued
+Columbus 2:04.550,1,club,Columbus Speedskating Club,US,rescued
+Lakewood 2:07.200,1,club,Lakewood Speedskating,US,rescued
+Columbus 3:10.360,1,club,Columbus Speedskating Club,US,rescued
+Columbus 2:51.950,1,club,Columbus Speedskating Club,US,rescued
+Columbus 1:09.130,1,club,Columbus Speedskating Club,US,rescued
+Columbus 1:01.850,1,club,Columbus Speedskating Club,US,rescued
+Columbus 1:12.540,1,club,Columbus Speedskating Club,US,rescued
+Speedskating,1,junk,,,junk token
+Bay State Speedskating 2:09.550,1,club,Bay State Speedskating,US,rescued
+Saratoga Winter Club 0:36.250,1,club,Saratoga Winter Club,US,rescued
+Bay State Speedskating 2:02.360,1,club,Bay State Speedskating,US,rescued
+Bay State Speedskating 2:02.700,1,club,Bay State Speedskating,US,rescued
+Bay State Speedskating 2:05.420,1,club,Bay State Speedskating,US,rescued
+Great Atlantic Speedskating 1:52.670,1,club,Great Atlantic Speedskating Club,US,rescued
+Bay State Speedskating 1:43.830,1,club,Bay State Speedskating,US,rescued
+Garden State Speedskating 1:51.610,1,club,Garden State Speedskating,US,rescued
+Bay State Speedskating 1:22.050,1,club,Bay State Speedskating,US,rescued
+1. Direct 0:43.834,1,direct,Direct,US,rescued
+1. Direct 0:45.907,1,direct,Direct,US,rescued
+Oval Learn to Speed 0:59.046,1,club,Oval Speed Skating Club,US,rescued
+CAN 0:46.095,1,country,CAN,CAN,rescued
+1. Direct 0:49.296,1,direct,Direct,US,rescued
+Colorado Gold Speedskating 0:51.249,1,club,Colorado Gold Speedskating,US,rescued
+TPE 1:32.074,1,country,TPE,TPE,rescued
+COL 1:32.242,1,country,COL,COL,rescued
+"BC,CAN 1:33.598",1,country,CAN,CAN,rescued
+AUS 1:20.879,1,country,AUS,AUS,rescued
+CAN 1:20.374,1,country,CAN,CAN,rescued
+TPE 1:20.979,1,country,TPE,TPE,rescued
+OSSC 1:17.498,1,club,Oval Speed Skating Club,US,rescued
+SGP 2:55.333,1,country,SGP,SGP,rescued
+CZE 2:37.216,1,country,CZE,CZE,rescued
+SGP 2:42.036,1,country,SGP,SGP,rescued
+TPE 2:35.807,1,country,TPE,TPE,rescued
+CHE 2:44.982,1,country,CHE,CHE,rescued
+GBR 2:46.668,1,country,GBR,GBR,rescued
+INA 2:46.979,1,country,INA,INA,rescued
+TPE 2:47.477,1,country,TPE,TPE,rescued
+"BC,CAN 2:47.921",1,country,CAN,CAN,rescued
+GBR 2:32.234,1,country,GBR,GBR,rescued
+CZE 2:32.989,1,country,CZE,CZE,rescued
+GBR 2:36.503,1,country,GBR,GBR,rescued
+GBR 2:14.301,1,country,GBR,GBR,rescued
+GBR 2:15.792,1,country,GBR,GBR,rescued
+CZE 2:17.819,1,country,CZE,CZE,rescued
+GBR 2:17.980,1,country,GBR,GBR,rescued
+TPE 2:44.258,1,country,TPE,TPE,rescued
+TPE 2:38.600,1,country,TPE,TPE,rescued
+"BC,CAN 2:34.428",1,country,CAN,CAN,rescued
+AUS 2:38.973,1,country,AUS,AUS,rescued
+TPE 2:24.680,1,country,TPE,TPE,rescued
+TPE 2:38.006,1,country,TPE,TPE,rescued
+TPE 2:41.114,1,country,TPE,TPE,rescued
+SGP 2:41.215,1,country,SGP,SGP,rescued
+GBR 2:33.097,1,country,GBR,GBR,rescued
+Elmbrook 0:42.850,1,club,Elmbrook Speedskating Club,US,rescued
+Mixed 4:02.750,1,junk,,,time leaked; prefix='Mixed'
+Mixed 4:03.450,1,junk,,,time leaked; prefix='Mixed'
+Mixed 4:16.260,1,junk,,,time leaked; prefix='Mixed'
+Mixed 5:08.860,1,junk,,,time leaked; prefix='Mixed'
+Mixed 5:20.750,1,junk,,,time leaked; prefix='Mixed'
+Mixed 3:34.360,1,junk,,,time leaked; prefix='Mixed'
+Mixed 3:55.470,1,junk,,,time leaked; prefix='Mixed'
+Mixed 3:58.420,1,junk,,,time leaked; prefix='Mixed'
+Mixed 2:13.400,1,junk,,,time leaked; prefix='Mixed'
+Mixed 2:15.980,1,junk,,,time leaked; prefix='Mixed'
+Mixed 2:26.980,1,junk,,,time leaked; prefix='Mixed'
+Mixed 3:37.100,1,junk,,,time leaked; prefix='Mixed'
+Mixed 3:41.600,1,junk,,,time leaked; prefix='Mixed'
+Mixed 3:48.860,1,junk,,,time leaked; prefix='Mixed'
+Columbus 2:29.630,1,club,Columbus Speedskating Club,US,rescued
+Columbus 1:00.510,1,club,Columbus Speedskating Club,US,rescued
+Lakewood 1:03.070,1,club,Lakewood Speedskating,US,rescued
+Columbus 1:18.230,1,club,Columbus Speedskating Club,US,rescued
+Columbus 0:54.770,1,club,Columbus Speedskating Club,US,rescued
+Cleveland Heights 1:10.580,1,club,Cleveland Heights Speedskating Club,US,rescued
+Columbus 1:10.760,1,club,Columbus Speedskating Club,US,rescued
+108.00,1,junk,,,time leaked; prefix='108.00'
+640.00,1,junk,,,time leaked; prefix='640.00'
+A1,1,junk,,,junk token
+A2,1,junk,,,junk token
+DNF,1,junk,,,junk token
+DNS,1,junk,,,junk token

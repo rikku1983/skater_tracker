@@ -1,5 +1,22 @@
 # Skater Tracker — Project Notes for Claude
 
+## Domain Reference
+
+Full domain knowledge is in `docs/`:
+- `docs/sport_domain.md` — track types, distances, competition structure, status codes, WR floors, clubs
+- `docs/pdf_formats.md` — PDF section structure, format variants, `tempus_results` column layout, known parser failure modes
+- `docs/data_quality.md` — time flags, club normalization, deduplication history, known mislabeling issues
+
+**Key facts to always remember:**
+- US has two track sizes: 111 m (standard) and 85 m (youth). 85 m distances: 85/170/255/340 m. No 444 m exists.
+- "4. Laps" in a PDF = 340 m (85 m track × 4 laps).
+- "85m" in a division name (e.g. "Division 9 Saddle 85m") is a class label, NOT the race distance.
+- Division names vary by event — never assume anything from the name alone.
+- `tempus_results` PDFs use two-column layout; `pdfplumber` interleaves the columns. Always split by x-coordinate before parsing.
+- The "0:MM.SSS" prefix fix applied to ~269 results is **unverified** — do not rely on it or extend it.
+
+---
+
 ## Track Type Classification (Planned)
 
 Some events in the database may be long track or inline speed skating, not short track.
@@ -16,7 +33,7 @@ Add `track_type` column to `Event`: values `"short"` / `"long"` / `"inline"` / `
    - contains "inline" → `inline`
 
 2. **Distance profile pass** — check existing race results:
-   - any 777m (or 111/222/333/444/666m) race → `short` (these distances are short track only)
+   - any 777m (or 85/170/255/340/111/222/333m) race → `short` (these distances are short track only; note: no 444m distance exists)
    - any 5000m or 10000m race → `long` (long track only)
    - 500/1000/1500m alone is ambiguous — do not decide from these
 

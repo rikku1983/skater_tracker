@@ -1,0 +1,175 @@
+canonical_name,abbreviation,csv_count,db_count,source,full_club_name,duplicate_note
+USA,USA,46,358,club_table,United States,
+Potomac Speedskating,PSC/PTSC,114,93,club_table,Potomac Speedskating Club,
+Bay State Speedskating,BSS,88,84,club_table,Bay State Speedskating,
+Gateway Speedskating Club,GMS/GWSS,59,80,club_table,Gateway Speedskating Club,
+Garden State Speedskating,GSSC,68,67,club_table,Garden State Speedskating,
+Northbrook Speedskating Club,NBSSC,63,57,club_table,Northbrook Speedskating Club,
+Direct (Unaffiliated),DIRECT,107,0,club_table,Direct / Unaffiliated,Duplicate of db-only Direct / Unaffiliated.
+Danbury Speedskating,DSSC,51,55,club_table,Danbury Speedskating,
+Oval Speed Skating Club,OSC,44,60,club_table,Oval Speed Skating Club,Duplicate abbreviation appears for Oval Speed Skating Club and USA-OSC.
+Glen Ellyn Speedskating,GESS,35,47,club_table,Glen Ellyn Speedskating,
+East Penn Speedskating,EPSSC,31,51,club_table,East Penn Speedskating,
+Pinnacle Speedskating,PGS,0,81,club_table,Pinnacle Speedskating,"Ambiguous abbreviation: row says Pinnacle Speedskating, but Puget Sound event protocols also use PGS for Puget Sound Speedskating Club."
+Saratoga Winter Club,SWC,37,40,club_table,Saratoga Winter Club,
+Lakewood Speedskating,LWSSC,34,39,club_table,Lakewood Speedskating,
+Flushing Meadows Speedskating Club,FMSC,32,40,club_table,Flushing Meadows Speedskating Club,
+Champaign Regional Speedskating,CRS,36,36,club_table,Champaign Regional Speedskating,
+JPN,JPN,2,70,club_table,Japan,
+Wisconsin Speed Skating Club,WSC,32,38,club_table,Wisconsin Speed Skating Club,
+Syracuse Speedskating,SYSC,39,29,club_table,Syracuse Speedskating,
+Elmbrook Speedskating Club,ESSC,24,39,club_table,Elmbrook Speedskating Club,Likely duplicate if EBSSC is present: Elmbrook Speedskating Club.
+Puget Sound Speedskating,PSSP/PSSSC,51,9,club_table,Puget Sound Speedskating Club,Likely duplicate of PSSC/PSS: Puget Sound Speedskating Club.
+Buffalo Speedskating Club,BSC,27,31,club_table,Buffalo Speedskating Club,
+United Capital Blades,UCB,17,39,club_table,United Capital Blades Speedskating Club,
+Cleveland Heights Speedskating Club,CHS,26,26,club_table,Cleveland Heights Speedskating Club,
+Park Ridge Speedskating,PRSC,31,21,club_table,Park Ridge Speedskating Club,
+Midway Speedskating Club,MSC,33,15,club_table,Midway Speedskating Club,Likely duplicate if MWSS is present: Midway Speedskating Club.
+Columbus Speedskating Club,COLSC,25,23,club_table,Columbus Speedskating Club,
+Connecticut Speedskating,CSSC,34,14,club_table,Connecticut Speedskating,Duplicate abbreviation appears for Connecticut Speedskating and USA-CSSC.
+Southern California Speed Skating Club,SCSSC,16,30,club_table,Southern California Speed Skating Club,
+Colorado Gold Speedskating,CGS,26,18,club_table,Colorado Gold Speedskating,
+Full Throttle Speedskating,FTSST,19,22,club_table,Full Throttle Speedskating,
+Madison Speed Skating Club,MSSC,0,39,club_table,Madison Speed Skating Club,
+Northern California Speed Skating Association,NCSSA,19,19,club_table,Northern California Speed Skating Association,
+USA-ASSC,ASSC,16,17,club_table,Alaska Speedskating Club,Likely duplicate if ALSC is present: Alaska Speedskating Club.
+EVD Speed Skating Club,EVD,0,32,club_table,Evergrande Speed Skating,
+PNIC,PNIC,10,12,club_table,Pettit National Ice Center,Duplicate abbreviation appears for PNIC and Pettit National Ice Center.
+Wolverine Sports Club,WOLV,0,21,club_table,Wolverine Sports Club,
+Pittsburgh Speedskating Club,PITTSSC,0,19,club_table,Pittsburgh Speedskating Club,
+Franklin Park Speedskating Club,FPSSC,0,18,club_table,Franklin Park Speedskating Club,Likely duplicate if FPS is present: Franklin Park Speedskating Club.
+Rochester Speed Skating Team,RSST,9,7,club_table,Rochester Speed Skating Team,
+Park City Speed Skating,PCSC,11,3,club_table,Park City Speed Skating,
+Los Angeles Regional Speedskating Club,LARSC,0,13,club_table,Los Angeles Regional Speedskating Club,
+West Michigan Speedskating Club,WRSC,0,12,club_table,West Michigan Speedskating,Likely duplicate if WMSSC is present: West Michigan Speedskating.
+Great Atlantic Speedskating Club,GASSC,7,4,club_table,Great Atlantic Speedskating Club,
+Dominion Speed Skating Club,BSSC,0,10,club_table,Dominion Speedskating Club,
+KOR,KOR,2,5,club_table,South Korea,
+USA-UVSC,UVSC,6,0,club_table,Upper Valley Speed Skating Club,Likely duplicate of UVSSC: Upper Valley Speed Skating Club.
+Milton Speedskating Club,MILT,0,6,club_table,Milton Speedskating Club,
+USA-CSSC,CSSC,0,5,club_table,Connecticut Speedskating,Duplicate abbreviation appears for Connecticut Speedskating and USA-CSSC.
+USA-TSSC,TSSC,4,1,club_table,Timpanogos Speed Skating,Likely duplicate of TIMP/TSJS: Timpanogos Speed Skating.
+Taconic Speedskating,TACO,0,5,club_table,Taconic Speedskating,
+Upper Valley Speed Skating,UVSSC,0,5,club_table,Upper Valley Speed Skating Club,Likely duplicate of UVSC: Upper Valley Speed Skating Club.
+St. Lawrence Speedskating,STLSSC,0,5,club_table,St. Lawrence Speedskating,
+Timpanogos Speed Skating,TIMP,0,4,club_table,Timpanogos Speed Skating,Likely duplicate of TSSC/TSJS: Timpanogos Speed Skating.
+Jefferson City Speed Skating,JEFF,0,4,club_table,Jefferson City Speedskating,Likely duplicate if JCS is present: Jefferson City Speedskating.
+Pettit National Ice Center,PNIC,0,3,club_table,Pettit National Ice Center,Duplicate abbreviation appears for PNIC and Pettit National Ice Center.
+Phoenix Speed Skating,PHXSSC,0,3,club_table,Phoenix Speedskating Club,Likely duplicate if PHSSC is present: Phoenix Speedskating Club.
+Meteor Speed Skating Club,METE,0,3,club_table,Meteor Speed Skating Club,
+Beijing Xingruibingxue Club,BXSC,0,3,club_table,Beijing Xingruibingxue Club,
+Markham Speed Skating Club,MARK,0,3,club_table,Markham Speed Skating Club,
+Santa Clarita Speed Skating,SCSSC2,0,3,club_table,Santa Clarita Speed Skating,
+Australia,AUS,2,0,club_table,Australia,Duplicate country code/name appears in both csv/table and db-only rows.
+Switzerland,SUI,1,1,club_table,Switzerland,Duplicate country code/name appears in both table and db-only rows.
+Germany,GER,1,1,club_table,Germany,Duplicate country code/name appears in both table and db-only rows.
+Cornerstone Speedskating Club,CRSSC,0,2,club_table,Cornerstone Skating Club,
+USA-GWSS,GWSS,0,1,club_table,Gateway Speedskating Club,Likely duplicate of Gateway Speedskating Club row using GMS/GWSS.
+Chinese Taipei,TPE,1,0,club_table,Chinese Taipei,Duplicate country code/name appears in both table and db-only rows.
+Colombia,COL,1,0,club_table,Colombia,Duplicate country code/name appears as Colombia/COL.
+Great Britain,GBR,1,0,club_table,Great Britain,Duplicate country code/name appears in both table and db-only rows.
+Mile High Speedskating Club,MHSSC,1,0,club_table,Mile High Speedskating Club,
+Michigan Speedskating,MICH,0,1,club_table,Michigan Speedskating,
+Richmond Rockets Speed Skating,RRSC,0,1,club_table,Richmond Rockets Speed Skating,
+Oakville Speed Skating Club,OASC,0,1,club_table,Oakville Speed Skating Club,
+Illini Speed Skating,ILLINI,0,1,club_table,Illini Speed Skating,
+FAST Program,FASTP,0,1,club_table,FAST Program,
+Canada,CAN,0,0,club_table,Canada,Duplicate country code/name appears as Canada/CAN.
+USA-OSC,OSC,0,0,club_table,Oval Speed Skating Club,Duplicate abbreviation appears for Oval Speed Skating Club and USA-OSC.
+,WOSC,26,0,csv_only,Whatcom Speed Skating Club,
+,FPS,23,0,csv_only,Franklin Park Speedskating Club,Likely duplicate of FPSSC: Franklin Park Speedskating Club.
+,EBSSC,21,0,csv_only,Elmbrook Speedskating Club,Likely duplicate of ESSC: Elmbrook Speedskating Club.
+,MWSS,14,0,csv_only,Midway Speedskating Club,Likely duplicate of MSC: Midway Speedskating Club.
+,WMSSC,11,0,csv_only,West Michigan Speedskating,Likely duplicate of WRSC: West Michigan Speedskating.
+,PHSSC,10,0,csv_only,Phoenix Speedskating Club,Likely duplicate of PHXSSC: Phoenix Speedskating Club.
+,CSSSC,5,0,csv_only,CSSSC,
+,TSJS,5,0,csv_only,Timpanogos Speed Skating,Likely duplicate of TSSC/TIMP: Timpanogos Speed Skating.
+,ALSC,3,0,csv_only,Alaska Speedskating Club,Likely duplicate of USA-ASSC/ASSC: Alaska Speedskating Club.
+,CWSSC,3,0,csv_only,Central Wisconsin Speed Skating Club,
+,TCSSC,2,0,csv_only,Twin Cities Speedskating,"Likely duplicate of TCL/Twin Cities Speedskating, if TCL is a club code."
+,JCS,2,0,csv_only,Jefferson City Speedskating,Likely duplicate of JEFF: Jefferson City Speedskating.
+,BRA,1,0,csv_only,Brazil,Duplicate country code/name appears in both csv-only and db-only rows.
+,AZIS,1,0,csv_only,Arizona Inline Skating Association,
+,PSS,1,0,csv_only,Puget Sound Speedskating Club,Likely duplicate of Puget Sound rows using PSSP/PSSSC or PSSC.
+CAN,,0,72,db_only,Canada,Duplicate country code/name appears as Canada/CAN.
+Direct,,0,70,db_only,Direct / Unaffiliated,Duplicate of Direct (Unaffiliated) / DIRECT.
+NOR,,0,28,db_only,Norway,
+POL,,0,24,db_only,Poland,
+CHN,,0,23,db_only,China,
+KAZ,,0,19,db_only,Kazakhstan,
+ITA,,0,19,db_only,Italy,
+COL,,0,19,db_only,Colombia,Duplicate country code/name appears as Colombia/COL.
+GER,,0,17,db_only,Germany,Duplicate country code/name appears in both table and db-only rows.
+TPE,,0,14,db_only,Chinese Taipei,Duplicate country code/name appears in both table and db-only rows.
+SUI,,0,12,db_only,Switzerland,Duplicate country code/name appears in both table and db-only rows.
+DEN,,0,10,db_only,Denmark,
+RRK,,0,9,db_only,Richmond Rockets Speed Skating Club,
+LTSS,,0,9,db_only,Learn to Speed Skate,
+GBR,,0,9,db_only,Great Britain,Duplicate country code/name appears in both table and db-only rows.
+ESP,,0,9,db_only,Spain,
+CZE,,0,9,db_only,Czech Republic,
+CAN-MRSSC,,0,9,db_only,Maple Ridge Speed Skating Club,
+PSSC,,0,8,db_only,Puget Sound Speedskating Club,Likely duplicate of Puget Sound row using PSSP/PSSSC.
+POCO,,0,8,db_only,Poco Lightning Speed Skating Club,
+POC,,0,8,db_only,Poco Lightning Speed Skating Club,
+BRA,,0,8,db_only,Brazil,Duplicate country code/name appears in both csv-only and db-only rows.
+AUS,,0,8,db_only,Australia,Duplicate country code/name appears in both csv/table and db-only rows.
+HUN,,0,7,db_only,Hungary,
+FIN,,0,7,db_only,Finland,
+Alkmaar,,0,7,db_only,Alkmaar,
+PCSSC,,0,6,db_only,Park City Speed Skating,
+NCA,,0,6,db_only,Northern California Speed Skating Association,
+CAN-NMSSC,,0,6,db_only,Newmarket Speed Skating Club,
+ARIZONA,,0,6,db_only,Arizona,
+VNC,,0,5,db_only,Vancouver Speed Skating Club,
+TCL,,0,5,db_only,Twin Cities Speedskating,Possible duplicate of TCSSC/Twin Cities Speedskating.
+MTV,,0,5,db_only,Mountain View Speedskating,
+Innsbruck,,0,5,db_only,Innsbruck,
+CAN-NSSC,,0,5,db_only,Nepean Speed Skating Club,
+NZL,,0,4,db_only,New Zealand,
+IND,,0,4,db_only,India,
+Changbaishan,,0,4,db_only,Changbaishan,
+CHI,,0,4,db_only,Chile,
+BEL,,0,4,db_only,Belgium,
+AUT,,0,4,db_only,Austria,
+WTC,,0,3,db_only,Whatcom Speed Skating Club,
+SRF,,0,3,db_only,Sardis Fliers Speed Skating Club,
+SGP,,0,3,db_only,Singapore,
+Roseville,,0,3,db_only,Roseville Learn to Speed Skate,
+ROU,,0,3,db_only,Romania,
+L2SS,,0,3,db_only,L2 Speed Skating,
+DASH,,0,3,db_only,DASH Speedskating / The DASH Project,
+BUR,,0,3,db_only,Burnaby Speed Skating Club,
+Arizona,,0,3,db_only,Arizona,
+ARG,,0,3,db_only,Argentina,
+VSSC,,0,2,db_only,Vancouver Speed Skating Club,
+UZB,,0,2,db_only,Uzbekistan,
+London,,0,2,db_only,London,
+EST,,0,2,db_only,Estonia,
+Cambridge,,0,2,db_only,Cambridge,
+CAN-LSSC,,0,2,db_only,London Speed Skating Club,
+UK,,0,1,db_only,United Kingdom,
+SWE,,0,1,db_only,Sweden,
+SVK,,0,1,db_only,Slovakia,
+Regional Speedskating Club,,0,1,db_only,Regional Speedskating Club,
+PNV,,0,1,db_only,Peninsula Speed Skating Club,
+PHI,,0,1,db_only,Philippines,
+PCSM,,0,1,db_only,PC Speedskating,
+PCSK,,0,1,db_only,PC Speedskating,
+PC Speedskating,,0,1,db_only,PC Speedskating,
+Oregon,,0,1,db_only,Oregon,
+NED,,0,1,db_only,Netherlands,
+MTB,,0,1,db_only,Matsqui Blades Speed Skating Club,
+Lake Placid,,0,1,db_only,Lake Placid Speed Skating Club,
+INA,,0,1,db_only,Indonesia,
+HKG,,0,1,db_only,Hong Kong,
+HK,,0,1,db_only,Hong Kong,
+GRE,,0,1,db_only,Greece,
+GASC,,0,1,db_only,Great Atlantic Speedskating Club,
+ECU,,0,1,db_only,Ecuador,
+CHE,,0,1,db_only,Switzerland,
+CAN-YSSC,,0,1,db_only,Yukon Speed Skating Club,
+CAN-OSSC,,0,1,db_only,Ottawa Speed Skating Club,
+CAN-CPVMG,,0,1,db_only,CPV Montreal-Gadbois,
+AZUT,,0,1,db_only,AZUT,
+ANG,,0,1,db_only,Langley Blades Speed Skating Club,

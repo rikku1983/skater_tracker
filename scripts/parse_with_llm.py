@@ -1,16 +1,18 @@
 """
-Run the LLM parser on all events that currently have 0 results.
+Run the LLM parser on events that currently have 0 results, or re-parse specific events.
 
 Requires: ANTHROPIC_API_KEY environment variable (get from console.anthropic.com)
 
 Usage:
     ANTHROPIC_API_KEY=sk-ant-... python scripts/parse_with_llm.py [--dry-run] [--event-id N]
+    ANTHROPIC_API_KEY=sk-ant-... python scripts/parse_with_llm.py --event-ids 62,78,84 [--dry-run]
 
 Options:
-    --dry-run       Parse and print results without writing to DB
-    --event-id N    Process only this event ID (for testing)
-    --limit N       Process at most N events (default: all)
-    --skip-errors   Skip events that error instead of stopping
+    --dry-run           Parse and print results without writing to DB
+    --event-id N        Process only this event ID (for testing)
+    --event-ids N1,N2,N3   Re-parse specific events by ID (clears existing results first)
+    --limit N           Process at most N events (default: all)
+    --skip-errors       Skip events that error instead of stopping
 """
 from __future__ import annotations
 
@@ -37,9 +39,20 @@ EXCLUDE_TRACK_TYPES = {"long", "inline"}
 EXCLUDE_NAME_FRAGMENTS = ["colombian championships", "heiden challenge"]
 
 
-def get_target_events(db, event_id: int | None, limit: int | None):
-    """Return events with 0 results and a valid local_path."""
+def get_target_events(db, event_id: int | None, event_ids: list[int] | None, limit: int | None):
+    """Return events to process.
+
+    --event-ids / --event-id: specific events (bypass the 0-results filter, allow re-parse).
+    Default: all events with 0 results.
+    """
     from sqlalchemy import func
+
+    if event_ids:
+        events = db.query(Event).filter(Event.id.in_(event_ids)).order_by(Event.id).all()
+        return events
+
+    if event_id is not None:
+        return db.query(Event).filter(Event.id == event_id).all()
 
     q = (
         db.query(Event)
@@ -50,10 +63,6 @@ def get_target_events(db, event_id: int | None, limit: int | None):
         .filter(Event.track_type.notin_(EXCLUDE_TRACK_TYPES) | Event.track_type.is_(None))
         .order_by(Event.season, Event.event_name)
     )
-
-    if event_id is not None:
-        q = db.query(Event).filter(Event.id == event_id)
-
     events = q.all()
 
     # Filter out non-short-track events by name
@@ -71,9 +80,11 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--event-id", type=int)
+    parser.add_argument("--event-ids", type=str, help="Comma-separated event IDs to re-parse")
     parser.add_argument("--limit", type=int)
     parser.add_argument("--skip-errors", action="store_true")
     args = parser.parse_args()
+    event_ids_list = [int(x) for x in args.event_ids.split(",")] if args.event_ids else None
 
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
@@ -86,7 +97,7 @@ def main():
     init_db()
     db = get_session()
 
-    events = get_target_events(db, args.event_id, args.limit)
+    events = get_target_events(db, args.event_id, event_ids_list, args.limit)
     logger.info("Events to process: %d", len(events))
 
     stats = {"parsed": 0, "loaded": 0, "skipped": 0, "errors": 0}

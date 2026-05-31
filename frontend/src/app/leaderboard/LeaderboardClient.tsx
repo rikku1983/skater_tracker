@@ -6,7 +6,7 @@ import { formatTime } from "@/lib/utils"
 import type { LeaderboardRow } from "@/lib/types"
 
 export function LeaderboardClient({ seasons, distances, birthYears }: { seasons: string[]; distances: number[]; birthYears: number[] }) {
-  const [season, setSeason] = useState(seasons[0] ?? "")
+  const [season, setSeason] = useState("")
   const [distance, setDistance] = useState(500)
   const [gender, setGender] = useState("")
   const [birthYear, setBirthYear] = useState("")
@@ -14,9 +14,10 @@ export function LeaderboardClient({ seasons, distances, birthYears }: { seasons:
   const [loading, setLoading] = useState(false)
 
   useEffect(() => {
-    if (!season || !distance) return
+    if (!distance) return
     setLoading(true)
-    const params = new URLSearchParams({ season, distance_m: String(distance) })
+    const params = new URLSearchParams({ distance_m: String(distance) })
+    if (season) params.set("season", season)
     if (gender) params.set("gender", gender)
     if (birthYear) params.set("birth_year", birthYear)
     fetch(`/api/leaderboard?${params}`)
@@ -28,6 +29,7 @@ export function LeaderboardClient({ seasons, distances, birthYears }: { seasons:
     <div className="space-y-4">
       <div className="flex gap-3 flex-wrap">
         <select value={season} onChange={e => setSeason(e.target.value)} className="border rounded-md px-3 py-2 text-sm bg-background">
+          <option value="">All seasons</option>
           {seasons.map(s => <option key={s} value={s}>{s}</option>)}
         </select>
         <select value={distance} onChange={e => setDistance(Number(e.target.value))} className="border rounded-md px-3 py-2 text-sm bg-background">

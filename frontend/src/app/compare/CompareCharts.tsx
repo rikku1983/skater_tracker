@@ -40,6 +40,12 @@ function eventTooltipLabel(_xLabel: unknown, payload: any) {
 
 export function CompareCharts({ data, distances, mode, nameMap }: CompareChartsProps) {
   function label(d: CompareData) { return nameMap?.[d.skater_id] ?? d.skater_name }
+  // Color and gradient ID keyed by skater_id (not per-chart index) so SVG url() refs
+  // are globally unique — fixes black gradient bug on mobile Safari/Chrome.
+  function colorOf(d: CompareData) { return COLORS[data.indexOf(d) % COLORS.length] }
+  function gradId(mode: "s" | "e", dist: number, d: CompareData) {
+    return `grad-${mode}-${dist}-${d.skater_id}`
+  }
 
   const allSeasons = useMemo(() => {
     const set = new Set<string>()
@@ -97,10 +103,10 @@ export function CompareCharts({ data, distances, mode, nameMap }: CompareChartsP
           <ResponsiveContainer width="100%" height={200}>
             <AreaChart data={chartData}>
               <defs>
-                {skaters.map((d, i) => (
-                  <linearGradient key={d.skater_id} id={`grad-s-${dist}-${i}`} x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor={COLORS[i % COLORS.length]} stopOpacity={0.15} />
-                    <stop offset="95%" stopColor={COLORS[i % COLORS.length]} stopOpacity={0} />
+                {skaters.map(d => (
+                  <linearGradient key={d.skater_id} id={gradId("s", dist, d)} x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor={colorOf(d)} stopOpacity={0.15} />
+                    <stop offset="95%" stopColor={colorOf(d)} stopOpacity={0} />
                   </linearGradient>
                 ))}
               </defs>
@@ -114,10 +120,10 @@ export function CompareCharts({ data, distances, mode, nameMap }: CompareChartsP
                 }}
               />
               <Legend />
-              {skaters.map((d, i) => (
+              {skaters.map(d => (
                 <Area key={d.skater_id} type="monotone" dataKey={label(d)}
-                  stroke={COLORS[i % COLORS.length]} strokeWidth={2}
-                  fill={`url(#grad-s-${dist}-${i})`}
+                  stroke={colorOf(d)} strokeWidth={2}
+                  fill={`url(#${gradId("s", dist, d)})`}
                   dot={{ r: 3 }} activeDot={{ r: 5 }} connectNulls animationDuration={600} />
               ))}
             </AreaChart>
@@ -142,10 +148,10 @@ export function CompareCharts({ data, distances, mode, nameMap }: CompareChartsP
           <ResponsiveContainer width="100%" height={200}>
             <AreaChart data={chartData}>
               <defs>
-                {skaters.map((d, i) => (
-                  <linearGradient key={d.skater_id} id={`grad-e-${dist}-${i}`} x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor={COLORS[i % COLORS.length]} stopOpacity={0.15} />
-                    <stop offset="95%" stopColor={COLORS[i % COLORS.length]} stopOpacity={0} />
+                {skaters.map(d => (
+                  <linearGradient key={d.skater_id} id={gradId("e", dist, d)} x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="5%" stopColor={colorOf(d)} stopOpacity={0.15} />
+                    <stop offset="95%" stopColor={colorOf(d)} stopOpacity={0} />
                   </linearGradient>
                 ))}
               </defs>
@@ -157,10 +163,10 @@ export function CompareCharts({ data, distances, mode, nameMap }: CompareChartsP
                 labelFormatter={eventTooltipLabel}
               />
               <Legend />
-              {skaters.map((d, i) => (
+              {skaters.map(d => (
                 <Area key={d.skater_id} type="monotone" dataKey={label(d)}
-                  stroke={COLORS[i % COLORS.length]} strokeWidth={2}
-                  fill={`url(#grad-e-${dist}-${i})`}
+                  stroke={colorOf(d)} strokeWidth={2}
+                  fill={`url(#${gradId("e", dist, d)})`}
                   dot={{ r: 3 }} activeDot={{ r: 5 }} connectNulls animationDuration={600} />
               ))}
             </AreaChart>

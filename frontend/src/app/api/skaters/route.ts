@@ -28,14 +28,16 @@ export async function GET(request: NextRequest) {
 
   const ids = skaters.map(s => s.id)
   const clubRows = await sql<{ skater_id: number; primary_club: string }[]>`
-    SELECT skater_id, canonical_name as primary_club
-    FROM (
-      SELECT r.skater_id, c.canonical_name,
-             ROW_NUMBER() OVER (PARTITION BY r.skater_id ORDER BY COUNT(*) DESC) as rn
-      FROM results r JOIN clubs c ON c.id = r.club_id
-      WHERE r.club_id IS NOT NULL AND r.skater_id = ANY(${ids})
-      GROUP BY r.skater_id, r.club_id, c.canonical_name
-    ) sub WHERE rn = 1
+    SELECT DISTINCT ON (r.skater_id) r.skater_id, c.canonical_name as primary_club
+    FROM results r
+    JOIN clubs c ON c.id = r.club_id
+    JOIN events e ON e.id = r.event_id
+    WHERE r.club_id IS NOT NULL AND r.skater_id = ANY(${ids})
+    ORDER BY r.skater_id,
+      SPLIT_PART(e.event_date,'/',3)::INTEGER DESC,
+      SPLIT_PART(e.event_date,'/',1)::INTEGER DESC,
+      SPLIT_PART(e.event_date,'/',2)::INTEGER DESC,
+      e.id DESC
   `
   const clubMap = new Map(clubRows.map(r => [r.skater_id, r.primary_club]))
   return Response.json(skaters.map(s => ({ ...s, primary_club: clubMap.get(s.id) ?? null })))

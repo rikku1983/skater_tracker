@@ -21,8 +21,14 @@ export default async function SkaterPage({ params }: { params: Promise<{ id: str
     FROM skaters s
     LEFT JOIN results r ON r.skater_id = s.id
     LEFT JOIN clubs c ON c.id = (
-      SELECT club_id FROM results WHERE skater_id = s.id AND club_id IS NOT NULL
-      GROUP BY club_id ORDER BY COUNT(*) DESC LIMIT 1
+      SELECT r2.club_id FROM results r2
+      JOIN events e2 ON e2.id = r2.event_id
+      WHERE r2.skater_id = s.id AND r2.club_id IS NOT NULL
+      ORDER BY SPLIT_PART(e2.event_date,'/',3)::INTEGER DESC,
+               SPLIT_PART(e2.event_date,'/',1)::INTEGER DESC,
+               SPLIT_PART(e2.event_date,'/',2)::INTEGER DESC,
+               e2.id DESC
+      LIMIT 1
     )
     WHERE s.id = ${sid}
     GROUP BY s.id, c.canonical_name, c.id

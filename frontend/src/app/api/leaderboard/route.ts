@@ -15,29 +15,49 @@ export async function GET(request: NextRequest) {
     return new Response("distance_m is required", { status: 400 })
   }
 
+  // Step 1: leaderboard grouped by skater only (no club join — avoids duplicate rows)
   const args: (string | number | boolean | null)[] = [Number(distance_m)]
   let q = `
     SELECT s.id as skater_id, s.full_name as skater_name,
-           c.canonical_name as club_name,
            MIN(r.time_seconds) as best_time,
            COUNT(r.id) as num_races
     FROM results r
     JOIN events e ON e.id = r.event_id
     JOIN skaters s ON s.id = r.skater_id
-    LEFT JOIN clubs c ON c.id = r.club_id
     WHERE r.distance_m = $1
       AND r.time_seconds IS NOT NULL AND e.track_type = 'short'
       AND COALESCE(r.status,'') NOT IN ('DNS','DNS+','DNF','DNF+','DQ','DQ+','FNT','no contest')
       AND r.skater_id IS NOT NULL
   `
-  if (season)     { args.push(season);           q += ` AND e.season = $${args.length}` }
-  if (gender)     { args.push(gender);           q += ` AND s.gender = $${args.length}` }
-  if (division)   { args.push(division);          q += ` AND r.division = $${args.length}` }
+  if (season)     { args.push(season);            q += ` AND e.season = $${args.length}` }
+  if (gender)     { args.push(gender);            q += ` AND s.gender = $${args.length}` }
+  if (division)   { args.push(division);           q += ` AND r.division = $${args.length}` }
   if (birth_year) { args.push(Number(birth_year)); q += ` AND s.birth_year = $${args.length}` }
-  q += ` GROUP BY s.id, s.full_name, c.canonical_name ORDER BY best_time ASC LIMIT 50`
+  q += ` GROUP BY s.id, s.full_name ORDER BY best_time ASC LIMIT 50`
 
-  const rows = (await sql.unsafe<Record<string, unknown>[]>(q, args)).map((r, i) => ({
-    ...r, rank: i + 1,
-  }))
-  return Response.json(rows)
+  const rows = await sql.unsafe<{ skater_id: number; skater_name: string; best_time: number; num_races: number }[]>(q, args)
+  if (rows.length === 0) return Response.json([])
+
+  // Step 2: most common club per skater
+  const ids = rows.map(r => r.skater_id)
+  const clubRows = await sql<{ skater_id: number; club_name: string }[]>`
+    SELECT skater_id, canonical_name as club_name
+    FROM (
+      SELECT r.skater_id, c.canonical_name,
+             ROW_NUMBER() OVER (PARTITION BY r.skater_id ORDER BY COUNT(*) DESC) as rn
+      FROM results r JOIN clubs c ON c.id = r.club_id
+      WHERE r.club_id IS NOT NULL AND r.skater_id = ANY(${ids})
+      GROUP BY r.skater_id, r.club_id, c.canonical_name
+    ) sub WHERE rn = 1
+  `
+  const clubMap = new Map(clubRows.map(r => [r.skater_id, r.club_name]))
+
+  return Response.json(rows.map((r, i) => ({
+    rank: i + 1,
+    skater_id: r.skater_id,
+    skater_name: r.skater_name,
+    club_name: clubMap.get(r.skater_id) ?? null,
+    best_time: r.best_time,
+    num_races: r.num_races,
+  })))
 }

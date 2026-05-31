@@ -1,14 +1,50 @@
 """
 SQLAlchemy models for skater_tracker_round2.db.
 
-Three tables: events, classification, results.
+Tables: events, clubs, skaters, classification, results, skater_entries, time_classification.
 All parsed text is stored raw — no normalization at parse time.
+Club normalization:  clubs table + club_id FK columns (scripts/normalize_clubs.py).
+Skater normalization: skaters table + skater_id FK columns (scripts/normalize_skaters.py).
 """
 from __future__ import annotations
 from sqlalchemy import Column, Integer, Float, Text, Boolean, ForeignKey
 from sqlalchemy.orm import declarative_base, relationship
 
 Base = declarative_base()
+
+
+class Club(Base):
+    """Canonical club/country entity. Populated by scripts/normalize_clubs.py."""
+    __tablename__ = "clubs"
+
+    id             = Column(Integer, primary_key=True, autoincrement=True)
+    canonical_name = Column(Text, nullable=False, unique=True)
+    abbreviation   = Column(Text)    # e.g. "NBSSC", "USA"
+    full_club_name = Column(Text)    # full official name
+    aliases        = Column(Text)    # pipe-separated raw variants
+    occurrence     = Column(Integer) # total rows mapped to this club
+    city           = Column(Text)
+    state_province = Column(Text)
+    country        = Column(Text)
+    location_note  = Column(Text)
+    duplicate_note = Column(Text)
+
+
+class Skater(Base):
+    """Canonical skater entity. Populated by scripts/normalize_skaters.py."""
+    __tablename__ = "skaters"
+
+    id              = Column(Integer, primary_key=True, autoincrement=True)
+    full_name       = Column(Text, nullable=False)
+    first_name      = Column(Text)
+    last_name       = Column(Text)
+    normalized_name = Column(Text, index=True)   # lowercase alpha+space tokens
+    gender          = Column(Text)    # 'Male' | 'Female' | NULL
+    birth_year      = Column(Integer) # single year (from CSV); NULL if only range known
+    birth_year_min  = Column(Integer) # lower bound when only range available
+    birth_year_max  = Column(Integer) # upper bound when only range available
+    known_aliases   = Column(Text)    # pipe-separated raw name variants seen in DB
+    source          = Column(Text)    # 'csv' | 'db_new'
 
 
 class Event(Base):
@@ -53,6 +89,8 @@ class Classification(Base):
     bib               = Column(Text)
     skater_name       = Column(Text)
     affiliation       = Column(Text)    # raw club/country string
+    club_id           = Column(Integer) # FK → clubs.id (nullable; no DB-level constraint)
+    skater_id         = Column(Integer) # FK → skaters.id (nullable; no DB-level constraint)
     points            = Column(Float)
     # Overall classification only
     skater_status     = Column(Text)    # age/level code: JR D, SR, 30+, etc.
@@ -87,6 +125,8 @@ class Result(Base):
     bib          = Column(Text)
     skater_name  = Column(Text)
     affiliation  = Column(Text)     # raw club/country string
+    club_id      = Column(Integer)  # FK → clubs.id (nullable; no DB-level constraint)
+    skater_id    = Column(Integer)  # FK → skaters.id (nullable; no DB-level constraint)
     time_text    = Column(Text)
     time_seconds = Column(Float)
     status       = Column(Text)     # Q / DNF / DNS / DQ / PEN / ADV / etc.
@@ -109,8 +149,12 @@ class SkaterEntry(Base):
     status      = Column(Text)    # age/level code: JR D, SR, 30+, etc.
     gender      = Column(Text)    # Male / Female
     division    = Column(Text)    # raw division name
-    club        = Column(Text)    # raw club name
-    page_number = Column(Integer)
+    club         = Column(Text)    # raw club name
+    club_id      = Column(Integer) # FK → clubs.id (nullable; no DB-level constraint)
+    skater_id    = Column(Integer) # FK → skaters.id (nullable; no DB-level constraint)
+    birth_year_1 = Column(Integer) # older end of 2-year age bracket (cutoff July 1)
+    birth_year_2 = Column(Integer) # younger end of 2-year age bracket
+    page_number  = Column(Integer)
 
     event = relationship("Event", back_populates="skater_entries")
 
@@ -130,6 +174,9 @@ class TimeClassification(Base):
     rank              = Column(Integer) # rank within this division+distance
     bib               = Column(Text)
     skater_name       = Column(Text)
+    affiliation       = Column(Text)    # raw club/country string (from PDF if present)
+    club_id           = Column(Integer) # FK → clubs.id (nullable; no DB-level constraint)
+    skater_id         = Column(Integer) # FK → skaters.id (nullable; no DB-level constraint)
     best_time_text    = Column(Text)    # e.g. "1:23.456"
     best_time_seconds = Column(Float)
     page_number       = Column(Integer)

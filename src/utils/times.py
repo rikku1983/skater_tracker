@@ -36,9 +36,13 @@ def parse_time(time_str: str) -> float | None:
 
 
 def is_time(token: str) -> bool:
-    """Return True if token looks like a race time."""
+    """Return True if token looks like a race time.
+
+    Requires at least 2 decimal digits to distinguish race times (always ≥2 decimal
+    places) from fractional point values like 53.5 (only 1 decimal place).
+    """
     return bool(re.fullmatch(r'\d+:\d{2}\.\d+', token.strip()) or
-                re.fullmatch(r'\d+\.\d+', token.strip()))
+                re.fullmatch(r'\d+\.\d{2,}', token.strip()))
 
 
 # Matches a standard race time: "1:23.456"

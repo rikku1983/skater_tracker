@@ -45,13 +45,18 @@ DIST_MAP: dict[int, tuple[int, float]] = {
     58: (777,  7.0),
     70: (340,  4.0),   # 4 laps × 85 m track
     79: (777,  7.0),   # 7 laps × 111 m track (relay)
+    13: (165,  None),  # 165 m (non-standard local distance)
+    22: (2000, 18.0),  # 2000 m relay (5 skaters × 400 m or 18 laps)
     51: (400,  None),  # 400 m (non-standard distance, ~4.7 laps on 85m track)
     57: (111,  1.0),   # 1 lap × 111.12 m track (111m expressed precisely)
     62: (107,  1.0),   # 1 lap × 107 m track
     63: (214,  2.0),   # 2 laps × 107 m track
     64: (321,  3.0),   # 3 laps × 107 m track
     65: (428,  4.0),   # 4 laps × 107 m track
+    59: (666,  None),  # 666 m (non-standard local distance, ~6 laps on 111m track)
+    61: (None, None),  # "Skill Races" — developmental event, no standard distance
     66: (383,  None),  # ~3.58 laps × 107 m track (383m super final)
+    23: (3000, None),  # 3000 m (long relay/pursuit distance, non-standard)
 }
 
 RELAY_DIST_IDS = {79}

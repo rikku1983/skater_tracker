@@ -77,6 +77,28 @@ These appear in certain Midwest youth events (e.g. Great Lakes Championships Tol
 - Skaters are grouped into **ability-based divisions**. Division names vary by event and host club — do not make assumptions from division names alone.
 - "85 m" appearing in a division name (e.g. "Division 9 Saddle 85m") is the class/track-size label, **not** the race distance. Races within that division use the normal distance schedule.
 
+### USS Age Group Classifications
+
+Standard US Speedskating age groups for short track. Division names in PDFs often include these labels (e.g. "Junior D Mixed", "Junior D Women").
+
+| Group | Age span |
+|---|---|
+| Junior A | 17–18 |
+| Junior B | 15–16 |
+| Junior C | 13–14 |
+| Junior D | 11–12 |
+| Junior E | 9–10 |
+| Junior F | 7–8 |
+
+**Age cutoff: July 1.** A skater's group for a given season is determined by their age on the **July 1 preceding the season start**. For example, a skater who turns 13 on August 20, 2024 was still 12 on July 1, 2024 → placed in Junior D (11–12) for the 2024–2025 season. They move to Junior C the following season.
+
+Season → cutoff date mapping:
+- 2024–2025 season → July 1, 2024
+- 2023–2024 season → July 1, 2023
+- etc.
+
+Older categories (Open, Master, Senior) have no fixed age ceiling. Younger beginners (age 7 and under, i.e. under Junior F) may race on the 85 m or 55 m track under local club names ("Tiny Tot", "Pee Wee", "Pony", etc.) with no standard USS mapping.
+
 ### Race format within a division
 
 Each division races **multiple distances** at a single event (e.g. 500 m, 1000 m, 1500 m; or 333 m, 222 m, 500 m on an 85 m track). Some events run a distance twice (e.g. 500 m appears as both an early and late distance).

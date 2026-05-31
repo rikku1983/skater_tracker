@@ -31,15 +31,20 @@ KNOWN_DISTANCES = {
     85, 170, 212, 255, 340,
     # Small youth tracks (43m, 55m, ~107m, etc.)
     43, 55, 107, 128, 166, 214, 267, 321, 383, 425, 428, 435,
-    # Non-standard local tracks
-    400, 440, 595,
+    # Relay distances (short track: 3000m Ladies relay, 5000m Men relay)
+    2000, 5000,
+    # Non-standard local distances
+    165, 277, 400, 440, 595, 666,
+    # Small-oval youth distances (100m/50m oval — Gateway/Franklin Park style events)
+    100, 200, 300, 600, 800,
 }
 
 # Valid result status tokens.  ADV-X variants (ADV-A, ADV-B, ADV-C, …) are
 # also accepted — they mean "advanced directly to X final" without racing.
 KNOWN_STATUSES = {'Q', 'DNF', 'DNS', 'DQ', 'DSQ', 'PEN', 'ADV', 'PB', 'FNT',
-                  'F', 'FA', 'FB', 'FC', 'FD', 'FE', 'FF',   # Final group advancement codes
-                  'SA', 'SFA', 'SFB', 'SF', 'QFA',             # Super Final / Semi-Final / Quarter-Final advancement codes
+                  'F', 'FA', 'FB', 'FC', 'FD', 'FE', 'FF', 'FG',  # Final group advancement codes
+                  'SA', 'SFA', 'SFB', 'SF', 'QFA', 'H',         # Super Final / Semi-Final / Quarter-Final / Heat advancement codes
+                  'DNS+', 'DQ+', 'DNF+',          # Buffalo format: DNS/DQ/DNF after qualifying (+ = advanced first)
                   'no contest'}                   # race not held
 KNOWN_STATUS_RE = re.compile(r'^ADV-[A-Z]$')
 
@@ -471,12 +476,14 @@ def check_schedule_completeness(db, event_id: int, report: Report):
         .all()
     )
 
+    # Build lowercase version of result pairs for case-insensitive fallback
+    result_pairs_lower = {((d.lower() if d else d), dist) for d, dist in result_pairs}
+
     missing = []
     for div, dist in sorted(set(class_pairs), key=lambda x: (x[0] or '', x[1] or 0)):
         if (div, dist) not in result_pairs:
-            # Also try stripped division name as fallback
-            stripped = (div.strip() if div else div, dist)
-            if stripped not in result_pairs:
+            # Try case-insensitive match as fallback
+            if ((div.lower() if div else div), dist) not in result_pairs_lower:
                 missing.append(f"division={div!r} distance={dist}m")
 
     if missing:

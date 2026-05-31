@@ -1,24 +1,40 @@
+# Python
 __pycache__/
 *.py[cod]
 *.egg-info/
 .venv/
 venv/
+
+# Environment
 .env
 
-# Data files
-data/raw_pdfs/**/*.pdf
-data/parsed_pdfs/**/*.pdf
-data/extracted/*
-data/logs/*
+# Database (large binary — distribute separately)
 data/*.db
+
+# PDFs (large — not tracked in git)
+data/pdfs/
+data/raw_pdfs/
+
+# Scrape cache
+data/scrape_cache/
 
 # Windows metadata
 *:Zone.Identifier
 *.Zone.Identifier
 
-# Notebooks output
-notebooks/.ipynb_checkpoints/
+# Next.js
+frontend/.next/
+frontend/node_modules/
+frontend/.env*.local
+frontend/tsconfig.tsbuildinfo
+
+# Archive folder (ready to delete, not for git)
+_archive/
 
 # IDE
 .vscode/
 .idea/
+
+# OS
+.DS_Store
+Thumbs.db

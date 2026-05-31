@@ -72,7 +72,22 @@ Add a row to the appropriate season table:
 | 2023 Buffalo ST Championships & Heartland #1 | 832 | 18 | 116 |
 | Saratoga Cup & NEST #1 (Nov 2023) | 844 | 18 | 118 |
 | 2024 Empire State Games Short Track | 865 | 18 | 131 |
+| 2023 Burpee Pinnacle Championships | 725 | 17 | 88 |
+| 2023 Desert Classic Short Track | 727 | 17 | 89 |
+| 2023 USS Fall World Cup Qualifier Short Track | 739 | 17 | 90 |
+| 104th Silver Skates Meet | 763 | 17 | 92 |
+| 2023 Great Lakes ST & Heartland #2 | 740 | 17 | 93 |
+| 2023 Park Ridge Open | 757 | 17 | 94 |
+| 2023 Franklin Park Barrel Buster | 758 | 17 | 214 |
+| 26th Capital City Championships | 759 | 17 | 215 |
+| 2023 US Championships & Jr. National Championships | 761 | 17 | 100 |
+| 2023 Gateway Short Track Championships | 809 | 17 | 102 |
+| 2023 American Dream ST Championship (Feb) | 788 | 17 | 217 |
 | 2023 Empire State Games Short Track | 785 | 17 | 104 |
+| 2023 NorthBurke Short Track Open | 810 | 17 | 107 |
+| 2023 Presidential Cup | 814 | 17 | 106 |
+| 98th St. Louis Silver Skates Short Track | 801 | 17 | 109 |
+| 2023 US Age Group Nationals Short Track | 815 | 17 | 112 |
 | 2022 Buffalo Short Track Championships | 735 | 17 | 91 |
 | 2022 Saratoga Cup Short Track Championship | 746 | 17 | 95 |
 | 2021 Buffalo Short Track Championships | 639 | 16 | 71 |

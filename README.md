@@ -1,52 +1,82 @@
 # Skater Tracker
 
-A database and web application for US Short Track Speedskating results. Parses competition PDFs published by USA Skating, loads them into a SQLite database, and exposes a Streamlit web interface for browsing, searching, and comparing skaters.
+A personal web application for browsing US short track speed skating competition results. Covers events from the 2018–2019 season through the current season.
+
+Built for skaters and parents to track personal bests, compare progress over time, and view leaderboards.
+
+---
 
 ## Features
 
-- **PDF parsing** — supports 6 result formats (Tempus, All Races, Tempus Results, Tempus Races, Speedskating Pro, Classic Results)
-- **Skater deduplication** — normalizes names and merges duplicate records across events
-- **Club enrichment** — links skaters to canonical club records with abbreviations
-- **Gender inference** — from division names, per-row codes, registry CSV, and name markers
-- **Web app** — browse events, search skaters, view trajectories, compare skaters side by side
+- **Skater profiles** — personal bests by distance, season-best trend charts, full results history
+- **Event browser** — results, classification, and time classification for every parsed event
+- **Leaderboard** — fastest times by season, distance, gender, and birth year
+- **Compare skaters** — season-best or event-best trend charts for multiple skaters side by side
+- **Club pages** — roster and best times for each club
+
+## Data Sources
+
+Results are sourced from:
+- [U.S. Speed Skating](https://www.usspeedskating.org/) — official PDF results
+- [shorttracklive.info](https://www.shorttracklive.info/) — online results for select events
+
+This is a personal, non-commercial tool built for skaters and parents. Not affiliated with or endorsed by U.S. Speed Skating.
+
+---
+
+## Running the Web App Locally
+
+**Requirements:** Node.js 18+, the `data/skater_tracker_round2.db` database file.
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+Then open **http://localhost:3000**.
+
+### Pages
+
+| Page | Description |
+|---|---|
+| **Home** | Overview stats and recent events |
+| **Skaters** | Search by name — links to individual profiles |
+| **Skater profile** | Personal bests table, trend charts, full results |
+| **Events** | Browse all events by season |
+| **Event detail** | Results, classification, time classification (3 tabs) |
+| **Clubs** | Club list and roster |
+| **Leaderboard** | Top 50 times filtered by season, distance, gender, birth year |
+| **Compare** | Add multiple skaters, view overlapping trend charts |
+
+---
 
 ## Project Structure
 
 ```
-app/
-  streamlit_app.py        # Streamlit web application
-data/
-  skater_tracker.db       # SQLite database (git-ignored)
-  usa_skaters.csv         # USA Skating registry for enrichment
-  clubs_with_normalized_names_and_abbrevs.csv
-src/
-  db/
-    models.py             # SQLAlchemy models (Event, Race, Skater, Club, Result)
-    load.py               # Loads parsed events into the DB
-    session.py            # DB engine / session helpers
-  parsers/
-    base.py               # Format detection + ParsedResult dataclass
-    all_races_parser.py
-    classic_results_parser.py
-    tempus_parser.py
-    tempus_results_parser.py
-    tempus_races_parser.py
-    speedskating_pro_parser.py
-  downloader/             # PDF download utilities
-  utils/
-    times.py              # Time parsing helpers
-scripts/
-  download_pdfs.py        # Download result PDFs from USS website
-  parse_and_load.py       # Parse PDFs and load results into DB
-  clean_skater_names.py   # Normalize skater names, merge duplicates
-  enrich_from_registry.py # Enrich from USA Skating registry CSV
-  link_clubs.py           # Link skaters to canonical club records
-  apply_deduplication.py  # Apply manual deduplication CSV
-  clean_outlier_times.py  # Null/delete physically impossible times
-  reload_classic_results.py
+skater_tracker/
+├── frontend/               # Next.js web app (TypeScript + Tailwind)
+│   └── src/app/            # Pages and API routes
+├── data/
+│   ├── skater_tracker_round2.db   # SQLite database
+│   ├── pdfs/               # Source PDFs organized by season
+│   └── scrape_cache/       # Cached web scrape results
+├── scripts/                # Data pipeline scripts
+├── src/
+│   ├── parsers/            # PDF parsers for each result format
+│   └── db/                 # Database models and loader
+├── docs/                   # Domain reference and parsing notes
+├── pictures/               # Logo and background images
+└── .claude/commands/       # Claude AI skills for data pipeline
 ```
 
-## Setup
+---
+
+## Adding New Event Results
+
+New events can be added using Claude Code with the project skills. The workflow depends on the PDF format.
+
+### Step 0 — Set up the Python environment
 
 ```bash
 python -m venv .venv
@@ -54,52 +84,72 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## Data Pipeline
+### Step 1 — Get the PDF
 
-Run these in order to build the database from scratch:
+Download the results PDF from the USS website or the event host. Place it in:
 
-```bash
-# 1. Download PDFs
-python scripts/download_pdfs.py
-
-# 2. Parse and load into DB
-python scripts/parse_and_load.py
-
-# 3. Clean skater names and merge duplicates
-python scripts/clean_skater_names.py
-
-# 4. Enrich from USA Skating registry (requires data/usa_skaters.csv)
-python scripts/enrich_from_registry.py
-
-# 5. Link skaters to canonical clubs
-python scripts/link_clubs.py
-
-# 6. Remove outlier times
-python scripts/clean_outlier_times.py
+```
+data/pdfs/<season>/          # e.g. data/pdfs/2025-2026/
 ```
 
-All scripts support `--dry-run` to preview changes without writing to the database.
+### Step 2 — Choose the right skill
 
-## Web App
+Open Claude Code in this project folder and use the appropriate slash command:
 
-```bash
-streamlit run app/streamlit_app.py
+| PDF type | Skill to use | When to use it |
+|---|---|---|
+| USS / Tempus protocol format | `/parse_USS_protocol_results` | Standard competition software — most national and regional events |
+| Legacy club format (Gateway, Buffalo, Desert Classic) | `/parse_legacy_PDF_results` | Events using older custom results software |
+| MeetDirector / Meet Management format | `/parse_Meet_Management_software_formats` | Events using MeetDirector or similar software |
+
+**Not sure which format?** Open the PDF — if it has a "Tempus Competition Software" header or structured heat/final tables, use `/parse_USS_protocol_results`. If it looks like a custom layout with candy-themed division names, use `/parse_legacy_PDF_results`.
+
+### Step 3 — Run the skill
+
+In Claude Code, type the skill command followed by the PDF filename:
+
+```
+/parse_USS_protocol_results 2026_Desert_Classic_ST.pdf
 ```
 
-Pages:
-- **Overview** — event and result counts by season
-- **Events** — browse events, drill into races and results
-- **Skater Search** — search by name, club, or gender; view history and improvement trajectory
-- **Clubs** — browse clubs, view roster and top times
-- **Leaderboard** — fastest times by season, distance, division, and gender
-- **Compare** — select multiple skaters to compare season-best times and trajectories side by side
+The skill will:
+1. Find or create the event record in the database
+2. Identify the PDF format variant
+3. Parse all heats, finals, and classification sections
+4. Load results into `data/skater_tracker_round2.db`
+5. Run data quality checks and report any issues
 
-## Database Schema
+### Step 4 — Verify
 
-| Table | Description |
-|-------|-------------|
-| `events` | One row per downloaded PDF |
-| `races` | One row per division + distance within an event |
-| `skaters` | Deduplicated skater records |
-| `clubs` | Canonical club records with abbreviations |
-| `results` | One row per skater per race |
+The skill runs QC automatically. Review the output for any flagged issues. Common expected warnings (not errors):
+- `BIB_CONSISTENCY: no skater_entries` — normal for legacy formats with no club info
+- `NO_CLASSIFICATION` — normal for events with no classification section
+
+### Alternative: Web scraping
+
+Some events are available on [shorttracklive.info](https://www.shorttracklive.info/), which gives cleaner data than PDF parsing. Use:
+
+```
+/scrape_shorttracklive
+```
+
+See the skill file (`.claude/commands/scrape_shorttracklive.md`) for details on finding the competition IDs.
+
+---
+
+## Skater Normalization
+
+After adding several new events, run the normalization skill to merge any duplicate skater records that may have been created by name variations:
+
+```
+/normalize_skaters
+```
+
+---
+
+## Tech Stack
+
+- **Frontend:** Next.js 16 (App Router), TypeScript, Tailwind CSS, shadcn/ui, Recharts
+- **Database:** SQLite via `better-sqlite3` (read-only at runtime)
+- **Data pipeline:** Python, pdfplumber, SQLAlchemy
+- **AI skills:** Claude Code with project-level slash commands

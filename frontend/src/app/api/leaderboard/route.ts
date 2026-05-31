@@ -20,8 +20,7 @@ export async function GET(request: NextRequest) {
     SELECT s.id as skater_id, s.full_name as skater_name,
            c.canonical_name as club_name,
            MIN(r.time_seconds) as best_time,
-           COUNT(r.id) as num_races,
-           e.season
+           COUNT(r.id) as num_races
     FROM results r
     JOIN events e ON e.id = r.event_id
     JOIN skaters s ON s.id = r.skater_id

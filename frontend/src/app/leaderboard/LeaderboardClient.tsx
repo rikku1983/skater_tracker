@@ -22,7 +22,8 @@ export function LeaderboardClient({ seasons, distances, birthYears }: { seasons:
     if (birthYear) params.set("birth_year", birthYear)
     fetch(`/api/leaderboard?${params}`)
       .then(r => r.json())
-      .then(d => { setRows(d); setLoading(false) })
+      .then(d => { setRows(Array.isArray(d) ? d : []); setLoading(false) })
+      .catch(() => setLoading(false))
   }, [season, distance, gender, birthYear])
 
   return (

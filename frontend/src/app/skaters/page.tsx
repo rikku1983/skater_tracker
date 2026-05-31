@@ -1,6 +1,8 @@
 import { Suspense } from "react"
 import { SkatersSearch } from "./SkatersSearch"
 
+export const dynamic = "force-dynamic"
+
 export default function SkatersPage() {
   return (
     <div className="space-y-4">

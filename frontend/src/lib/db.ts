@@ -1,11 +1,10 @@
-import Database from "better-sqlite3"
-import path from "path"
+import postgres from "postgres"
 
-const DB_PATH = path.resolve(process.cwd(), "../data/skater_tracker_round2.db")
+const DATABASE_URL = process.env.DATABASE_URL!
 
-let _db: Database.Database | null = null
-
-export function getDb(): Database.Database {
-  if (!_db) _db = new Database(DB_PATH, { readonly: true })
-  return _db
-}
+export const sql = postgres(DATABASE_URL, {
+  ssl: "require",
+  max: 10,
+  idle_timeout: 20,
+  prepare: false, // required for Supabase transaction pooler (port 6543)
+})

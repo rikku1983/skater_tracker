@@ -1,31 +1,32 @@
-import { getDb } from "@/lib/db"
+import { sql } from "@/lib/db"
 import Link from "next/link"
 import { EventsFilter } from "./EventsFilter"
 
+export const dynamic = "force-dynamic"
+
 export default async function EventsPage({ searchParams }: { searchParams: Promise<{ season?: string }> }) {
   const { season } = await searchParams
-  const db = getDb()
 
-  const seasons = (db.prepare(
-    "SELECT DISTINCT season FROM events WHERE track_type='short' ORDER BY season DESC"
-  ).all() as { season: string }[]).map(r => r.season)
+  const seasons = (await sql<{ season: string }[]>`
+    SELECT DISTINCT season FROM events WHERE track_type='short' ORDER BY season DESC
+  `).map(r => r.season)
 
-  let sql = `
+  const args: (string | number | boolean | null)[] = []
+  let q = `
     SELECT e.id, e.event_name, e.season, e.event_date as start_date, e.city, e.state,
            COUNT(r.id) as result_count
     FROM events e
     LEFT JOIN results r ON r.event_id = e.id
     WHERE e.track_type = 'short'
   `
-  const args: string[] = []
-  if (season) { sql += " AND e.season = ?"; args.push(season) }
-  sql += ` GROUP BY e.id ORDER BY
-    CAST(substr(e.event_date,-4) AS INTEGER) DESC,
-    CAST(substr(e.event_date,1,instr(e.event_date,'/')-1) AS INTEGER) DESC,
-    CAST(substr(e.event_date,instr(e.event_date,'/')+1) AS INTEGER) DESC,
+  if (season) { args.push(season); q += ` AND e.season = $${args.length}` }
+  q += ` GROUP BY e.id ORDER BY
+    SPLIT_PART(e.event_date,'/',3)::INTEGER DESC,
+    SPLIT_PART(e.event_date,'/',1)::INTEGER DESC,
+    SPLIT_PART(e.event_date,'/',2)::INTEGER DESC,
     e.id DESC`
 
-  const events = db.prepare(sql).all(...args) as { id: number; event_name: string; season: string; start_date: string | null; city: string | null; state: string | null; result_count: number }[]
+  const events = await sql.unsafe<{ id: number; event_name: string; season: string; start_date: string | null; city: string | null; state: string | null; result_count: number }[]>(q, args)
 
   return (
     <div className="space-y-4">
@@ -54,7 +55,7 @@ export default async function EventsPage({ searchParams }: { searchParams: Promi
                 </td>
                 <td className="px-4 py-2 text-muted-foreground whitespace-nowrap">{e.start_date ?? "—"}</td>
                 <td className="px-4 py-2 text-muted-foreground">{[e.city, e.state].filter(Boolean).join(", ") || "—"}</td>
-                <td className="px-4 py-2 text-right text-muted-foreground">{e.result_count.toLocaleString()}</td>
+                <td className="px-4 py-2 text-right text-muted-foreground">{Number(e.result_count).toLocaleString()}</td>
               </tr>
             ))}
           </tbody>

@@ -1,12 +1,18 @@
-import { getDb } from "@/lib/db"
+import { sql } from "@/lib/db"
 
-export function GET() {
-  const db = getDb()
+export const dynamic = "force-dynamic"
 
-  const total_events = (db.prepare("SELECT COUNT(*) as n FROM events WHERE track_type='short'").get() as { n: number }).n
-  const total_skaters = (db.prepare("SELECT COUNT(*) as n FROM skaters").get() as { n: number }).n
-  const total_results = (db.prepare("SELECT COUNT(*) as n FROM results r JOIN events e ON e.id=r.event_id WHERE e.track_type='short'").get() as { n: number }).n
-  const seasons = (db.prepare("SELECT DISTINCT season FROM events WHERE track_type='short' ORDER BY season DESC").all() as { season: string }[]).map(r => r.season)
-
-  return Response.json({ total_events, total_skaters, total_results, seasons })
+export async function GET() {
+  const [eventsR, skatersR, resultsR, seasonsR] = await Promise.all([
+    sql`SELECT COUNT(*) as n FROM events WHERE track_type='short'`,
+    sql`SELECT COUNT(*) as n FROM skaters`,
+    sql`SELECT COUNT(*) as n FROM results r JOIN events e ON e.id=r.event_id WHERE e.track_type='short'`,
+    sql<{ season: string }[]>`SELECT DISTINCT season FROM events WHERE track_type='short' ORDER BY season DESC`,
+  ])
+  return Response.json({
+    total_events: Number(eventsR[0].n),
+    total_skaters: Number(skatersR[0].n),
+    total_results: Number(resultsR[0].n),
+    seasons: seasonsR.map(r => r.season),
+  })
 }

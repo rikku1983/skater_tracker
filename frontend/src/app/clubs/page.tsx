@@ -1,16 +1,17 @@
-import { getDb } from "@/lib/db"
+import { sql } from "@/lib/db"
 import Link from "next/link"
 
-export default function ClubsPage() {
-  const db = getDb()
-  const clubs = db.prepare(`
+export const dynamic = "force-dynamic"
+
+export default async function ClubsPage() {
+  const clubs = await sql<{ id: number; canonical_name: string; abbreviation: string | null; city: string | null; state: string | null; skater_count: number }[]>`
     SELECT c.id, c.canonical_name, c.abbreviation, c.city, c.state_province as state,
            COUNT(DISTINCT r.skater_id) as skater_count
     FROM clubs c
     LEFT JOIN results r ON r.club_id = c.id
     GROUP BY c.id
     ORDER BY skater_count DESC, c.canonical_name
-  `).all() as { id: number; canonical_name: string; abbreviation: string | null; city: string | null; state: string | null; skater_count: number }[]
+  `
 
   return (
     <div className="space-y-4">
@@ -34,7 +35,7 @@ export default function ClubsPage() {
                 </td>
                 <td className="px-4 py-2 text-muted-foreground">{c.abbreviation ?? "—"}</td>
                 <td className="px-4 py-2 text-muted-foreground">{[c.city, c.state].filter(Boolean).join(", ") || "—"}</td>
-                <td className="px-4 py-2 text-right text-muted-foreground">{c.skater_count.toLocaleString()}</td>
+                <td className="px-4 py-2 text-right text-muted-foreground">{Number(c.skater_count).toLocaleString()}</td>
               </tr>
             ))}
           </tbody>

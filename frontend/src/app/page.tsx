@@ -1,39 +1,38 @@
-import { getDb } from "@/lib/db"
+import { sql } from "@/lib/db"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 import { Calendar, Users, Activity, Timer, ArrowRight } from "lucide-react"
 
-export default function HomePage() {
-  const db = getDb()
+export const dynamic = "force-dynamic"
 
-  const total_events = (db.prepare("SELECT COUNT(*) as n FROM events WHERE track_type='short'").get() as { n: number }).n
-  const total_skaters = (db.prepare("SELECT COUNT(*) as n FROM skaters").get() as { n: number }).n
-  const total_results = (db.prepare(
-    "SELECT COUNT(*) as n FROM results r JOIN events e ON e.id=r.event_id WHERE e.track_type='short'"
-  ).get() as { n: number }).n
-  const seasons = (db.prepare(
-    "SELECT DISTINCT season FROM events WHERE track_type='short' ORDER BY season DESC"
-  ).all() as { season: string }[]).map(r => r.season)
+export default async function HomePage() {
+  const [eventsR, skatersR, resultsR, seasonsR, recentEvents] = await Promise.all([
+    sql`SELECT COUNT(*) as n FROM events WHERE track_type='short'`,
+    sql`SELECT COUNT(*) as n FROM skaters`,
+    sql`SELECT COUNT(*) as n FROM results r JOIN events e ON e.id=r.event_id WHERE e.track_type='short'`,
+    sql<{ season: string }[]>`SELECT DISTINCT season FROM events WHERE track_type='short' ORDER BY season DESC`,
+    sql<{ id: number; event_name: string; season: string; start_date: string | null; city: string | null; state: string | null; result_count: number }[]>`
+      SELECT e.id, e.event_name, e.season, e.event_date as start_date, e.city, e.state,
+             COUNT(r.id) as result_count
+      FROM events e
+      LEFT JOIN results r ON r.event_id = e.id
+      WHERE e.track_type = 'short'
+      GROUP BY e.id
+      ORDER BY
+        SPLIT_PART(e.event_date,'/',3)::INTEGER DESC,
+        SPLIT_PART(e.event_date,'/',1)::INTEGER DESC,
+        SPLIT_PART(e.event_date,'/',2)::INTEGER DESC,
+        e.id DESC
+      LIMIT 10
+    `,
+  ])
 
-  const recentEvents = db.prepare(`
-    SELECT e.id, e.event_name, e.season, e.event_date as start_date, e.city, e.state,
-           COUNT(r.id) as result_count
-    FROM events e
-    LEFT JOIN results r ON r.event_id = e.id
-    WHERE e.track_type = 'short'
-    GROUP BY e.id
-    ORDER BY CAST(substr(e.event_date,-4) AS INTEGER) DESC,
-             CAST(substr(e.event_date,1,instr(e.event_date,'/')-1) AS INTEGER) DESC,
-             CAST(substr(e.event_date,instr(e.event_date,'/')+1) AS INTEGER) DESC,
-             e.id DESC
-    LIMIT 10
-  `).all() as { id: number; event_name: string; season: string; start_date: string | null; city: string | null; state: string | null; result_count: number }[]
-
+  const seasons = seasonsR.map(r => r.season)
   const stats = [
-    { label: "Events",  value: total_events.toLocaleString(),  icon: Calendar },
-    { label: "Skaters", value: total_skaters.toLocaleString(), icon: Users },
-    { label: "Results", value: total_results.toLocaleString(), icon: Activity },
-    { label: "Seasons", value: seasons.length,                 icon: Timer },
+    { label: "Events",  value: Number(eventsR[0].n).toLocaleString(),  icon: Calendar },
+    { label: "Skaters", value: Number(skatersR[0].n).toLocaleString(), icon: Users },
+    { label: "Results", value: Number(resultsR[0].n).toLocaleString(), icon: Activity },
+    { label: "Seasons", value: seasons.length,                         icon: Timer },
   ]
 
   return (
@@ -79,7 +78,7 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="flex items-center gap-2 text-sm text-muted-foreground shrink-0 ml-4">
-                <span>{e.result_count.toLocaleString()} results</span>
+                <span>{Number(e.result_count).toLocaleString()} results</span>
                 <ArrowRight className="h-3.5 w-3.5 opacity-0 group-hover:opacity-100 transition-opacity text-primary" />
               </div>
             </div>

@@ -40,12 +40,12 @@ export function compareDates(a: string | null | undefined, b: string | null | un
 
 /** SQL fragment to sort a "M/D/YYYY" column correctly (ascending). */
 export const SQL_DATE_ASC = (col: string) =>
-  `CAST(substr(${col},-4) AS INTEGER),` +
-  `CAST(substr(${col},1,instr(${col},'/')-1) AS INTEGER),` +
-  `CAST(substr(${col},instr(${col},'/')+1) AS INTEGER)`
+  `SPLIT_PART(${col},'/',3)::INTEGER,` +
+  `SPLIT_PART(${col},'/',1)::INTEGER,` +
+  `SPLIT_PART(${col},'/',2)::INTEGER`
 
 /** SQL fragment to sort a "M/D/YYYY" column correctly (descending). */
 export const SQL_DATE_DESC = (col: string) =>
-  `CAST(substr(${col},-4) AS INTEGER) DESC,` +
-  `CAST(substr(${col},1,instr(${col},'/')-1) AS INTEGER) DESC,` +
-  `CAST(substr(${col},instr(${col},'/')+1) AS INTEGER) DESC`
+  `SPLIT_PART(${col},'/',3)::INTEGER DESC,` +
+  `SPLIT_PART(${col},'/',1)::INTEGER DESC,` +
+  `SPLIT_PART(${col},'/',2)::INTEGER DESC`

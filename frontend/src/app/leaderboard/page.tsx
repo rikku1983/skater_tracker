@@ -1,27 +1,26 @@
-import { getDb } from "@/lib/db"
+import { sql } from "@/lib/db"
 import { LeaderboardClient } from "./LeaderboardClient"
 
-export default function LeaderboardPage() {
-  const db = getDb()
-  const seasons = (db.prepare(
-    "SELECT DISTINCT season FROM events WHERE track_type='short' ORDER BY season DESC"
-  ).all() as { season: string }[]).map(r => r.season)
+export const dynamic = "force-dynamic"
 
-  const distances = (db.prepare(`
-    SELECT DISTINCT distance_m FROM results r
-    JOIN events e ON e.id=r.event_id
-    WHERE e.track_type='short' AND r.distance_m IS NOT NULL
-    ORDER BY distance_m
-  `).all() as { distance_m: number }[]).map(r => r.distance_m)
-
-  const birthYears = (db.prepare(`
-    SELECT DISTINCT s.birth_year
-    FROM skaters s
-    JOIN results r ON r.skater_id = s.id
-    JOIN events e ON e.id = r.event_id
-    WHERE s.birth_year IS NOT NULL AND e.track_type = 'short'
-    ORDER BY s.birth_year DESC
-  `).all() as { birth_year: number }[]).map(r => r.birth_year)
+export default async function LeaderboardPage() {
+  const [seasonsR, distancesR, birthYearsR] = await Promise.all([
+    sql<{ season: string }[]>`SELECT DISTINCT season FROM events WHERE track_type='short' ORDER BY season DESC`,
+    sql<{ distance_m: number }[]>`
+      SELECT DISTINCT distance_m FROM results r
+      JOIN events e ON e.id=r.event_id
+      WHERE e.track_type='short' AND r.distance_m IS NOT NULL
+      ORDER BY distance_m
+    `,
+    sql<{ birth_year: number }[]>`
+      SELECT DISTINCT s.birth_year
+      FROM skaters s
+      JOIN results r ON r.skater_id = s.id
+      JOIN events e ON e.id = r.event_id
+      WHERE s.birth_year IS NOT NULL AND e.track_type = 'short'
+      ORDER BY s.birth_year DESC
+    `,
+  ])
 
   return (
     <div className="space-y-6">
@@ -35,7 +34,11 @@ export default function LeaderboardPage() {
           <p className="text-white/80 text-lg">Top times by season and distance</p>
         </div>
       </div>
-      <LeaderboardClient seasons={seasons} distances={distances} birthYears={birthYears} />
+      <LeaderboardClient
+        seasons={seasonsR.map(r => r.season)}
+        distances={distancesR.map(r => r.distance_m)}
+        birthYears={birthYearsR.map(r => r.birth_year)}
+      />
     </div>
   )
 }

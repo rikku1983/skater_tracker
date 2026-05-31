@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <header className="border-b sticky top-0 bg-background z-10">
           <NavBar />
         </header>
-        <main className="max-w-7xl mx-auto px-4 py-6 w-full flex-1">{children}</main>
+        <main className="max-w-7xl mx-auto px-3 sm:px-4 py-4 sm:py-6 w-full flex-1">{children}</main>
         <footer className="border-t mt-8 py-6 text-center text-xs text-muted-foreground space-y-1">
           <p>
             Data sourced from{" "}

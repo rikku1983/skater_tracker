@@ -55,35 +55,36 @@ export function SkaterResultsTable({ results }: { results: Record<string, unknow
         </div>
       </div>
 
-      <div className="border rounded-lg overflow-auto">
-        <table className="w-full text-sm">
+      <div className="border rounded-lg overflow-x-auto">
+        <table className="w-full text-sm min-w-[520px]">
           <thead className="bg-muted/50 border-b">
             <tr>
-              <th className="text-left px-3 py-2 font-medium">Season</th>
+              <th className="text-left px-3 py-2 font-medium hidden sm:table-cell">Season</th>
               <th className="text-left px-3 py-2 font-medium">Event</th>
               <th className="text-right px-3 py-2 font-medium">Dist</th>
               <th className="text-left px-3 py-2 font-medium">Round</th>
-              <th className="text-left px-3 py-2 font-medium">Heat</th>
+              <th className="text-left px-3 py-2 font-medium hidden sm:table-cell">Heat</th>
               <th className="text-right px-3 py-2 font-medium">Rank</th>
               <th className="text-right px-3 py-2 font-medium">Time</th>
-              <th className="text-left px-3 py-2 font-medium">Status</th>
+              <th className="text-left px-3 py-2 font-medium hidden sm:table-cell">Status</th>
             </tr>
           </thead>
           <tbody className="divide-y">
             {filtered.map(r => (
               <tr key={r.id} className="hover:bg-muted/30 transition-colors">
-                <td className="px-3 py-1.5 text-muted-foreground whitespace-nowrap">{r.season}</td>
+                <td className="px-3 py-1.5 text-muted-foreground whitespace-nowrap hidden sm:table-cell">{r.season}</td>
                 <td className="px-3 py-1.5">
                   <Link href={`/events/${r.event_id}`} className="hover:underline">{r.event_name}</Link>
+                  <div className="text-xs text-muted-foreground sm:hidden">{r.season}</div>
                 </td>
                 <td className="px-3 py-1.5 text-right">{r.distance_m ? `${r.distance_m}m` : "—"}</td>
                 <td className="px-3 py-1.5 text-muted-foreground">{r.round_type ?? "—"}</td>
-                <td className="px-3 py-1.5 text-muted-foreground">{r.heat ?? "—"}</td>
+                <td className="px-3 py-1.5 text-muted-foreground hidden sm:table-cell">{r.heat ?? "—"}</td>
                 <td className="px-3 py-1.5 text-right">{r.rank ?? "—"}</td>
                 <td className="px-3 py-1.5 text-right font-mono">
                   {r.time_seconds != null ? formatTime(r.time_seconds) : (r.time_text ?? "—")}
                 </td>
-                <td className="px-3 py-1.5">
+                <td className="px-3 py-1.5 hidden sm:table-cell">
                   {r.status ? <Badge variant="destructive" className="text-xs">{r.status}</Badge> : null}
                 </td>
               </tr>

@@ -35,26 +35,27 @@ export default async function EventsPage({ searchParams }: { searchParams: Promi
         <EventsFilter seasons={seasons} current={season ?? ""} />
       </div>
 
-      <div className="border rounded-lg overflow-hidden">
-        <table className="w-full text-sm">
+      <div className="border rounded-lg overflow-x-auto">
+        <table className="w-full text-sm min-w-[480px]">
           <thead className="bg-muted/50 border-b">
             <tr>
-              <th className="text-left px-4 py-2 font-medium">Season</th>
+              <th className="text-left px-4 py-2 font-medium hidden sm:table-cell">Season</th>
               <th className="text-left px-4 py-2 font-medium">Event</th>
-              <th className="text-left px-4 py-2 font-medium">Date</th>
-              <th className="text-left px-4 py-2 font-medium">Location</th>
+              <th className="text-left px-4 py-2 font-medium hidden sm:table-cell">Date</th>
+              <th className="text-left px-4 py-2 font-medium hidden md:table-cell">Location</th>
               <th className="text-right px-4 py-2 font-medium">Results</th>
             </tr>
           </thead>
           <tbody className="divide-y">
             {events.map(e => (
               <tr key={e.id} className="hover:bg-muted/30 transition-colors">
-                <td className="px-4 py-2 text-muted-foreground whitespace-nowrap">{e.season}</td>
+                <td className="px-4 py-2 text-muted-foreground whitespace-nowrap hidden sm:table-cell">{e.season}</td>
                 <td className="px-4 py-2">
                   <Link href={`/events/${e.id}`} className="hover:underline font-medium">{e.event_name}</Link>
+                  <div className="text-xs text-muted-foreground sm:hidden">{e.season}{e.start_date ? ` · ${e.start_date}` : ""}</div>
                 </td>
-                <td className="px-4 py-2 text-muted-foreground whitespace-nowrap">{e.start_date ?? "—"}</td>
-                <td className="px-4 py-2 text-muted-foreground">{[e.city, e.state].filter(Boolean).join(", ") || "—"}</td>
+                <td className="px-4 py-2 text-muted-foreground whitespace-nowrap hidden sm:table-cell">{e.start_date ?? "—"}</td>
+                <td className="px-4 py-2 text-muted-foreground hidden md:table-cell">{[e.city, e.state].filter(Boolean).join(", ") || "—"}</td>
                 <td className="px-4 py-2 text-right text-muted-foreground">{Number(e.result_count).toLocaleString()}</td>
               </tr>
             ))}

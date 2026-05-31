@@ -17,13 +17,13 @@ export default async function ClubsPage() {
     <div className="space-y-4">
       <h1 className="text-2xl font-bold">Clubs</h1>
 
-      <div className="border rounded-lg overflow-hidden">
-        <table className="w-full text-sm">
+      <div className="border rounded-lg overflow-x-auto">
+        <table className="w-full text-sm min-w-[320px]">
           <thead className="bg-muted/50 border-b">
             <tr>
               <th className="text-left px-4 py-2 font-medium">Club</th>
-              <th className="text-left px-4 py-2 font-medium">Abbrev</th>
-              <th className="text-left px-4 py-2 font-medium">Location</th>
+              <th className="text-left px-4 py-2 font-medium hidden sm:table-cell">Abbrev</th>
+              <th className="text-left px-4 py-2 font-medium hidden md:table-cell">Location</th>
               <th className="text-right px-4 py-2 font-medium">Skaters</th>
             </tr>
           </thead>
@@ -32,9 +32,10 @@ export default async function ClubsPage() {
               <tr key={c.id} className="hover:bg-muted/30 transition-colors">
                 <td className="px-4 py-2">
                   <Link href={`/clubs/${c.id}`} className="hover:underline font-medium">{c.canonical_name}</Link>
+                  {c.city && <div className="text-xs text-muted-foreground md:hidden">{[c.city, c.state].filter(Boolean).join(", ")}</div>}
                 </td>
-                <td className="px-4 py-2 text-muted-foreground">{c.abbreviation ?? "—"}</td>
-                <td className="px-4 py-2 text-muted-foreground">{[c.city, c.state].filter(Boolean).join(", ") || "—"}</td>
+                <td className="px-4 py-2 text-muted-foreground hidden sm:table-cell">{c.abbreviation ?? "—"}</td>
+                <td className="px-4 py-2 text-muted-foreground hidden md:table-cell">{[c.city, c.state].filter(Boolean).join(", ") || "—"}</td>
                 <td className="px-4 py-2 text-right text-muted-foreground">{Number(c.skater_count).toLocaleString()}</td>
               </tr>
             ))}

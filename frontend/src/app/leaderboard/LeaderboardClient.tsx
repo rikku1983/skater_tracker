@@ -28,7 +28,7 @@ export function LeaderboardClient({ seasons, distances, birthYears }: { seasons:
 
   return (
     <div className="space-y-4">
-      <div className="flex gap-3 flex-wrap">
+      <div className="grid grid-cols-2 sm:flex gap-2 sm:gap-3 sm:flex-wrap">
         <select value={season} onChange={e => setSeason(e.target.value)} className="border rounded-md px-3 py-2 text-sm bg-background">
           <option value="">All seasons</option>
           {seasons.map(s => <option key={s} value={s}>{s}</option>)}
@@ -49,15 +49,15 @@ export function LeaderboardClient({ seasons, distances, birthYears }: { seasons:
 
       {loading && <div className="text-sm text-muted-foreground">Loading…</div>}
 
-      <div className="border rounded-lg overflow-hidden">
-        <table className="w-full text-sm">
+      <div className="border rounded-lg overflow-x-auto">
+        <table className="w-full text-sm min-w-[360px]">
           <thead className="bg-muted/50 border-b">
             <tr>
               <th className="text-center px-4 py-2 font-medium w-14">Rank</th>
               <th className="text-left px-4 py-2 font-medium">Skater</th>
-              <th className="text-left px-4 py-2 font-medium">Club</th>
+              <th className="text-left px-4 py-2 font-medium hidden sm:table-cell">Club</th>
               <th className="text-right px-4 py-2 font-medium">Best Time</th>
-              <th className="text-right px-4 py-2 font-medium">Races</th>
+              <th className="text-right px-4 py-2 font-medium hidden sm:table-cell">Races</th>
             </tr>
           </thead>
           <tbody className="divide-y">
@@ -79,10 +79,11 @@ export function LeaderboardClient({ seasons, distances, birthYears }: { seasons:
                 </td>
                 <td className="px-4 py-2">
                   <Link href={`/skaters/${r.skater_id}`} className="hover:underline font-medium">{r.skater_name}</Link>
+                  <div className="text-xs text-muted-foreground sm:hidden">{r.club_name ?? ""}</div>
                 </td>
-                <td className="px-4 py-2 text-muted-foreground">{r.club_name ?? "—"}</td>
+                <td className="px-4 py-2 text-muted-foreground hidden sm:table-cell">{r.club_name ?? "—"}</td>
                 <td className="px-4 py-2 text-right font-mono font-semibold">{formatTime(r.best_time)}</td>
-                <td className="px-4 py-2 text-right text-muted-foreground">{r.num_races}</td>
+                <td className="px-4 py-2 text-right text-muted-foreground hidden sm:table-cell">{r.num_races}</td>
               </tr>
             ))}
             {!loading && rows.length === 0 && (

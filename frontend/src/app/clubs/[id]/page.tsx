@@ -63,13 +63,13 @@ export default async function ClubDetailPage({ params, searchParams }: {
         <ClubRosterFilter seasons={seasons} current={season ?? ""} clubId={cid} />
       </div>
 
-      <div className="border rounded-lg overflow-hidden">
+      <div className="border rounded-lg overflow-x-auto">
         <table className="w-full text-sm">
           <thead className="bg-muted/50 border-b">
             <tr>
               <th className="text-left px-4 py-2 font-medium">Name</th>
-              <th className="text-left px-4 py-2 font-medium">Gender</th>
-              <th className="text-left px-4 py-2 font-medium">Born</th>
+              <th className="text-left px-4 py-2 font-medium hidden sm:table-cell">Gender</th>
+              <th className="text-left px-4 py-2 font-medium hidden sm:table-cell">Born</th>
               <th className="text-right px-4 py-2 font-medium">Results</th>
               <th className="text-right px-4 py-2 font-medium">Best 500m</th>
             </tr>
@@ -80,8 +80,8 @@ export default async function ClubDetailPage({ params, searchParams }: {
                 <td className="px-4 py-2">
                   <Link href={`/skaters/${s.skater_id}`} className="hover:underline font-medium">{s.full_name}</Link>
                 </td>
-                <td className="px-4 py-2 text-muted-foreground">{s.gender ?? "—"}</td>
-                <td className="px-4 py-2 text-muted-foreground">{s.birth_year ?? "—"}</td>
+                <td className="px-4 py-2 text-muted-foreground hidden sm:table-cell">{s.gender ?? "—"}</td>
+                <td className="px-4 py-2 text-muted-foreground hidden sm:table-cell">{s.birth_year ?? "—"}</td>
                 <td className="px-4 py-2 text-right text-muted-foreground">{Number(s.num_results).toLocaleString()}</td>
                 <td className="px-4 py-2 text-right font-mono">{s.best_500 != null ? formatTime(Number(s.best_500)) : "—"}</td>
               </tr>

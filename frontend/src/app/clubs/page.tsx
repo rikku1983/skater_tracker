@@ -9,6 +9,8 @@ export default async function ClubsPage() {
            COUNT(DISTINCT r.skater_id) as skater_count
     FROM clubs c
     LEFT JOIN results r ON r.club_id = c.id
+    WHERE NOT (c.country IS NOT NULL AND c.city IS NULL AND c.state_province IS NULL
+               AND (length(c.canonical_name) <= 3 OR c.canonical_name = c.country))
     GROUP BY c.id
     ORDER BY skater_count DESC, c.canonical_name
   `

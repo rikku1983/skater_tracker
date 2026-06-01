@@ -1,6 +1,8 @@
 {
   "permissions": {
     "allow": [
+      "mcp__supabase__authenticate",
+      "mcp__supabase__complete_authentication",
       "Bash(python3 -c \":*)",
       "Bash(python3 -m venv .venv)",
       "Bash(.venv/bin/pip install -q requests beautifulsoup4 lxml sqlalchemy python-dateutil tqdm)",

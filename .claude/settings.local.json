@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:www.usspeedskating.org)",
-      "Bash(curl -s \"https://www.usspeedskating.org/results\")",
-      "Bash(python3 -c \":*)"
-    ]
-  }
-}

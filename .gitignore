@@ -11,6 +11,15 @@ venv/
 # Database (large binary — distribute separately)
 data/*.db
 
+# Supabase sync state (local only)
+.supabase_sync_log.json
+
+# Local Claude settings (session state, not project config)
+.claude/settings.local.json
+
+# Source image assets (copies in frontend/public/ are what matter)
+pictures/
+
 # PDFs (large — not tracked in git)
 data/pdfs/
 data/raw_pdfs/

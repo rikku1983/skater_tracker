@@ -17,7 +17,16 @@ export default async function ClubsPage() {
 
   return (
     <div className="space-y-4">
-      <h1 className="text-2xl font-bold">Clubs</h1>
+      <div
+        className="relative rounded-2xl overflow-hidden"
+        style={{ backgroundImage: "url('/clubs.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+      >
+        <div className="absolute inset-0 bg-black/25" />
+        <div className="relative px-8 py-12" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.7)" }}>
+          <h1 className="text-4xl font-bold text-white mb-2">Clubs</h1>
+          <p className="text-white/80 text-lg">Speed skating clubs across the US and beyond</p>
+        </div>
+      </div>
 
       <div className="border rounded-lg overflow-x-auto">
         <table className="w-full text-sm min-w-[320px]">

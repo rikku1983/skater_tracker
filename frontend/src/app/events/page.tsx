@@ -30,8 +30,17 @@ export default async function EventsPage({ searchParams }: { searchParams: Promi
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold">Events</h1>
+      <div
+        className="relative rounded-2xl overflow-hidden"
+        style={{ backgroundImage: "url('/events.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+      >
+        <div className="absolute inset-0 bg-black/25" />
+        <div className="relative px-8 py-12" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.7)" }}>
+          <h1 className="text-4xl font-bold text-white mb-2">Events</h1>
+          <p className="text-white/80 text-lg">Short track competitions by season</p>
+        </div>
+      </div>
+      <div className="flex justify-end">
         <EventsFilter seasons={seasons} current={season ?? ""} />
       </div>
 

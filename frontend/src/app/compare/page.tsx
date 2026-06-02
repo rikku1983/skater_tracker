@@ -70,7 +70,16 @@ export default function ComparePage() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-2xl font-bold">Compare Skaters</h1>
+      <div
+        className="relative rounded-2xl overflow-hidden"
+        style={{ backgroundImage: "url('/compare-skaters.png')", backgroundSize: "cover", backgroundPosition: "center" }}
+      >
+        <div className="absolute inset-0 bg-black/25" />
+        <div className="relative px-8 py-12" style={{ textShadow: "0 1px 6px rgba(0,0,0,0.7)" }}>
+          <h1 className="text-4xl font-bold text-white mb-2">Compare Skaters</h1>
+          <p className="text-white/80 text-lg">Side-by-side performance across seasons</p>
+        </div>
+      </div>
 
       <div className="space-y-3">
         <div className="relative">

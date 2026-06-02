@@ -24,8 +24,7 @@ export function NavBar() {
       <nav className="max-w-7xl mx-auto px-4 h-14 flex items-center gap-1">
         <Link href="/" onClick={() => setOpen(false)}
           className="flex items-center gap-2 font-semibold text-base mr-4">
-          <Image src="/logo.png" alt="Skater Tracker" width={52} height={52} className="rounded" />
-          <span className="hidden sm:inline">Skater Tracker</span>
+          <Image src="/logo-wide.png" alt="Skater Tracker" width={160} height={46} className="object-contain" />
         </Link>
 
         {/* Desktop nav links */}

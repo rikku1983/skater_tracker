@@ -42,6 +42,8 @@ _STRIP_RES = [
     # St. Louis Silver Skates (any year)
     re.compile(r'^St\.\s+Louis\s+Silver\s+Skates', re.I),
     re.compile(r'^(\d{4}\s+by\s+)?Gateway$', re.I),
+    re.compile(r'^by\s+Gateway$', re.I),        # split "Presented by Gateway" second line
+    re.compile(r'^Presented\s+by\s+Gateway$', re.I),  # unsplit version
     # Gateway Championships (any year)
     re.compile(r'^Gateway\s+Championships\s+\d{4}$', re.I),
     re.compile(r'^Gateway\s+\d+\s+of\s+\d+$', re.I),

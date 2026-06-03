@@ -29,10 +29,10 @@ export default async function HomePage() {
 
   const seasons = seasonsR.map(r => r.season)
   const stats = [
-    { label: "Events",  value: Number(eventsR[0].n).toLocaleString(),  icon: Calendar },
-    { label: "Skaters", value: Number(skatersR[0].n).toLocaleString(), icon: Users },
-    { label: "Results", value: Number(resultsR[0].n).toLocaleString(), icon: Activity },
-    { label: "Seasons", value: seasons.length,                         icon: Timer },
+    { label: "Events",  value: Number(eventsR[0].n).toLocaleString(),  icon: Calendar, href: "/events" },
+    { label: "Skaters", value: Number(skatersR[0].n).toLocaleString(), icon: Users,    href: "/skaters" },
+    { label: "Results", value: Number(resultsR[0].n).toLocaleString(), icon: Activity, href: "/leaderboard" },
+    { label: "Seasons", value: seasons.length,                         icon: Timer,    href: null },
   ]
 
   return (
@@ -49,21 +49,24 @@ export default async function HomePage() {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-        {stats.map(({ label, value, icon: Icon }) => (
-          <Card key={label} className="hover:shadow-md transition-shadow">
-            <CardContent className="pt-5 pb-4">
-              <div className="flex items-start justify-between">
-                <div>
-                  <p className="text-sm text-muted-foreground mb-1">{label}</p>
-                  <p className="text-3xl font-bold text-primary">{value}</p>
+        {stats.map(({ label, value, icon: Icon, href }) => {
+          const card = (
+            <Card key={label} className={`transition-shadow ${href ? "hover:shadow-md cursor-pointer hover:border-primary/50" : ""}`}>
+              <CardContent className="pt-5 pb-4">
+                <div className="flex items-start justify-between">
+                  <div>
+                    <p className="text-sm text-muted-foreground mb-1">{label}</p>
+                    <p className="text-3xl font-bold text-primary">{value}</p>
+                  </div>
+                  <div className="bg-primary/10 text-primary rounded-lg p-2 mt-0.5">
+                    <Icon className="h-5 w-5" />
+                  </div>
                 </div>
-                <div className="bg-primary/10 text-primary rounded-lg p-2 mt-0.5">
-                  <Icon className="h-5 w-5" />
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
+              </CardContent>
+            </Card>
+          )
+          return href ? <Link key={label} href={href}>{card}</Link> : card
+        })}
       </div>
 
       <div>

@@ -20,6 +20,7 @@ These are events from local clubs using custom results software (not USS protoco
 
 | Event | id | PDF |
 |---|---|---|
+| 99th Annual St. Louis Silver Skate | 134 | `data/pdfs/2023-2024/2024_99th_St_Louis_Silver_Skate.pdf` |
 | 2022 St. Louis Silver Skates ST Championships | 82 | `data/pdfs/2021-2022/2022_St_Louis_Silver_Skates_combined.pdf` |
 | 2021 Gateway Championships | 65 | `data/pdfs/2020-2021/Gateway_CH_complete.pdf` |
 | 2019 Buffalo Championships & Heartland #1 | 41 | `data/pdfs/2019-2020/2019_Buffalo_Championships_complete.pdf` |
@@ -146,6 +147,8 @@ Add a row to the appropriate season table:
 **Desert Classic division header quirks**: Overall Classification uses `"Overall Classification- Open A Men"` format — the `"Overall Classification- "` prefix is stripped automatically. Some division names span two lines (e.g. `"Future Olympians"` / `"Mixed"`) — the parser detects single-word gender suffix lines and appends them to the previous division.
 
 **Garbled rows**: pdfplumber merges "Competition results" text with first data row of some events at page boundaries. These 4 rows are silently skipped. Affected skaters appear in other events so they remain in the DB.
+
+**"by Gateway" split header**: The page header "St. Louis Silver Skates Presented by Gateway" sometimes splits across lines as "St. Louis Silver Skates Presented" / "by Gateway". The first line is stripped, but "by Gateway" alone was previously not stripped, causing it to be misread as a division header. Fixed in `_STRIP_RES` (added `^by\s+Gateway$`). If you see `division='by Gateway'` rows in classification for this event, this is the cause — update them to the correct division from the previous page.
 
 **Classification-only PDFs** (no results section, no Time Classification): all lines go to sec1; sec2 and sec3 are empty. `Result rows` and `Time classification` counts will be 0 — expected, not an error. QC will show `NO_CLASSIFICATION` (INFO) and `BIB_CONSISTENCY: no skater_entries` (INFO) only.
 

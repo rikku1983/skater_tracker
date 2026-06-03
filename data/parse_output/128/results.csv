@@ -1,0 +1,626 @@
+id,event_id,division,distance_m,laps,round_type,round_label,race_number,heat,group_label,rank,bib,skater_name,affiliation,time_text,time_seconds,status,points,page_number,parse_note,is_relay,club_id,skater_id
+,128,NEST Women,1500,13.5135,HEATS,Heat 1 of 2,101,1,,1,115,Kassandra Haeupl,Lakewood Speedskating,2:37.950,157.95,,,,,False,14,1113
+,128,NEST Women,1500,13.5135,HEATS,Heat 1 of 2,101,1,,2,102,Diana Bickmore,Danbury Speedskating,2:38.090,158.09,,,,,False,8,90
+,128,NEST Women,1500,13.5135,HEATS,Heat 1 of 2,101,1,,3,141,Tiffany Zhang,Potomac Speedskating,2:38.250,158.25,,,,,False,1,207
+,128,NEST Women,1500,13.5135,HEATS,Heat 1 of 2,101,1,,4,130,Sasha Mensah,Danbury Speedskating,2:38.400,158.4,,,,,False,8,23
+,128,NEST Women,1500,13.5135,HEATS,Heat 1 of 2,101,1,,5,137,Therese Sowa,Bay State Speedskating,2:40.460,160.46,,,,,False,5,226
+,128,NEST Women,1500,13.5135,HEATS,Heat 1 of 2,101,1,,6,101,Nagi Aitbayeva,Syracuse Speed Skating,2:54.590,174.59,,,,,False,28,314
+,128,NEST Women,1500,13.5135,HEATS,Heat 2 of 2,102,2,,1,106,Isabella Chen,Potomac Speedskating,2:33.540,153.54,,,,,False,1,89
+,128,NEST Women,1500,13.5135,HEATS,Heat 2 of 2,102,2,,2,124,Sofia Koons,Lakewood Speedskating,2:35.270,155.27,,,,,False,14,9
+,128,NEST Women,1500,13.5135,HEATS,Heat 2 of 2,102,2,,3,110,Makayla Chou,Potomac Speedskating,2:37.120,157.12,,,,,False,1,109
+,128,NEST Women,1500,13.5135,HEATS,Heat 2 of 2,102,2,,4,113,Sarah Girach,Danbury Speedskating,2:46.510,166.51,,,,,False,8,34
+,128,NEST Women,1500,13.5135,HEATS,Heat 2 of 2,102,2,,5,131,Tatyana Pometun,East Penn Speedskating,2:46.910,166.91,,,,,False,10,60
+,128,NEST Women,1500,13.5135,HEATS,Heat 2 of 2,102,2,,6,111,Sara Cushman,Bay State Speedskating,2:54.290,174.29,,,,,False,5,37
+,128,NEST Men,1500,13.5135,HEATS,Heat 1 of 2,201,1,,1,182,Ethan Lin,Potomac Speedskating,2:36.990,156.99,,,,,False,1,69
+,128,NEST Men,1500,13.5135,HEATS,Heat 1 of 2,201,1,,2,213,Robert Tolliver,Potomac Speedskating,2:37.320,157.32,,,,,False,1,36
+,128,NEST Men,1500,13.5135,HEATS,Heat 1 of 2,201,1,,3,200,Gabriel Rillotta,Potomac Speedskating,2:38.890,158.89,,,,,False,1,33
+,128,NEST Men,1500,13.5135,HEATS,Heat 1 of 2,201,1,,4,209,Frederick Sowa,Bay State Speedskating,2:39.420,159.42000000000002,,,,,False,5,160
+,128,NEST Men,1500,13.5135,HEATS,Heat 1 of 2,201,1,,5,174,Gihoon Kuh,Potomac Speedskating,2:41.170,161.17000000000002,,,,,False,1,480
+,128,NEST Men,1500,13.5135,HEATS,Heat 1 of 2,201,1,,6,210,Henry Sowa,Bay State Speedskating,2:47.170,167.17000000000002,,,,,False,5,170
+,128,NEST Men,1500,13.5135,HEATS,Heat 2 of 2,202,2,,1,223,Lucas Wu,Potomac Speedskating,2:40.010,160.01,,,,,False,1,58
+,128,NEST Men,1500,13.5135,HEATS,Heat 2 of 2,202,2,,2,145,Xavier Babkine-Osterrath,Danbury Speedskating,2:40.380,160.38,,,,,False,8,121
+,128,NEST Men,1500,13.5135,HEATS,Heat 2 of 2,202,2,,3,205,Lucas Shi,Oval Speed Skating,2:40.590,160.59,,,,,False,17,379
+,128,NEST Men,1500,13.5135,HEATS,Heat 2 of 2,202,2,,4,170,Ryan Huang,Potomac Speedskating,2:40.760,160.76,,,,,False,1,39
+,128,NEST Men,1500,13.5135,HEATS,Heat 2 of 2,202,2,,5,215,Tim VanFleet,East Penn Speedskating,2:44.730,164.73,,,,,False,10,156
+,128,Group 1,1000,9.009,HEATS,Heat 1 of 3 (Picking 1+(2)),301,1,,1,150,Daniel Butler,Bay State Speedskating,1:53.410,113.41,,,,,False,5,49
+,128,Group 1,1000,9.009,HEATS,Heat 1 of 3 (Picking 1+(2)),301,1,,2,168,Jesse Hoffman,Saratoga Winter,1:55.620,115.62,,,,,False,20,274
+,128,Group 1,1000,9.009,HEATS,Heat 1 of 3 (Picking 1+(2)),301,1,,3,193,Henry Peck,United Capital Blades Speedskating,1:57.500,117.5,,,,,False,16,370
+,128,Group 1,1000,9.009,HEATS,Heat 1 of 3 (Picking 1+(2)),301,1,,4,171,Vlad Khodik,Flushing Meadows Speedskating,2:08.190,128.19,,,,,False,18,366
+,128,Group 1,1000,9.009,HEATS,Heat 2 of 3 (Picking 1+(2)),302,2,,1,220,Keith Wobeser,East Penn Speedskating,1:51.510,111.50999999999999,,,,,False,10,67
+,128,Group 1,1000,9.009,HEATS,Heat 2 of 3 (Picking 1+(2)),302,2,,2,121,Ji Jung,Flushing Meadows Speedskating,2:07.090,127.09,,,,,False,18,1666
+,128,Group 1,1000,9.009,HEATS,Heat 2 of 3 (Picking 1+(2)),302,2,,3,188,Shawn Michalek,Bay State Speedskating,2:09.010,129.01,,,,,False,5,342
+,128,Group 1,1000,9.009,HEATS,Heat 2 of 3 (Picking 1+(2)),302,2,,4,122,Lyra Katzman,Flushing Meadows Speedskating,2:16.620,136.62,,,,,False,18,271
+,128,Group 1,1000,9.009,HEATS,Heat 3 of 3,303,3,,1,158,Chase Ferry,Bay State Speedskating,2:13.450,133.45,,,,,False,5,1651
+,128,Group 1,1000,9.009,HEATS,Heat 3 of 3,303,3,,2,147,Martin Bednar,Bay State Speedskating,2:43.890,163.89,,,,,False,5,148
+,128,Group 1,1000,9.009,HEATS,Heat 3 of 3,303,3,,3,167,Uri Hoch,Flushing Meadows Speedskating,3:18.670,198.67000000000002,,,,,False,18,506
+,128,Group 1,1000,9.009,HEATS,Heat 3 of 3,303,3,,,160,Yundi Gao,Flushing Meadows Speedskating,,,DNS,,,,False,18,1162
+,128,Group 2,1000,9.009,HEATS,Heat 1 of 3,401,1,,1,146,Ilchan Bae,Potomac Speedskating,1:53.200,113.2,,,,,False,1,164
+,128,Group 2,1000,9.009,HEATS,Heat 1 of 3,401,1,,2,226,Evan Zhang,Potomac Speedskating,1:53.600,113.6,,,,,False,1,95
+,128,Group 2,1000,9.009,HEATS,Heat 1 of 3,401,1,,3,175,Ayden Lee,East Penn Speedskating,1:55.350,115.35,,,,,False,10,117
+,128,Group 2,1000,9.009,HEATS,Heat 1 of 3,401,1,,4,186,Eliyahu Louz,Garden State Speedskating,1:58.820,118.82,,,,,False,7,623
+,128,Group 2,1000,9.009,HEATS,Heat 2 of 3,402,2,,1,211,Ian Sulkoske,Pittsburgh Speedskating,1:48.090,108.09,,,,,False,36,242
+,128,Group 2,1000,9.009,HEATS,Heat 2 of 3,402,2,,2,192,Hayden Peck,Saratoga Winter,1:53.310,113.31,,,,,False,20,1475
+,128,Group 2,1000,9.009,HEATS,Heat 2 of 3,402,2,,3,216,Bryan Wang,Potomac Speedskating,2:08.730,128.73,,,,,False,1,53
+,128,Group 2,1000,9.009,HEATS,Heat 2 of 3,402,2,,4,165,Jacoby Hartshorn,Bay State Speedskating,2:12.160,132.16,,,,,False,5,305
+,128,Group 2,1000,9.009,HEATS,Heat 3 of 3,403,3,,1,197,Loki Ranta,Bay State Speedskating,1:49.750,109.75,,,,,False,5,103
+,128,Group 2,1000,9.009,HEATS,Heat 3 of 3,403,3,,2,161,Narendran Gopinath,East Penn Speedskating,1:50.670,110.67,,,,,False,10,84
+,128,Group 2,1000,9.009,HEATS,Heat 3 of 3,403,3,,3,178,Lucas Li,Garden State Speedskating,1:53.420,113.42,,,,,False,7,387
+,128,Group 2,1000,9.009,HEATS,Heat 3 of 3,403,3,,4,128,Jei Lim,Potomac Speedskating,2:08.170,128.17,,,,,False,1,492
+,128,Group 3,1000,9.009,HEATS,Heat 1 of 3,501,1,,1,123,Madeline Koons,Lakewood Speedskating,1:58.220,118.22,,,,,False,14,200
+,128,Group 3,1000,9.009,HEATS,Heat 1 of 3,501,1,,2,135,Kathryn Sautter,East Penn Speedskating,1:58.540,118.53999999999999,,,,,False,10,806
+,128,Group 3,1000,9.009,HEATS,Heat 1 of 3,501,1,,3,204,Christian Shelton-White,United Capital Blades Speedskating,2:02.250,122.25,,,,,False,16,51
+,128,Group 3,1000,9.009,HEATS,Heat 1 of 3,501,1,,4,218,Jabari Watts,United Capital Blades Speedskating,2:08.140,128.14,,,,,False,16,93
+,128,Group 3,1000,9.009,HEATS,Heat 2 of 3,502,2,,1,156,Zachary Double,Bay State Speedskating,1:57.440,117.44,,,,,False,5,214
+,128,Group 3,1000,9.009,HEATS,Heat 2 of 3,502,2,,2,222,Gabriel Wochtl,East Penn Speedskating,1:58.270,118.27000000000001,,,,,False,10,495
+,128,Group 3,1000,9.009,HEATS,Heat 2 of 3,502,2,,3,173,Evan Krieg,Pittsburgh Speedskating,1:59.790,119.78999999999999,,,,,False,36,785
+,128,Group 3,1000,9.009,HEATS,Heat 2 of 3,502,2,,4,153,Dexter Colice,Bay State Speedskating,2:14.910,134.91,,,,,False,5,351
+,128,Group 3,1000,9.009,HEATS,Heat 3 of 3,503,3,,1,157,Russel Einsla,East Penn Speedskating,1:58.580,118.58,,,,,False,10,613
+,128,Group 3,1000,9.009,HEATS,Heat 3 of 3,503,3,,2,138,Priyanka Srinivasula,East Penn Speedskating,2:04.830,124.83,,,,,False,10,79
+,128,Group 3,1000,9.009,HEATS,Heat 3 of 3,503,3,,3,214,Adrian Tylwalk,East Penn Speedskating,2:06.580,126.58,,,,,False,10,237
+,128,Group 3,1000,9.009,HEATS,Heat 3 of 3,503,3,,4,152,Nicholas Clark,Saratoga Winter,2:07.480,127.48,,,,,False,20,203
+,128,Group 4,777,7.0,HEATS,Heat 1 of 3,601,1,,1,179,Marcus Li,Potomac Speedskating,1:31.320,91.32,,,,,False,1,894
+,128,Group 4,777,7.0,HEATS,Heat 1 of 3,601,1,,2,108,Elliana Cho,Potomac Speedskating,1:32.030,92.03,,,,,False,1,140
+,128,Group 4,777,7.0,HEATS,Heat 1 of 3,601,1,,3,207,Landon Smith,United Capital Blades Speedskating,1:32.530,92.53,,,,,False,16,190
+,128,Group 4,777,7.0,HEATS,Heat 1 of 3,601,1,,4,224,Kobe Yee,Bay State Speedskating,1:33.630,93.63,,,,,False,5,101
+,128,Group 4,777,7.0,HEATS,Heat 2 of 3,602,2,,1,194,Hendrik Plate-Tong,Garden State Speedskating,1:28.630,88.63,,,,,False,7,144
+,128,Group 4,777,7.0,HEATS,Heat 2 of 3,602,2,,2,206,Noah Shi,Oval Speed Skating,1:28.850,88.85,,,,,False,17,1492
+,128,Group 4,777,7.0,HEATS,Heat 2 of 3,602,2,,3,227,Aiden Zhang,Potomac Speedskating,1:29.100,89.1,,,,,False,1,3890
+,128,Group 4,777,7.0,HEATS,Heat 2 of 3,602,2,,4,120,Hannah Huang,Potomac Speedskating,1:29.350,89.35,,,,,False,1,124
+,128,Group 4,777,7.0,HEATS,Heat 3 of 3,603,3,,1,114,Lindsay Lin,Garden State Speedskating,1:28.730,88.73,,,,,False,7,199
+,128,Group 4,777,7.0,HEATS,Heat 3 of 3,603,3,,2,183,Marcus Liu,Oval Speed Skating,1:29.010,89.01,,,,,False,17,131
+,128,Group 4,777,7.0,HEATS,Heat 3 of 3,603,3,,3,196,Harvey Qu,Garden State Speedskating,1:32.380,92.38,,,,,False,7,162
+,128,Group 5,777,7.0,HEATS,Heat 1 of 3,701,1,,1,100,Saruar Aitbayeva,Syracuse Speed Skating,1:42.140,102.14,,,,,False,28,739
+,128,Group 5,777,7.0,HEATS,Heat 1 of 3,701,1,,2,212,Sean Sun,Garden State Speedskating,1:47.170,107.17,,,,,False,7,115
+,128,Group 5,777,7.0,HEATS,Heat 1 of 3,701,1,,3,151,Derick Chang,Garden State Speedskating,1:48.890,108.89,,,,,False,7,460
+,128,Group 5,777,7.0,HEATS,Heat 1 of 3,701,1,,4,118,Emily Hogan,Saratoga Winter,2:11.790,131.79,,,,,False,20,964
+,128,Group 5,777,7.0,HEATS,Heat 2 of 3,702,2,,1,185,Avery Lorenz,United Capital Blades Speedskating,1:41.800,101.8,,,,,False,16,375
+,128,Group 5,777,7.0,HEATS,Heat 2 of 3,702,2,,2,225,James Yin,East Penn Speedskating,1:42.050,102.05,,,,,False,10,276
+,128,Group 5,777,7.0,HEATS,Heat 2 of 3,702,2,,3,193,Henry Peck,Saratoga Winter,1:48.230,108.22999999999999,,,,,False,20,370
+,128,Group 5,777,7.0,HEATS,Heat 2 of 3,702,2,,4,103,Elizabeth Bourquin,Saratoga Winter,1:49.760,109.75999999999999,,,,,False,20,176
+,128,Group 5,777,7.0,HEATS,Heat 3 of 3,703,3,,1,164,Clark Hartemink,East Penn Speedskating,1:34.600,94.6,,,,,False,10,182
+,128,Group 5,777,7.0,HEATS,Heat 3 of 3,703,3,,2,169,Maren Hoffman,Saratoga Winter,1:53.130,113.13,,,,,False,20,374
+,128,Group 5,777,7.0,HEATS,Heat 3 of 3,703,3,,3,116,Lucy Hoffman,Saratoga Winter,2:01.670,121.67,,,,,False,20,424
+,128,Group 5,777,7.0,HEATS,Heat 3 of 3,703,3,,4,112,Gabrielle Garnier,East Penn Speedskating,2:02.380,122.38,,,,,False,10,1663
+,128,Group 6,333,3.0,HEATS,Heat 1 of 3,801,1,,1,176,Samuel Lee,Potomac Speedskating,0:44.230,44.23,,,,,False,1,293
+,128,Group 6,333,3.0,HEATS,Heat 1 of 3,801,1,,2,125,Yoonji Kuh,Potomac Speedskating,0:44.510,44.51,,,,,False,1,625
+,128,Group 6,333,3.0,HEATS,Heat 1 of 3,801,1,,3,217,Elias Wang,Toanic Speedskating,0:51.840,51.84,,,,,False,56,186
+,128,Group 6,333,3.0,HEATS,Heat 2 of 3,802,2,,1,191,Kipling Mullaney,United Capital Blades Speedskating,0:45.170,45.17,,,,,False,16,598
+,128,Group 6,333,3.0,HEATS,Heat 2 of 3,802,2,,2,181,Jayden Lin,United Capital Blades Speedskating,0:46.700,46.7,,,,,False,16,180
+,128,Group 6,333,3.0,HEATS,Heat 2 of 3,802,2,,3,229,Eric Zhao,Garden State Speedskating,0:48.500,48.5,,,,,False,7,467
+,128,Group 6,333,3.0,HEATS,Heat 2 of 3,802,2,,4,221,Benjamin Wobeser,East Penn Speedskating,0:51.170,51.17,,,,,False,10,137
+,128,Group 6,333,3.0,HEATS,Heat 3 of 3,803,3,,1,195,Maxwell Pompei,Bay State Speedskating,0:45.760,45.76,,,,,False,5,229
+,128,Group 6,333,3.0,HEATS,Heat 3 of 3,803,3,,2,208,Peter Sowa,Bay State Speedskating,0:46.080,46.08,,,,,False,5,270
+,128,Group 6,333,3.0,HEATS,Heat 3 of 3,803,3,,3,154,Sebastian Delnore,Pittsburgh Speedskating,0:47.080,47.08,,,,,False,36,324
+,128,Group 6,333,3.0,HEATS,Heat 3 of 3,803,3,,4,119,Lois Houck,Toanic Speedskating,0:49.930,49.93,,,,,False,56,253
+,128,Group 7,333,3.0,HEATS,Heat 1 of 3 (Picking 1+2),901,1,,1,203,Samuel Sheen,Bay State Speedskating,0:42.330,42.33,,,,,False,5,233
+,128,Group 7,333,3.0,HEATS,Heat 1 of 3 (Picking 1+2),901,1,,2,184,Ethan Liu,Garden State Speedskating,0:42.610,42.61,,,,,False,7,13
+,128,Group 7,333,3.0,HEATS,Heat 1 of 3 (Picking 1+2),901,1,,3,172,Jack Koons,Lakewood Speedskating,0:48.580,48.58,,,,,False,14,94
+,128,Group 7,333,3.0,HEATS,Heat 1 of 3 (Picking 1+2),901,1,,4,219,Samuel Winter,Connecticut Speedskating,0:48.980,48.98,,,,,False,44,1219
+,128,Group 7,333,3.0,HEATS,Heat 2 of 3 (Picking 1+2),902,2,,1,190,Max Mountainbear,Park Ridge Speedskating,0:43.140,43.14,,,,,False,30,41
+,128,Group 7,333,3.0,HEATS,Heat 2 of 3 (Picking 1+2),902,2,,2,228,Liam Zhang,Garden State Speedskating,0:44.110,44.11,,,,,False,7,1557
+,128,Group 7,333,3.0,HEATS,Heat 2 of 3 (Picking 1+2),902,2,,3,134,Tobi Ranta,Bay State Speedskating,0:51.460,51.46,,,,,False,5,328
+,128,Group 7,333,3.0,HEATS,Heat 2 of 3 (Picking 1+2),902,2,,4,129,Johanna Gleicher,Garden State Speedskating,0:59.610,59.61,,,,,False,7,317
+,128,Group 7,333,3.0,HEATS,Heat 3 of 3 (Picking 1+2),903,3,,1,148,William Bi,Potomac Speedskating,0:42.550,42.55,,,,,False,1,417
+,128,Group 7,333,3.0,HEATS,Heat 3 of 3 (Picking 1+2),903,3,,2,155,Hunter Dong,East Penn Speedskating,0:44.800,44.8,,,,,False,10,531
+,128,Group 7,333,3.0,HEATS,Heat 3 of 3 (Picking 1+2),903,3,,3,202,Henry Seagraves,Pittsburgh Speedskating,0:52.370,52.37,,,,,False,36,1395
+,128,Group 7,333,3.0,HEATS,Heat 3 of 3 (Picking 1+2),903,3,,4,187,Finn McCloud,Pittsburgh Speedskating,1:06.760,66.76,,,,,False,36,334
+,128,Novice A,222,2.0,HEATS,Heat 1 of 2,1001,1,,1,132,Harshini Ramachandran,Garden State Speedskating,0:28.640,28.64,,,,,False,7,980
+,128,Novice A,222,2.0,HEATS,Heat 1 of 2,1001,1,,2,230,Isaac Zheng,Garden State Speedskating,0:30.030,30.03,,,,,False,7,249
+,128,Novice A,222,2.0,HEATS,Heat 1 of 2,1001,1,,3,189,Zoly Milstein,Bay State Speedskating,0:30.670,30.67,,,,,False,5,1439
+,128,Novice A,222,2.0,HEATS,Heat 1 of 2,1001,1,,4,143,Ian Andrews,United Capital Blades Speedskating,0:31.420,31.42,,,,,False,16,254
+,128,Novice A,222,2.0,HEATS,Heat 1 of 2,1001,1,,5,149,Jaxon Brogan,East Penn Speedskating,0:32.950,32.95,,,,,False,10,335
+,128,Novice A,222,2.0,HEATS,Heat 2 of 2,1002,2,,1,107,Sarah Chen,Flushing Meadows Speedskating,0:32.710,32.71,,,,,False,18,197
+,128,Novice A,222,2.0,HEATS,Heat 2 of 2,1002,2,,2,142,James Abramovich,Flushing Meadows Speedskating,0:37.070,37.07,,,,,False,18,592
+,128,Novice A,222,2.0,HEATS,Heat 2 of 2,1002,2,,3,133,Dharshini Ramachandran,Garden State Speedskating,0:38.290,38.29,,,,,False,7,602
+,128,Novice A,222,2.0,HEATS,Heat 2 of 2,1002,2,,4,139,Charlotte Streefkerk,United Capital Blades Speedskating,0:52.170,52.17,,,,,False,16,1050
+,128,Novice A,222,2.0,HEATS,Heat 2 of 2,1002,2,,,126,Clara Lee,Garden State Speedskating,,,PEN,,,,False,7,86
+,128,Novice B,222,2.0,HEATS,Heat 1 of 3,1101,1,,1,163,Alan Han,East Penn Speedskating,0:33.230,33.23,,,,,False,10,1548
+,128,Novice B,222,2.0,HEATS,Heat 1 of 3,1101,1,,2,177,Ethan Lee,East Penn Speedskating,0:33.480,33.48,,,,,False,10,219
+,128,Novice B,222,2.0,HEATS,Heat 1 of 3,1101,1,,3,159,Sam Firer,Garden State Speedskating,0:34.340,34.34,,,,,False,7,1675
+,128,Novice B,222,2.0,HEATS,Heat 1 of 3,1101,1,,4,105,Penelope Cattell,East Penn Speedskating,0:43.590,43.59,,,,,False,10,474
+,128,Novice B,222,2.0,HEATS,Heat 2 of 3,1102,2,,1,201,Luca Sakhnovskiy,Saratoga Winter,0:34.610,34.61,,,,,False,20,283
+,128,Novice B,222,2.0,HEATS,Heat 2 of 3,1102,2,,2,104,Ada Cao,Bay State Speedskating,0:36.890,36.89,,,,,False,5,331
+,128,Novice B,222,2.0,HEATS,Heat 2 of 3,1102,2,,3,140,Rosaline Wang,Garden State Speedskating,0:43.110,43.11,,,,,False,7,1674
+,128,Novice B,222,2.0,HEATS,Heat 3 of 3,1103,3,,1,117,Zoey Hoffman,East Penn Speedskating,0:32.580,32.58,,,,,False,10,1664
+,128,Novice B,222,2.0,HEATS,Heat 3 of 3,1103,3,,2,162,Charles Han,East Penn Speedskating,0:33.070,33.07,,,,,False,10,1549
+,128,Novice B,222,2.0,HEATS,Heat 3 of 3,1103,3,,3,166,Eason He,United Capital Blades Speedskating,0:37.960,37.96,,,,,False,16,410
+,128,Novice B,222,2.0,HEATS,Heat 3 of 3,1103,3,,4,127,Chuyi Liao,Garden State Speedskating,0:43.540,43.54,,,,,False,7,1673
+,128,NEST Women,1500,13.5135,FINAL,B Final,1201,,,1,131,Tatyana Pometun,East Penn Speedskating,2:59.220,179.22,,,,,False,10,60
+,128,NEST Women,1500,13.5135,FINAL,B Final,1201,,,2,137,Therese Sowa,Bay State Speedskating,2:59.510,179.51,,,,,False,5,226
+,128,NEST Women,1500,13.5135,FINAL,B Final,1201,,,3,101,Nagi Aitbayeva,Syracuse Speed Skating,3:00.860,180.86,,,,,False,28,314
+,128,NEST Women,1500,13.5135,FINAL,B Final,1201,,,4,111,Sara Cushman,Bay State Speedskating,3:02.290,182.29,,,,,False,5,37
+,128,NEST Women,1500,13.5135,FINAL,A Final,1202,,,1,106,Isabella Chen,Potomac Speedskating,2:39.960,159.96,,,,,False,1,89
+,128,NEST Women,1500,13.5135,FINAL,A Final,1202,,,2,124,Sofia Koons,Lakewood Speedskating,2:41.890,161.89,,,,,False,14,9
+,128,NEST Women,1500,13.5135,FINAL,A Final,1202,,,3,115,Kassandra Haeupl,Lakewood Speedskating,2:45.140,165.14,,,,,False,14,1113
+,128,NEST Women,1500,13.5135,FINAL,A Final,1202,,,4,141,Tiffany Zhang,Potomac Speedskating,2:46.610,166.61,,,,,False,1,207
+,128,NEST Women,1500,13.5135,FINAL,A Final,1202,,,5,130,Sasha Mensah,Danbury Speedskating,2:48.320,168.32,,,,,False,8,23
+,128,NEST Women,1500,13.5135,FINAL,A Final,1202,,,6,110,Makayla Chou,Potomac Speedskating,2:48.610,168.61,,,,,False,1,109
+,128,NEST Women,1500,13.5135,FINAL,A Final,1202,,,7,102,Diana Bickmore,Danbury Speedskating,2:48.890,168.89,,,,,False,8,90
+,128,NEST Women,1500,13.5135,FINAL,A Final,1202,,,8,113,Sarah Girach,Danbury Speedskating,2:56.750,176.75,,,,,False,8,34
+,128,NEST Men,1500,13.5135,FINAL,B Final,1301,,,1,170,Ryan Huang,Potomac Speedskating,3:05.360,185.36,,,,,False,1,39
+,128,NEST Men,1500,13.5135,FINAL,B Final,1301,,,2,174,Gihoon Kuh,Potomac Speedskating,3:05.610,185.61,,,,,False,1,480
+,128,NEST Men,1500,13.5135,FINAL,B Final,1301,,,3,215,Tim VanFleet,East Penn Speedskating,3:07.540,187.54,,,,,False,10,156
+,128,NEST Men,1500,13.5135,FINAL,B Final,1301,,,4,210,Henry Sowa,Bay State Speedskating,3:09.140,189.14,,,,,False,5,170
+,128,NEST Men,1500,13.5135,FINAL,A Final,1302,,,1,223,Lucas Wu,Potomac Speedskating,2:43.790,163.79,,,,,False,1,58
+,128,NEST Men,1500,13.5135,FINAL,A Final,1302,,,2,213,Robert Tolliver,Potomac Speedskating,2:44.090,164.09,,,,,False,1,36
+,128,NEST Men,1500,13.5135,FINAL,A Final,1302,,,3,205,Lucas Shi,Oval Speed Skating,2:44.340,164.34,,,,,False,17,379
+,128,NEST Men,1500,13.5135,FINAL,A Final,1302,,,4,145,Xavier Babkine-Osterrath,Danbury Speedskating,2:45.010,165.01,,,,,False,8,121
+,128,NEST Men,1500,13.5135,FINAL,A Final,1302,,,5,182,Ethan Lin,Potomac Speedskating,2:46.160,166.16,,,,,False,1,69
+,128,NEST Men,1500,13.5135,FINAL,A Final,1302,,,6,209,Frederick Sowa,Bay State Speedskating,2:47.440,167.44,,,,,False,5,160
+,128,NEST Men,1500,13.5135,FINAL,A Final,1302,,,7,200,Gabriel Rillotta,Potomac Speedskating,3:16.230,196.23,,,,,False,1,33
+,128,Group 1,1000,9.009,FINAL,B Final,1401,,,1,199,Brian Redding,United Capital Blades Speedskating,2:03.560,123.56,,,,,False,16,275
+,128,Group 1,1000,9.009,FINAL,B Final,1401,,,2,122,Lyra Katzman,Flushing Meadows Speedskating,2:10.160,130.16,,,,,False,18,271
+,128,Group 1,1000,9.009,FINAL,B Final,1401,,,3,188,Shawn Michalek,Bay State Speedskating,2:16.980,136.98,,,,,False,5,342
+,128,Group 1,1000,9.009,FINAL,B Final,1401,,,4,171,Vlad Khodik,Flushing Meadows Speedskating,2:17.630,137.63,,,,,False,18,366
+,128,Group 1,1000,9.009,FINAL,B Final,1401,,,5,147,Martin Bednar,Bay State Speedskating,2:36.950,156.95,,,,,False,5,148
+,128,Group 1,1000,9.009,FINAL,B Final,1401,,,,167,Uri Hoch,Flushing Meadows Speedskating,,,DNF,,,,False,18,506
+,128,Group 1,1000,9.009,FINAL,A Final,1402,,,1,220,Keith Wobeser,East Penn Speedskating,1:44.540,104.53999999999999,,,,,False,10,67
+,128,Group 1,1000,9.009,FINAL,A Final,1402,,,2,121,Ji Jung,Flushing Meadows Speedskating,1:46.770,106.77000000000001,,,,,False,18,1666
+,128,Group 1,1000,9.009,FINAL,A Final,1402,,,3,150,Daniel Butler,Bay State Speedskating,1:47.770,107.77000000000001,,,,,False,5,49
+,128,Group 1,1000,9.009,FINAL,A Final,1402,,,4,168,Jesse Hoffman,Saratoga Winter,1:50.870,110.87,,,,,False,20,274
+,128,Group 1,1000,9.009,FINAL,A Final,1402,,,5,158,Chase Ferry,Bay State Speedskating,2:12.370,132.37,,,,,False,5,1651
+,128,Group 2,1000,9.009,FINAL,C Final,1501,,,1,165,Jacoby Hartshorn,Bay State Speedskating,1:55.250,115.25,,,,,False,5,305
+,128,Group 2,1000,9.009,FINAL,C Final,1501,,,2,128,Jei Lim,Potomac Speedskating,1:57.890,117.89,,,,,False,1,492
+,128,Group 2,1000,9.009,FINAL,B Final,1502,,,1,175,Ayden Lee,East Penn Speedskating,1:49.440,109.44,,,,,False,10,117
+,128,Group 2,1000,9.009,FINAL,B Final,1502,,,2,226,Evan Zhang,Potomac Speedskating,1:49.640,109.64,,,,,False,1,95
+,128,Group 2,1000,9.009,FINAL,B Final,1502,,,3,178,Lucas Li,Garden State Speedskating,1:52.510,112.50999999999999,,,,,False,7,387
+,128,Group 2,1000,9.009,FINAL,B Final,1502,,,4,186,Eliyahu Louz,Garden State Speedskating,2:00.840,120.84,,,,,False,7,623
+,128,Group 2,1000,9.009,FINAL,B Final,1502,,,,216,Bryan Wang,Potomac Speedskating,,,DNS,,,,False,1,53
+,128,Group 2,1000,9.009,FINAL,A Final,1503,,,1,197,Loki Ranta,Bay State Speedskating,1:50.810,110.81,,,,,False,5,103
+,128,Group 2,1000,9.009,FINAL,A Final,1503,,,2,211,Ian Sulkoske,Pittsburgh Speedskating,1:52.100,112.1,,,,,False,36,242
+,128,Group 2,1000,9.009,FINAL,A Final,1503,,,3,146,Ilchan Bae,Potomac Speedskating,1:56.020,116.02000000000001,,,,,False,1,164
+,128,Group 2,1000,9.009,FINAL,A Final,1503,,,4,192,Hayden Peck,Saratoga Winter,1:57.310,117.31,,,,,False,20,1475
+,128,Group 2,1000,9.009,FINAL,A Final,1503,,,5,161,Narendran Gopinath,East Penn Speedskating,2:00.270,120.27,,,,,False,10,84
+,128,Group 3,1000,9.009,FINAL,C Final,1601,,,1,218,Jabari Watts,United Capital Blades Speedskating,2:08.990,128.99,,,,,False,16,93
+,128,Group 3,1000,9.009,FINAL,C Final,1601,,,2,153,Dexter Colice,Bay State Speedskating,2:09.110,129.11,,,,,False,5,351
+,128,Group 3,1000,9.009,FINAL,B Final,1602,,,1,173,Evan Krieg,Pittsburgh Speedskating,1:59.710,119.71000000000001,,,,,False,36,785
+,128,Group 3,1000,9.009,FINAL,B Final,1602,,,2,138,Priyanka Srinivasula,East Penn Speedskating,2:01.540,121.54,,,,,False,10,79
+,128,Group 3,1000,9.009,FINAL,B Final,1602,,,3,204,Christian Shelton-White,United Capital Blades Speedskating,2:01.790,121.79,,,,,False,16,51
+,128,Group 3,1000,9.009,FINAL,B Final,1602,,,4,152,Nicholas Clark,Saratoga Winter,2:05.500,125.5,,,,,False,20,203
+,128,Group 3,1000,9.009,FINAL,B Final,1602,,,5,214,Adrian Tylwalk,East Penn Speedskating,2:08.710,128.71,,,,,False,10,237
+,128,Group 3,1000,9.009,FINAL,A Final,1603,,,1,157,Russel Einsla,East Penn Speedskating,1:54.990,114.99000000000001,,,,,False,10,613
+,128,Group 3,1000,9.009,FINAL,A Final,1603,,,2,156,Zachary Double,Bay State Speedskating,1:55.290,115.28999999999999,,,,,False,5,214
+,128,Group 3,1000,9.009,FINAL,A Final,1603,,,3,123,Madeline Koons,Lakewood Speedskating,1:56.360,116.36,,,,,False,14,200
+,128,Group 3,1000,9.009,FINAL,A Final,1603,,,4,222,Gabriel Wochtl,East Penn Speedskating,1:57.540,117.53999999999999,,,,,False,10,495
+,128,Group 3,1000,9.009,FINAL,A Final,1603,,,5,135,Kathryn Sautter,East Penn Speedskating,2:17.640,137.64,,,,,False,10,806
+,128,Group 4,777,7.0,FINAL,B Final,1701,,,1,120,Hannah Huang,Potomac Speedskating,1:27.260,87.26,,,,,False,1,124
+,128,Group 4,777,7.0,FINAL,B Final,1701,,,2,108,Elliana Cho,Potomac Speedskating,1:27.480,87.48,,,,,False,1,140
+,128,Group 4,777,7.0,FINAL,B Final,1701,,,3,227,Aiden Zhang,Potomac Speedskating,1:27.650,87.65,,,,,False,1,3890
+,128,Group 4,777,7.0,FINAL,B Final,1701,,,4,196,Harvey Qu,Garden State Speedskating,1:31.830,91.83,,,,,False,7,162
+,128,Group 4,777,7.0,FINAL,B Final,1701,,,5,207,Landon Smith,United Capital Blades Speedskating,1:36.110,96.11,,,,,False,16,190
+,128,Group 4,777,7.0,FINAL,B Final,1701,,,6,224,Kobe Yee,Bay State Speedskating,1:39.230,99.22999999999999,,,,,False,5,101
+,128,Group 4,777,7.0,FINAL,A Final,1702,,,1,114,Lindsay Lin,Garden State Speedskating,1:28.300,88.3,,,,,False,7,199
+,128,Group 4,777,7.0,FINAL,A Final,1702,,,2,183,Marcus Liu,Oval Speed Skating,1:28.800,88.8,,,,,False,17,131
+,128,Group 4,777,7.0,FINAL,A Final,1702,,,3,206,Noah Shi,Oval Speed Skating,1:29.070,89.07,,,,,False,17,1492
+,128,Group 4,777,7.0,FINAL,A Final,1702,,,4,194,Hendrik Plate-Tong,Garden State Speedskating,1:29.450,89.45,,,,,False,7,144
+,128,Group 4,777,7.0,FINAL,A Final,1702,,,5,179,Marcus Li,Potomac Speedskating,1:29.690,89.69,,,,,False,1,894
+,128,Group 5,777,7.0,FINAL,C Final,1801,,,1,118,Emily Hogan,Saratoga Winter,1:48.150,108.15,,,,,False,20,964
+,128,Group 5,777,7.0,FINAL,C Final,1801,,,2,112,Gabrielle Garnier,East Penn Speedskating,1:56.550,116.55,,,,,False,10,1663
+,128,Group 5,777,7.0,FINAL,B Final,1802,,,1,151,Derick Chang,Garden State Speedskating,1:38.780,98.78,,,,,False,7,460
+,128,Group 5,777,7.0,FINAL,B Final,1802,,,2,103,Elizabeth Bourquin,Saratoga Winter,1:40.750,100.75,,,,,False,20,176
+,128,Group 5,777,7.0,FINAL,B Final,1802,,,3,169,Maren Hoffman,Saratoga Winter,1:46.170,106.17,,,,,False,20,374
+,128,Group 5,777,7.0,FINAL,B Final,1802,,,4,193,Henry Peck,Saratoga Winter,1:46.420,106.42,,,,,False,20,370
+,128,Group 5,777,7.0,FINAL,B Final,1802,,,5,116,Lucy Hoffman,Saratoga Winter,2:00.640,120.64,,,,,False,20,424
+,128,Group 5,777,7.0,FINAL,A Final,1803,,,1,164,Clark Hartemink,East Penn Speedskating,1:33.360,93.36,,,,,False,10,182
+,128,Group 5,777,7.0,FINAL,A Final,1803,,,2,212,Sean Sun,Garden State Speedskating,1:35.830,95.83,,,,,False,7,115
+,128,Group 5,777,7.0,FINAL,A Final,1803,,,3,100,Saruar Aitbayeva,Syracuse Speed Skating,1:36.290,96.28999999999999,,,,,False,28,739
+,128,Group 5,777,7.0,FINAL,A Final,1803,,,4,185,Avery Lorenz,United Capitol Blades Speedskating,1:38.400,98.4,,,,,False,,375
+,128,Group 5,777,7.0,FINAL,A Final,1803,,,5,225,James Yin,East Penn Speedskating,1:38.610,98.61,,,,,False,10,276
+,128,Group 6,333,3.0,FINAL,B Final,1901,,,1,217,Elias Wang,Toanic Speedskating,0:41.110,41.11,,,,,False,56,186
+,128,Group 6,333,3.0,FINAL,B Final,1901,,,2,181,Jayden Lin,United Capital Blades Speedskating,0:45.960,45.96,,,,,False,16,180
+,128,Group 6,333,3.0,FINAL,B Final,1901,,,3,221,Benjamin Wobeser,East Penn Speedskating,0:50.460,50.46,,,,,False,10,137
+,128,Group 6,333,3.0,FINAL,B Final,1901,,,4,229,Eric Zhao,Garden State Speedskating,0:52.390,52.39,,,,,False,7,467
+,128,Group 6,333,3.0,FINAL,B Final,1901,,,5,154,Sebastian Delnore,Pittsburgh Speedskating,0:56.220,56.22,,,,,False,36,324
+,128,Group 6,333,3.0,FINAL,B Final,1901,,,6,119,Lois Houck,Toanic Speedskating,0:56.680,56.68,,,,,False,56,253
+,128,Group 6,333,3.0,FINAL,A Final,1902,,,1,125,Yoonji Kuh,Potomac Speedskating,0:41.130,41.13,,,,,False,1,625
+,128,Group 6,333,3.0,FINAL,A Final,1902,,,2,176,Samuel Lee,Potomac Speedskating,0:42.380,42.38,,,,,False,1,293
+,128,Group 6,333,3.0,FINAL,A Final,1902,,,3,191,Kipling Mullaney,United Capital Blades Speedskating,0:44.630,44.63,,,,,False,16,598
+,128,Group 6,333,3.0,FINAL,A Final,1902,,,4,195,Maxwell Pompei,Bay State Speedskating,0:46.160,46.16,,,,,False,5,229
+,128,Group 6,333,3.0,FINAL,A Final,1902,,,5,208,Peter Sowa,Bay State Speedskating,0:46.700,46.7,,,,,False,5,270
+,128,Group 7,333,3.0,FINAL,C Final,2001,,,1,129,Johanna Gleicher,Garden State Speedskating,0:57.790,57.79,,,,,False,7,317
+,128,Group 7,333,3.0,FINAL,C Final,2001,,,2,187,Finn McCloud,Pittsburgh Speedskating,1:10.680,70.68,,,,,False,36,334
+,128,Group 7,333,3.0,FINAL,B Final,2002,,,1,155,Hunter Dong,East Penn Speedskating,0:45.010,45.01,,,,,False,10,531
+,128,Group 7,333,3.0,FINAL,B Final,2002,,,2,172,Jack Koons,Lakewood Speedskating,0:48.040,48.04,,,,,False,14,94
+,128,Group 7,333,3.0,FINAL,B Final,2002,,,3,219,Samuel Winter,Connecticut Speedskating,0:48.290,48.29,,,,,False,44,1219
+,128,Group 7,333,3.0,FINAL,B Final,2002,,,4,134,Tobi Ranta,Bay State Speedskating,0:48.690,48.69,,,,,False,5,328
+,128,Group 7,333,3.0,FINAL,B Final,2002,,,5,202,Henry Seagraves,Pittsburgh Speedskating,0:50.480,50.48,,,,,False,36,1395
+,128,Group 7,333,3.0,FINAL,A Final,2003,,,1,148,William Bi,Potomac Speedskating,0:41.600,41.6,,,,,False,1,417
+,128,Group 7,333,3.0,FINAL,A Final,2003,,,2,190,Max Mountainbear,Park Ridge Speedskating,0:41.890,41.89,,,,,False,30,41
+,128,Group 7,333,3.0,FINAL,A Final,2003,,,3,184,Ethan Liu,Garden State Speedskating,0:42.100,42.1,,,,,False,7,13
+,128,Group 7,333,3.0,FINAL,A Final,2003,,,4,203,Samuel Sheen,Bay State Speedskating,0:42.640,42.64,,,,,False,5,233
+,128,Group 7,333,3.0,FINAL,A Final,2003,,,5,228,Liam Zhang,Garden State Speedskating,0:43.920,43.92,,,,,False,7,1557
+,128,Novice A,222,2.0,FINAL,B Final,2101,,,1,126,Clara Lee,Garden State Speedskating,0:28.450,28.45,,,,,False,7,86
+,128,Novice A,222,2.0,FINAL,B Final,2101,,,2,143,Ian Andrews,United Capital Blades Speedskating,0:29.910,29.91,,,,,False,16,254
+,128,Novice A,222,2.0,FINAL,B Final,2101,,,3,149,Jaxon Brogan,East Penn Speedskating,0:34.010,34.01,,,,,False,10,335
+,128,Novice A,222,2.0,FINAL,B Final,2101,,,4,189,Zoly Milstein,Bay State Speedskating,0:34.230,34.23,,,,,False,5,1439
+,128,Novice A,222,2.0,FINAL,B Final,2101,,,5,139,Charlotte Streefkerk,United Capital Blades Speedskating,0:43.730,43.73,,,,,False,16,1050
+,128,Novice A,222,2.0,FINAL,A Final,2102,,,1,132,Harshini Ramachandran,Garden State Speedskating,0:28.400,28.4,,,,,False,7,980
+,128,Novice A,222,2.0,FINAL,A Final,2102,,,2,142,James Abramovich,Flushing Meadows Speedskating,0:29.400,29.4,,,,,False,18,592
+,128,Novice A,222,2.0,FINAL,A Final,2102,,,3,133,Dharshini Ramachandran,Garden State Speedskating,0:30.190,30.19,,,,,False,7,602
+,128,Novice A,222,2.0,FINAL,A Final,2102,,,4,230,Isaac Zheng,Garden State Speedskating,0:30.940,30.94,,,,,False,7,249
+,128,Novice A,222,2.0,FINAL,A Final,2102,,,5,107,Sarah Chen,Flushing Meadows Speedskating,0:38.400,38.4,,,,,False,18,197
+,128,Novice B,222,2.0,FINAL,B Final,2201,,,1,159,Sam Firer,Garden State Speedskating,0:33.990,33.99,,,,,False,7,1675
+,128,Novice B,222,2.0,FINAL,B Final,2201,,,2,105,Penelope Cattell,East Penn Speedskating,0:35.920,35.92,,,,,False,10,474
+,128,Novice B,222,2.0,FINAL,B Final,2201,,,3,104,Ada Cao,Bay State Speedskating,0:36.420,36.42,,,,,False,5,331
+,128,Novice B,222,2.0,FINAL,B Final,2201,,,4,166,Eason He,United Capital Blades Speedskating,0:41.320,41.32,,,,,False,16,410
+,128,Novice B,222,2.0,FINAL,B Final,2201,,,5,140,Rosaline Wang,Garden State Speedskating,0:49.700,49.7,,,,,False,7,1674
+,128,Novice B,222,2.0,FINAL,B Final,2201,,,6,127,Chuyi Liao,Garden State Speedskating,0:55.030,55.03,,,,,False,7,1673
+,128,Novice B,222,2.0,FINAL,A Final,2202,,,1,162,Charles Han,East Penn Speedskating,0:32.120,32.12,,,,,False,10,1549
+,128,Novice B,222,2.0,FINAL,A Final,2202,,,2,117,Zoey Hoffman,East Penn Speedskating,0:32.660,32.66,,,,,False,10,1664
+,128,Novice B,222,2.0,FINAL,A Final,2202,,,3,163,Alan Han,East Penn Speedskating,0:32.940,32.94,,,,,False,10,1548
+,128,Novice B,222,2.0,FINAL,A Final,2202,,,4,177,Ethan Lee,East Penn Speedskating,0:33.270,33.27,,,,,False,10,219
+,128,Novice B,222,2.0,FINAL,A Final,2202,,,5,201,Luca Sakhnovskiy,Saratoga Winter,0:34.290,34.29,,,,,False,20,283
+,128,NEST Women,500,4.5045,HEATS,Heat 1 of 3,2301,1,,1,110,Makayla Chou,Potomac Speedskating,0:49.840,49.84,,,,,False,1,109
+,128,NEST Women,500,4.5045,HEATS,Heat 1 of 3,2301,1,,2,141,Tiffany Zhang,Potomac Speedskating,0:50.060,50.06,,,,,False,1,207
+,128,NEST Women,500,4.5045,HEATS,Heat 1 of 3,2301,1,,3,131,Tatyana Pometun,East Penn Speedskating,0:52.410,52.41,,,,,False,10,60
+,128,NEST Women,500,4.5045,HEATS,Heat 1 of 3,2301,1,,4,102,Diana Bickmore,Danbury Speedskating,0:52.980,52.98,,,,,False,8,90
+,128,NEST Women,500,4.5045,HEATS,Heat 2 of 3,2302,2,,1,124,Sofia Koons,Lakewood Speedskating,0:51.490,51.49,,,,,False,14,9
+,128,NEST Women,500,4.5045,HEATS,Heat 2 of 3,2302,2,,2,115,Kassandra Haeupl,Lakewood Speedskating,0:51.620,51.62,,,,,False,14,1113
+,128,NEST Women,500,4.5045,HEATS,Heat 2 of 3,2302,2,,3,113,Sarah Girach,Danbury Speedskating,0:55.620,55.62,,,,,False,8,34
+,128,NEST Women,500,4.5045,HEATS,Heat 2 of 3,2302,2,,4,101,Nagi Aitbayeva,Syracuse Speed Skating,0:56.010,56.01,,,,,False,28,314
+,128,NEST Women,500,4.5045,HEATS,Heat 3 of 3,2303,3,,1,106,Isabella Chen,Potomac Speedskating,0:47.890,47.89,,,,,False,1,89
+,128,NEST Women,500,4.5045,HEATS,Heat 3 of 3,2303,3,,2,130,Sasha Mensah,Danbury Speedskating,0:51.500,51.5,,,,,False,8,23
+,128,NEST Women,500,4.5045,HEATS,Heat 3 of 3,2303,3,,3,137,Therese Sowa,Bay State Speedskating,0:51.960,51.96,,,,,False,5,226
+,128,NEST Women,500,4.5045,HEATS,Heat 3 of 3,2303,3,,4,111,Sara Cushman,Bay State Speedskating,0:58.390,58.39,,,,,False,5,37
+,128,NEST Men,500,4.5045,HEATS,Heat 1 of 3,2401,1,,1,205,Lucas Shi,Oval Speed Skating,0:49.420,49.42,,,,,False,17,379
+,128,NEST Men,500,4.5045,HEATS,Heat 1 of 3,2401,1,,2,174,Gihoon Kuh,Potomac Speedskating,0:49.630,49.63,,,,,False,1,480
+,128,NEST Men,500,4.5045,HEATS,Heat 1 of 3,2401,1,,3,170,Ryan Huang,Potomac Speedskating,0:49.850,49.85,,,,,False,1,39
+,128,NEST Men,500,4.5045,HEATS,Heat 1 of 3,2401,1,,4,210,Henry Sowa,Bay State Speedskating,0:51.880,51.88,,,,,False,5,170
+,128,NEST Men,500,4.5045,HEATS,Heat 2 of 3,2402,2,,1,145,Xavier Babkine-Osterrath,Danbury Speedskating,0:48.260,48.26,,,,,False,8,121
+,128,NEST Men,500,4.5045,HEATS,Heat 2 of 3,2402,2,,2,213,Robert Tolliver,Potomac Speedskating,0:49.400,49.4,,,,,False,1,36
+,128,NEST Men,500,4.5045,HEATS,Heat 2 of 3,2402,2,,3,200,Gabriel Rillotta,Potomac Speedskating,0:49.650,49.65,,,,,False,1,33
+,128,NEST Men,500,4.5045,HEATS,Heat 2 of 3,2402,2,,4,215,Tim VanFleet,East Penn Speedskating,0:50.330,50.33,,,,,False,10,156
+,128,NEST Men,500,4.5045,HEATS,Heat 3 of 3,2403,3,,1,223,Lucas Wu,Potomac Speedskating,0:47.550,47.55,,,,,False,1,58
+,128,NEST Men,500,4.5045,HEATS,Heat 3 of 3,2403,3,,2,182,Ethan Lin,Potomac Speedskating,0:48.830,48.83,,,,,False,1,69
+,128,NEST Men,500,4.5045,HEATS,Heat 3 of 3,2403,3,,3,209,Frederick Sowa,Bay State Speedskating,0:49.650,49.65,,,,,False,5,160
+,128,Group 1,500,4.5045,HEATS,Heat 1 of 3 - Picking 1+(2),2501,1,,1,150,Daniel Butler,Bay State Speedskating,0:57.370,57.37,,,,,False,5,49
+,128,Group 1,500,4.5045,HEATS,Heat 1 of 3 - Picking 1+(2),2501,1,,2,158,Chase Ferry,Bay State Speedskating,1:06.650,66.65,,,,,False,5,1651
+,128,Group 1,500,4.5045,HEATS,Heat 1 of 3 - Picking 1+(2),2501,1,,3,147,Martin Bednar,Bay State Speedskating,1:20.580,80.58,,,,,False,5,148
+,128,Group 1,500,4.5045,HEATS,Heat 1 of 3 - Picking 1+(2),2501,1,,,160,Yundi Gao,Flushing Meadows Speedskating,,,DNS,,,,False,18,1162
+,128,Group 1,500,4.5045,HEATS,Heat 2 of 3 - Picking 1+(2),2502,2,,1,220,Keith Wobeser,East Penn Speedskating,0:54.200,54.2,,,,,False,10,67
+,128,Group 1,500,4.5045,HEATS,Heat 2 of 3 - Picking 1+(2),2502,2,,2,199,Brian Redding,United Capital Blades Speedskating,1:02.200,62.2,,,,,False,16,275
+,128,Group 1,500,4.5045,HEATS,Heat 2 of 3 - Picking 1+(2),2502,2,,3,122,Lyra Katzman,Flushing Meadows Speedskating,1:07.200,67.2,,,,,False,18,271
+,128,Group 1,500,4.5045,HEATS,Heat 2 of 3 - Picking 1+(2),2502,2,,4,188,Shawn Michalek,Bay State Speedskating,1:14.560,74.56,,,,,False,5,342
+,128,Group 1,500,4.5045,HEATS,Heat 3 of 3 - Picking 1+(2),2503,3,,1,168,Jesse Hoffman,Saratoga Winter,0:57.660,57.66,,,,,False,20,274
+,128,Group 1,500,4.5045,HEATS,Heat 3 of 3 - Picking 1+(2),2503,3,,2,171,Vlad Khodik,Flushing Meadows Speedskating,1:05.730,65.73,,,,,False,18,366
+,128,Group 1,500,4.5045,HEATS,Heat 3 of 3 - Picking 1+(2),2503,3,,3,121,Ji Jung,Flushing Meadows Speedskating,1:27.060,87.06,ADV,,,,False,18,1666
+,128,Group 1,500,4.5045,HEATS,Heat 3 of 3 - Picking 1+(2),2503,3,,4,167,Uri Hoch,Flushing Meadows Speedskating,1:34.380,94.38,,,,,False,18,506
+,128,Group 2,500,4.5045,HEATS,Heat 1 of 3,2601,1,,1,211,Ian Sulkoske,Pittsburgh Speedskating,0:50.690,50.69,,,,,False,36,242
+,128,Group 2,500,4.5045,HEATS,Heat 1 of 3,2601,1,,2,186,Eliyahu Louz,Garden State Speedskating,0:53.910,53.91,,,,,False,7,623
+,128,Group 2,500,4.5045,HEATS,Heat 1 of 3,2601,1,,3,175,Ayden Lee,East Penn Speedskating,0:54.120,54.12,,,,,False,10,117
+,128,Group 2,500,4.5045,HEATS,Heat 1 of 3,2601,1,,4,146,Ilchan Bae,Potomac Speedskating,0:54.440,54.44,,,,,False,1,164
+,128,Group 2,500,4.5045,HEATS,Heat 2 of 3,2602,2,,1,161,Narendran Gopinath,East Penn Speedskating,0:53.610,53.61,,,,,False,10,84
+,128,Group 2,500,4.5045,HEATS,Heat 2 of 3,2602,2,,2,128,Jei Lim,Potomac Speedskating,0:54.900,54.9,,,,,False,1,492
+,128,Group 2,500,4.5045,HEATS,Heat 2 of 3,2602,2,,3,165,Jacoby Hartshorn,Bay State Speedskating,0:55.230,55.23,,,,,False,5,305
+,128,Group 2,500,4.5045,HEATS,Heat 2 of 3,2602,2,,4,192,Hayden Peck,Saratoga Winter,1:18.080,78.08,,,,,False,20,1475
+,128,Group 2,500,4.5045,HEATS,Heat 3 of 3,2603,3,,1,197,Loki Ranta,Bay State Speedskating,0:52.510,52.51,,,,,False,5,103
+,128,Group 2,500,4.5045,HEATS,Heat 3 of 3,2603,3,,2,178,Lucas Li,Garden State Speedskating,0:54.480,54.48,,,,,False,7,387
+,128,Group 2,500,4.5045,HEATS,Heat 3 of 3,2603,3,,3,226,Evan Zhang,Potomac Speedskating,,,PEN,,,,False,1,95
+,128,Group 2,500,4.5045,HEATS,Heat 3 of 3,2603,3,,4,216,Bryan Wang,Potomac Speedskating,,,DNS,,,,False,1,53
+,128,Group 3,500,4.5045,HEATS,Heat 1 of 3,2701,1,,1,156,Zachary Double,Bay State Speedskating,0:55.860,55.86,,,,,False,5,214
+,128,Group 3,500,4.5045,HEATS,Heat 1 of 3,2701,1,,2,135,Kathryn Sautter,East Penn Speedskating,0:56.110,56.11,,,,,False,10,806
+,128,Group 3,500,4.5045,HEATS,Heat 1 of 3,2701,1,,3,222,Gabriel Wochtl,East Penn Speedskating,0:56.350,56.35,,,,,False,10,495
+,128,Group 3,500,4.5045,HEATS,Heat 1 of 3,2701,1,,4,153,Dexter Colice,Bay State Speedskating,1:14.360,74.36,,,,,False,5,351
+,128,Group 3,500,4.5045,HEATS,Heat 2 of 3,2702,2,,1,204,Christian Shelton-White,United Capital Blades Speedskating,0:57.020,57.02,,,,,False,16,51
+,128,Group 3,500,4.5045,HEATS,Heat 2 of 3,2702,2,,2,123,Madeline Koons,Lakewood Speedskating,0:57.360,57.36,,,,,False,14,200
+,128,Group 3,500,4.5045,HEATS,Heat 2 of 3,2702,2,,3,138,Priyanka Srinivasula,East Penn Speedskating,0:57.600,57.6,,,,,False,10,79
+,128,Group 3,500,4.5045,HEATS,Heat 2 of 3,2702,2,,4,152,Nicholas Clark,Saratoga Winter,0:59.320,59.32,,,,,False,20,203
+,128,Group 3,500,4.5045,HEATS,Heat 3 of 3,2703,3,,1,157,Russel Einsla,East Penn Speedskating,0:54.820,54.82,,,,,False,10,613
+,128,Group 3,500,4.5045,HEATS,Heat 3 of 3,2703,3,,2,173,Evan Krieg,Pittsburgh Speedskating,0:55.500,55.5,,,,,False,36,785
+,128,Group 3,500,4.5045,HEATS,Heat 3 of 3,2703,3,,3,218,Jabari Watts,United Capital Blades Speedskating,0:59.350,59.35,,,,,False,16,93
+,128,Group 3,500,4.5045,HEATS,Heat 3 of 3,2703,3,,4,214,Adrian Tylwalk,East Penn Speedskating,1:02.920,62.92,,,,,False,10,237
+,128,Group 4,333,3.0,HEATS,Heat 1 of 3 (Picking 1+2),2801,1,,1,227,Aiden Zhang,Potomac Speedskating,0:37.100,37.1,,,,,False,1,3890
+,128,Group 4,333,3.0,HEATS,Heat 1 of 3 (Picking 1+2),2801,1,,2,196,Harvey Qu,Garden State Speedskating,0:37.980,37.98,,,,,False,7,162
+,128,Group 4,333,3.0,HEATS,Heat 1 of 3 (Picking 1+2),2801,1,,3,207,Landon Smith,United Capital Blades Speedskating,0:39.450,39.45,,,,,False,16,190
+,128,Group 4,333,3.0,HEATS,Heat 2 of 3 (Picking 1+2),2802,2,,1,114,Lindsay Lin,Garden State Speedskating,0:37.150,37.15,,,,,False,7,199
+,128,Group 4,333,3.0,HEATS,Heat 2 of 3 (Picking 1+2),2802,2,,2,108,Elliana Cho,Potomac Speedskating,0:37.400,37.4,,,,,False,1,140
+,128,Group 4,333,3.0,HEATS,Heat 2 of 3 (Picking 1+2),2802,2,,3,120,Hannah Huang,Potomac Speedskating,0:37.650,37.65,,,,,False,1,124
+,128,Group 4,333,3.0,HEATS,Heat 2 of 3 (Picking 1+2),2802,2,,4,206,Noah Shi,Oval Speed Skating,0:37.800,37.8,,,,,False,17,1492
+,128,Group 4,333,3.0,HEATS,Heat 3 of 3 (Picking 1+2),2803,3,,1,194,Hendrik Plate-Tong,Garden State Speedskating,0:37.550,37.55,,,,,False,7,144
+,128,Group 4,333,3.0,HEATS,Heat 3 of 3 (Picking 1+2),2803,3,,2,224,Kobe Yee,Bay State Speedskating,0:37.940,37.94,,,,,False,5,101
+,128,Group 4,333,3.0,HEATS,Heat 3 of 3 (Picking 1+2),2803,3,,3,179,Marcus Li,Potomac Speedskating,0:38.550,38.55,,,,,False,1,894
+,128,Group 4,333,3.0,HEATS,Heat 3 of 3 (Picking 1+2),2803,3,,4,183,Marcus Liu,Oval Speed Skating,,,PEN,,,,False,17,131
+,128,Group 5,333,3.0,HEATS,Heat 1 of 3,2901,1,,1,164,Clark Hartemink,East Penn Speedskating,0:40.050,40.05,,,,,False,10,182
+,128,Group 5,333,3.0,HEATS,Heat 1 of 3,2901,1,,2,185,Avery Lorenz,United Capital Blades Speedskating,0:42.550,42.55,,,,,False,16,375
+,128,Group 5,333,3.0,HEATS,Heat 1 of 3,2901,1,,3,118,Emily Hogan,Saratoga Winter,0:43.300,43.3,,,,,False,20,964
+,128,Group 5,333,3.0,HEATS,Heat 1 of 3,2901,1,,4,169,Maren Hoffman,Saratoga Winter,0:52.870,52.87,,,,,False,20,374
+,128,Group 5,333,3.0,HEATS,Heat 2 of 3,2902,2,,1,212,Sean Sun,Garden State Speedskating,0:41.260,41.26,,,,,False,7,115
+,128,Group 5,333,3.0,HEATS,Heat 2 of 3,2902,2,,2,193,Henry Peck,Saratoga Winter,0:43.070,43.07,,,,,False,20,370
+,128,Group 5,333,3.0,HEATS,Heat 2 of 3,2902,2,,3,103,Elizabeth Bourquin,Saratoga Winter,0:43.610,43.61,,,,,False,20,176
+,128,Group 5,333,3.0,HEATS,Heat 2 of 3,2902,2,,4,116,Lucy Hoffman,Saratoga Winter,0:48.540,48.54,,,,,False,20,424
+,128,Group 5,333,3.0,HEATS,Heat 3 of 3,2903,3,,1,151,Derick Chang,Garden State Speedskating,0:40.670,40.67,,,,,False,7,460
+,128,Group 5,333,3.0,HEATS,Heat 3 of 3,2903,3,,2,100,Saruar Aitbayeva,Syracuse Speed Skating,0:40.920,40.92,,,,,False,28,739
+,128,Group 5,333,3.0,HEATS,Heat 3 of 3,2903,3,,3,225,James Yin,East Penn Speedskating,0:41.670,41.67,,,,,False,10,276
+,128,Group 5,333,3.0,HEATS,Heat 3 of 3,2903,3,,4,112,Gabrielle Garnier,East Penn Speedskating,0:47.110,47.11,,,,,False,10,1663
+,128,Group 6,222,2.0,HEATS,Heat 1 of 3,3001,1,,1,217,Elias Wang,Toanic Speedskating,0:28.360,28.36,,,,,False,56,186
+,128,Group 6,222,2.0,HEATS,Heat 1 of 3,3001,1,,2,125,Yoonji Kuh,Potomac Speedskating,0:29.110,29.11,,,,,False,1,625
+,128,Group 6,222,2.0,HEATS,Heat 1 of 3,3001,1,,3,154,Sebastian Delnore,Pittsburgh Speedskating,0:31.640,31.64,,,,,False,36,324
+,128,Group 6,222,2.0,HEATS,Heat 1 of 3,3001,1,,4,221,Benjamin Wobeser,East Penn Speedskating,0:33.540,33.54,,,,,False,10,137
+,128,Group 6,222,2.0,HEATS,Heat 2 of 3,3002,2,,1,191,Kipling Mullaney,United Capital Blades Speedskating,0:30.950,30.95,,,,,False,16,598
+,128,Group 6,222,2.0,HEATS,Heat 2 of 3,3002,2,,2,195,Maxwell Pompei,Bay State Speedskating,0:31.280,31.28,,,,,False,5,229
+,128,Group 6,222,2.0,HEATS,Heat 2 of 3,3002,2,,3,229,Eric Zhao,Garden State Speedskating,0:31.670,31.67,,,,,False,7,467
+,128,Group 6,222,2.0,HEATS,Heat 2 of 3,3002,2,,4,119,Lois Houck,Toanic Speedskating,0:42.200,42.2,,,,,False,56,253
+,128,Group 6,222,2.0,HEATS,Heat 3 of 3,3003,3,,1,208,Peter Sowa,Bay State Speedskating,0:30.850,30.85,,,,,False,5,270
+,128,Group 6,222,2.0,HEATS,Heat 3 of 3,3003,3,,2,181,Jayden Lin,United Capital Blades Speedskating,0:37.320,37.32,,,,,False,16,180
+,128,Group 6,222,2.0,HEATS,Heat 3 of 3,3003,3,,3,176,Samuel Lee,Potomac Speedskating,,,PEN,,,,False,1,293
+,128,Group 7,222,2.0,HEATS,Heat 1 of 3,3101,1,,1,203,Samuel Sheen,Bay State Speedskating,0:29.050,29.05,,,,,False,5,233
+,128,Group 7,222,2.0,HEATS,Heat 1 of 3,3101,1,,2,228,Liam Zhang,Garden State Speedskating,0:31.650,31.65,,,,,False,7,1557
+,128,Group 7,222,2.0,HEATS,Heat 1 of 3,3101,1,,3,129,Johanna Gleicher,Garden State Speedskating,0:37.050,37.05,,,,,False,7,317
+,128,Group 7,222,2.0,HEATS,Heat 1 of 3,3101,1,,4,187,Finn McCloud,Pittsburgh Speedskating,0:52.550,52.55,,,,,False,36,334
+,128,Group 7,222,2.0,HEATS,Heat 2 of 3,3102,2,,1,148,William Bi,Potomac Speedskating,0:28.680,28.68,,,,,False,1,417
+,128,Group 7,222,2.0,HEATS,Heat 2 of 3,3102,2,,2,155,Hunter Dong,East Penn Speedskating,0:30.040,30.04,,,,,False,10,531
+,128,Group 7,222,2.0,HEATS,Heat 2 of 3,3102,2,,3,172,Jack Koons,Lakewood Speedskating,0:33.220,33.22,,,,,False,14,94
+,128,Group 7,222,2.0,HEATS,Heat 2 of 3,3102,2,,4,202,Henry Seagraves,Pittsburgh Speedskating,0:34.510,34.51,,,,,False,36,1395
+,128,Group 7,222,2.0,HEATS,Heat 3 of 3,3103,3,,1,184,Ethan Liu,Garden State Speedskating,0:28.830,28.83,,,,,False,7,13
+,128,Group 7,222,2.0,HEATS,Heat 3 of 3,3103,3,,2,190,Max Mountainbear,Park Ridge Speedskating,0:29.190,29.19,,,,,False,30,41
+,128,Group 7,222,2.0,HEATS,Heat 3 of 3,3103,3,,3,219,Samuel Winter,Connecticut Speedskating,0:32.940,32.94,,,,,False,44,1219
+,128,Group 7,222,2.0,HEATS,Heat 3 of 3,3103,3,,4,134,Tobi Ranta,Bay State Speedskating,0:33.760,33.76,,,,,False,5,328
+,128,Novice A,111,1.0,HEATS,Heat 1 of 2,3201,1,,1,132,Harshini Ramachandran,Garden State Speedskating,0:15.060,15.06,,,,,False,7,980
+,128,Novice A,111,1.0,HEATS,Heat 1 of 2,3201,1,,2,143,Ian Andrews,United Capital Blades Speedskating,0:16.130,16.13,,,,,False,16,254
+,128,Novice A,111,1.0,HEATS,Heat 1 of 2,3201,1,,3,142,James Abramovich,Flushing Meadows Speedskating,0:19.050,19.05,,,,,False,18,592
+,128,Novice A,111,1.0,HEATS,Heat 1 of 2,3201,1,,4,107,Sarah Chen,Flushing Meadows Speedskating,0:19.980,19.98,,,,,False,18,197
+,128,Novice A,111,1.0,HEATS,Heat 1 of 2,3201,1,,5,139,Charlotte Streefkerk,United Capital Blades Speedskating,0:21.350,21.35,,,,,False,16,1050
+,128,Novice A,111,1.0,HEATS,Heat 2 of 2,3202,2,,1,133,Dharshini Ramachandran,Garden State Speedskating,0:16.110,16.11,,,,,False,7,602
+,128,Novice A,111,1.0,HEATS,Heat 2 of 2,3202,2,,2,126,Clara Lee,Garden State Speedskating,0:16.430,16.43,,,,,False,7,86
+,128,Novice A,111,1.0,HEATS,Heat 2 of 2,3202,2,,3,230,Isaac Zheng,Garden State Speedskating,0:16.640,16.64,,,,,False,7,249
+,128,Novice A,111,1.0,HEATS,Heat 2 of 2,3202,2,,4,189,Zoly Milstein,Bay State Speedskating,0:17.110,17.11,,,,,False,5,1439
+,128,Novice A,111,1.0,HEATS,Heat 2 of 2,3202,2,,5,149,Jaxon Brogan,East Penn Speedskating,0:18.260,18.26,,,,,False,10,335
+,128,Novice B,111,1.0,HEATS,Heat 1 of 3 (Picking 1+2),3301,1,,1,177,Ethan Lee,East Penn Speedskating,0:17.350,17.35,,,,,False,10,219
+,128,Novice B,111,1.0,HEATS,Heat 1 of 3 (Picking 1+2),3301,1,,2,159,Sam Firer,Garden State Speedskating,0:17.520,17.52,,,,,False,7,1675
+,128,Novice B,111,1.0,HEATS,Heat 1 of 3 (Picking 1+2),3301,1,,3,104,Ada Cao,Bay State Speedskating,0:19.350,19.35,,,,,False,5,331
+,128,Novice B,111,1.0,HEATS,Heat 1 of 3 (Picking 1+2),3301,1,,4,127,Chuyi Liao,Garden State Speedskating,0:23.050,23.05,,,,,False,7,1673
+,128,Novice B,111,1.0,HEATS,Heat 2 of 3 (Picking 1+2),3302,2,,1,117,Zoey Hoffman,East Penn Speedskating,0:17.360,17.36,,,,,False,10,1664
+,128,Novice B,111,1.0,HEATS,Heat 2 of 3 (Picking 1+2),3302,2,,2,105,Penelope Cattell,East Penn Speedskating,0:19.330,19.33,,,,,False,10,474
+,128,Novice B,111,1.0,HEATS,Heat 2 of 3 (Picking 1+2),3302,2,,3,166,Eason He,United Capital Blades Speedskating,0:20.480,20.48,,,,,False,16,410
+,128,Novice B,111,1.0,HEATS,Heat 2 of 3 (Picking 1+2),3302,2,,4,140,Rosaline Wang,Garden State Speedskating,0:24.080,24.08,,,,,False,7,1674
+,128,Novice B,111,1.0,HEATS,Heat 3 of 3 (Picking 1+2),3303,3,,1,163,Alan Han,East Penn Speedskating,0:17.030,17.03,,,,,False,10,1548
+,128,Novice B,111,1.0,HEATS,Heat 3 of 3 (Picking 1+2),3303,3,,2,201,Luca Sakhnovskiy,Saratoga Winter,0:18.250,18.25,,,,,False,20,283
+,128,Novice B,111,1.0,HEATS,Heat 3 of 3 (Picking 1+2),3303,3,,3,162,Charles Han,East Penn Speedskating,0:20.320,20.32,,,,,False,10,1549
+,128,NEST Women,500,4.5045,FINAL,C Final,3401,,,1,101,Nagi Aitbayeva,Syracuse Speed Skating,0:56.290,56.29,,,,,False,28,314
+,128,NEST Women,500,4.5045,FINAL,C Final,3401,,,2,111,Sara Cushman,Bay State Speedskating,0:57.870,57.87,,,,,False,5,37
+,128,NEST Women,500,4.5045,FINAL,B Final,3402,,,1,115,Kassandra Haeupl,Lakewood Speedskating,0:52.550,52.55,,,,,False,14,1113
+,128,NEST Women,500,4.5045,FINAL,B Final,3402,,,2,137,Therese Sowa,Bay State Speedskating,0:52.800,52.8,,,,,False,5,226
+,128,NEST Women,500,4.5045,FINAL,B Final,3402,,,3,113,Sarah Girach,Danbury Speedskating,0:55.190,55.19,,,,,False,8,34
+,128,NEST Women,500,4.5045,FINAL,B Final,3402,,,4,102,Diana Bickmore,Danbury Speedskating,1:19.580,79.58,,,,,False,8,90
+,128,NEST Women,500,4.5045,FINAL,B Final,3402,,,,131,Tatyana Pometun,East Penn Speedskating,,,PEN,,,,False,10,60
+,128,NEST Women,500,4.5045,FINAL,A Final,3403,,,1,106,Isabella Chen,Potomac Speedskating,0:46.410,46.41,,,,,False,1,89
+,128,NEST Women,500,4.5045,FINAL,A Final,3403,,,2,110,Makayla Chou,Potomac Speedskating,0:46.730,46.73,,,,,False,1,109
+,128,NEST Women,500,4.5045,FINAL,A Final,3403,,,3,124,Sofia Koons,Lakewood Speedskating,0:48.730,48.73,,,,,False,14,9
+,128,NEST Women,500,4.5045,FINAL,A Final,3403,,,4,141,Tiffany Zhang,Potomac Speedskating,0:48.980,48.98,,,,,False,1,207
+,128,NEST Women,500,4.5045,FINAL,A Final,3403,,,5,130,Sasha Mensah,Danbury Speedskating,0:49.690,49.69,,,,,False,8,23
+,128,NEST Men,500,4.5045,FINAL,B Final,3501,,,1,174,Gihoon Kuh,Potomac Speedskating,0:48.670,48.67,,,,,False,1,480
+,128,NEST Men,500,4.5045,FINAL,B Final,3501,,,2,200,Gabriel Rillotta,Potomac Speedskating,0:49.850,49.85,,,,,False,1,33
+,128,NEST Men,500,4.5045,FINAL,B Final,3501,,,3,170,Ryan Huang,Potomac Speedskating,0:50.140,50.14,,,,,False,1,39
+,128,NEST Men,500,4.5045,FINAL,B Final,3501,,,4,209,Frederick Sowa,Bay State Speedskating,0:50.450,50.45,,,,,False,5,160
+,128,NEST Men,500,4.5045,FINAL,B Final,3501,,,5,215,Tim VanFleet,East Penn Speedskating,0:50.700,50.7,,,,,False,10,156
+,128,NEST Men,500,4.5045,FINAL,B Final,3501,,,6,210,Henry Sowa,Bay State Speedskating,0:51.250,51.25,,,,,False,5,170
+,128,NEST Men,500,4.5045,FINAL,A Final,3502,,,1,223,Lucas Wu,Potomac Speedskating,0:47.690,47.69,,,,,False,1,58
+,128,NEST Men,500,4.5045,FINAL,A Final,3502,,,2,145,Xavier Babkine-Osterrath,Danbury Speedskating,0:47.940,47.94,,,,,False,8,121
+,128,NEST Men,500,4.5045,FINAL,A Final,3502,,,3,213,Robert Tolliver,Potomac Speedskating,0:48.120,48.12,,,,,False,1,36
+,128,NEST Men,500,4.5045,FINAL,A Final,3502,,,4,205,Lucas Shi,Oval Speed Skating,0:49.270,49.27,,,,,False,17,379
+,128,NEST Men,500,4.5045,FINAL,A Final,3502,,,5,182,Ethan Lin,Potomac Speedskating,0:49.510,49.51,,,,,False,1,69
+,128,Group 1,500,4.5045,FINAL,B Final,3601,,,1,171,Vlad Khodik,Flushing Meadows Speedskating,1:05.190,65.19,,,,,False,18,366
+,128,Group 1,500,4.5045,FINAL,B Final,3601,,,2,122,Lyra Katzman,Flushing Meadows Speedskating,1:05.410,65.41,,,,,False,18,271
+,128,Group 1,500,4.5045,FINAL,B Final,3601,,,3,158,Chase Ferry,Bay State Speedskating,1:05.790,65.79,,,,,False,5,1651
+,128,Group 1,500,4.5045,FINAL,B Final,3601,,,4,188,Shawn Michalek,Bay State Speedskating,1:06.290,66.29,,,,,False,5,342
+,128,Group 1,500,4.5045,FINAL,B Final,3601,,,5,147,Martin Bednar,Bay State Speedskating,1:30.230,90.23,,,,,False,5,148
+,128,Group 1,500,4.5045,FINAL,B Final,3601,,,6,167,Uri Hoch,Flushing Meadows Speedskating,1:30.790,90.78999999999999,,,,,False,18,506
+,128,Group 1,500,4.5045,FINAL,A Final,3602,,,1,220,Keith Wobeser,East Penn Speedskating,0:52.980,52.98,,,,,False,10,67
+,128,Group 1,500,4.5045,FINAL,A Final,3602,,,2,168,Jesse Hoffman,Saratoga Winter,0:55.130,55.13,,,,,False,20,274
+,128,Group 1,500,4.5045,FINAL,A Final,3602,,,3,121,Ji Jung,Flushing Meadows Speedskating,0:55.380,55.38,,,,,False,18,1666
+,128,Group 1,500,4.5045,FINAL,A Final,3602,,,4,150,Daniel Butler,Bay State Speedskating,0:56.130,56.13,,,,,False,5,49
+,128,Group 1,500,4.5045,FINAL,A Final,3602,,,5,199,Brian Redding,United Capital Blades Speedskating,1:03.200,63.2,,,,,False,16,275
+,128,Group 2,500,4.5045,FINAL,B Final,3701,,,1,175,Ayden Lee,East Penn Speedskating,0:52.620,52.62,,,,,False,10,117
+,128,Group 2,500,4.5045,FINAL,B Final,3701,,,2,146,Ilchan Bae,Potomac Speedskating,0:52.910,52.91,,,,,False,1,164
+,128,Group 2,500,4.5045,FINAL,B Final,3701,,,3,226,Evan Zhang,Potomac Speedskating,0:54.370,54.37,,,,,False,1,95
+,128,Group 2,500,4.5045,FINAL,B Final,3701,,,4,192,Hayden Peck,Saratoga Winter,0:54.540,54.54,,,,,False,20,1475
+,128,Group 2,500,4.5045,FINAL,B Final,3701,,,5,165,Jacoby Hartshorn,Bay State Speedskating,0:56.620,56.62,,,,,False,5,305
+,128,Group 2,500,4.5045,FINAL,B Final,3701,,,6,128,Jei Lim,Potomac Speedskating,0:56.790,56.79,,,,,False,1,492
+,128,Group 2,500,4.5045,FINAL,A Final,3702,,,1,211,Ian Sulkoske,Pittsburgh Speedskating,0:50.610,50.61,,,,,False,36,242
+,128,Group 2,500,4.5045,FINAL,A Final,3702,,,2,197,Loki Ranta,Bay State Speedskating,0:52.290,52.29,,,,,False,5,103
+,128,Group 2,500,4.5045,FINAL,A Final,3702,,,3,178,Lucas Li,Garden State Speedskating,0:54.790,54.79,,,,,False,7,387
+,128,Group 2,500,4.5045,FINAL,A Final,3702,,,4,161,Narendran Gopinath,East Penn Speedskating,0:55.010,55.01,,,,,False,10,84
+,128,Group 2,500,4.5045,FINAL,A Final,3702,,,5,186,Eliyahu Louz,Garden State Speedskating,1:16.890,76.89,,,,,False,7,623
+,128,Group 3,500,4.5045,FINAL,C Final,3801,,,1,214,Adrian Tylwalk,East Penn Speedskating,1:01.910,61.91,,,,,False,10,237
+,128,Group 3,500,4.5045,FINAL,C Final,3801,,,2,153,Dexter Colice,Bay State Speedskating,1:02.310,62.31,,,,,False,5,351
+,128,Group 3,500,4.5045,FINAL,B Final,3802,,,1,152,Nicholas Clark,Saratoga Winter,0:57.540,57.54,,,,,False,20,203
+,128,Group 3,500,4.5045,FINAL,B Final,3802,,,2,123,Madeline Koons,Lakewood Speedskating,0:57.820,57.82,,,,,False,14,200
+,128,Group 3,500,4.5045,FINAL,B Final,3802,,,3,138,Priyanka Srinivasula,East Penn Speedskating,0:58.040,58.04,,,,,False,10,79
+,128,Group 3,500,4.5045,FINAL,B Final,3802,,,4,222,Gabriel Wochtl,East Penn Speedskating,1:02.570,62.57,,,,,False,10,495
+,128,Group 3,500,4.5045,FINAL,B Final,3802,,,,218,Jabari Watts,United Capital Blades Speedskating,,,PEN,,,,False,16,93
+,128,Group 3,500,4.5045,FINAL,A Final,3803,,,1,156,Zachary Double,Bay State Speedskating,0:54.660,54.66,,,,,False,5,214
+,128,Group 3,500,4.5045,FINAL,A Final,3803,,,2,157,Russel Einsla,East Penn Speedskating,0:54.910,54.91,,,,,False,10,613
+,128,Group 3,500,4.5045,FINAL,A Final,3803,,,3,173,Evan Krieg,Pittsburgh Speedskating,0:55.440,55.44,,,,,False,36,785
+,128,Group 3,500,4.5045,FINAL,A Final,3803,,,4,135,Kathryn Sautter,East Penn Speedskating,0:57.590,57.59,,,,,False,10,806
+,128,Group 3,500,4.5045,FINAL,A Final,3803,,,5,204,Christian Shelton-White,United Capital Blades Speedskating,0:58.010,58.01,,,,,False,16,51
+,128,Group 4,333,3.0,FINAL,B Final,3901,,,1,196,Harvey Qu,Garden State Speedskating,0:37.540,37.54,,,,,False,7,162
+,128,Group 4,333,3.0,FINAL,B Final,3901,,,2,179,Marcus Li,Potomac Speedskating,0:37.760,37.76,,,,,False,1,894
+,128,Group 4,333,3.0,FINAL,B Final,3901,,,3,120,Hannah Huang,Potomac Speedskating,0:37.950,37.95,,,,,False,1,124
+,128,Group 4,333,3.0,FINAL,B Final,3901,,,4,206,Noah Shi,Oval Speed Skating,0:38.250,38.25,,,,,False,17,1492
+,128,Group 4,333,3.0,FINAL,B Final,3901,,,5,183,Marcus Liu,Oval Speed Skating,0:38.800,38.8,,,,,False,17,131
+,128,Group 4,333,3.0,FINAL,B Final,3901,,,6,207,Landon Smith,United Capital Blades Speedskating,0:39.940,39.94,,,,,False,16,190
+,128,Group 4,333,3.0,FINAL,A Final,3902,,,1,227,Aiden Zhang,Potomac Speedskating,0:36.600,36.6,,,,,False,1,3890
+,128,Group 4,333,3.0,FINAL,A Final,3902,,,2,108,Elliana Cho,Potomac Speedskating,0:36.850,36.85,,,,,False,1,140
+,128,Group 4,333,3.0,FINAL,A Final,3902,,,3,114,Lindsay Lin,Garden State Speedskating,0:37.320,37.32,,,,,False,7,199
+,128,Group 4,333,3.0,FINAL,A Final,3902,,,4,194,Hendrik Plate-Tong,Garden State Speedskating,0:37.530,37.53,,,,,False,7,144
+,128,Group 4,333,3.0,FINAL,A Final,3902,,,5,224,Kobe Yee,Bay State Speedskating,0:38.100,38.1,,,,,False,5,101
+,128,Group 5,333,3.0,FINAL,C Final,4001,,,1,169,Maren Hoffman,Saratoga Winter,0:44.940,44.94,,,,,False,20,374
+,128,Group 5,333,3.0,FINAL,C Final,4001,,,2,116,Lucy Hoffman,Saratoga Winter,0:48.800,48.8,,,,,False,20,424
+,128,Group 5,333,3.0,FINAL,B Final,4002,,,1,225,James Yin,East Penn Speedskating,0:41.460,41.46,,,,,False,10,276
+,128,Group 5,333,3.0,FINAL,B Final,4002,,,2,193,Henry Peck,Saratoga Winter,0:43.570,43.57,,,,,False,20,370
+,128,Group 5,333,3.0,FINAL,B Final,4002,,,3,118,Emily Hogan,Saratoga Winter,0:45.420,45.42,,,,,False,20,964
+,128,Group 5,333,3.0,FINAL,B Final,4002,,,4,112,Gabrielle Garnier,East Penn Speedskating,0:47.460,47.46,,,,,False,10,1663
+,128,Group 5,333,3.0,FINAL,B Final,4002,,,5,103,Elizabeth Bourquin,Saratoga Winter,0:53.320,53.32,,,,,False,20,176
+,128,Group 5,333,3.0,FINAL,A Final,4003,,,1,164,Clark Hartemink,East Penn Speedskating,0:39.520,39.52,,,,,False,10,182
+,128,Group 5,333,3.0,FINAL,A Final,4003,,,2,100,Saruar Aitbayeva,Syracuse Speed Skating,0:41.150,41.15,,,,,False,28,739
+,128,Group 5,333,3.0,FINAL,A Final,4003,,,3,151,Derick Chang,Garden State Speedskating,0:41.370,41.37,,,,,False,7,460
+,128,Group 5,333,3.0,FINAL,A Final,4003,,,4,185,Avery Lorenz,United Capital Blades Speedskating,0:42.450,42.45,,,,,False,16,375
+,128,Group 5,333,3.0,FINAL,A Final,4003,,,5,212,Sean Sun,Garden State Speedskating,0:49.150,49.15,,,,,False,7,115
+,128,Group 6,222,2.0,FINAL,B Final,4101,,,1,176,Samuel Lee,Potomac Speedskating,0:29.670,29.67,,,,,False,1,293
+,128,Group 6,222,2.0,FINAL,B Final,4101,,,2,195,Maxwell Pompei,Bay State Speedskating,0:30.820,30.82,,,,,False,5,229
+,128,Group 6,222,2.0,FINAL,B Final,4101,,,3,229,Eric Zhao,Garden State Speedskating,0:31.140,31.14,,,,,False,7,467
+,128,Group 6,222,2.0,FINAL,B Final,4101,,,4,154,Sebastian Delnore,Pittsburgh Speedskating,0:32.710,32.71,,,,,False,36,324
+,128,Group 6,222,2.0,FINAL,B Final,4101,,,5,119,Lois Houck,Toanic Speedskating,0:32.960,32.96,,,,,False,56,253
+,128,Group 6,222,2.0,FINAL,B Final,4101,,,6,221,Benjamin Wobeser,East Penn Speedskating,0:34.670,34.67,,,,,False,10,137
+,128,Group 6,222,2.0,FINAL,A Final,4102,,,1,217,Elias Wang,Toanic Speedskating,0:27.440,27.44,,,,,False,56,186
+,128,Group 6,222,2.0,FINAL,A Final,4102,,,2,125,Yoonji Kuh,Potomac Speedskating,0:28.010,28.01,,,,,False,1,625
+,128,Group 6,222,2.0,FINAL,A Final,4102,,,3,191,Kipling Mullaney,United Capital Blades Speedskating,0:30.940,30.94,,,,,False,16,598
+,128,Group 6,222,2.0,FINAL,A Final,4102,,,4,181,Jayden Lin,United Capital Blades Speedskating,0:31.190,31.19,,,,,False,16,180
+,128,Group 6,222,2.0,FINAL,A Final,4102,,,5,208,Peter Sowa,Bay State Speedskating,0:31.480,31.48,,,,,False,5,270
+,128,Group 7,222,2.0,FINAL,C Final,4201,,,1,202,Henry Seagraves,Pittsburgh Speedskating,0:35.320,35.32,,,,,False,36,1395
+,128,Group 7,222,2.0,FINAL,C Final,4201,,,2,187,Finn McCloud,Pittsburgh Speedskating,0:45.190,45.19,,,,,False,36,334
+,128,Group 7,222,2.0,FINAL,B Final,4202,,,1,228,Liam Zhang,Garden State Speedskating,0:30.640,30.64,,,,,False,7,1557
+,128,Group 7,222,2.0,FINAL,B Final,4202,,,2,219,Samuel Winter,Connecticut Speedskating,0:33.110,33.11,,,,,False,44,1219
+,128,Group 7,222,2.0,FINAL,B Final,4202,,,3,134,Tobi Ranta,Bay State Speedskating,0:33.860,33.86,,,,,False,5,328
+,128,Group 7,222,2.0,FINAL,B Final,4202,,,4,172,Jack Koons,Lakewood Speedskating,0:34.430,34.43,,,,,False,14,94
+,128,Group 7,222,2.0,FINAL,B Final,4202,,,5,129,Johanna Gleicher,Garden State Speedskating,0:37.890,37.89,,,,,False,7,317
+,128,Group 7,222,2.0,FINAL,A Final,4203,,,1,148,William Bi,Potomac Speedskating,0:28.070,28.07,,,,,False,1,417
+,128,Group 7,222,2.0,FINAL,A Final,4203,,,2,184,Ethan Liu,Garden State Speedskating,0:28.530,28.53,,,,,False,7,13
+,128,Group 7,222,2.0,FINAL,A Final,4203,,,3,203,Samuel Sheen,Bay State Speedskating,0:28.780,28.78,,,,,False,5,233
+,128,Group 7,222,2.0,FINAL,A Final,4203,,,4,190,Max Mountainbear,Park Ridge Speedskating,0:29.570,29.57,,,,,False,30,41
+,128,Group 7,222,2.0,FINAL,A Final,4203,,,5,155,Hunter Dong,East Penn Speedskating,0:29.780,29.78,,,,,False,10,531
+,128,Novice A,111,1.0,FINAL,B Final,4301,,,1,142,James Abramovich,Flushing Meadows Speedskating,0:15.900,15.9,,,,,False,18,592
+,128,Novice A,111,1.0,FINAL,B Final,4301,,,2,189,Zoly Milstein,Bay State Speedskating,0:16.400,16.4,,,,,False,5,1439
+,128,Novice A,111,1.0,FINAL,B Final,4301,,,3,149,Jaxon Brogan,East Penn Speedskating,0:17.760,17.76,,,,,False,10,335
+,128,Novice A,111,1.0,FINAL,B Final,4301,,,4,107,Sarah Chen,Flushing Meadows Speedskating,0:18.260,18.26,,,,,False,18,197
+,128,Novice A,111,1.0,FINAL,B Final,4301,,,5,139,Charlotte Streefkerk,United Capital Blades Speedskating,0:22.550,22.55,,,,,False,16,1050
+,128,Novice A,111,1.0,FINAL,A Final,4302,,,1,132,Harshini Ramachandran,Garden State Speedskating,0:14.860,14.86,,,,,False,7,980
+,128,Novice A,111,1.0,FINAL,A Final,4302,,,2,143,Ian Andrews,United Capital Blades Speedskating,0:15.250,15.25,,,,,False,16,254
+,128,Novice A,111,1.0,FINAL,A Final,4302,,,3,126,Clara Lee,Garden State Speedskating,0:16.040,16.04,,,,,False,7,86
+,128,Novice A,111,1.0,FINAL,A Final,4302,,,4,133,Dharshini Ramachandran,Garden State Speedskating,0:16.260,16.26,,,,,False,7,602
+,128,Novice A,111,1.0,FINAL,A Final,4302,,,5,230,Isaac Zheng,Garden State Speedskating,0:17.040,17.04,,,,,False,7,249
+,128,Novice B,111,1.0,FINAL,B Final,4401,,,1,162,Charles Han,East Penn Speedskating,0:17.480,17.48,,,,,False,10,1549
+,128,Novice B,111,1.0,FINAL,B Final,4401,,,2,104,Ada Cao,Bay State Speedskating,0:18.910,18.91,,,,,False,5,331
+,128,Novice B,111,1.0,FINAL,B Final,4401,,,3,105,Penelope Cattell,East Penn Speedskating,0:19.120,19.12,,,,,False,10,474
+,128,Novice B,111,1.0,FINAL,B Final,4401,,,4,166,Eason He,United Capital Blades Speedskating,0:20.190,20.19,,,,,False,16,410
+,128,Novice B,111,1.0,FINAL,B Final,4401,,,5,127,Chuyi Liao,Garden State Speedskating,0:22.620,22.62,,,,,False,7,1673
+,128,Novice B,111,1.0,FINAL,B Final,4401,,,6,140,Rosaline Wang,Garden State Speedskating,0:23.440,23.44,,,,,False,7,1674
+,128,Novice B,111,1.0,FINAL,A Final,4402,,,1,163,Alan Han,East Penn Speedskating,0:16.510,16.51,,,,,False,10,1548
+,128,Novice B,111,1.0,FINAL,A Final,4402,,,2,159,Sam Firer,Garden State Speedskating,0:16.940,16.94,,,,,False,7,1675
+,128,Novice B,111,1.0,FINAL,A Final,4402,,,3,177,Ethan Lee,East Penn Speedskating,0:17.510,17.51,,,,,False,10,219
+,128,Novice B,111,1.0,FINAL,A Final,4402,,,4,117,Zoey Hoffman,East Penn Speedskating,0:17.720,17.72,,,,,False,10,1664
+,128,Novice B,111,1.0,FINAL,A Final,4402,,,5,201,Luca Sakhnovskiy,Saratoga Winter,0:18.720,18.72,,,,,False,20,283
+,128,NEST Women,1000,9.009,FINAL,C Final,4501,,,1,101,Nagi Aitbayeva,Syracuse Speed Skating,1:54.580,114.58,,,,,False,28,314
+,128,NEST Women,1000,9.009,FINAL,C Final,4501,,,2,111,Sara Cushman,Bay State Speedskating,1:55.640,115.64,,,,,False,5,37
+,128,NEST Women,1000,9.009,FINAL,B Final,4502,,,1,115,Kassandra Haeupl,Lakewood Speedskating,1:48.160,108.16,,,,,False,14,1113
+,128,NEST Women,1000,9.009,FINAL,B Final,4502,,,2,131,Tatyana Pometun,East Penn Speedskating,1:48.730,108.72999999999999,,,,,False,10,60
+,128,NEST Women,1000,9.009,FINAL,B Final,4502,,,3,102,Diana Bickmore,Danbury Speedskating,1:50.340,110.34,,,,,False,8,90
+,128,NEST Women,1000,9.009,FINAL,B Final,4502,,,4,113,Sarah Girach,Danbury Speedskating,1:53.380,113.38,,,,,False,8,34
+,128,NEST Women,1000,9.009,FINAL,B Final,4502,,,5,137,Therese Sowa,Bay State Speedskating,2:01.260,121.26,,,,,False,5,226
+,128,NEST Women,1000,9.009,FINAL,A Final,4503,,,1,106,Isabella Chen,Potomac Speedskating,1:42.850,102.85,,,,,False,1,89
+,128,NEST Women,1000,9.009,FINAL,A Final,4503,,,2,124,Sofia Koons,Lakewood Speedskating,1:44.230,104.22999999999999,,,,,False,14,9
+,128,NEST Women,1000,9.009,FINAL,A Final,4503,,,3,110,Makayla Chou,Potomac Speedskating,1:45.730,105.72999999999999,,,,,False,1,109
+,128,NEST Women,1000,9.009,FINAL,A Final,4503,,,4,130,Sasha Mensah,Danbury Speedskating,1:50.520,110.52000000000001,,,,,False,8,23
+,128,NEST Women,1000,9.009,FINAL,A Final,4503,,,5,141,Tiffany Zhang,Potomac Speedskating,2:12.560,132.56,,,,,False,1,207
+,128,NEST Men,1000,9.009,FINAL,B Final,4601,,,1,174,Gihoon Kuh,Potomac Speedskating,1:43.420,103.42,,,,,False,1,480
+,128,NEST Men,1000,9.009,FINAL,B Final,4601,,,2,200,Gabriel Rillotta,Potomac Speedskating,1:43.670,103.67,,,,,False,1,33
+,128,NEST Men,1000,9.009,FINAL,B Final,4601,,,3,170,Ryan Huang,Potomac Speedskating,1:43.850,103.85,,,,,False,1,39
+,128,NEST Men,1000,9.009,FINAL,B Final,4601,,,4,209,Frederick Sowa,Bay State Speedskating,1:43.990,103.99000000000001,,,,,False,5,160
+,128,NEST Men,1000,9.009,FINAL,B Final,4601,,,5,215,Tim VanFleet,East Penn Speedskating,1:45.990,105.99000000000001,,,,,False,10,156
+,128,NEST Men,1000,9.009,FINAL,B Final,4601,,,6,210,Henry Sowa,Bay State Speedskating,1:46.570,106.57,,,,,False,5,170
+,128,NEST Men,1000,9.009,FINAL,A Final,4602,,,1,223,Lucas Wu,Potomac Speedskating,1:43.140,103.14,,,,,False,1,58
+,128,NEST Men,1000,9.009,FINAL,A Final,4602,,,2,205,Lucas Shi,Oval Speed Skating,1:43.420,103.42,,,,,False,17,379
+,128,NEST Men,1000,9.009,FINAL,A Final,4602,,,3,213,Robert Tolliver,Potomac Speedskating,1:43.640,103.64,,,,,False,1,36
+,128,NEST Men,1000,9.009,FINAL,A Final,4602,,,4,145,Xavier Babkine-Osterrath,Danbury Speedskating,1:43.850,103.85,,,,,False,8,121
+,128,NEST Men,1000,9.009,FINAL,A Final,4602,,,5,182,Ethan Lin,Potomac Speedskating,1:44.640,104.64,,,,,False,1,69
+,128,Group 1,777,7.0,FINAL,B Final,4701,,,1,158,Chase Ferry,Bay State Speedskating,1:40.750,100.75,,,,,False,5,1651
+,128,Group 1,777,7.0,FINAL,B Final,4701,,,2,188,Shawn Michalek,Bay State Speedskating,1:41.030,101.03,,,,,False,5,342
+,128,Group 1,777,7.0,FINAL,B Final,4701,,,3,122,Lyra Katzman,Flushing Meadows Speedskating,1:42.390,102.39,,,,,False,18,271
+,128,Group 1,777,7.0,FINAL,B Final,4701,,,4,171,Vlad Khodik,Flushing Meadows Speedskating,2:04.170,124.17,,,,,False,18,366
+,128,Group 1,777,7.0,FINAL,B Final,4701,,,5,147,Martin Bednar,Bay State Speedskating,2:06.140,126.14,,,,,False,5,148
+,128,Group 1,777,7.0,FINAL,B Final,4701,,,6,167,Uri Hoch,Flushing Meadows Speedskating,,,FNT,,,,False,18,506
+,128,Group 1,777,7.0,FINAL,A Final,4702,,,1,220,Keith Wobeser,East Penn Speedskating,1:25.250,85.25,,,,,False,10,67
+,128,Group 1,777,7.0,FINAL,A Final,4702,,,2,168,Jesse Hoffman,Saratoga Winter,1:26.350,86.35,,,,,False,20,274
+,128,Group 1,777,7.0,FINAL,A Final,4702,,,3,121,Ji Jung,Flushing Meadows Speedskating,1:26.780,86.78,,,,,False,18,1666
+,128,Group 1,777,7.0,FINAL,A Final,4702,,,4,150,Daniel Butler,Bay State Speedskating,1:27.070,87.07,,,,,False,5,49
+,128,Group 1,777,7.0,FINAL,A Final,4702,,,5,199,Brian Redding,United Capital Blades Speedskating,1:42.390,102.39,,,,,False,16,275
+,128,Group 2,777,7.0,FINAL,B Final,4801,,,1,175,Ayden Lee,East Penn Speedskating,1:24.630,84.63,,,,,False,10,117
+,128,Group 2,777,7.0,FINAL,B Final,4801,,,2,226,Evan Zhang,Potomac Speedskating,1:24.980,84.98,,,,,False,1,95
+,128,Group 2,777,7.0,FINAL,B Final,4801,,,3,192,Hayden Peck,Saratoga Winter,1:25.760,85.76,,,,,False,20,1475
+,128,Group 2,777,7.0,FINAL,B Final,4801,,,4,186,Eliyahu Louz,Garden State Speedskating,1:27.480,87.48,,,,,False,7,623
+,128,Group 2,777,7.0,FINAL,B Final,4801,,,5,165,Jacoby Hartshorn,Bay State Speedskating,1:28.480,88.48,,,,,False,5,305
+,128,Group 2,777,7.0,FINAL,B Final,4801,,,6,128,Jei Lim,Potomac Speedskating,1:34.130,94.13,,,,,False,1,492
+,128,Group 2,777,7.0,FINAL,A Final,4802,,,1,211,Ian Sulkoske,Pittsburgh Speedskating,1:20.130,80.13,,,,,False,36,242
+,128,Group 2,777,7.0,FINAL,A Final,4802,,,2,197,Loki Ranta,Bay State Speedskating,1:21.280,81.28,,,,,False,5,103
+,128,Group 2,777,7.0,FINAL,A Final,4802,,,3,161,Narendran Gopinath,East Penn Speedskating,1:23.880,83.88,,,,,False,10,84
+,128,Group 2,777,7.0,FINAL,A Final,4802,,,4,178,Lucas Li,Garden State Speedskating,1:25.450,85.45,,,,,False,7,387
+,128,Group 2,777,7.0,FINAL,A Final,4802,,,5,146,Ilchan Bae,Potomac Speedskating,1:32.030,92.03,,,,,False,1,164
+,128,Group 3,777,7.0,FINAL,C Final,4901,,,1,218,Jabari Watts,United Capital Blades Speedskating,1:39.540,99.53999999999999,,,,,False,16,93
+,128,Group 3,777,7.0,FINAL,C Final,4901,,,2,153,Dexter Colice,Bay State Speedskating,1:39.760,99.75999999999999,,,,,False,5,351
+,128,Group 3,777,7.0,FINAL,B Final,4902,,,1,204,Christian Shelton-White,United Capital Blades Speedskating,1:30.040,90.03999999999999,,,,,False,16,51
+,128,Group 3,777,7.0,FINAL,B Final,4902,,,2,138,Priyanka Srinivasula,East Penn Speedskating,1:32.710,92.71000000000001,,,,,False,10,79
+,128,Group 3,777,7.0,FINAL,B Final,4902,,,3,152,Nicholas Clark,Saratoga Winter,1:34.920,94.92,,,,,False,20,203
+,128,Group 3,777,7.0,FINAL,B Final,4902,,,4,222,Gabriel Wochtl,East Penn Speedskating,1:38.390,98.39,,,,,False,10,495
+,128,Group 3,777,7.0,FINAL,B Final,4902,,,5,214,Adrian Tylwalk,East Penn Speedskating,1:38.750,98.75,,,,,False,10,237
+,128,Group 3,777,7.0,FINAL,A Final,4903,,,1,156,Zachary Double,Bay State Speedskating,1:27.420,87.42,,,,,False,5,214
+,128,Group 3,777,7.0,FINAL,A Final,4903,,,2,173,Evan Krieg,Pittsburgh Speedskating,1:27.670,87.67,,,,,False,36,785
+,128,Group 3,777,7.0,FINAL,A Final,4903,,,3,157,Russel Einsla,East Penn Speedskating,1:27.920,87.92,,,,,False,10,613
+,128,Group 3,777,7.0,FINAL,A Final,4903,,,4,135,Kathryn Sautter,East Penn Speedskating,1:28.100,88.1,,,,,False,10,806
+,128,Group 3,777,7.0,FINAL,A Final,4903,,,5,123,Madeline Koons,Lakewood Speedskating,1:30.170,90.17,,,,,False,14,200
+,128,Group 4,500,4.5045,FINAL,B Final,5001,,,1,206,Noah Shi,Oval Speed Skating,0:55.690,55.69,,,,,False,17,1492
+,128,Group 4,500,4.5045,FINAL,B Final,5001,,,2,179,Marcus Li,Potomac Speedskating,0:55.940,55.94,,,,,False,1,894
+,128,Group 4,500,4.5045,FINAL,B Final,5001,,,3,120,Hannah Huang,Potomac Speedskating,0:56.160,56.16,,,,,False,1,124
+,128,Group 4,500,4.5045,FINAL,B Final,5001,,,4,196,Harvey Qu,Garden State Speedskating,0:57.010,57.01,,,,,False,7,162
+,128,Group 4,500,4.5045,FINAL,B Final,5001,,,5,224,Kobe Yee,Bay State Speedskating,0:57.270,57.27,,,,,False,5,101
+,128,Group 4,500,4.5045,FINAL,B Final,5001,,,6,207,Landon Smith,United Capital Blades Speedskating,0:59.440,59.44,,,,,False,16,190
+,128,Group 4,500,4.5045,FINAL,A Final,5002,,,1,114,Lindsay Lin,Garden State Speedskating,0:54.730,54.73,,,,,False,7,199
+,128,Group 4,500,4.5045,FINAL,A Final,5002,,,2,108,Elliana Cho,Potomac Speedskating,0:55.010,55.01,,,,,False,1,140
+,128,Group 4,500,4.5045,FINAL,A Final,5002,,,3,227,Aiden Zhang,Potomac Speedskating,0:55.230,55.23,,,,,False,1,3890
+,128,Group 4,500,4.5045,FINAL,A Final,5002,,,4,194,Hendrik Plate-Tong,Garden State Speedskating,0:55.620,55.62,,,,,False,7,144
+,128,Group 4,500,4.5045,FINAL,A Final,5002,,,5,183,Marcus Liu,Oval Speed Skating,0:56.120,56.12,,,,,False,17,131
+,128,Group 5,500,4.5045,FINAL,C Final,5101,,,1,116,Lucy Hoffman,Saratoga Winter,1:14.060,74.06,,,,,False,20,424
+,128,Group 5,500,4.5045,FINAL,C Final,5101,,,2,112,Gabrielle Garnier,East Penn Speedskating,1:14.510,74.51,,,,,False,10,1663
+,128,Group 5,500,4.5045,FINAL,B Final,5102,,,1,225,James Yin,East Penn Speedskating,1:03.630,63.63,,,,,False,10,276
+,128,Group 5,500,4.5045,FINAL,B Final,5102,,,2,118,Emily Hogan,Saratoga Winter,1:06.950,66.95,,,,,False,20,964
+,128,Group 5,500,4.5045,FINAL,B Final,5102,,,3,169,Maren Hoffman,Saratoga Winter,1:07.240,67.24,,,,,False,20,374
+,128,Group 5,500,4.5045,FINAL,B Final,5102,,,4,103,Elizabeth Bourquin,Saratoga Winter,1:15.810,75.81,,,,,False,20,176
+,128,Group 5,500,4.5045,FINAL,B Final,5102,,,5,193,Henry Peck,Saratoga Winter,1:21.810,81.81,,,,,False,20,370
+,128,Group 5,500,4.5045,FINAL,A Final,5103,,,1,164,Clark Hartemink,East Penn Speedskating,0:59.710,59.71,,,,,False,10,182
+,128,Group 5,500,4.5045,FINAL,A Final,5103,,,2,100,Saruar Aitbayeva,Syracuse Speed Skating,1:01.640,61.64,,,,,False,28,739
+,128,Group 5,500,4.5045,FINAL,A Final,5103,,,3,212,Sean Sun,Garden State Speedskating,1:01.760,61.76,,,,,False,7,115
+,128,Group 5,500,4.5045,FINAL,A Final,5103,,,4,185,Avery Lorenz,United Capital Blades Speedskating,1:01.900,61.9,,,,,False,16,375
+,128,Group 5,500,4.5045,FINAL,A Final,5103,,,5,151,Derick Chang,Garden State Speedskating,1:02.100,62.1,,,,,False,7,460
+,128,Group 6,500,4.5045,FINAL,B Final,5201,,,1,229,Eric Zhao,Garden State Speedskating,1:08.660,68.66,,,,,False,7,467
+,128,Group 6,500,4.5045,FINAL,B Final,5201,,,2,181,Jayden Lin,United Capital Blades Speedskating,1:09.790,69.78999999999999,,,,,False,16,180
+,128,Group 6,500,4.5045,FINAL,B Final,5201,,,3,154,Sebastian Delnore,Pittsburgh Speedskating,1:10.190,70.19,,,,,False,36,324
+,128,Group 6,500,4.5045,FINAL,B Final,5201,,,4,195,Maxwell Pompei,Bay State Speedskating,1:10.480,70.48,,,,,False,5,229
+,128,Group 6,500,4.5045,FINAL,B Final,5201,,,5,221,Benjamin Wobeser,East Penn Speedskating,1:14.010,74.01,,,,,False,10,137
+,128,Group 6,500,4.5045,FINAL,B Final,5201,,,6,119,Lois Houck,Toanic Speedskating,1:14.250,74.25,,,,,False,56,253
+,128,Group 6,500,4.5045,FINAL,A Final,5202,,,1,217,Elias Wang,Toanic Speedskating,1:00.120,60.12,,,,,False,56,186
+,128,Group 6,500,4.5045,FINAL,A Final,5202,,,2,125,Yoonji Kuh,Potomac Speedskating,1:02.300,62.3,,,,,False,1,625
+,128,Group 6,500,4.5045,FINAL,A Final,5202,,,3,208,Peter Sowa,Bay State Speedskating,1:05.940,65.94,,,,,False,5,270
+,128,Group 6,500,4.5045,FINAL,A Final,5202,,,4,191,Kipling Mullaney,United Capital Blades Speedskating,1:06.550,66.55,,,,,False,16,598
+,128,Group 6,500,4.5045,FINAL,A Final,5202,,,5,176,Samuel Lee,Potomac Speedskating,1:21.830,81.83,,,,,False,1,293
+,128,Group 7,500,4.5045,FINAL,C Final,5301,,,1,202,Henry Seagraves,Pittsburgh Speedskating,1:21.790,81.78999999999999,,,,,False,36,1395
+,128,Group 7,500,4.5045,FINAL,C Final,5301,,,2,187,Finn McCloud,Pittsburgh Speedskating,1:42.010,102.00999999999999,,,,,False,36,334
+,128,Group 7,500,4.5045,FINAL,B Final,5302,,,1,228,Liam Zhang,Garden State Speedskating,1:09.630,69.63,,,,,False,7,1557
+,128,Group 7,500,4.5045,FINAL,B Final,5302,,,2,219,Samuel Winter,Connecticut Speedskating,1:12.350,72.35,,,,,False,44,1219
+,128,Group 7,500,4.5045,FINAL,B Final,5302,,,3,172,Jack Koons,Lakewood Speedskating,1:13.700,73.7,,,,,False,14,94
+,128,Group 7,500,4.5045,FINAL,B Final,5302,,,4,134,Tobi Ranta,Bay State Speedskating,1:16.560,76.56,,,,,False,5,328
+,128,Group 7,500,4.5045,FINAL,B Final,5302,,,5,129,Johanna Gleicher,Garden State Speedskating,1:41.420,101.42,,,,,False,7,317
+,128,Group 7,500,4.5045,FINAL,A Final,5303,,,1,148,William Bi,Potomac Speedskating,1:02.690,62.69,,,,,False,1,417
+,128,Group 7,500,4.5045,FINAL,A Final,5303,,,2,184,Ethan Liu,Garden State Speedskating,1:02.940,62.94,,,,,False,7,13
+,128,Group 7,500,4.5045,FINAL,A Final,5303,,,3,190,Max Mountainbear,Park Ridge Speedskating,1:03.090,63.09,,,,,False,30,41
+,128,Group 7,500,4.5045,FINAL,A Final,5303,,,4,203,Samuel Sheen,Bay State Speedskating,1:03.770,63.77,,,,,False,5,233
+,128,Group 7,500,4.5045,FINAL,A Final,5303,,,5,155,Hunter Dong,East Penn Speedskating,1:16.160,76.16,,,,,False,10,531
+,128,Novice A,333,3.0,FINAL,B Final,5401,,,1,230,Isaac Zheng,Garden State Speedskating,0:44.610,44.61,,,,,False,7,249
+,128,Novice A,333,3.0,FINAL,B Final,5401,,,2,107,Sarah Chen,Flushing Meadows Speedskating,0:48.640,48.64,,,,,False,18,197
+,128,Novice A,333,3.0,FINAL,B Final,5401,,,3,149,Jaxon Brogan,East Penn Speedskating,0:49.180,49.18,,,,,False,10,335
+,128,Novice A,333,3.0,FINAL,B Final,5401,,,4,189,Zoly Milstein,Bay State Speedskating,0:52.040,52.04,,,,,False,5,1439
+,128,Novice A,333,3.0,FINAL,B Final,5401,,,5,139,Charlotte Streefkerk,United Capital Blades Speedskating,1:08.860,68.86,,,,,False,16,1050
+,128,Novice A,333,3.0,FINAL,A Final,5402,,,1,132,Harshini Ramachandran,Garden State Speedskating,0:40.370,40.37,,,,,False,7,980
+,128,Novice A,333,3.0,FINAL,A Final,5402,,,2,143,Ian Andrews,United Capital Blades Speedskating,0:42.440,42.44,,,,,False,16,254
+,128,Novice A,333,3.0,FINAL,A Final,5402,,,3,126,Clara Lee,Garden State Speedskating,0:42.790,42.79,,,,,False,7,86
+,128,Novice A,333,3.0,FINAL,A Final,5402,,,4,133,Dharshini Ramachandran,Garden State Speedskating,0:43.650,43.65,,,,,False,7,602
+,128,Novice A,333,3.0,FINAL,A Final,5402,,,5,142,James Abramovich,Flushing Meadows Speedskating,0:53.760,53.76,,,,,False,18,592
+,128,Novice B,333,3.0,FINAL,B Final,5501,,,1,104,Ada Cao,Bay State Speedskating,0:53.540,53.54,,,,,False,5,331
+,128,Novice B,333,3.0,FINAL,B Final,5501,,,2,105,Penelope Cattell,East Penn Speedskating,0:54.590,54.59,,,,,False,10,474
+,128,Novice B,333,3.0,FINAL,B Final,5501,,,3,166,Eason He,United Capital Blades Speedskating,0:55.940,55.94,,,,,False,16,410
+,128,Novice B,333,3.0,FINAL,B Final,5501,,,4,201,Luca Sakhnovskiy,Saratoga Winter,1:01.260,61.26,,,,,False,20,283
+,128,Novice B,333,3.0,FINAL,B Final,5501,,,5,127,Chuyi Liao,Garden State Speedskating,1:13.190,73.19,,,,,False,7,1673
+,128,Novice B,333,3.0,FINAL,B Final,5501,,,6,140,Rosaline Wang,Garden State Speedskating,1:18.230,78.23,,,,,False,7,1674
+,128,Novice B,333,3.0,FINAL,A Final,5502,,,1,163,Alan Han,East Penn Speedskating,0:47.130,47.13,,,,,False,10,1548
+,128,Novice B,333,3.0,FINAL,A Final,5502,,,2,177,Ethan Lee,East Penn Speedskating,0:48.430,48.43,,,,,False,10,219
+,128,Novice B,333,3.0,FINAL,A Final,5502,,,3,162,Charles Han,East Penn Speedskating,0:48.570,48.57,,,,,False,10,1549
+,128,Novice B,333,3.0,FINAL,A Final,5502,,,4,159,Sam Firer,Garden State Speedskating,0:49.030,49.03,,,,,False,7,1675
+,128,Novice B,333,3.0,FINAL,A Final,5502,,,5,117,Zoey Hoffman,East Penn Speedskating,0:49.290,49.29,,,,,False,10,1664

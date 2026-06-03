@@ -1,0 +1,254 @@
+id,event_id,section_type,division,distance_m,rank,bib,skater_name,affiliation,points,skater_status,cdr,bdr,semi_group,final_group,best_time_text,best_time_seconds,page_number,club_id,skater_id
+76198,134,overall,Monopoly Men,,1,22,Ethan Sonn,,7000.0,,,,,,,,,,2
+76199,134,overall_dist,Monopoly Men,1000,,22,Ethan Sonn,,1000.0,,,,,,,,,,2
+76200,134,overall_dist,Monopoly Men,1000,,22,Ethan Sonn,,1000.0,,,,,,,,,,2
+76201,134,overall_dist,Monopoly Men,500,,22,Ethan Sonn,,1000.0,,,,,,,,,,2
+76202,134,overall_dist,Monopoly Men,500,,22,Ethan Sonn,,1000.0,,,,,,,,,,2
+76203,134,overall_dist,Monopoly Men,500,,22,Ethan Sonn,,1000.0,,,,,,,,,,2
+76204,134,overall_dist,Monopoly Men,500,,22,Ethan Sonn,,1000.0,,,,,,,,,,2
+76205,134,overall,Monopoly Men,,2,33,Andrew Ellison,,4960.0,,,,,,,,,,6
+76206,134,overall_dist,Monopoly Men,1000,,33,Andrew Ellison,,640.0,,,,,,,,,,6
+76207,134,overall_dist,Monopoly Men,1000,,33,Andrew Ellison,,640.0,,,,,,,,,,6
+76208,134,overall_dist,Monopoly Men,500,,33,Andrew Ellison,,800.0,,,,,,,,,,6
+76209,134,overall_dist,Monopoly Men,500,,33,Andrew Ellison,,800.0,,,,,,,,,,6
+76210,134,overall_dist,Monopoly Men,500,,33,Andrew Ellison,,800.0,,,,,,,,,,6
+76211,134,overall_dist,Monopoly Men,500,,33,Andrew Ellison,,640.0,,,,,,,,,,6
+76212,134,overall,Monopoly Men,,3,11,Matthew Lorenz,,4864.0,,,,,,,,,,87
+76213,134,overall_dist,Monopoly Men,1000,,11,Matthew Lorenz,,800.0,,,,,,,,,,87
+76214,134,overall_dist,Monopoly Men,1000,,11,Matthew Lorenz,,800.0,,,,,,,,,,87
+76215,134,overall_dist,Monopoly Men,500,,11,Matthew Lorenz,,640.0,,,,,,,,,,87
+76216,134,overall_dist,Monopoly Men,500,,11,Matthew Lorenz,,512.0,,,,,,,,,,87
+76217,134,overall_dist,Monopoly Men,500,,11,Matthew Lorenz,,512.0,,,,,,,,,,87
+76218,134,overall_dist,Monopoly Men,500,,11,Matthew Lorenz,,800.0,,,,,,,,,,87
+76219,134,overall,Monopoly Men,,4,44,Corin Habecker,,3840.0,,,,,,,,,,267
+76220,134,overall_dist,Monopoly Men,1000,,44,Corin Habecker,,512.0,,,,,,,,,,267
+76221,134,overall_dist,Monopoly Men,1000,,44,Corin Habecker,,512.0,,,,,,,,,,267
+76222,134,overall_dist,Monopoly Men,500,,44,Corin Habecker,,512.0,,,,,,,,,,267
+76223,134,overall_dist,Monopoly Men,500,,44,Corin Habecker,,640.0,,,,,,,,,,267
+76224,134,overall_dist,Monopoly Men,500,,44,Corin Habecker,,640.0,,,,,,,,,,267
+76225,134,overall_dist,Monopoly Men,500,,44,Corin Habecker,,512.0,,,,,,,,,,267
+76226,134,overall,Scrabble Men,,1,55,Roman Hastings,,3512.0,,,,,,,,,,56
+76227,134,overall_dist,Scrabble Men,777,,55,Roman Hastings,,1000.0,,,,,,,,,,56
+76228,134,overall_dist,Scrabble Men,500,,55,Roman Hastings,,1000.0,,,,,,,,,,56
+76229,134,overall_dist,Scrabble Men,500,,55,Roman Hastings,,512.0,,,,,,,,,,56
+76230,134,overall_dist,Scrabble Men,1000,,55,Roman Hastings,,1000.0,,,,,,,,,,56
+76231,134,overall,Scrabble Men,,2,5,Andrew Sonn,,2952.0,,,,,,,,,,7
+76232,134,overall_dist,Scrabble Men,777,,5,Andrew Sonn,,800.0,,,,,,,,,,7
+76233,134,overall_dist,Scrabble Men,500,,5,Andrew Sonn,,512.0,,,,,,,,,,7
+76234,134,overall_dist,Scrabble Men,500,,5,Andrew Sonn,,1000.0,,,,,,,,,,7
+76235,134,overall_dist,Scrabble Men,1000,,5,Andrew Sonn,,640.0,,,,,,,,,,7
+76236,134,overall,Scrabble Men,,3,77,Eben Emnmanuel Tinidad,,2650.0,,,,,,,,,,3831
+76237,134,overall_dist,Scrabble Men,777,,77,Eben Emnmanuel Tinidad,,410.0,,,,,,,,,,3831
+76238,134,overall_dist,Scrabble Men,500,,77,Eben Emnmanuel Tinidad,,800.0,,,,,,,,,,3831
+76239,134,overall_dist,Scrabble Men,500,,77,Eben Emnmanuel Tinidad,,640.0,,,,,,,,,,3831
+76240,134,overall_dist,Scrabble Men,1000,,77,Eben Emnmanuel Tinidad,,800.0,,,,,,,,,,3831
+76241,134,overall,Scrabble Men,,4,27,Logan Young,,2592.0,,,,,,,,,,392
+76242,134,overall_dist,Scrabble Men,777,,27,Logan Young,,640.0,,,,,,,,,,392
+76243,134,overall_dist,Scrabble Men,500,,27,Logan Young,,640.0,,,,,,,,,,392
+76244,134,overall_dist,Scrabble Men,500,,27,Logan Young,,800.0,,,,,,,,,,392
+76245,134,overall_dist,Scrabble Men,1000,,27,Logan Young,,512.0,,,,,,,,,,392
+76246,134,overall,Scrabble Men,,5,88,Victor Li,,1660.0,,,,,,,,,,47
+76247,134,overall_dist,Scrabble Men,777,,88,Victor Li,,512.0,,,,,,,,,,47
+76248,134,overall_dist,Scrabble Men,500,,88,Victor Li,,410.0,,,,,,,,,,47
+76249,134,overall_dist,Scrabble Men,500,,88,Victor Li,,328.0,,,,,,,,,,47
+76250,134,overall_dist,Scrabble Men,1000,,88,Victor Li,,410.0,,,,,,,,,,47
+76251,134,overall,Scrabble Men,,6,38,Liam Sears,,1394.0,,,,,,,,,,1
+76252,134,overall_dist,Scrabble Men,777,,38,Liam Sears,,328.0,,,,,,,,,,1
+76253,134,overall_dist,Scrabble Men,500,,38,Liam Sears,,328.0,,,,,,,,,,1
+76254,134,overall_dist,Scrabble Men,500,,38,Liam Sears,,410.0,,,,,,,,,,1
+76255,134,overall_dist,Scrabble Men,1000,,38,Liam Sears,,328.0,,,,,,,,,,1
+76256,134,overall,Scrabble Men,,7,16,Timothy Yang,,1048.0,,,,,,,,,,14
+76257,134,overall_dist,Scrabble Men,777,,16,Timothy Yang,,262.0,,,,,,,,,,14
+76258,134,overall_dist,Scrabble Men,500,,16,Timothy Yang,,262.0,,,,,,,,,,14
+76259,134,overall_dist,Scrabble Men,500,,16,Timothy Yang,,262.0,,,,,,,,,,14
+76260,134,overall_dist,Scrabble Men,1000,,16,Timothy Yang,,262.0,,,,,,,,,,14
+76261,134,overall,Scrabble Men,,8,49,Isabella Moreno,,210.0,,,,,,,,,,83
+76262,134,overall_dist,Scrabble Men,777,,49,Isabella Moreno,,210.0,,,,,,,,,,83
+76263,134,overall_dist,Scrabble Men,500,,49,Isabella Moreno,,0.0,,,,,,,,,,83
+76264,134,overall_dist,Scrabble Men,500,,49,Isabella Moreno,,210.0,,,,,,,,,,83
+76265,134,overall,Scrabble Men,,9,66,Sophia Ashley-Martin,,0.0,,,,,,,,,,288
+76266,134,overall_dist,Scrabble Men,777,,66,Sophia Ashley-Martin,,0.0,,,,,,,,,,288
+76267,134,overall_dist,Scrabble Men,500,,66,Sophia Ashley-Martin,,0.0,,,,,,,,,,288
+76268,134,overall,Chutes and Ladders Men,,1,90,Carter Hausman,,4000.0,,,,,,,,,,15
+76269,134,overall_dist,Chutes and Ladders Men,333,,90,Carter Hausman,,1000.0,,,,,,,,,,15
+76270,134,overall_dist,Chutes and Ladders Men,222,,90,Carter Hausman,,1000.0,,,,,,,,,,15
+76271,134,overall_dist,Chutes and Ladders Men,500,,90,Carter Hausman,,1000.0,,,,,,,,,,15
+76272,134,overall_dist,Chutes and Ladders Men,777,,90,Carter Hausman,,1000.0,,,,,,,,,,15
+76273,134,overall,Chutes and Ladders Men,,2,71,Joey Sample,,3200.0,,,,,,,,,,581
+76274,134,overall_dist,Chutes and Ladders Men,333,,71,Joey Sample,,800.0,,,,,,,,,,581
+76275,134,overall_dist,Chutes and Ladders Men,222,,71,Joey Sample,,800.0,,,,,,,,,,581
+76276,134,overall_dist,Chutes and Ladders Men,500,,71,Joey Sample,,800.0,,,,,,,,,,581
+76277,134,overall_dist,Chutes and Ladders Men,777,,71,Joey Sample,,800.0,,,,,,,,,,581
+76278,134,overall,Chutes and Ladders Men,,3,40,Stella Shapiro,,2304.0,,,,,,,,,,634
+76279,134,overall_dist,Chutes and Ladders Men,333,,40,Stella Shapiro,,640.0,,,,,,,,,,634
+76280,134,overall_dist,Chutes and Ladders Men,222,,40,Stella Shapiro,,512.0,,,,,,,,,,634
+76281,134,overall_dist,Chutes and Ladders Men,500,,40,Stella Shapiro,,640.0,,,,,,,,,,634
+76282,134,overall_dist,Chutes and Ladders Men,777,,40,Stella Shapiro,,512.0,,,,,,,,,,634
+76283,134,overall,Chutes and Ladders Men,,3,51,Graham Shapiro,,2304.0,,,,,,,,,,81
+76284,134,overall_dist,Chutes and Ladders Men,333,,51,Graham Shapiro,,512.0,,,,,,,,,,81
+76285,134,overall_dist,Chutes and Ladders Men,222,,51,Graham Shapiro,,640.0,,,,,,,,,,81
+76286,134,overall_dist,Chutes and Ladders Men,500,,51,Graham Shapiro,,512.0,,,,,,,,,,81
+76287,134,overall_dist,Chutes and Ladders Men,777,,51,Graham Shapiro,,640.0,,,,,,,,,,81
+76288,134,overall,Chutes and Ladders Men,,5,17,Caleb Estes,,1476.0,,,,,,,,,,508
+76289,134,overall_dist,Chutes and Ladders Men,333,,17,Caleb Estes,,410.0,,,,,,,,,,508
+76290,134,overall_dist,Chutes and Ladders Men,222,,17,Caleb Estes,,328.0,,,,,,,,,,508
+76291,134,overall_dist,Chutes and Ladders Men,500,,17,Caleb Estes,,328.0,,,,,,,,,,508
+76292,134,overall_dist,Chutes and Ladders Men,777,,17,Caleb Estes,,410.0,,,,,,,,,,508
+76293,134,overall,Chutes and Ladders Men,,6,6,Naavya Dwivedi,,1328.0,,,,,,,,,,64
+76294,134,overall_dist,Chutes and Ladders Men,333,,6,Naavya Dwivedi,,328.0,,,,,,,,,,64
+76295,134,overall_dist,Chutes and Ladders Men,222,,6,Naavya Dwivedi,,410.0,,,,,,,,,,64
+76296,134,overall_dist,Chutes and Ladders Men,500,,6,Naavya Dwivedi,,262.0,,,,,,,,,,64
+76297,134,overall_dist,Chutes and Ladders Men,777,,6,Naavya Dwivedi,,328.0,,,,,,,,,,64
+76298,134,overall,Chutes and Ladders Men,,8,83,Sadhbh Leonard,,850.0,,,,,,,,,,1385
+76299,134,overall_dist,Chutes and Ladders Men,333,,83,Sadhbh Leonard,,210.0,,,,,,,,,,1385
+76300,134,overall_dist,Chutes and Ladders Men,222,,83,Sadhbh Leonard,,262.0,,,,,,,,,,1385
+76301,134,overall_dist,Chutes and Ladders Men,500,,83,Sadhbh Leonard,,210.0,,,,,,,,,,1385
+76302,134,overall_dist,Chutes and Ladders Men,777,,83,Sadhbh Leonard,,168.0,,,,,,,,,,1385
+76303,134,overall,Chutes and Ladders Men,,9,39,Safiya Sadiq,,714.0,,,,,,,,,,670
+76304,134,overall_dist,Chutes and Ladders Men,333,,39,Safiya Sadiq,,168.0,,,,,,,,,,670
+76305,134,overall_dist,Chutes and Ladders Men,222,,39,Safiya Sadiq,,168.0,,,,,,,,,,670
+76306,134,overall_dist,Chutes and Ladders Men,500,,39,Safiya Sadiq,,168.0,,,,,,,,,,670
+76307,134,overall_dist,Chutes and Ladders Men,777,,39,Safiya Sadiq,,210.0,,,,,,,,,,670
+76308,134,overall,Pictionary Men,,1,56,Jackson Schowalter,,3400.0,,,,,,,,,,145
+76309,134,overall_dist,Pictionary Men,333,,56,Jackson Schowalter,,800.0,,,,,,,,,,145
+76310,134,overall_dist,Pictionary Men,222,,56,Jackson Schowalter,,1000.0,,,,,,,,,,145
+76311,134,overall_dist,Pictionary Men,444,,56,Jackson Schowalter,,800.0,,,,,,,,,,145
+76312,134,overall_dist,Pictionary Men,500,,56,Jackson Schowalter,,800.0,,,,,,,,,,145
+76313,134,overall,Pictionary Men,,2,78,Masashi Kaneko,,3050.0,,,,,,,,,,515
+76314,134,overall_dist,Pictionary Men,333,,78,Masashi Kaneko,,410.0,,,,,,,,,,515
+76315,134,overall_dist,Pictionary Men,222,,78,Masashi Kaneko,,640.0,,,,,,,,,,515
+76316,134,overall_dist,Pictionary Men,444,,78,Masashi Kaneko,,1000.0,,,,,,,,,,515
+76317,134,overall_dist,Pictionary Men,500,,78,Masashi Kaneko,,1000.0,,,,,,,,,,515
+76318,134,overall,Pictionary Men,,3,23,Grant Livingston,,2592.0,,,,,,,,,,172
+76319,134,overall_dist,Pictionary Men,333,,23,Grant Livingston,,512.0,,,,,,,,,,172
+76320,134,overall_dist,Pictionary Men,222,,23,Grant Livingston,,800.0,,,,,,,,,,172
+76321,134,overall_dist,Pictionary Men,444,,23,Grant Livingston,,640.0,,,,,,,,,,172
+76322,134,overall_dist,Pictionary Men,500,,23,Grant Livingston,,640.0,,,,,,,,,,172
+76323,134,overall,Pictionary Men,,4,34,Aadvik Pothina,,2434.0,,,,,,,,,,245
+76324,134,overall_dist,Pictionary Men,333,,34,Aadvik Pothina,,1000.0,,,,,,,,,,245
+76325,134,overall_dist,Pictionary Men,222,,34,Aadvik Pothina,,410.0,,,,,,,,,,245
+76326,134,overall_dist,Pictionary Men,444,,34,Aadvik Pothina,,512.0,,,,,,,,,,245
+76327,134,overall_dist,Pictionary Men,500,,34,Aadvik Pothina,,512.0,,,,,,,,,,245
+76328,134,overall,Pictionary Men,,5,18,Parker Schowalter,,1660.0,,,,,,,,,,100
+76329,134,overall_dist,Pictionary Men,333,,18,Parker Schowalter,,328.0,,,,,,,,,,100
+76330,134,overall_dist,Pictionary Men,222,,18,Parker Schowalter,,512.0,,,,,,,,,,100
+76331,134,overall_dist,Pictionary Men,444,,18,Parker Schowalter,,410.0,,,,,,,,,,100
+76332,134,overall_dist,Pictionary Men,500,,18,Parker Schowalter,,410.0,,,,,,,,,,100
+76333,134,overall,Pictionary Men,,6,67,Sawyer Nemeth,,1558.0,,,,,,,,,,405
+76334,134,overall_dist,Pictionary Men,333,,67,Sawyer Nemeth,,640.0,,,,,,,,,,405
+76335,134,overall_dist,Pictionary Men,222,,67,Sawyer Nemeth,,328.0,,,,,,,,,,405
+76336,134,overall_dist,Pictionary Men,444,,67,Sawyer Nemeth,,262.0,,,,,,,,,,405
+76337,134,overall_dist,Pictionary Men,500,,67,Sawyer Nemeth,,328.0,,,,,,,,,,405
+76338,134,overall,Pictionary Men,,7,45,Willow Grinberg-Keene,,1062.0,,,,,,,,,,3826
+76339,134,overall_dist,Pictionary Men,333,,45,Willow Grinberg-Keene,,210.0,,,,,,,,,,3826
+76340,134,overall_dist,Pictionary Men,222,,45,Willow Grinberg-Keene,,262.0,,,,,,,,,,3826
+76341,134,overall_dist,Pictionary Men,444,,45,Willow Grinberg-Keene,,328.0,,,,,,,,,,3826
+76342,134,overall_dist,Pictionary Men,500,,45,Willow Grinberg-Keene,,262.0,,,,,,,,,,3826
+76343,134,overall,Pictionary Men,,8,7,Ezekiel Robinson,,892.0,,,,,,,,,,487
+76344,134,overall_dist,Pictionary Men,333,,7,Ezekiel Robinson,,262.0,,,,,,,,,,487
+76345,134,overall_dist,Pictionary Men,222,,7,Ezekiel Robinson,,210.0,,,,,,,,,,487
+76346,134,overall_dist,Pictionary Men,444,,7,Ezekiel Robinson,,210.0,,,,,,,,,,487
+76347,134,overall_dist,Pictionary Men,500,,7,Ezekiel Robinson,,210.0,,,,,,,,,,487
+76348,134,overall,Risk Men,,1,4,Stephen Eisele,,3600.0,,,,,,,,,,398
+76349,134,overall_dist,Risk Men,1000,,4,Stephen Eisele,,1000.0,,,,,,,,,,398
+76350,134,overall_dist,Risk Men,500,,4,Stephen Eisele,,800.0,,,,,,,,,,398
+76351,134,overall_dist,Risk Men,777,,4,Stephen Eisele,,1000.0,,,,,,,,,,398
+76352,134,overall_dist,Risk Men,1500,,4,Stephen Eisele,,800.0,,,,,,,,,,398
+76353,134,overall,Risk Men,,2,48,Laura Ribeiro,,3312.0,,,,,,,,,,3391
+76354,134,overall_dist,Risk Men,1000,,48,Laura Ribeiro,,512.0,,,,,,,,,,3391
+76355,134,overall_dist,Risk Men,500,,48,Laura Ribeiro,,1000.0,,,,,,,,,,3391
+76356,134,overall_dist,Risk Men,777,,48,Laura Ribeiro,,800.0,,,,,,,,,,3391
+76357,134,overall_dist,Risk Men,1500,,48,Laura Ribeiro,,1000.0,,,,,,,,,,3391
+76358,134,overall,Risk Men,,3,26,Anthony Salvati,,2592.0,,,,,,,,,,285
+76359,134,overall_dist,Risk Men,1000,,26,Anthony Salvati,,800.0,,,,,,,,,,285
+76360,134,overall_dist,Risk Men,500,,26,Anthony Salvati,,640.0,,,,,,,,,,285
+76361,134,overall_dist,Risk Men,777,,26,Anthony Salvati,,512.0,,,,,,,,,,285
+76362,134,overall_dist,Risk Men,1500,,26,Anthony Salvati,,640.0,,,,,,,,,,285
+76363,134,overall,Risk Men,,4,37,Samuel Naeger,,2074.0,,,,,,,,,,2014
+76364,134,overall_dist,Risk Men,1000,,37,Samuel Naeger,,640.0,,,,,,,,,,2014
+76365,134,overall_dist,Risk Men,500,,37,Samuel Naeger,,512.0,,,,,,,,,,2014
+76366,134,overall_dist,Risk Men,777,,37,Samuel Naeger,,410.0,,,,,,,,,,2014
+76367,134,overall_dist,Risk Men,1500,,37,Samuel Naeger,,512.0,,,,,,,,,,2014
+76368,134,overall,Risk Men,,5,15,Gary Tobien,,1870.0,,,,,,,,,,709
+76369,134,overall_dist,Risk Men,1000,,15,Gary Tobien,,410.0,,,,,,,,,,709
+76370,134,overall_dist,Risk Men,500,,15,Gary Tobien,,410.0,,,,,,,,,,709
+76371,134,overall_dist,Risk Men,777,,15,Gary Tobien,,640.0,,,,,,,,,,709
+76372,134,overall_dist,Risk Men,1500,,15,Gary Tobien,,410.0,,,,,,,,,,709
+76373,134,overall,Risk Men,,6,60,Carissa Foster,,1312.0,,,,,,,,,,461
+76374,134,overall_dist,Risk Men,1000,,60,Carissa Foster,,328.0,,,,,,,,,,461
+76375,134,overall_dist,Risk Men,500,,60,Carissa Foster,,328.0,,,,,,,,,,461
+76376,134,overall_dist,Risk Men,777,,60,Carissa Foster,,328.0,,,,,,,,,,461
+76377,134,overall_dist,Risk Men,1500,,60,Carissa Foster,,328.0,,,,,,,,,,461
+76378,134,overall,Risk Men,,7,59,Kevin Kosola,,1048.0,,,,,,,,,,748
+76379,134,overall_dist,Risk Men,1000,,59,Kevin Kosola,,262.0,,,,,,,,,,748
+76380,134,overall_dist,Risk Men,500,,59,Kevin Kosola,,262.0,,,,,,,,,,748
+76381,134,overall_dist,Risk Men,777,,59,Kevin Kosola,,262.0,,,,,,,,,,748
+76382,134,overall_dist,Risk Men,1500,,59,Kevin Kosola,,262.0,,,,,,,,,,748
+76383,134,overall,Yahtzee Men,,1,1,Nicholas Markunas,,7000.0,,,,,,,,,,1678
+76384,134,overall_dist,Yahtzee Men,333,,1,Nicholas Markunas,,1000.0,,,,,,,,,,1678
+76385,134,overall_dist,Yahtzee Men,444,,1,Nicholas Markunas,,1000.0,,,,,,,,,,1678
+76386,134,overall_dist,Yahtzee Men,222,,1,Nicholas Markunas,,1000.0,,,,,,,,,,1678
+76387,134,overall_dist,Yahtzee Men,444,,1,Nicholas Markunas,,1000.0,,,,,,,,,,1678
+76388,134,overall_dist,Yahtzee Men,333,,1,Nicholas Markunas,,1000.0,,,,,,,,,,1678
+76389,134,overall_dist,Yahtzee Men,222,,1,Nicholas Markunas,,1000.0,,,,,,,,,,1678
+76390,134,overall,CandyLand Men,,1,8,Aubrey Hausman,,6040.0,,,,,,,,,,40
+76391,134,overall_dist,CandyLand Men,170,,8,Aubrey Hausman,,1000.0,,,,,,,,,,40
+76392,134,overall_dist,CandyLand Men,255,,8,Aubrey Hausman,,1000.0,,,,,,,,,,40
+76393,134,overall_dist,CandyLand Men,170,,8,Aubrey Hausman,,1000.0,,,,,,,,,,40
+76394,134,overall_dist,CandyLand Men,85,,8,Aubrey Hausman,,800.0,,,,,,,,,,40
+76395,134,overall_dist,CandyLand Men,255,,8,Aubrey Hausman,,800.0,,,,,,,,,,40
+76396,134,overall_dist,CandyLand Men,85,,8,Aubrey Hausman,,640.0,,,,,,,,,,40
+76397,134,overall,CandyLand Men,,2,21,Caleb Paik,,5440.0,,,,,,,,,,228
+76398,134,overall_dist,CandyLand Men,170,,21,Caleb Paik,,800.0,,,,,,,,,,228
+76399,134,overall_dist,CandyLand Men,255,,21,Caleb Paik,,328.0,,,,,,,,,,228
+76400,134,overall_dist,CandyLand Men,170,,21,Caleb Paik,,800.0,,,,,,,,,,228
+76401,134,overall_dist,CandyLand Men,85,,21,Caleb Paik,,1000.0,,,,,,,,,,228
+76402,134,overall_dist,CandyLand Men,255,,21,Caleb Paik,,1000.0,,,,,,,,,,228
+76403,134,overall_dist,CandyLand Men,85,,21,Caleb Paik,,512.0,,,,,,,,,,228
+76404,134,overall,CandyLand Men,,3,53,Alaina Krassinger,,4544.0,,,,,,,,,,395
+76405,134,overall_dist,CandyLand Men,170,,53,Alaina Krassinger,,640.0,,,,,,,,,,395
+76406,134,overall_dist,CandyLand Men,255,,53,Alaina Krassinger,,800.0,,,,,,,,,,395
+76407,134,overall_dist,CandyLand Men,170,,53,Alaina Krassinger,,640.0,,,,,,,,,,395
+76408,134,overall_dist,CandyLand Men,85,,53,Alaina Krassinger,,640.0,,,,,,,,,,395
+76409,134,overall_dist,CandyLand Men,255,,53,Alaina Krassinger,,512.0,,,,,,,,,,395
+76410,134,overall_dist,CandyLand Men,85,,53,Alaina Krassinger,,800.0,,,,,,,,,,395
+76411,134,overall,CandyLand Men,,4,42,Josiah Paik,,4042.0,,,,,,,,,,243
+76412,134,overall_dist,CandyLand Men,170,,42,Josiah Paik,,328.0,,,,,,,,,,243
+76413,134,overall_dist,CandyLand Men,255,,42,Josiah Paik,,410.0,,,,,,,,,,243
+76414,134,overall_dist,CandyLand Men,170,,42,Josiah Paik,,512.0,,,,,,,,,,243
+76415,134,overall_dist,CandyLand Men,85,,42,Josiah Paik,,512.0,,,,,,,,,,243
+76416,134,overall_dist,CandyLand Men,255,,42,Josiah Paik,,640.0,,,,,,,,,,243
+76417,134,overall_dist,CandyLand Men,85,,42,Josiah Paik,,1000.0,,,,,,,,,,243
+76418,134,overall,CandyLand Men,,5,30,Joselyn Zumwalt,,2890.0,,,,,,,,,,540
+76419,134,overall_dist,CandyLand Men,170,,30,Joselyn Zumwalt,,512.0,,,,,,,,,,540
+76420,134,overall_dist,CandyLand Men,255,,30,Joselyn Zumwalt,,640.0,,,,,,,,,,540
+76421,134,overall_dist,CandyLand Men,170,,30,Joselyn Zumwalt,,328.0,,,,,,,,,,540
+76422,134,overall_dist,CandyLand Men,85,,30,Joselyn Zumwalt,,262.0,,,,,,,,,,540
+76423,134,overall_dist,CandyLand Men,255,,30,Joselyn Zumwalt,,410.0,,,,,,,,,,540
+76424,134,overall_dist,CandyLand Men,85,,30,Joselyn Zumwalt,,328.0,,,,,,,,,,540
+76425,134,overall,CandyLand Men,,6,19,Mary Kate Estes,,2808.0,,,,,,,,,,649
+76426,134,overall_dist,CandyLand Men,170,,19,Mary Kate Estes,,410.0,,,,,,,,,,649
+76427,134,overall_dist,CandyLand Men,255,,19,Mary Kate Estes,,512.0,,,,,,,,,,649
+76428,134,overall_dist,CandyLand Men,170,,19,Mary Kate Estes,,410.0,,,,,,,,,,649
+76429,134,overall_dist,CandyLand Men,85,,19,Mary Kate Estes,,410.0,,,,,,,,,,649
+76430,134,overall_dist,CandyLand Men,255,,19,Mary Kate Estes,,328.0,,,,,,,,,,649
+76431,134,overall_dist,CandyLand Men,85,,19,Mary Kate Estes,,410.0,,,,,,,,,,649
+76432,134,overall,CandyLand Men,,7,64,Martha Lawrence,,1900.0,,,,,,,,,,486
+76433,134,overall_dist,CandyLand Men,170,,64,Martha Lawrence,,262.0,,,,,,,,,,486
+76434,134,overall_dist,CandyLand Men,255,,64,Martha Lawrence,,262.0,,,,,,,,,,486
+76435,134,overall_dist,CandyLand Men,170,,64,Martha Lawrence,,262.0,,,,,,,,,,486
+76436,134,overall_dist,CandyLand Men,85,,64,Martha Lawrence,,328.0,,,,,,,,,,486
+76437,134,overall_dist,CandyLand Men,255,,64,Martha Lawrence,,262.0,,,,,,,,,,486
+76438,134,overall_dist,CandyLand Men,85,,64,Martha Lawrence,,262.0,,,,,,,,,,486
+76606,134,overall,Chutes and Ladders Men,,7,72,Rishaan Dwivedi,,1144.0,,,,,,,,,,82
+76607,134,overall_dist,Chutes and Ladders Men,333,7,72,Rishaan Dwivedi,,262.0,,,,,,,,,,82
+76608,134,overall_dist,Chutes and Ladders Men,222,7,72,Rishaan Dwivedi,,210.0,,,,,,,,,,82
+76609,134,overall_dist,Chutes and Ladders Men,500,7,72,Rishaan Dwivedi,,410.0,,,,,,,,,,82
+76610,134,overall_dist,Chutes and Ladders Men,777,7,72,Rishaan Dwivedi,,262.0,,,,,,,,,,82
+76611,134,overall,Yahtzee Men,,2,2,Zubin Chandran,,5600.0,,,,,,,,,,1676
+76612,134,overall_dist,Yahtzee Men,333,2,2,Zubin Chandran,,800.0,,,,,,,,,,1676
+76613,134,overall_dist,Yahtzee Men,444,2,2,Zubin Chandran,,800.0,,,,,,,,,,1676
+76614,134,overall_dist,Yahtzee Men,222,2,2,Zubin Chandran,,800.0,,,,,,,,,,1676
+76615,134,overall_dist,Yahtzee Men,444,2,2,Zubin Chandran,,800.0,,,,,,,,,,1676
+76616,134,overall_dist,Yahtzee Men,333,2,2,Zubin Chandran,,800.0,,,,,,,,,,1676
+76617,134,overall_dist,Yahtzee Men,222,2,2,Zubin Chandran,,800.0,,,,,,,,,,1676

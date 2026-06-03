@@ -1,0 +1,47 @@
+bib,parsed_name,matched_name,skater_id,confidence,method
+1,Nicholas Markunas,Nicholas Markunas,1678,100,exact
+2,Zubin Chandran,Zubin Chandran,1676,100,exact
+4,Stephen Eisele,Stephen Eisele,398,100,exact
+5,Andrew Sonn,Andrew Sonn,7,100,exact
+6,Naavya Dwivedi,Naavya Dwivedi,64,100,exact
+7,Ezekiel Robinson,Ezekiel Robinson,487,100,exact
+8,Aubrey Hausman,Aubrey Hausman,40,100,exact
+11,Matthew Lorenz,Matthew Lorenz,87,100,exact
+15,Gary Tobien,Gary Tobin,709,95,fuzzy
+16,Timothy Yang,Timothy Yang,14,100,exact
+17,Caleb Estes,Caleb Estes,508,100,exact
+18,Parker Schowalter,Parker Schowalter,100,100,exact
+19,Mary Kate Estes,Mary Kate Estes,649,100,exact
+21,Caleb Paik,Caleb Paik,228,100,exact
+22,Ethan Sonn,Ethan Sonn,2,100,exact
+23,Grant Livingston,Grant Livingston,172,100,exact
+26,Anthony Salvati,Anthony Salvati,285,100,exact
+27,Logan Young,Logan Young,392,100,exact
+30,Joselyn Zumwalt,Joselyn Zumwalt,540,100,exact
+33,Andrew Ellison,Andrew Ellison,6,100,exact
+34,Aadvik Pothina,Aadvik Pothina,245,100,exact
+37,Samuel Naeger,Samuel Naeger,2014,100,exact
+38,Liam Sears,Liam Sears,1,100,exact
+39,Safiya Sadiq,Safiya Sadiq,670,100,exact
+40,Stella Shapiro,Stella Shapiro,634,100,exact
+42,Josiah Paik,Josiah Paik,243,100,exact
+44,Corin Habecker,Corin Habecker,267,100,exact
+45,Willow Grinberg-Keene,Willow Grinberg-Keene,3826,100,exact
+48,Laura Ribeiro,Laura Ribeiro,3391,100,exact
+49,Isabella Moreno,Isabella Moreno,83,100,exact
+51,Graham Shapiro,Graham Shapiro,81,100,exact
+53,Alaina Krassinger,Alaina Krassinger,395,100,exact
+55,Roman Hastings,Roman Hastings,56,100,exact
+56,Jackson Schowalter,Jackson Schowalter,145,100,exact
+59,Kevin Kosola,Kevin Kosola,748,100,exact
+60,Carissa Foster,Carissa Foster,461,100,exact
+64,Martha Lawrence,Martha Lawrence,486,100,exact
+66,Sophia Ashley-Martin,Sophia Ashley-Martin,288,100,exact
+67,Sawyer Nemeth,Sawyer Nemeth,405,100,exact
+71,Joey Sample,Joey Sample,581,100,exact
+72,Rishaan Dwivedi,Rishaan Dwivedi,82,100,exact
+77,Eben Emnmanuel Tinidad,Eben Emnmanuel Tinidad,3831,100,exact
+78,Masashi Kaneko,Masashi Kaneko,515,100,exact
+83,Sadhbh Leonard,Sadhbh Leonard,1385,100,exact
+88,Victor Li,Victor Li,47,100,exact
+90,Carter Hausman,Carter Hausman,15,100,exact

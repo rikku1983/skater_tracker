@@ -34,9 +34,14 @@ export default async function ClubDetailPage({ params, searchParams }: {
   let q = `
     SELECT s.id as skater_id, s.full_name, s.gender, s.birth_year,
            COUNT(r.id) as num_results,
-           MIN(CASE WHEN r.distance_m=500 AND r.time_seconds IS NOT NULL
-               AND COALESCE(r.status,'') NOT IN ('DNS','DNS+','DNF','DNF+','DQ','DQ+','FNT','no contest')
-               THEN r.time_seconds END) as best_500
+           (SELECT MIN(r2.time_seconds)
+            FROM results r2
+            JOIN events e2 ON e2.id = r2.event_id
+            WHERE r2.skater_id = s.id AND r2.distance_m = 500
+              AND r2.time_seconds IS NOT NULL AND r2.is_relay = false
+              AND e2.track_type = 'short'
+              AND COALESCE(r2.status,'') NOT IN ('DNS','DNS+','DNF','DNF+','DQ','DQ+','FNT','no contest')
+           ) as best_500
     FROM skaters s
     JOIN results r ON r.skater_id = s.id
     JOIN events e ON e.id = r.event_id

@@ -1,0 +1,276 @@
+{
+  "skaters": [
+    {
+      "bib": "201",
+      "name": "Edwin Niu",
+      "status": "G2",
+      "gender": "Male",
+      "division": "Division 1",
+      "club": "PGS"
+    },
+    {
+      "bib": "202",
+      "name": "Andrew Youn",
+      "status": "G2",
+      "gender": "Male",
+      "division": "Division 1",
+      "club": "PGS"
+    },
+    {
+      "bib": "203",
+      "name": "Vincent Gu",
+      "status": "G2",
+      "gender": "Male",
+      "division": "Division 1",
+      "club": "PGS"
+    },
+    {
+      "bib": "204",
+      "name": "Ethan Zhou",
+      "status": "F1",
+      "gender": "Male",
+      "division": "Division 2",
+      "club": "PGS"
+    },
+    {
+      "bib": "205",
+      "name": "Jonathan Lee",
+      "status": "F1",
+      "gender": "Male",
+      "division": "Division 2",
+      "club": "PGS"
+    },
+    {
+      "bib": "207",
+      "name": "Winston Dang",
+      "status": "F2",
+      "gender": "Male",
+      "division": "Division 2",
+      "club": "PGS"
+    },
+    {
+      "bib": "208",
+      "name": "Brandon So",
+      "status": "F2",
+      "gender": "Male",
+      "division": "Division 2",
+      "club": "PGS"
+    },
+    {
+      "bib": "209",
+      "name": "Ari Im*",
+      "status": "F2",
+      "gender": "Female",
+      "division": "Division 2",
+      "club": "PGS"
+    },
+    {
+      "bib": "210",
+      "name": "Soyool (Aria) Shin*",
+      "status": "F2",
+      "gender": "Female",
+      "division": "Division 2",
+      "club": "PGS"
+    },
+    {
+      "bib": "211",
+      "name": "Aaron Zhou",
+      "status": "E1",
+      "gender": "Male",
+      "division": "Division 3",
+      "club": "PGS"
+    },
+    {
+      "bib": "212",
+      "name": "Mason Ha",
+      "status": "E1",
+      "gender": "Male",
+      "division": "Division 3",
+      "club": "PGS"
+    },
+    {
+      "bib": "213",
+      "name": "Nikita Quezon*",
+      "status": "E2",
+      "gender": "Female",
+      "division": "Division 3",
+      "club": "PGS"
+    },
+    {
+      "bib": "214",
+      "name": "Jenn Oh*",
+      "status": "E2",
+      "gender": "Female",
+      "division": "Division 3",
+      "club": "PGS"
+    },
+    {
+      "bib": "215",
+      "name": "Shirn Dang*",
+      "status": "D1",
+      "gender": "Female",
+      "division": "Division 3",
+      "club": "PGS"
+    },
+    {
+      "bib": "216",
+      "name": "Chloe Kim*",
+      "status": "D1",
+      "gender": "Female",
+      "division": "Division 3",
+      "club": "PGS"
+    },
+    {
+      "bib": "218",
+      "name": "Juliette Song*",
+      "status": "C1",
+      "gender": "Female",
+      "division": "Division 4",
+      "club": "PGS"
+    },
+    {
+      "bib": "219",
+      "name": "Elisha Lee*",
+      "status": "C1",
+      "gender": "Female",
+      "division": "Division 4",
+      "club": "PGS"
+    },
+    {
+      "bib": "220",
+      "name": "Aileen Oh*",
+      "status": "C1",
+      "gender": "Female",
+      "division": "Division 4",
+      "club": "PGS"
+    },
+    {
+      "bib": "221",
+      "name": "Allison La*",
+      "status": "C1",
+      "gender": "Female",
+      "division": "Division 4",
+      "club": "PGS"
+    },
+    {
+      "bib": "222",
+      "name": "Leah Choi*",
+      "status": "B2",
+      "gender": "Female",
+      "division": "Division 4",
+      "club": "PGS"
+    },
+    {
+      "bib": "223",
+      "name": "Audrey Han*",
+      "status": "B2",
+      "gender": "Female",
+      "division": "Division 4",
+      "club": "PGS"
+    },
+    {
+      "bib": "224",
+      "name": "Nathan Ifrah",
+      "status": "C1",
+      "gender": "Male",
+      "division": "Division 5",
+      "club": "MTV"
+    },
+    {
+      "bib": "225",
+      "name": "Enoch Jeon",
+      "status": "C1",
+      "gender": "Male",
+      "division": "Division 5",
+      "club": "PGS"
+    },
+    {
+      "bib": "226",
+      "name": "Colin Lee",
+      "status": "C1",
+      "gender": "Male",
+      "division": "Division 5",
+      "club": "PGS"
+    },
+    {
+      "bib": "227",
+      "name": "Aaron Choi",
+      "status": "C2",
+      "gender": "Male",
+      "division": "Division 5",
+      "club": "PGS"
+    },
+    {
+      "bib": "228",
+      "name": "Eric Choi",
+      "status": "C2",
+      "gender": "Male",
+      "division": "Division 5",
+      "club": "PGS"
+    },
+    {
+      "bib": "229",
+      "name": "Jayden Oh",
+      "status": "C2",
+      "gender": "Male",
+      "division": "Division 5",
+      "club": "PGS"
+    },
+    {
+      "bib": "230",
+      "name": "Elrond Gica",
+      "status": "B1",
+      "gender": "Male",
+      "division": "Division 5",
+      "club": "PGS"
+    },
+    {
+      "bib": "231",
+      "name": "Branden DeMass",
+      "status": "Master 40+",
+      "gender": "Male",
+      "division": "Division 6",
+      "club": "PGS"
+    },
+    {
+      "bib": "232",
+      "name": "Mike Jernquist",
+      "status": "Master 50+",
+      "gender": "Male",
+      "division": "Division 6",
+      "club": "PGS"
+    },
+    {
+      "bib": "233",
+      "name": "Edison Gica",
+      "status": "Master 50+",
+      "gender": "Male",
+      "division": "Division 6",
+      "club": "PGS"
+    },
+    {
+      "bib": "234",
+      "name": "Eric Moberly",
+      "status": "Master 60+",
+      "gender": "Male",
+      "division": "Division 6",
+      "club": "PGS"
+    },
+    {
+      "bib": "235",
+      "name": "Jeremy Kerslake",
+      "status": "Master 60+",
+      "gender": "Male",
+      "division": "Division 6",
+      "club": "PGS"
+    },
+    {
+      "bib": "237",
+      "name": "Jim Au",
+      "status": "Master 60+",
+      "gender": "Male",
+      "division": "Division 6",
+      "club": "MTV"
+    }
+  ]
+}

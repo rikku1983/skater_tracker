@@ -1,0 +1,35 @@
+bib,parsed_name,matched_name,skater_id,confidence,method
+201,Edwin Niu,Edwin Niu,869,100,exact
+202,Andrew Youn,Andrew Youn,963,100,exact
+203,Vincent Gu,Vincent Gu,1178,100,exact
+204,Ethan Zhou,Ethan Zhou,627,100,exact
+205,Jonathan Lee,Jonathan Lee,585,100,exact
+207,Winston Dang,Winston Dang,756,100,exact
+208,Brandon So,Brandon So,755,100,exact
+209,Ari Im*,Ari Im,696,100,exact
+210,Soyool (Aria) Shin*,Soyool Shin,733,81,review
+211,Aaron Zhou,Aaron Zhou,629,100,exact
+212,Mason Ha,Mason Ha,783,100,exact
+213,Nikita Quezon*,Nikita Quezon,782,100,exact
+214,Jenn Oh*,Jeinn Oh,628,93,fuzzy
+215,Shirn Dang*,Shinn Dang,3607,90,fuzzy
+216,Chloe Kim*,Chloe Kim,344,100,exact
+218,Juliette Song*,Jeremy Song,1253,67,review
+219,Elisha Lee*,Elisha Lee,657,100,exact
+220,Aileen Oh*,Aileen Oh,619,100,exact
+221,Allison La*,Allison La,1009,100,exact
+222,Leah Choi*,Leah Choi,655,100,exact
+223,Audrey Han*,Audrey Han,618,100,exact
+224,Nathan Ifrah,Nathan Ifrah,1693,100,exact
+225,Enoch Jeon,Enoch Jeon,1581,100,exact
+226,Colin Lee,Colin Lee,654,100,exact
+227,Aaron Choi,Aaron Choi,656,100,exact
+228,Eric Choi,Eric Choi,677,100,exact
+229,Jayden Oh,Jayden Oh,837,100,exact
+230,Elrond Gica,Elrond Gica,735,100,exact
+231,Branden DeMass,Branden Demass,784,100,exact
+232,Mike Jernquist,Mike Jernquist,815,100,exact
+233,Edison Gica,Edison Gica,816,100,exact
+234,Eric Moberly,Eric Moberly,890,100,exact
+235,Jeremy Kerslake,Jeremy Kerslake,697,100,exact
+237,Jim Au,Jim Au,653,100,exact

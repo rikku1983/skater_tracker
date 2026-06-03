@@ -1,0 +1,35 @@
+id,event_id,bib,skater_name,status,gender,division,club,page_number,club_id,birth_year_1,birth_year_2,skater_id
+,162,201,Edwin Niu,G2,Male,Division 1,PGS,,9,,,869
+,162,202,Andrew Youn,G2,Male,Division 1,PGS,,9,,,963
+,162,203,Vincent Gu,G2,Male,Division 1,PGS,,9,,,1178
+,162,204,Ethan Zhou,F1,Male,Division 2,PGS,,9,,,627
+,162,205,Jonathan Lee,F1,Male,Division 2,PGS,,9,,,585
+,162,207,Winston Dang,F2,Male,Division 2,PGS,,9,,,756
+,162,208,Brandon So,F2,Male,Division 2,PGS,,9,,,755
+,162,209,Ari Im*,F2,Female,Division 2,PGS,,9,,,696
+,162,210,Soyool (Aria) Shin*,F2,Female,Division 2,PGS,,9,,,733
+,162,211,Aaron Zhou,E1,Male,Division 3,PGS,,9,,,629
+,162,212,Mason Ha,E1,Male,Division 3,PGS,,9,,,783
+,162,213,Nikita Quezon*,E2,Female,Division 3,PGS,,9,,,782
+,162,214,Jenn Oh*,E2,Female,Division 3,PGS,,9,,,628
+,162,215,Shirn Dang*,D1,Female,Division 3,PGS,,9,,,3607
+,162,216,Chloe Kim*,D1,Female,Division 3,PGS,,9,,,344
+,162,218,Juliette Song*,C1,Female,Division 4,PGS,,9,,,1253
+,162,219,Elisha Lee*,C1,Female,Division 4,PGS,,9,,,657
+,162,220,Aileen Oh*,C1,Female,Division 4,PGS,,9,,,619
+,162,221,Allison La*,C1,Female,Division 4,PGS,,9,,,1009
+,162,222,Leah Choi*,B2,Female,Division 4,PGS,,9,,,655
+,162,223,Audrey Han*,B2,Female,Division 4,PGS,,9,,,618
+,162,224,Nathan Ifrah,C1,Male,Division 5,MTV,,78,,,1693
+,162,225,Enoch Jeon,C1,Male,Division 5,PGS,,9,,,1581
+,162,226,Colin Lee,C1,Male,Division 5,PGS,,9,,,654
+,162,227,Aaron Choi,C2,Male,Division 5,PGS,,9,,,656
+,162,228,Eric Choi,C2,Male,Division 5,PGS,,9,,,677
+,162,229,Jayden Oh,C2,Male,Division 5,PGS,,9,,,837
+,162,230,Elrond Gica,B1,Male,Division 5,PGS,,9,,,735
+,162,231,Branden DeMass,Master 40+,Male,Division 6,PGS,,9,,,784
+,162,232,Mike Jernquist,Master 50+,Male,Division 6,PGS,,9,,,815
+,162,233,Edison Gica,Master 50+,Male,Division 6,PGS,,9,,,816
+,162,234,Eric Moberly,Master 60+,Male,Division 6,PGS,,9,,,890
+,162,235,Jeremy Kerslake,Master 60+,Male,Division 6,PGS,,9,,,697
+,162,237,Jim Au,Master 60+,Male,Division 6,MTV,,78,,,653

@@ -1,0 +1,377 @@
+id,event_id,section_type,division,distance_m,rank,bib,skater_name,affiliation,points,skater_status,cdr,bdr,semi_group,final_group,best_time_text,best_time_seconds,page_number,club_id,skater_id
+,128,distance,NEST Women,500,1,106,Isabella Chen,Potomac Speedskating,10000,,,,,,,,,1,89
+,128,distance,NEST Women,500,2,110,Makayla Chou,Potomac Speedskating,8000,,,,,,,,,1,109
+,128,distance,NEST Women,500,3,124,Sofia Koons,Lakewood Speedskating,6400,,,,,,,,,14,9
+,128,distance,NEST Women,500,4,141,Tiffany Zhang,Potomac Speedskating,5120,,,,,,,,,1,207
+,128,distance,NEST Women,500,5,130,Sasha Mensah,Daribury Speedskating,4096,,,,,,,,,8,23
+,128,distance,NEST Women,500,6,115,Kassandra Haeupl,Lakewood Speedskating,3277,,,,,,,,,14,1113
+,128,distance,NEST Women,500,7,137,Therese Sowa,Bay State Speedskating,2621,,,,,,,,,5,226
+,128,distance,NEST Women,500,8,113,Sarah Girach,Daribury Speedskating,2097,,,,,,,,,8,34
+,128,distance,NEST Women,500,9,102,Diana Bickmore,Daribury Speedskating,1678,,,,,,,,,8,90
+,128,distance,NEST Women,500,10,131,Tatyana Pometun,East Penn Speedskating,1342,,,,,,,,,10,60
+,128,distance,NEST Women,500,11,101,Nagi Aitbayeva,Syracuse Speed Skating,1074,,,,,,,,,28,314
+,128,distance,NEST Women,500,12,111,Sara Cushman,Bay State Speedskating,859,,,,,,,,,5,37
+,128,distance,NEST Women,1000,1,106,Isabella Chen,Potomac Speedskating,10000,,,,,,,,,1,89
+,128,distance,NEST Women,1000,2,124,Sofia Koons,Lakewood Speedskating,8000,,,,,,,,,14,9
+,128,distance,NEST Women,1000,3,110,Makayla Chou,Potomac Speedskating,6400,,,,,,,,,1,109
+,128,distance,NEST Women,1000,4,130,Sasha Mensah,Danbury Speedskating,5120,,,,,,,,,8,23
+,128,distance,NEST Women,1000,5,141,Tiffany Zhang,Potomac Speedskating,4096,,,,,,,,,1,207
+,128,distance,NEST Women,1000,6,115,Kassandra Haeupl,Lakewood Speedskating,3277,,,,,,,,,14,1113
+,128,distance,NEST Women,1000,7,131,Tatyana Pometun,East Penn Speedskating,2621,,,,,,,,,10,60
+,128,distance,NEST Women,1000,8,102,Diana Bickmore,Danbury Speedskating,2097,,,,,,,,,8,90
+,128,distance,NEST Women,1000,9,113,Sarah Girach,Danbury Speedskating,1678,,,,,,,,,8,34
+,128,distance,NEST Women,1000,10,137,Therese Sowa,Bay State Speedskating,1342,,,,,,,,,5,226
+,128,distance,NEST Women,1000,11,101,Nagi Aitbayeva,Syracuse Speed Skating,1074,,,,,,,,,28,314
+,128,distance,NEST Women,1000,12,111,Sara Cushman,Bay State Speedskating,859,,,,,,,,,5,37
+,128,distance,NEST Women,1500,1,106,Isabella Chen,Potomac Speedskating,10000,,,,,,,,,1,89
+,128,distance,NEST Women,1500,2,124,Sofia Koons,Lakewood Speedskating,8000,,,,,,,,,14,9
+,128,distance,NEST Women,1500,3,115,Kassandra Haeupl,Lakewood Speedskating,6400,,,,,,,,,14,1113
+,128,distance,NEST Women,1500,4,141,Tiffany Zhang,Potomac Speedskating,5120,,,,,,,,,1,207
+,128,distance,NEST Women,1500,5,130,Sasha Mensah,Danbury Speedskating,4096,,,,,,,,,8,23
+,128,distance,NEST Women,1500,6,110,Makayla Chou,Potomac Speedskating,3277,,,,,,,,,1,109
+,128,distance,NEST Women,1500,7,102,Diana Bickmore,Danbury Speedskating,2621,,,,,,,,,8,90
+,128,distance,NEST Women,1500,8,113,Sarah Girach,Danbury Speedskating,2097,,,,,,,,,8,34
+,128,distance,NEST Women,1500,9,131,Tatyana Pometun,East Penn Speedskating,1678,,,,,,,,,10,60
+,128,distance,NEST Women,1500,10,137,Therese Sowa,Bay State Speedskating,1342,,,,,,,,,5,226
+,128,distance,NEST Women,1500,11,101,Nagi Aitbayeva,Syracuse Speed Skating,1074,,,,,,,,,28,314
+,128,distance,NEST Women,1500,12,111,Sara Cushman,Bay State Speedskating,859,,,,,,,,,5,37
+,128,distance,NEST Men,1000,1,223,Lucas Wu,Potomac Speedskating,10000,,,,,,,,,1,58
+,128,distance,NEST Men,1000,2,205,Lucas Shi,Oval Speed Skating,8000,,,,,,,,,17,379
+,128,distance,NEST Men,1000,3,213,Robert Tolliver,Potomac Speedskating,6400,,,,,,,,,1,36
+,128,distance,NEST Men,1000,4,145,Xavier Babkine-Osterrath,Danbury Speedskating,5120,,,,,,,,,8,121
+,128,distance,NEST Men,1000,5,182,Ethan Lin,Potomac Speedskating,4096,,,,,,,,,1,69
+,128,distance,NEST Men,1000,6,174,Gihoon Kuh,Potomac Speedskating,3277,,,,,,,,,1,480
+,128,distance,NEST Men,1000,7,200,Gabriel Rillotta,Potomac Speedskating,2621,,,,,,,,,1,33
+,128,distance,NEST Men,1000,8,170,Ryan Huang,Potomac Speedskating,2097,,,,,,,,,1,39
+,128,distance,NEST Men,1000,9,209,Frederick Sowa,Bay State Speedskating,1678,,,,,,,,,5,160
+,128,distance,NEST Men,1000,10,215,Tim VanFleet,East Penn Speedskating,1342,,,,,,,,,10,156
+,128,distance,NEST Men,1000,11,210,Henry Sowa,Bay State Speedskating,1074,,,,,,,,,5,170
+,128,distance,NEST Men,1500,1,223,Lucas Wu,Potomac Speedskating,10000,,,,,,,,,1,58
+,128,distance,NEST Men,1500,2,213,Robert Tolliver,Potomac Speedskating,8000,,,,,,,,,1,36
+,128,distance,NEST Men,1500,3,205,Lucas Shi,Oval Speed Skating,6400,,,,,,,,,17,379
+,128,distance,NEST Men,1500,4,145,Xavier Babkine-Osterrath,Danbury Speedskating,5120,,,,,,,,,8,121
+,128,distance,NEST Men,1500,5,182,Ethan Lin,Potomac Speedskating,4096,,,,,,,,,1,69
+,128,distance,NEST Men,1500,6,209,Frederick Sowa,Bay State Speedskating,3277,,,,,,,,,5,160
+,128,distance,NEST Men,1500,7,200,Gabriel Rillotta,Potomac Speedskating,2621,,,,,,,,,1,33
+,128,distance,NEST Men,1500,8,170,Ryan Huang,Potomac Speedskating,2097,,,,,,,,,1,39
+,128,distance,NEST Men,1500,9,174,Gihoon Kuh,Potomac Speedskating,1678,,,,,,,,,1,480
+,128,distance,NEST Men,1500,10,215,Tim VanFleet,East Penn Speedskating,1342,,,,,,,,,10,156
+,128,distance,NEST Men,1500,11,210,Henry Sowa,Bay State Speedskating,1074,,,,,,,,,5,170
+,128,distance,Group 1,777,1,220,Keith Wobeser,East Penn Speedskating,10000,,,,,,,,,10,67
+,128,distance,Group 1,777,2,168,Jesse Hoffman,Saratoga Winter Speedskating,8000,,,,,,,,,,274
+,128,distance,Group 1,777,3,121,Ji Jung,Flushing Meadows Speedskating,6400,,,,,,,,,18,1666
+,128,distance,Group 1,777,4,150,Daniel Butler,Bay State Speedskating,5120,,,,,,,,,5,49
+,128,distance,Group 1,777,5,199,Brian Redding,United Capital Blades Speedskating,4096,,,,,,,,,16,275
+,128,distance,Group 1,777,6,158,Chase Ferry,Bay State Speedskating,3277,,,,,,,,,5,1651
+,128,distance,Group 1,777,7,188,Shawn Michalek,Bay State Speedskating,2621,,,,,,,,,5,342
+,128,distance,Group 1,777,8,122,Lyra Katzman,Flushing Meadows Speedskating,2097,,,,,,,,,18,271
+,128,distance,Group 1,777,9,171,Vlad Khodik,Flushing Meadows Speedskating,1678,,,,,,,,,18,366
+,128,distance,Group 1,777,10,147,Martin Bednar,Bay State Speedskating,1342,,,,,,,,,5,148
+,128,distance,Group 1,777,11,167,Uri Hoch,Flushing Meadows Speedskating,1074,,,,,,,,,18,506
+,128,distance,Group 1,1000,1,220,Keith Wobeser,East Penn Speedskating,10000,,,,,,,,,10,67
+,128,distance,Group 1,1000,2,121,Ji Jung,Flushing Meadows Speedskating,8000,,,,,,,,,18,1666
+,128,distance,Group 1,1000,3,150,Daniel Butler,Bay State Speedskating,6400,,,,,,,,,5,49
+,128,distance,Group 1,1000,4,168,Jesse Hoffman,Saratoga Winter,5120,,,,,,,,,20,274
+,128,distance,Group 1,1000,5,158,Chase Ferry,Bay State Speedskating,4096,,,,,,,,,5,1651
+,128,distance,Group 1,1000,6,199,Brian Redding,United Capital Blades Speedskating,3277,,,,,,,,,16,275
+,128,distance,Group 1,1000,7,122,Lyra Katzman,Flushing Meadows Speedskating,2621,,,,,,,,,18,271
+,128,distance,Group 1,1000,8,188,Shawn Michalek,Bay State Speedskating,2097,,,,,,,,,5,342
+,128,distance,Group 1,1000,9,171,Vlad Khodik,Flushing Meadows Speedskating,1678,,,,,,,,,18,366
+,128,distance,Group 1,1000,10,147,Martin Bednar,Bay State Speedskating,1342,,,,,,,,,5,148
+,128,distance,Group 1,1000,11,167,Uri Hoch,Flushing Meadows Speedskating,1074,,,,,,,,,18,506
+,128,distance,Group 1,1000,12,160,Yundi Gao,Flushing Meadows Speedskating,859,,,,,,,,,18,1162
+,128,distance,Group 2,500,1,211,Ian Sulkoske,Pittsburgh Speedskating,10000,,,,,,,,,36,242
+,128,distance,Group 2,500,2,197,Loki Ranta,Bay State Speedskating,9074,,,,,,,,,5,103
+,128,distance,Group 2,500,3,178,Lucas Li,Garden State Speedskating,6400,,,,,,,,,7,387
+,128,distance,Group 2,500,4,161,Narendran Gopinath,East Penn Speedskating,5120,,,,,,,,,10,84
+,128,distance,Group 2,500,5,186,Eliyahu Louz,Garden State Speedskating,4096,,,,,,,,,7,623
+,128,distance,Group 2,500,6,175,Ayden Lee,East Penn Speedskating,3277,,,,,,,,,10,117
+,128,distance,Group 2,500,7,146,Ilchan Bae,Potomac Speedskating,2621,,,,,,,,,1,164
+,128,distance,Group 2,500,8,226,Evan Zhang,Potomac Speedskating,2097,,,,,,,,,1,95
+,128,distance,Group 2,500,9,192,Hayden Peck,Saratoga Winter,1678,,,,,,,,,20,1475
+,128,distance,Group 2,500,10,165,Jacoby Hartshorn,Potomac Speedskating,1342,,,,,,,,,1,305
+,128,distance,Group 2,500,11,128,Jei Lim,Potomac Speedskating,1074,,,,,,,,,1,492
+,128,distance,Group 2,500,12,216,Bryan Wang,Potomac Speedskating,859,,,,,,,,,1,53
+,128,distance,Group 2,777,1,211,Ian Sulkoske,Pittsburgh Speedskating,10000,,,,,,,,,36,242
+,128,distance,Group 2,777,2,197,Loki Ranta,Bay State Speedskating,8000,,,,,,,,,5,103
+,128,distance,Group 2,777,3,161,Narendran Gopinath,East Penn Speedskating,6400,,,,,,,,,10,84
+,128,distance,Group 2,777,4,178,Lucas Li,Garden State Speedskating,5120,,,,,,,,,7,387
+,128,distance,Group 2,777,5,146,Ilchan Bae,Potomac Speedskating,4096,,,,,,,,,1,164
+,128,distance,Group 2,777,6,175,Ayden Lee,East Penn Speedskating,3277,,,,,,,,,10,117
+,128,distance,Group 2,777,7,226,Evan Zhang,Potomac Speedskating,2621,,,,,,,,,1,95
+,128,distance,Group 2,777,8,192,Hayden Peck,Saratoga Winter,2097,,,,,,,,,20,1475
+,128,distance,Group 2,777,9,186,Eliyahu Louz,Garden State Speedskating,1678,,,,,,,,,7,623
+,128,distance,Group 2,777,10,165,Jacoby Hartshorn,Bay State Speedskating,1342,,,,,,,,,5,305
+,128,distance,Group 2,777,11,128,Jei Lim,Potomac Speedskating,1074,,,,,,,,,1,492
+,128,distance,Group 2,1000,1,197,Loki Ranta,Bay State Speedskating,10000,,,,,,,,,5,103
+,128,distance,Group 2,1000,2,211,Ian Sulkoske,Pittsburgh Speedskating,8000,,,,,,,,,36,242
+,128,distance,Group 2,1000,3,146,Ilchan Bae,Potomac Speedskating,6400,,,,,,,,,1,164
+,128,distance,Group 2,1000,4,192,Hayden Peck,Saratoga Winter,5120,,,,,,,,,20,1475
+,128,distance,Group 2,1000,5,161,Narendran Gopinath,East Penn Speedskating,4096,,,,,,,,,10,84
+,128,distance,Group 2,1000,6,175,Ayden Lee,East Penn Speedskating,3277,,,,,,,,,10,117
+,128,distance,Group 2,1000,7,226,Evan Zhang,Potomac Speedskating,2621,,,,,,,,,1,95
+,128,distance,Group 2,1000,8,178,Lucas Li,Garden State Speedskating,2097,,,,,,,,,7,387
+,128,distance,Group 2,1000,9,186,Eliyahu Louz,Garden State Speedskating,1678,,,,,,,,,7,623
+,128,distance,Group 2,1000,10,216,Bryan Wang,Potomac Speedskating,1342,,,,,,,,,1,53
+,128,distance,Group 2,1000,11,165,Jacoby Hartshorn,Bay State Speedskating,1074,,,,,,,,,5,305
+,128,distance,Group 2,1000,12,128,Jei Lim,Potomac Speedskating,859,,,,,,,,,1,492
+,128,distance,Group 3,500,1,156,Zachary Double,Bay State Speedskating,10000,,,,,,,,,5,214
+,128,distance,Group 3,500,2,157,Russel Einsla,East Penn Speedskating,8000,,,,,,,,,10,613
+,128,distance,Group 3,500,3,173,Evan Krieg,Pittsburgh Speedskating,6400,,,,,,,,,36,785
+,128,distance,Group 3,500,4,135,Kathryn Sautter,East Penn Speedskating,5120,,,,,,,,,10,806
+,128,distance,Group 3,500,5,204,Christian Shelton-White,United Capital Blades Speedskating,4096,,,,,,,,,16,51
+,128,distance,Group 3,500,6,152,Nicholas Clark,Saratoga Winter Lakewood Speedskating,3277,,,,,,,,,,203
+,128,distance,Group 3,500,7,123,Madeline Koons,Lakewood Speedskating,2621,,,,,,,,,14,200
+,128,distance,Group 3,500,8,138,Priyanka Srinivasula,East Penn Speedskating,2097,,,,,,,,,10,79
+,128,distance,Group 3,500,9,222,Gabriel Wochtl,East Penn Speedskating,1678,,,,,,,,,10,495
+,128,distance,Group 3,500,10,218,Jabari Watts,United Capital Blades Speedskating,1342,,,,,,,,,16,93
+,128,distance,Group 3,500,11,214,Adrian Tylwalk,East Penn Speedskating,1074,,,,,,,,,10,237
+,128,distance,Group 3,500,12,153,Dexter Colice,Bay State Speedskating,859,,,,,,,,,5,351
+,128,distance,Group 3,777,1,156,Zachary Double,Bay State Speedskating,10000,,,,,,,,,5,214
+,128,distance,Group 3,777,2,173,Evan Krieg,Pittsburgh Speedskating,8000,,,,,,,,,36,785
+,128,distance,Group 3,777,3,157,Russel Einsla,East Penn Speedskating,6400,,,,,,,,,10,613
+,128,distance,Group 3,777,4,135,Kathryn Sautter,East Penn Speedskating,5120,,,,,,,,,10,806
+,128,distance,Group 3,777,5,123,Madeline Koons,Lakewood Speedskating,4096,,,,,,,,,14,200
+,128,distance,Group 3,777,6,204,Christian Shelton-White,United Capital Blades Speedskating,3277,,,,,,,,,16,51
+,128,distance,Group 3,777,7,138,Priyanka Srinivasula,East Penn Speedskating,2621,,,,,,,,,10,79
+,128,distance,Group 3,777,8,152,Nicholas Clark,Saratoga Winter,2097,,,,,,,,,20,203
+,128,distance,Group 3,777,9,222,Gabriel Wochtl,East Penn Speedskating,1678,,,,,,,,,10,495
+,128,distance,Group 3,777,10,214,Adrian Tylwalk,East Penn Speedskating,1342,,,,,,,,,10,237
+,128,distance,Group 3,777,11,218,Jabari Watts,United Capital Blades Speedskating,1074,,,,,,,,,16,93
+,128,distance,Group 3,777,12,153,Dexter Colice,Bay State Speedskating,859,,,,,,,,,5,351
+,128,distance,Group 3,1000,1,157,Russel Einsla,East Penn Speedskating,10000,,,,,,,,,10,613
+,128,distance,Group 3,1000,2,156,Zachary Double,Bay State Speedskating,8000,,,,,,,,,5,214
+,128,distance,Group 3,1000,3,123,Madeline Koons,Lakewood Speedskating,6400,,,,,,,,,14,200
+,128,distance,Group 3,1000,4,222,Gabriel Wochtl,East Penn Speedskating,5120,,,,,,,,,10,495
+,128,distance,Group 3,1000,5,135,Kathryn Sautter,East Penn Speedskating,4096,,,,,,,,,10,806
+,128,distance,Group 3,1000,6,173,Evan Krieg,Pittsburgh Speedskating,3277,,,,,,,,,36,785
+,128,distance,Group 3,1000,7,138,Priyanka Srinivasula,East Penn Speedskating,2621,,,,,,,,,10,79
+,128,distance,Group 3,1000,8,204,Christian Shelton-White,United Capital Blades Speedskating,2097,,,,,,,,,16,51
+,128,distance,Group 3,1000,9,152,Nicholas Clark,Saratoga Winter,1678,,,,,,,,,20,203
+,128,distance,Group 3,1000,10,214,Adrian Tylwalk,East Penn Speedskating,1342,,,,,,,,,10,237
+,128,distance,Group 3,1000,11,218,Jabari Watts,United Capital Blades Speedskating,1074,,,,,,,,,16,93
+,128,distance,Group 3,1000,12,153,Dexter Colice,Bay State Speedskating,859,,,,,,,,,5,351
+,128,distance,Group 4,500,1,114,Lindsay Lin,Garden State Speedskating,10000,,,,,,,,,7,199
+,128,distance,Group 4,500,2,108,Elliana Cho,Potomac Speedskating,8000,,,,,,,,,1,140
+,128,distance,Group 4,500,3,227,Aiden Zhang,Potomac Speedskating,6400,,,,,,,,,1,3890
+,128,distance,Group 4,500,4,194,Hendrik Plate-Tong,Garden State Speedskating,5120,,,,,,,,,7,144
+,128,distance,Group 4,500,5,183,Marcus Liu,Oval Speed Skating,4096,,,,,,,,,17,131
+,128,distance,Group 4,500,6,206,Noah Shi,Oval Speed Skating,3277,,,,,,,,,17,1492
+,128,distance,Group 4,500,7,179,Marcus Li,Potomac Speedskating,2621,,,,,,,,,1,894
+,128,distance,Group 4,500,8,120,Hannah Huang,Potomac Speedskating,2097,,,,,,,,,1,124
+,128,distance,Group 4,500,9,196,Harvey Qu,Garden State Speedskating,1678,,,,,,,,,7,162
+,128,distance,Group 4,500,10,224,Kobe Yee,Bay State Speedskating,1342,,,,,,,,,5,101
+,128,distance,Group 4,500,11,207,Landon Smith,United Capital Blades Speedskating,1074,,,,,,,,,16,190
+,128,distance,Group 4,777,1,114,Lindsay Lin,Garden State Speedskating,10000,,,,,,,,,7,199
+,128,distance,Group 4,777,2,183,Marcus Liu,Oval Speed Skating,8000,,,,,,,,,17,131
+,128,distance,Group 4,777,3,206,Noah Shi,Oval Speed Skating,6400,,,,,,,,,17,1492
+,128,distance,Group 4,777,4,194,Hendrik Plate-Tong,Garden State Speedskating,5120,,,,,,,,,7,144
+,128,distance,Group 4,777,5,179,Marcus Li,Potomac Speedskating,4096,,,,,,,,,1,894
+,128,distance,Group 4,777,6,120,Hannah Huang,Potomac Speedskating,3277,,,,,,,,,1,124
+,128,distance,Group 4,777,7,108,Elliana Cho,Potomac Speedskating,2621,,,,,,,,,1,140
+,128,distance,Group 4,777,8,227,Aiden Zhang,Potomac Speedskating,2097,,,,,,,,,1,3890
+,128,distance,Group 4,777,9,196,Harvey Qu,Garden State Speedskating,1678,,,,,,,,,7,162
+,128,distance,Group 4,777,10,207,Landon Smith,United Capital Blades Speedskating,1342,,,,,,,,,16,190
+,128,distance,Group 4,777,11,224,Kobe Yee,Bay State Speedskating,1074,,,,,,,,,5,101
+,128,distance,Group 5,333,1,164,Clark Hartemink,East Penn Speedskating,10000,,,,,,,,,10,182
+,128,distance,Group 5,333,2,100,Saruar Aitbayeva,Syracuse Speed Skating,8000,,,,,,,,,28,739
+,128,distance,Group 5,333,3,151,Derick Chang,Garden State Speedskating,6400,,,,,,,,,7,460
+,128,distance,Group 5,333,4,185,Avery Lorenz,United Capital Blades Speedskating,5120,,,,,,,,,16,375
+,128,distance,Group 5,333,5,212,Sean Sun,Garden State Speedskating,4096,,,,,,,,,7,115
+,128,distance,Group 5,333,6,225,James Yin,East Penn Speedskating,3277,,,,,,,,,10,276
+,128,distance,Group 5,333,7,193,Henry Peck,Saratoga Winter,2621,,,,,,,,,20,370
+,128,distance,Group 5,333,8,118,Emily Hogan,Saratoga Winter,2097,,,,,,,,,20,964
+,128,distance,Group 5,333,9,112,Gabrielle Garnier,East Penn Speedskating,1678,,,,,,,,,10,1663
+,128,distance,Group 5,333,10,103,Elizabeth Bourquin,Saratoga Winter,1342,,,,,,,,,20,176
+,128,distance,Group 5,333,11,169,Maren Hoffman,Saratoga Winter,1074,,,,,,,,,20,374
+,128,distance,Group 5,333,12,116,Lucy Hoffman,Saratoga Winter,859,,,,,,,,,20,424
+,128,distance,Group 5,500,1,164,Clark Hartemink,East Penn Speedskating,10000,,,,,,,,,10,182
+,128,distance,Group 5,500,2,100,Saruar Aitbayeva,Syracuse Speed Skating,8000,,,,,,,,,28,739
+,128,distance,Group 5,500,3,212,Sean Sun,Garden State Speedskating,6400,,,,,,,,,7,115
+,128,distance,Group 5,500,4,185,Avery Lorenz,United Capital Blades Speedskating,5120,,,,,,,,,16,375
+,128,distance,Group 5,500,5,151,Derick Chang,Garden State Speedskating,4096,,,,,,,,,7,460
+,128,distance,Group 5,500,6,225,James Yin,East Penn Speedskating,3277,,,,,,,,,10,276
+,128,distance,Group 5,500,7,118,Emily Hogan,Saratoga Winter,2621,,,,,,,,,20,964
+,128,distance,Group 5,500,8,169,Maren Hoffman,Saratoga Winter,2097,,,,,,,,,20,374
+,128,distance,Group 5,500,9,103,Elizabeth Bourquin,Saratoga Winter,1678,,,,,,,,,20,176
+,128,distance,Group 5,500,10,193,Henry Peck,Saratoga Winter,1342,,,,,,,,,20,370
+,128,distance,Group 5,500,11,116,Lucy Hoffman,Saratoga Winter,1074,,,,,,,,,20,424
+,128,distance,Group 5,500,12,112,Gabrielle Garnier,East Penn Speedskating,859,,,,,,,,,10,1663
+,128,distance,Group 5,777,1,164,Clark Hartemink,East Penn Speedskating,10000,,,,,,,,,10,182
+,128,distance,Group 5,777,2,212,Sean Sun,Garden State Speedskating,8000,,,,,,,,,7,115
+,128,distance,Group 5,777,3,100,Saruar Aitbayeva,Syracuse Speed Skating,6400,,,,,,,,,28,739
+,128,distance,Group 5,777,4,185,Avery Lorenz,United Capital Blades Speedskating,5120,,,,,,,,,16,375
+,128,distance,Group 5,777,5,225,James Yin,East Penn Speedskating,4096,,,,,,,,,10,276
+,128,distance,Group 5,777,6,151,Derick Chang,Garden State Speedskating,3277,,,,,,,,,7,460
+,128,distance,Group 5,777,7,103,Elizabeth Bourquin,Saratoga Winter,2621,,,,,,,,,20,176
+,128,distance,Group 5,777,8,169,Maren Hoffman,Saratoga Winter,2097,,,,,,,,,20,374
+,128,distance,Group 5,777,9,193,Henry Peck,Saratoga Winter,1678,,,,,,,,,20,370
+,128,distance,Group 5,777,10,116,Lucy Hoffman,Saratoga Winter,1342,,,,,,,,,20,424
+,128,distance,Group 5,777,11,118,Emily Hogan,Saratoga Winter,1074,,,,,,,,,20,964
+,128,distance,Group 5,777,12,112,Gabrielle Garnier,East Penn Speedskating,859,,,,,,,,,10,1663
+,128,distance,Group 6,222,1,217,Elias Wang,Toanic Speedskating / Potomac,10000,,,,,,,,,,186
+,128,distance,Group 6,222,2,125,Yoonji Kuh,United Capital Blades Speedskating,8000,,,,,,,,,16,625
+,128,distance,Group 6,222,3,191,Kipling Mullaney,United Capital Blades Speedskating,6400,,,,,,,,,16,598
+,128,distance,Group 6,222,4,181,Jayden Lin,Bay State Speedskating,5120,,,,,,,,,5,180
+,128,distance,Group 6,222,5,208,Peter Sowa,Potomac Speedskating,4096,,,,,,,,,1,270
+,128,distance,Group 6,222,6,176,Samuel Lee,Bay State Speedskating,3277,,,,,,,,,5,293
+,128,distance,Group 6,222,7,195,Maxwell Pompei,Garden State Speedskating,2621,,,,,,,,,7,229
+,128,distance,Group 6,222,8,229,Eric Zhao,Pittsburgh Speedskating,2097,,,,,,,,,36,467
+,128,distance,Group 6,222,9,154,Sebastian Delnore,,1678,,,,,,,,,,324
+,128,distance,Group 6,222,10,119,Lois Houck,East Penn Toanic Speedskating,1342,,,,,,,,,10,253
+,128,distance,Group 6,222,11,221,Benjamin Wobeser,,1074,,,,,,,,,,137
+,128,distance,Group 6,500,1,217,Elias Wang,Toanic Speedskating / Potomac,10000,,,,,,,,,,186
+,128,distance,Group 6,500,2,125,Yoonji Kuh,Bay State Speedskating,8000,,,,,,,,,5,625
+,128,distance,Group 6,500,3,208,Peter Sowa,United Capital Blades Speedskating,6400,,,,,,,,,16,270
+,128,distance,Group 6,500,4,191,Kipling Mullaney,Potomac Speedskating,5120,,,,,,,,,1,598
+,128,distance,Group 6,500,5,176,Samuel Lee,Garden State Speedskating,4096,,,,,,,,,7,293
+,128,distance,Group 6,500,6,229,Eric Zhao,United Capital Blades Speedskating,3277,,,,,,,,,16,467
+,128,distance,Group 6,500,7,181,Jayden Lin,Pittsburgh Speedskating,2621,,,,,,,,,36,180
+,128,distance,Group 6,500,8,154,Sebastian Delnore,Bay State Speedskating,2097,,,,,,,,,5,324
+,128,distance,Group 6,500,9,195,Maxwell Pompei,East Penn Speedskating,1678,,,,,,,,,10,229
+,128,distance,Group 6,500,10,221,Benjamin Wobeser,,1342,,,,,,,,,,137
+,128,distance,Group 6,500,11,119,Lois Houck,Toanic Speedskating,1074,,,,,,,,,56,253
+,128,distance,Group 7,222,1,148,William Bi,Potomac Speedskating,10000,,,,,,,,,1,417
+,128,distance,Group 7,222,2,184,Ethan Liu,Garden State Speedskating,8000,,,,,,,,,7,13
+,128,distance,Group 7,222,3,203,Samuel Sheen,Bay State Speedskating,7259,,,,,,,,,5,233
+,128,distance,Group 7,222,4,190,Max Mountainbear,Park Ridge Speedskating,5120,,,,,,,,,30,41
+,128,distance,Group 7,222,5,155,Hunter Dong,East Penn Speedskating,4096,,,,,,,,,10,531
+,128,distance,Group 7,222,6,228,Liam Zhang,Garden State Speedskating,3277,,,,,,,,,7,1557
+,128,distance,Group 7,222,7,219,Samuel Winter,Connecticut Speedskating,2621,,,,,,,,,44,1219
+,128,distance,Group 7,222,8,134,Tobi Ranta,Bay State Speedskating,2097,,,,,,,,,5,328
+,128,distance,Group 7,222,9,172,Jack Koons,Lakewood Speedskating,1678,,,,,,,,,14,94
+,128,distance,Group 7,222,10,129,Johanna Gleicher,Garden State Speedskating,1342,,,,,,,,,7,317
+,128,distance,Group 7,222,11,202,Henry Seagraves,Pittsburgh Speedskating,1074,,,,,,,,,36,1395
+,128,distance,Group 7,222,12,187,Finn McCloud,Pittsburgh Speedskating,859,,,,,,,,,36,334
+,128,distance,Group 7,500,1,148,William Bi,Potomac Speedskating,10000,,,,,,,,,1,417
+,128,distance,Group 7,500,2,184,Ethan Liu,Garden State Speedskating,8000,,,,,,,,,7,13
+,128,distance,Group 7,500,3,190,Max Mountainbear,Park Ridge Speedskating,6400,,,,,,,,,30,41
+,128,distance,Group 7,500,4,203,Samuel Sheen,Bay State Speedskating,5120,,,,,,,,,5,233
+,128,distance,Group 7,500,5,155,Hunter Dong,East Penn Speedskating,4096,,,,,,,,,10,531
+,128,distance,Group 7,500,6,228,Liam Zhang,Garden State Speedskating,3277,,,,,,,,,7,1557
+,128,distance,Group 7,500,7,219,Samuel Winter,Connecticut Speedskating,2621,,,,,,,,,44,1219
+,128,distance,Group 7,500,8,172,Jack Koons,Lakewood Speedskating,2097,,,,,,,,,14,94
+,128,distance,Group 7,500,9,134,Tobi Ranta,Bay State Speedskating,1678,,,,,,,,,5,328
+,128,distance,Group 7,500,10,129,Johanna Gleicher,Garden State Speedskating,1342,,,,,,,,,7,317
+,128,distance,Group 7,500,11,202,Henry Seagraves,Pittsburgh Speedskating,1074,,,,,,,,,36,1395
+,128,distance,Group 7,500,12,187,Finn McCloud,Pittsburgh Speedskating,859,,,,,,,,,36,334
+,128,distance,Novice A,111,1,132,Harshini Ramachandran,Garden State Speedskating,10000,,,,,,,,,7,980
+,128,distance,Novice A,111,2,143,Ian Andrews,United Capital Blades Speedskating,8000,,,,,,,,,16,254
+,128,distance,Novice A,111,3,126,Clara Lee,Garden State Speedskating,6400,,,,,,,,,7,86
+,128,distance,Novice A,111,4,133,Dharshini Ramachandran,Garden State Speedskating,5120,,,,,,,,,7,602
+,128,distance,Novice A,111,5,230,Isaac Zheng,Garden State Speedskating,4096,,,,,,,,,7,249
+,128,distance,Novice A,111,6,142,James Abramovich,Flushing Meadows Speedskating,3277,,,,,,,,,18,592
+,128,distance,Novice A,111,7,189,Zoly Milstein,Bay State Speedskating,2621,,,,,,,,,5,1439
+,128,distance,Novice A,111,8,149,Jaxon Brogan,East Penn Speedskating,2097,,,,,,,,,10,335
+,128,distance,Novice A,111,9,107,Sarah Chen,Flushing Meadows Speedskating,1678,,,,,,,,,18,197
+,128,distance,Novice A,111,10,139,Charlotte Streefkerk,United Capital Blades Speedskating,1342,,,,,,,,,16,1050
+,128,distance,Novice A,333,1,132,Harshini Ramachandran,Garden State Speedskating,10000,,,,,,,,,7,980
+,128,distance,Novice A,333,2,143,Ian Andrews,United Capital Blades Speedskating,8000,,,,,,,,,16,254
+,128,distance,Novice A,333,3,126,Clara Lee,Garden State Speedskating,6400,,,,,,,,,7,86
+,128,distance,Novice A,333,4,133,Dharshini Ramachandran,Garden State Speedskating,5120,,,,,,,,,7,602
+,128,distance,Novice A,333,5,142,James Abramovich,Flushing Meadows Speedskating,4096,,,,,,,,,18,592
+,128,distance,Novice A,333,6,230,Isaac Zheng,Garden State Speedskating,3277,,,,,,,,,7,249
+,128,distance,Novice A,333,7,107,Sarah Chen,Flushing Meadows Speedskating,2621,,,,,,,,,18,197
+,128,distance,Novice A,333,8,149,Jaxon Brogan,East Penn Speedskating,2097,,,,,,,,,10,335
+,128,distance,Novice A,333,9,189,Zoly Milstein,Bay State Speedskating,1678,,,,,,,,,5,1439
+,128,distance,Novice A,333,10,139,Charlotte Streefkerk,United Capital Blades Speedskating,1342,,,,,,,,,16,1050
+,128,distance,Novice B,111,1,163,Alan Han,East Penn Speedskating,10000,,,,,,,,,10,1548
+,128,distance,Novice B,111,2,159,Sam Firer,Garden State Speedskating,8000,,,,,,,,,7,1675
+,128,distance,Novice B,111,3,177,Ethan Lee,East Penn Speedskating,6400,,,,,,,,,10,219
+,128,distance,Novice B,111,4,117,Zoey Hoffman,East Penn Speedskating,5120,,,,,,,,,10,1664
+,128,distance,Novice B,111,5,201,Luca Sakhnovskiy,Saratoga Winter,4096,,,,,,,,,20,283
+,128,distance,Novice B,111,6,162,Charles Han,East Penn Speedskating,3277,,,,,,,,,10,1549
+,128,distance,Novice B,111,7,104,Ada Cao,Bay State Speedskating,2621,,,,,,,,,5,331
+,128,distance,Novice B,111,8,105,Penelope Cattell,East Penn Speedskating,2097,,,,,,,,,10,474
+,128,distance,Novice B,111,9,166,Eason He,United Capital Blades Speedskating,1678,,,,,,,,,16,410
+,128,distance,Novice B,111,10,127,Chuyi Liao,Garden State Speedskating,1342,,,,,,,,,7,1673
+,128,distance,Novice B,111,11,140,Rosaline Wang,Garden State Speedskating,1074,,,,,,,,,7,1674
+,128,distance,Novice B,333,1,163,Alan Han,East Penn Speedskating,10000,,,,,,,,,10,1548
+,128,distance,Novice B,333,2,177,Ethan Lee,East Penn Speedskating,8000,,,,,,,,,10,219
+,128,distance,Novice B,333,3,162,Charles Han,East Penn Speedskating,6400,,,,,,,,,10,1549
+,128,distance,Novice B,333,4,159,Sam Firer,Garden State Speedskating,5120,,,,,,,,,7,1675
+,128,distance,Novice B,333,5,117,Zoey Hoffman,East Penn Speedskating,4096,,,,,,,,,10,1664
+,128,distance,Novice B,333,6,104,Ada Cao,Bay State Speedskating,3277,,,,,,,,,5,331
+,128,distance,Novice B,333,7,105,Penelope Cattell,East Penn Speedskating,2621,,,,,,,,,10,474
+,128,distance,Novice B,333,8,166,Eason He,United Capital Blades Speedskating,2097,,,,,,,,,16,410
+,128,distance,Novice B,333,9,201,Luca Sakhnovskiy,Saratoga Winter,1678,,,,,,,,,20,283
+,128,distance,Novice B,333,10,127,Chuyi Liao,Garden State Speedskating,1342,,,,,,,,,7,1673
+,128,distance,Novice B,333,11,140,Rosaline Wang,Garden State Speedskating,1074,,,,,,,,,7,1674
+,128,distance,NEST Men,500,1,223,Lucas Wu,Potomac Speedskating,10000,,,,,,,,,1,58
+,128,distance,NEST Men,500,2,145,Xavier Babkine-Osterrath,Danbury Speedskating,8000,,,,,,,,,8,121
+,128,distance,NEST Men,500,3,213,Robert Tolliver,Potomac Speedskating,6400,,,,,,,,,1,36
+,128,distance,NEST Men,500,4,205,Lucas Shi,Oval Speed Skating,5120,,,,,,,,,17,379
+,128,distance,NEST Men,500,5,182,Ethan Lin,Potomac Speedskating,4096,,,,,,,,,1,69
+,128,distance,NEST Men,500,6,174,Gihoon Kuh,Potomac Speedskating,3277,,,,,,,,,1,480
+,128,distance,NEST Men,500,7,200,Gabriel Rillotta,Potomac Speedskating,2621,,,,,,,,,1,33
+,128,distance,NEST Men,500,8,170,Ryan Huang,Potomac Speedskating,2097,,,,,,,,,1,39
+,128,distance,NEST Men,500,9,209,Frederick Sowa,Bay State Speedskating,1678,,,,,,,,,5,160
+,128,distance,NEST Men,500,10,215,Tim VanFleet,East Penn Speedskating,1342,,,,,,,,,10,156
+,128,distance,NEST Men,500,11,210,Henry Sowa,Bay State Speedskating,1074,,,,,,,,,5,170
+,128,distance,Group 1,500,1,220,Keith Wobeser,East Penn Speedskating,10000,,,,,,,,,10,67
+,128,distance,Group 1,500,2,168,Jesse Hoffman,Saratoga Winter,8000,,,,,,,,,20,274
+,128,distance,Group 1,500,3,121,Ji Jung,Flushing Meadows Speedskating,6400,,,,,,,,,18,1666
+,128,distance,Group 1,500,4,150,Daniel Butler,Bay State Speedskating,5120,,,,,,,,,5,49
+,128,distance,Group 1,500,5,199,Brian Redding,United Capital Blades Speedskating,4096,,,,,,,,,16,275
+,128,distance,Group 1,500,6,171,Vlad Khodik,Flushing Meadows Speedskating,3277,,,,,,,,,18,366
+,128,distance,Group 1,500,7,122,Lyra Katzman,Flushing Meadows Speedskating,2621,,,,,,,,,18,271
+,128,distance,Group 1,500,8,158,Chase Ferry,Bay State Speedskating,2097,,,,,,,,,5,1651
+,128,distance,Group 1,500,9,188,Shawn Michalek,Bay State Speedskating,1678,,,,,,,,,5,342
+,128,distance,Group 1,500,10,147,Martin Bednar,Bay State Speedskating,1342,,,,,,,,,5,148
+,128,distance,Group 1,500,11,167,Uri Hoch,Flushing Meadows Speedskating,1074,,,,,,,,,18,506
+,128,distance,Group 1,500,12,160,Yundi Gao,Flushing Meadows Speedskating,859,,,,,,,,,18,1162
+,128,distance,Group 4,333,1,227,Aiden Zhang,Potomac Speedskating,10000,,,,,,,,,1,3890
+,128,distance,Group 4,333,2,108,Elliana Cho,Potomac Speedskating,8000,,,,,,,,,1,140
+,128,distance,Group 4,333,3,114,Lindsay Lin,Garden State Speedskating,6400,,,,,,,,,7,199
+,128,distance,Group 4,333,4,194,Hendrik Plate-Tong,Garden State Speedskating,5120,,,,,,,,,7,144
+,128,distance,Group 4,333,5,224,Kobe Yee,Bay State Speedskating,4096,,,,,,,,,5,101
+,128,distance,Group 4,333,6,196,Harvey Qu,Garden State Speedskating,3277,,,,,,,,,7,162
+,128,distance,Group 4,333,7,179,Marcus Li,Potomac Speedskating,2621,,,,,,,,,1,894
+,128,distance,Group 4,333,8,120,Hannah Huang,Potomac Speedskating,2097,,,,,,,,,1,124
+,128,distance,Group 4,333,9,206,Noah Shi,Oval Speed Skating,1678,,,,,,,,,17,1492
+,128,distance,Group 4,333,10,183,Marcus Liu,Oval Speed Skating,1342,,,,,,,,,17,131
+,128,distance,Group 4,333,11,207,Landon Smith,United Capital Blades Speedskating,1074,,,,,,,,,16,190
+,128,distance,Group 6,333,1,125,Yoonji Kuh,Potomac Speedskating,10000,,,,,,,,,1,625
+,128,distance,Group 6,333,2,176,Samuel Lee,Potomac Speedskating,8000,,,,,,,,,1,293
+,128,distance,Group 6,333,3,191,Kipling Mullaney,United Capital Blades Speedskating,6400,,,,,,,,,16,598
+,128,distance,Group 6,333,4,195,Maxwell Pompei,Bay State Speedskating,5120,,,,,,,,,5,229
+,128,distance,Group 6,333,5,208,Peter Sowa,Bay State Speedskating,4096,,,,,,,,,5,270
+,128,distance,Group 6,333,6,217,Elias Wang,Toanik Speedskating,3277,,,,,,,,,56,186
+,128,distance,Group 6,333,7,181,Jayden Lin,United Capital Blades Speedskating,2621,,,,,,,,,16,180
+,128,distance,Group 6,333,8,221,Benjamin Wobeser,East Penn Speedskating,2097,,,,,,,,,10,137
+,128,distance,Group 6,333,9,229,Eric Zhao,Garden State Speedskating,1678,,,,,,,,,7,467
+,128,distance,Group 6,333,10,154,Sebastian Delnore,Pittsburgh Speedskating,1342,,,,,,,,,36,324
+,128,distance,Group 6,333,11,119,Lois Houck,Toanik Speedskating,1074,,,,,,,,,56,253
+,128,distance,Group 7,333,1,148,William Bi,Potomac Speedskating,10000,,,,,,,,,1,417
+,128,distance,Group 7,333,2,190,Max Mountainbear,Park Ridge Speedskating,8000,,,,,,,,,30,41
+,128,distance,Group 7,333,3,184,Ethan Liu,Garden State Speedskating,6400,,,,,,,,,7,13
+,128,distance,Group 7,333,4,203,Samuel Sheen,Bay State Speedskating,5120,,,,,,,,,5,233
+,128,distance,Group 7,333,5,228,Liam Zhang,Garden State Speedskating,4096,,,,,,,,,7,1557
+,128,distance,Group 7,333,6,155,Hunter Dong,East Penn Speedskating,3277,,,,,,,,,10,531
+,128,distance,Group 7,333,7,172,Jack Koons,Lakewood Speedskating,2621,,,,,,,,,14,94
+,128,distance,Group 7,333,8,219,Samuel Winter,Connecticut Speedskating,2097,,,,,,,,,44,1219
+,128,distance,Group 7,333,9,134,Tobi Ranta,Bay State Speedskating,1678,,,,,,,,,5,328
+,128,distance,Group 7,333,10,202,Henry Seagraves,Pittsburgh Speedskating,1342,,,,,,,,,36,1395
+,128,distance,Group 7,333,11,129,Johanna Gleicher,Garden State Speedskating,1074,,,,,,,,,7,317
+,128,distance,Group 7,333,12,187,Finn McCloud,Pittsburgh Speedskating,859,,,,,,,,,36,334
+,128,distance,Novice A,222,1,132,Harshini Ramachandran,Garden State Speedskating,10000,,,,,,,,,7,980
+,128,distance,Novice A,222,2,142,James Abramovich,Flushing Meadows Speedskating,8000,,,,,,,,,18,592
+,128,distance,Novice A,222,3,133,Dharshini Ramachandran,Garden State Speedskating,7742,,,,,,,,,7,602
+,128,distance,Novice A,222,4,230,Isaac Zheng,Garden State Speedskating,5120,,,,,,,,,7,249
+,128,distance,Novice A,222,5,107,Sarah Chen,Flushing Meadows Speedskating,4096,,,,,,,,,18,197
+,128,distance,Novice A,222,6,126,Clara Lee,Garden State Speedskating,3277,,,,,,,,,7,86
+,128,distance,Novice A,222,7,143,Ian Andrews,United Capital Blades Speedskating,2621,,,,,,,,,16,254
+,128,distance,Novice A,222,8,149,Jaxon Brogan,East Penn Speedskating,2097,,,,,,,,,10,335
+,128,distance,Novice A,222,9,189,Zoly Milstein,Bay State Speedskating,3020,,,,,,,,,5,1439
+,128,distance,Novice A,222,10,139,Charlotte Streefkerk,United Capital Blades Speedskating,1342,,,,,,,,,16,1050
+,128,distance,Novice B,222,1,162,Charles Han,East Penn Speedskating,10000,,,,,,,,,10,1549
+,128,distance,Novice B,222,2,117,Zoey Hoffman,East Penn Speedskating,8000,,,,,,,,,10,1664
+,128,distance,Novice B,222,3,163,Alan Han,East Penn Speedskating,6400,,,,,,,,,10,1548
+,128,distance,Novice B,222,4,177,Ethan Lee,East Penn Speedskating,5120,,,,,,,,,10,219
+,128,distance,Novice B,222,5,201,Luca Sakhnovskiy,Saratoga Winter,4096,,,,,,,,,20,283
+,128,distance,Novice B,222,6,159,Sam Firer,Garden State Speedskating,3277,,,,,,,,,7,1675
+,128,distance,Novice B,222,7,105,Penelope Cattell,East Penn Speedskating,2621,,,,,,,,,10,474
+,128,distance,Novice B,222,8,104,Ada Cao,Bay State Speedskating,2097,,,,,,,,,5,331
+,128,distance,Novice B,222,9,166,Eason He,United Capital Blades Speedskating,1678,,,,,,,,,16,410
+,128,distance,Novice B,222,10,140,Rosaline Wang,Garden State Speedskating,1342,,,,,,,,,7,1674
+,128,distance,Novice B,222,11,127,Chuyi Liao,Garden State Speedskating,1074,,,,,,,,,7,1673
